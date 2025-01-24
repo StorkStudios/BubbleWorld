@@ -2,8 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
-using UnityEngine.UIElements;
-using UnityEditor.UIElements;
 using UnityEditorInternal;
 
 [CustomPropertyDrawer(typeof(SerializationArrayWrapper<>), true)]
