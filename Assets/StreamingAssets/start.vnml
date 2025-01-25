@@ -9,6 +9,9 @@
         </TeaJellies>
         <TeaMixage>Hard</TeaMixage>
     </MinigameStart>
+    <Variable name="test" value="1"/>
+    <Variable name="test2" value="1"/>
+    <VariableAdd name="test" value="-4"/>
     <Speech>
         <i>Moja przerwa zaczyna się trochę dłużyć.</i>
     </Speech>

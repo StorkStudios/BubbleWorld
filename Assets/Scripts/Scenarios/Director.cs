@@ -28,6 +28,8 @@ class Director : Singleton<Director>
         { "Exit", () => new DeserializeHandler<Exit>() },
         { "Update", () => new DeserializeHandler<Update>() },
         { "MinigameStart", () => new DeserializeHandler<MinigameStart>() },
+        { "Variable", () => new VariableHandler() },
+        { "VariableAdd", () => new VariableAddHandler() },
     };
 
     public IEnumerator LoadScript(ChapterData script)
