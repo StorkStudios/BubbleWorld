@@ -2,7 +2,7 @@
 using System.Xml.Serialization;
 
 [XmlRoot("Enter")]
-public class Enter
+public class Enter : ChapterElement
 {
     [XmlAttribute("character_id")]
     public string characterId;
