@@ -3,6 +3,7 @@
     <Speech>
         <i>Moja przerwa zaczyna się trochę dłużyć.</i>
     </Speech>
+    <Update character_id="Kebab" eyes="Closed" mouth="Smile" position="0.3"/>
     <Exit character_id="Kebab"/>
     <Speech>
         <i>Zdecydowanie nie jest to zbyt ludna okolica. Od czasu tej ostatniej dziewczyny za oknem nie widziałem żadnego przechodnia.</i>

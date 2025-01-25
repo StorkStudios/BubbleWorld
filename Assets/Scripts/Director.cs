@@ -26,6 +26,7 @@ class Director : Singleton<Director>
         { "Case", () => new IterationHandler() },
         { "Enter", () => new DeserializeHandler<Enter>() },
         { "Exit", () => new DeserializeHandler<Exit>() },
+        { "Update", () => new DeserializeHandler<Update>() },
     };
 
     public IEnumerator LoadScript(ChapterData script)
