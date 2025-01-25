@@ -1,6 +1,6 @@
 <Chapter>
     <Variable name="test"
-              value="-3" />
+              value="1" />
     <Variable name="test2"
               value="1" />
     <Choice>
@@ -10,7 +10,7 @@
                 <Speech>
                     <b>Bulech bulech bulech blech</b>
                 </Speech>
-                <Link path="yukari.vnml"/>
+                <Background name="Shop2"/>
             </Case>
             <Case value="-3">
                 <Speech>
