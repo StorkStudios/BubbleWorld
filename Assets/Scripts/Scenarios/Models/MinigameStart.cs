@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public enum TeaBase { EarlGray, Mint, Matcha }
-public enum TeaSyroup { Mango, Strawberry, Milk }
+public enum TeaSyroup { PassionFruit, Strawberry, Milk }
 public enum TeaJelly { Chocolate, Almond, Banana }
 public enum TeaMixage { Light, Medium, Hard }
 
