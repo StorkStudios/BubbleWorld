@@ -18,8 +18,9 @@
         <Switch>
             <Case value="1">
                 <Speech>
-                    <i>Test = 1</i>
+                    <b>Bulech bulech bulech blech</b>
                 </Speech>
+                <Link path="yukari.vnml"/>
             </Case>
             <Case value="-3">
                 <Speech>

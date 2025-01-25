@@ -11,7 +11,7 @@ class Director : Singleton<Director>
     private string documentText = null;
     private XmlDocument currentDocument = new XmlDocument();
 
-    private Stack<ChapterElementHandler> chapterStack = new Stack<ChapterElementHandler>();
+    private Stack<ChapterElementHandler> chapterStack;
 
     public Action<string, ChapterElement> ElementReadEvent;
     public Action<string> DirectorStepEvent;
@@ -30,6 +30,7 @@ class Director : Singleton<Director>
         { "MinigameStart", () => new DeserializeHandler<MinigameStart>() },
         { "Variable", () => new VariableHandler() },
         { "VariableAdd", () => new VariableAddHandler() },
+        { "Link", () => new LinkHandler() },
     };
 
     public IEnumerator LoadScript(string scriptPath)
@@ -74,6 +75,7 @@ class Director : Singleton<Director>
 
     public IEnumerator RunScript()
     {
+        chapterStack = new Stack<ChapterElementHandler>();
         currentNode = currentDocument.FirstChild;
         do
         {

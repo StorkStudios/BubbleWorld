@@ -4,16 +4,32 @@ using UnityEngine;
 public class GameManager : Singleton<GameManager>
 {
     [SerializeField]
-    private string scriptPath;
+    private string firstChapterPath;
 
     [HideInInspector]
     public bool CanSkip = false;
 
-    private IEnumerator Start()
+    private Coroutine currentChapter;
+
+    private void Start()
     {
-        yield return Director.Instance.LoadScript(scriptPath);
+        currentChapter = StartCoroutine(StartChapter(firstChapterPath));
+    }
+
+    private IEnumerator StartChapter(string chapterPath)
+    {
+        yield return Director.Instance.LoadScript(chapterPath);
         Director.Instance.ReadScript();
-        StartCoroutine(Director.Instance.RunScript());
+        currentChapter = StartCoroutine(Director.Instance.RunScript());
         CanSkip = true;
+    }
+
+    public void ChangeScript(string path)
+    {
+        if (currentChapter != null)
+        {
+            StopCoroutine(currentChapter);
+        }
+        currentChapter = StartCoroutine(StartChapter(path));
     }
 }

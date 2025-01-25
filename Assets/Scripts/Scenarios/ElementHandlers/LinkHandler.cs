@@ -8,5 +8,6 @@ public class LinkHandler : ChapterElementHandler
         base.Init(node);
         
         string path = node.Attributes["path"].InnerText;
+        GameManager.Instance.ChangeScript(path);
     }
 }
