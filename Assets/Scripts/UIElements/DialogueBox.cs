@@ -104,19 +104,24 @@ public class DialogueBox : MonoBehaviour
                 textFadeSpeed)
                 .SetDelay(k / textSequenceSpeed)
                 .SetSpeedBased();
-            sequenceTweens.Add(tween);
-            if (i == textInfo.characterCount - 1 && values.duration.HasValue)
+            
+            if (i == textInfo.characterCount - 1)
             {
-                tween.OnComplete(() => 
+                tween = tween.OnComplete(() => animationCompleted = true);
+                if (values.duration.HasValue)
                 {
-                    animationCompleted = true;
-                    durationCoroutine = this.CallDelayed(values.duration.Value, () =>
+                    tween = tween.OnComplete(() =>
                     {
-                        durationCoroutine = null;
-                        Skip();
+                        durationCoroutine = this.CallDelayed(values.duration.Value, () =>
+                        {
+                            durationCoroutine = null;
+                            Skip();
+                        });
                     });
-                });
+                }
             }
+
+            sequenceTweens.Add(tween);
         }
         characterName.DOFade(1, textFadeSpeed).SetSpeedBased();
 

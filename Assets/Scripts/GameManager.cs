@@ -13,7 +13,7 @@ public class GameManager : Singleton<GameManager>
     {
         yield return Director.Instance.LoadScript(script);
         Director.Instance.ReadScript();
-        yield return Director.Instance.RunScript();
+        StartCoroutine(Director.Instance.RunScript());
         CanSkip = true;
     }
 }
