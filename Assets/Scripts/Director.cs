@@ -1,8 +1,8 @@
 using System;
+using System.Collections.Generic;
 using System.Collections;
 using System.IO;
 using System.Xml;
-using System.Xml.Serialization;
 using UnityEngine;
 using UnityEngine.Networking;
 
@@ -11,9 +11,15 @@ class Director : Singleton<Director>
     private string documentText = null;
     private XmlDocument currentDocument = new XmlDocument();
 
-    public bool ScriptLoaded => documentText != null;
+    private Stack<ChapterElementHandler> chapterStack = new Stack<ChapterElementHandler>();
 
-    public IEnumerator LoadScript(Script script)
+    private readonly Dictionary<string, Func<ChapterElementHandler>> handlerFactories = new Dictionary<string, Func<ChapterElementHandler>>
+    {
+        { "Chapter", () => new ChapterElementHandler() },
+        { "Speech", () => new SpeechHandler() },
+    };
+
+    public IEnumerator LoadScript(ChapterData script)
     {
         string path = script.Path;
 #if (UNITY_WEBGL && !UNITY_EDITOR)
@@ -62,44 +68,37 @@ class Director : Singleton<Director>
             node = ProcessNode(node);
             yield return null;
         }
-        while (node != null);
+        while (chapterStack.Count != 0);
     }
 
     private XmlNode ProcessNode(XmlNode node)
     {
-        //Debug.Log(node.Name);
-        if (node.Name == "Enter")
+        ChapterElementHandler handler;
+        if (node == null)
         {
-            XmlSerializer serializer = new XmlSerializer(typeof(Enter));
-            Enter enter = serializer.Deserialize(new StringReader(node.OuterXml)) as Enter;
-            Debug.Log($"Enter character: {enter.Character}");
+            //Get from stack
+            handler = chapterStack.Pop();
         }
-        return GetNextNode(node);
-    }
+        else
+        {
+            handler = handlerFactories[node.Name]();
+            handler.Init(node);
+            handler.Enter();
+        }
 
-    private XmlNode GetNextNode(XmlNode node)
-    {
-        if (node.HasChildNodes)
+        if (handler.HasChild())
         {
-            XmlNode child = node.FirstChild;
-            do
-            {
-                if (child.NodeType != XmlNodeType.Text)
-                {
-                    return child;
-                }
-                child = child.NextSibling;
-            } while (child != null);
+            chapterStack.Push(handler);
+            return handler.GetChild();
         }
+
+        handler.Exit();
+        
         XmlNode sibling = node.NextSibling;
-        while (sibling != null)
+        if (sibling != null)
         {
-            if (sibling.NodeType != XmlNodeType.Text)
-            {
-                return sibling;
-            }
-            sibling = sibling.NextSibling;
+            return sibling;
         }
-        return node.ParentNode.NextSibling;
+        return null;
     }
 }

@@ -1,7 +1,7 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "Script", menuName = "Scriptable Objects/Script")]
-public class Script : ScriptableObject
+[CreateAssetMenu(fileName = "ChapterData", menuName = "Scriptable Objects/Chapter data")]
+public class ChapterData : ScriptableObject
 {
     [SerializeField]
     private string path;

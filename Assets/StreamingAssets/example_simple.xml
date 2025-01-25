@@ -1,5 +1,4 @@
 <Chapter>
-    <Enter character="Kebab" />
     <Speech face="Sad" character="Kebab">
         Lorem ipsum odor amet, consectetuer adipiscing elit.
         Mauris sociosqu in pulvinar auctor cubilia suspendisse pretium varius.
@@ -9,11 +8,7 @@
         vehicula. Eu cubilia dictum sodales aenean finibus rutrum convallis vulputate. Scelerisque
         dui suscipit nostra at vel accumsan.
     </Speech>
-    <Exit character="Kebab" />
-    <Background image="bg1" />
-    <Music file="song.mp3" />
-    <Minigame settingA="asfd">
-        <MoreMinigameStuff />
-    </Minigame>
-    <Link path="scripts/script1.xml" />
+    <Speech face="Sad" character="Kebab">
+        Speech 2
+    </Speech>
 </Chapter>

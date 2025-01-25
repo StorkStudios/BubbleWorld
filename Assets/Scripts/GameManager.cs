@@ -4,7 +4,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     [SerializeField]
-    private Script script;
+    private ChapterData script;
 
     private IEnumerator Start()
     {

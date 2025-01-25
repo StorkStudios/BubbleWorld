@@ -54,7 +54,7 @@ public class DialogueBox : MonoBehaviour
     {
         HideCurrentDialogue();
         yield return new WaitForSeconds(1);
-        ShowDialogue(new DialogueValues("bulech", "Lorem ipsum dolor sit amen bulech bulech bulech bulech"));
+        ShowDialogue(new Speech("bulech", "Lorem ipsum dolor sit amen bulech bulech bulech bulech"));
     }
 
     private void Update()
@@ -62,7 +62,7 @@ public class DialogueBox : MonoBehaviour
         speechText.UpdateVertexData();
     }
 
-    public void ShowDialogue(DialogueValues values)
+    public void ShowDialogue(Speech values)
     {
         characterName.text = values.characterName;
 
