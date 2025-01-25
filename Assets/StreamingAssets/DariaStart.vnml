@@ -1,0 +1,226 @@
+<Chapter>
+    <Speech>
+        Dzyń dzyń!
+    </Speech>
+    <Speech>
+        Zaskoczony, odrywam zaspany wzrok od lady i patrzę przed siebie.
+    </Speech>
+    <Speech>
+        Mrużąc oczy przed bijącym z zewnątrz światłem, dostrzegam przed sobą wysoką kobiecą sylwetkę.
+    </Speech>
+    <Speech>
+        Stoi przede mną młoda dziewczyna o niebieskich oczach. Ma na sobie czerwoną, obcisłą kurtkę i białą bluzkę, a na plecy spływają jej długie blond włosy.
+    </Speech>
+    <Speech>
+        Świadomość że to klientka nie przyszła od razu i nie miałem pomysłu co powiedzieć.
+    </Speech>
+    <Speech character="Gracz">
+        Witamy w BubbleWorld... w czym mogę pomóc?
+    </Speech>
+    <Speech character="Blondynka">
+        Chciałabym tylko truskawkową herbatę z bąbelkami.
+    </Speech>
+    <Speech character="Gracz">
+        Tak, jasne...
+    </Speech>
+    <Speech>
+        Schowałem się pod ladę, szukając kubka.
+    </Speech>
+    <Speech character="Blondynka">
+        Jak długo pracuję te cafe?
+    </Speech>
+    <Speech>
+        Dopiero co wstałem i trochę rozprasza mnie ta rozmowa.
+    </Speech>
+    <Speech>
+        Wiem że robi to z grzeczności, ale ta jej inicjatywa trochę mi przeszkadza.
+    </Speech>
+    <Choice>
+        <Options>
+            <Option id="1">
+                <i>Udaję że jej nie dosłyszałem i dalej przygotowuję jej Bubble Tea.</i>
+            </Option>
+            <Option id="2">Jesteśmy tu od miesiąca.</Option>
+        </Options>
+        <Switch>
+            <Case option_id="1">
+                <Speech>
+                    Udaję że jej nie dosłyszałem i dalej przygotowuję jej Bubble Tea.
+                </Speech>
+                <Speech>
+                    Chciałbym najpierw się trochę obudzić zanim włączę się w konwersację.
+                </Speech>
+                <Speech character="Blondynka">
+                    Nie kojarzę ciebie, jesteś stąd?
+                </Speech>
+                <Speech>
+                    <i>Chyba jednak nie dam rady jej ignorować.</i>
+                </Speech>
+                <Speech character="Gracz">
+                    <i>Tak, po prostu... rzadko stąd wychodzę. A ty?</i>
+                </Speech>
+            </Case>
+            <Case option_id="2">
+                <Speech character="Gracz">
+                    Jesteśmy tu dopiero miesiąc, ale nie widziałem cię tu wcześniej, przeprowadziłaś się?
+                </Speech>
+                <Speech character="Blondynka">
+                    Tak, jestem studentką z wymiany, studiuję japońską kulturę do mojej pracy magisterskiej.
+                </Speech>
+                <Speech character="Gracz">
+                    Skąd jesteś?
+                </Speech>
+            </Case>
+        </Switch>
+    </Choice>
+    <Speech character="Blondynka">
+        Jestem z Białorusi, to w Europie Wschodniej.
+    </Speech>
+    <Speech>
+        Białoruś. Mam bardzo powierzchowne pojęcie o tym kraju i waham się, czy kontynuować rozmowę na ten temat.
+    </Speech>
+    <Choice>
+        <Options>
+            <Option id="1">Spoko.</Option>
+            <Option id="2">Białoruś, kojarzę...</Option>
+        </Options>
+        <Switch>
+            <Case option_id="1">
+                <Speech character="Gracz">
+                    Spoko.
+                </Speech>
+                <Speech>
+                    Zapada niezręczna cisza, zaburzana tylko stukaniem mieszadła o kubek. Nie bardzo wiem jak kontynuować rozmowę.
+                </Speech>
+                <Speech>
+                    Dziewczyna uśmiecha się, patrząc na mnie.
+                </Speech>
+                <Speech character="Blondynka">
+                    Białoruś nie mówi ci zbyt wiele, co?
+                </Speech>
+                <Speech>
+                    Przytakuję jej skinięciem głowy.
+                </Speech>
+            </Case>
+            <Case option_id="2">
+                <Speech character="Gracz">
+                    Ach, Białoruś, chabry, ziemniaki, coś słyszałem.
+                </Speech>
+                <Speech>
+                    Po tym jak wypowiedziałem to zdanie, na jej twarzy pojawił się wyraz oburzenia, ale zaraz zniknął i zamienił się w lekki uśmiech.
+                </Speech>
+                <Speech>
+                    <i>Zdaje się że powiedziałem coś głupiego.</i>
+                </Speech>
+                <Speech character="Gracz">
+                    Przepraszam, nie chciałem cię urazić tym stereotypem...
+                </Speech>
+                <Speech character="Blondynka">
+                    W porządku, niewielu ludzi tutaj wie cokolwiek innego o moim kraju, to trochę zabawne.
+                </Speech>
+            </Case>
+        </Switch>
+    </Choice>
+    <Speech>
+        Ma rację, nie wiedziałem nawet że to w Europie.
+    </Speech>
+    <Speech>
+        Ale może ona mi coś powie o swoim kraju, chociaż nie wiem czy to nie pogorszyłoby sytuacji i uczyniło ją bardziej niezręczną.
+    </Speech>
+    <Choice>
+        <Options>
+            <Option id="1">"Cóż... nie ukrywam że wiem cokolwiek"</Option>
+            <Option id="2">"Powiedz mi coś po Białorusku"</Option>
+        </Options>
+        <Switch>
+            <Case option_id="1">
+                <Speech character="Gracz">
+                    Spoko.
+                </Speech>
+                <Speech>
+                    Zapada niezręczna cisza, zaburzana tylko stukaniem mieszadła o kubek. Nie bardzo wiem jak kontynuować rozmowę.
+                </Speech>
+                <Speech>
+                    Dziewczyna uśmiecha się, patrząc na mnie.
+                </Speech>
+                <Speech character="Blondynka">
+                    Białoruś nie mówi ci zbyt wiele, co?
+                </Speech>
+            </Case>
+            <Case option_id="2">
+                <Speech character="Gracz">
+                    Jak się nazywa ten drink który dla ciebie robię po białorusku?
+                </Speech>
+                <Speech character="Blondynka">
+                    Гарбата з суніцамі.
+                </Speech>
+                <Speech character="Gracz">
+                    Wow, brzmi niesamowicie, możesz powiedzieć coś innego?
+                </Speech>
+                <Speech>
+                    Na jej twarzy pojawił się lekko złowieszczy uśmieszek.
+                </Speech>
+                <Speech character="Blondynka">
+                    забі зяпу.
+                </Speech>
+                <Speech character="Gracz">
+                    Co to znaczy?
+                </Speech>
+                <Speech character="Blondynka">
+                    Nie powiem.
+                </Speech>
+                <Speech>
+                    Dziewczyna chichocze, cały czas się uśmiechając.
+                </Speech>
+            </Case>
+        </Switch>
+    </Choice>
+    <Speech>
+        Herbata jest gotowa. Przychodzi mi do głowy że mógłbym podpisać kubek, ale nie zapytałem o imię, kiedy przyjmowałem zamówienie.
+    </Speech>
+    <Speech>
+        Jeśli zapytam teraz, to może być trochę niezręczne, a w lokalu nie ma nikogo innego, nie ma potrzeby, mogę po prostu dać jej napój do rąk.
+    </Speech>
+    <Choice>
+        <Options>
+            <Option id="1">Pytam o imię</Option>
+            <Option id="2">Nie pytam o imię</Option>
+        </Options>
+        <Switch>
+            <Case option_id="1">
+                <Speech character="Gracz">
+                    Och, zapomniałem, jak masz na imię? Muszę podpisać kubek.
+                </Speech>
+                <Speech character="Blondynka">
+                    Daria.
+                </Speech>
+                <Speech>
+                    Chwilę się zastanawiam jak to się pisze, po czym nanoszę obco brzmiące imię na kubek i daję go klientce.
+                </Speech>
+                <Speech character="Blondynka">
+                    Wow, to pierwszy raz, kiedy ktoś poprawnie przeliterował moje imię, jestem zaszczycona, dziękuję!
+                </Speech>
+                <Speech>
+                    <i>Ale fuks.</i>
+                </Speech>
+            </Case>
+            <Case option_id="2">
+                <Speech character="Gracz">
+                    Proszę, twój truskawkowy Bubble Tea.
+                </Speech>
+                <Speech character="Blondynka">
+                    Dziękuję.
+                </Speech>
+            </Case>
+        </Switch>
+    </Choice>
+    <Speech>
+        Klientka bierze ode mnie kubek i wychodzi z kawiarni.
+    </Speech>
+    <Speech>
+        Trochę głupia sprawa z tym podpisywaniem kubków.
+    </Speech>
+    <Speech>
+        Chyba uznam że w przypadku pustego lokalu sobie to po prostu odpuszczę.
+    </Speech>
+<Chapter>
