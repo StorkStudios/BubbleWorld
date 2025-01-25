@@ -30,83 +30,87 @@
         Mija chwila. Dziewczyna nadal w ciszy studiuje menu.
     </Speech>
     <Choice>
-        <Option id="1">
-            <i>Pozstaję cicho</i>
-        </Option>
-        <Option id="2">Może jakoś pomóc?</Option>
-        <Option id="3">Na co masz ochotę?</Option>
-        <Case option_id="1">
-            <Speech>                
-                Po naprawdę długiej chwili dziewczyna w końcu odrywa wzrok od listy i spogląda na mnie nieśmiało.
-            </Speech>
-            <Speech character="Brunetka">                
-                Brunetka: Czy... czy jest... kawa?
-            </Speech>
-            <Speech character="Gracz">                
-                Gracz: Kawy... nie oferujemy.
-            </Speech>
-            <Speech character="Brunetka">                
-                Brunetka: Och.
-            </Speech>
-            <Speech>                
-                Dziewczyna wbija wzrok w ziemię. Widać że nie bardzo wie co powiedzieć. Staram się ratować sytuację.
-            </Speech>
-            <Speech character="Gracz">                
-                Gracz: Mamy za to Bubble Tea o smaku kawy. Może skusisz się na jedną? Są naprawdę dobre.
-            </Speech>
-            <Speech character="Brunetka">                
-                Brunetka: Och?
-            </Speech>
-            <Speech character="Gracz">                
-                Gracz: Tak, dokładniej o smaku mocha. Z podobnych, nieowocowych smaków mamy też
-                migdałową oraz czekoladową.
-            </Speech>
-            <Speech>                
-                Widzę że dziewczyna szybkim spojrzeniem na tablicę rewiduje moje słowa.
-            </Speech>
-            <Speech character="Brunetka">                
-                Brunetka: M-musiałam ich nie zauważyć...
-            </Speech>
-        </Case>
-        <Case option_id="2">
-            <Speech>                
-                Dziewczyna odwraca wzrok od tablicy i patrzy na mnie pytająco.
-            </Speech>
-            <Speech character="Gracz">                
-                Gracz: Chciałabyś coś klasycznego? Może jakieś ciekawe, owocowe smaki? A może bardziej w stronę czegoś innego, jak Bubble Tea kawowa albo czekoladowa?
-            </Speech>
-            <Speech>                
-                Widzę błysk w jej oku gdy wspominam o ostatniej opcji i czuję, że będzie to ta którą wybierze.
-            </Speech>
-            <Speech character="Brunetka">                
-                Brunetka: Bubble Tea o smaku kawowym i czekoladowym?
-            </Speech>
-            <Speech character="Gracz">                
-                Gracz: Tak, choć najpopularniejsze są smaki owocowe, to mamy też opcje dla klientów chcących spróbować czego innego.
-            </Speech>
-            <Speech character="Gracz">                
-                Gracz: W naszej ofercie są trzy nieowocowe smaki: mocha, czekoladowa oraz migdałowa.
-            </Speech>
-            <Speech character="Brunetka">                
-                Brunetka: Brzmi... ciekawie.
-            </Speech>
-        </Case>
-        <Case option_id="3">
-            <Speech>                
-                Dziewczyna spuszcza wzrok, onieśmielona.
-            </Speech>
-            <Speech character="Brunetka">                
-                Brunetka: Nie jestem pewna...
-            </Speech>
-            <Speech character="Gracz">                
-                Gracz: Na pewno miałaś na coś ochotę, przychodząc tu.
-            </Speech>
-            <Speech>                
-                Dziewczyna wydaje się jeszcze bardziej spłoszona, jej policzki płoną czerwienią.
-            </Speech>
-            <Speech character="Brunetka">                
-                Brunetka: T-tak na prawdę to... Przyjaciółka poleciła mi to miejsce...
-            </Speech>
-        </Case>
+        <Options>
+            <Option id="1">
+                <i>Pozstaję cicho</i>
+            </Option>
+            <Option id="2">Może jakoś pomóc?</Option>
+            <Option id="3">Na co masz ochotę?</Option>
+        </Options>
+        <Switch>
+            <Case option_id="1">
+                <Speech>                    
+                    Po naprawdę długiej chwili dziewczyna w końcu odrywa wzrok od listy i spogląda na mnie nieśmiało.
+                </Speech>
+                <Speech character="Brunetka">                    
+                    Brunetka: Czy... czy jest... kawa?
+                </Speech>
+                <Speech character="Gracz">                    
+                    Gracz: Kawy... nie oferujemy.
+                </Speech>
+                <Speech character="Brunetka">                    
+                    Brunetka: Och.
+                </Speech>
+                <Speech>                    
+                    Dziewczyna wbija wzrok w ziemię. Widać że nie bardzo wie co powiedzieć. Staram się ratować sytuację.
+                </Speech>
+                <Speech character="Gracz">                    
+                    Gracz: Mamy za to Bubble Tea o smaku kawy. Może skusisz się na jedną? Są naprawdę dobre.
+                </Speech>
+                <Speech character="Brunetka">                    
+                    Brunetka: Och?
+                </Speech>
+                <Speech character="Gracz">                    
+                    Gracz: Tak, dokładniej o smaku mocha. Z podobnych, nieowocowych smaków mamy też
+                    migdałową oraz czekoladową.
+                </Speech>
+                <Speech>                    
+                    Widzę że dziewczyna szybkim spojrzeniem na tablicę rewiduje moje słowa.
+                </Speech>
+                <Speech character="Brunetka">                    
+                    Brunetka: M-musiałam ich nie zauważyć...
+                </Speech>
+            </Case>
+            <Case option_id="2">
+                <Speech>                    
+                    Dziewczyna odwraca wzrok od tablicy i patrzy na mnie pytająco.
+                </Speech>
+                <Speech character="Gracz">                    
+                    Gracz: Chciałabyś coś klasycznego? Może jakieś ciekawe, owocowe smaki? A może bardziej w stronę czegoś innego, jak Bubble Tea kawowa albo czekoladowa?
+                </Speech>
+                <Speech>                    
+                    Widzę błysk w jej oku gdy wspominam o ostatniej opcji i czuję, że będzie to ta którą wybierze.
+                </Speech>
+                <Speech character="Brunetka">                    
+                    Brunetka: Bubble Tea o smaku kawowym i czekoladowym?
+                </Speech>
+                <Speech character="Gracz">                    
+                    Gracz: Tak, choć najpopularniejsze są smaki owocowe, to mamy też opcje dla klientów chcących spróbować czego innego.
+                </Speech>
+                <Speech character="Gracz">                    
+                    Gracz: W naszej ofercie są trzy nieowocowe smaki: mocha, czekoladowa oraz migdałowa.
+                </Speech>
+                <Speech character="Brunetka">                    
+                    Brunetka: Brzmi... ciekawie.
+                </Speech>
+            </Case>
+            <Case option_id="3">
+                <Speech>                    
+                    Dziewczyna spuszcza wzrok, onieśmielona.
+                </Speech>
+                <Speech character="Brunetka">                    
+                    Brunetka: Nie jestem pewna...
+                </Speech>
+                <Speech character="Gracz">                    
+                    Gracz: Na pewno miałaś na coś ochotę, przychodząc tu.
+                </Speech>
+                <Speech>                    
+                    Dziewczyna wydaje się jeszcze bardziej spłoszona, jej policzki płoną czerwienią.
+                </Speech>
+                <Speech character="Brunetka">                    
+                    Brunetka: T-tak na prawdę to... Przyjaciółka poleciła mi to miejsce...
+                </Speech>
+            </Case>
+        </Switch>
     </Choice>
 </Chapter>
