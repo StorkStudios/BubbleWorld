@@ -1,0 +1,131 @@
+<Chapter>
+    <Speech character_id="Gracz" character_name="Ja">
+        Ehh. To był ciężki dzień. Dawno nie było aż tylu klientów.
+    </Speech>
+    <Speech character_id="Ruda" character_name="Bertha">
+        Dobrze się spisałeś.
+    </Speech>
+    <Speech>
+        <i>Czy Bertha mnie właśnie pochwaliła, czy mi się tylko wydawało?</i>
+    </Speech>
+    <Speech character_id="Gracz" character_name="Ja">
+        Dzięki. Czy to znaczy że będę mógł dostać trochę wolnego?
+    </Speech>
+    <Speech>
+        <i>Jak jest dzisiaj taka miła to może uda się coś wynegocjować?</i>
+    </Speech>
+    <Speech character_id="Ruda" character_name="Bertha">
+        Pfff.
+    </Speech>
+    <Speech character_id="Ruda" character_name="Bertha">
+        Chciałbyś.
+    </Speech>
+    <Speech character_id="Ruda" character_name="Bertha">
+        Żeby dostać dzień wolny to musisz się dużo bardziej postarać.
+    </Speech>
+    <Speech>
+        <i>No cóż.</i>
+    </Speech>
+    <Speech>
+        <i>Warto było spróbować.</i>
+    </Speech>
+    <Speech>
+        Widać było że Bertha się chwile wacha, ale w końcu dodała:
+    </Speech>
+    <Speech character_id="Ruda" character_name="Bertha">
+        Ale masz rację że należy ci się jakaś nagroda.
+    </Speech>
+    <Speech character_id="Ruda" character_name="Bertha">
+        Możesz mi zrobić bubble tea!
+    </Speech>
+    <Speech character_id="Ruda" character_name="Bertha">
+        Świetna nagroda prawda?
+    </Speech>
+    <Speech>
+        <i>Ale ja kocham więcej pracy.</i>
+    </Speech>
+    <Speech character_id="Gracz" character_name="Ja">
+        Jak sobie życzysz.
+    </Speech>
+    <MinigameStart />
+    <Speech character_id="Ruda" character_name="Bertha">
+        I jak tam minął Ci dzień?
+    </Speech>
+    <Choice>
+        <Options>
+            <Option id="Daria">Opowiedz o Darii.</Option>
+            <Option id="Shiori">Opowiedz o Shiori.</Option>
+            <Option id="Yukari">Opowiedz o Yukari.</Option>
+        </Options>
+        <Switch>
+            <Case option_id="Daria">
+                <Speech character_id="Gracz" character_name="Ja">
+                    Przyszło dzisiaj kilka nowych dziewczyn.
+                </Speech>
+                <Speech character_id="Gracz" character_name="Ja">
+                    Najciekawsza z nich była Daria.
+                </Speech>
+                <Speech character_id="Gracz" character_name="Ja">
+                    Mówiła, że jest z Białorusi i przyjechała tutaj studiować japońską kulturę.
+                </Speech>
+                <Speech character_id="Ruda" character_name="Bertha">
+                    Japońską?
+                </Speech>
+                <Speech character_id="Ruda" character_name="Bertha">
+                    A no tak.
+                </Speech>
+                <Speech>
+                    <i>Bertha wyglądała jakby zdezorientowała ją wzmianka o Japonii, ale zaraz sobie o czymś przypomniała.</i>
+                </Speech>
+                <Speech>
+                    <i>Czyżby miała kłopoty z pamięcią?</i>
+                </Speech>
+            </Case>
+            <Case option_id="Shiori">
+                <Speech character_id="Gracz" character_name="Ja">
+                    Przyszło dzisiaj kilka nowych dziewczyn.
+                </Speech>
+                <Speech character_id="Gracz" character_name="Ja">
+                    Najbardziej moją uwagę zwróciła Shiori.
+                </Speech>
+                <Speech character_id="Gracz" character_name="Ja">
+                    Była bardzo nieśmiała, ale jak zacząłem z nią rozmawiać, to rozmowa się już jakoś potoczyła.
+                </Speech>
+            </Case>
+            <Case option_id="Yukari">
+                <Speech character_id="Gracz" character_name="Ja">
+                    Przyszło dzisiaj kilka nowych dziewczyn.
+                </Speech>
+                <Speech character_id="Gracz" character_name="Ja">
+                    Najlepiej rozmawiało mi się z Yukari.
+                </Speech>
+                <Speech character_id="Gracz" character_name="Ja">
+                    Jest dosyć porywcza, ale nie uważem żeby to była jej wada.
+                </Speech>
+            </Case>
+        </Switch>
+    </Choice>
+    <Speech character_id="Ruda" character_name="Bertha">
+        Hmmmm.
+    </Speech>
+    <Speech character_id="Ruda" character_name="Bertha">
+        Podobała Ci się?
+    </Speech>
+    <Choice>
+        <Options>
+            <Option id="1">Tak</Option>
+            <Option id="2">Sam nie wiem.</Option>
+            <Option id="3">Czas pokaże, czas pokaże.</Option>
+        </Options>
+    </Choice>
+    <Speech>
+        Bertha nie wyglądała na zadowoloną z tej odpowiedzi.
+    </Speech>
+    <Speech>
+        Wpatrywała się we mnie dopóki nie skończyłem przygotowywać jej herbaty.
+    </Speech>
+    <MinigameEnd>
+    <Speech>
+        Chwyciła ją i pomaszerowała w stronę drzwi.
+    </Speech>
+</Chapter>
