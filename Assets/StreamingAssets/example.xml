@@ -1,13 +1,19 @@
-<Script>
-    <Enter character="Kebab"/>
-    <Kebab face="Sad">
-    Lorem ipsum odor amet, consectetuer adipiscing elit.
-    Mauris sociosqu in pulvinar auctor cubilia suspendisse pretium varius.
-    Cras mus netus fames; dui iaculis sed platea posuere. Apotenti mauris pretium primis ligula, euismod morbi. Dui suspendisse quam congue; massa erat diam. Eleifend ligula augue curae tortor etiam; lacinia arcu dis. Vehicula himenaeos odio urna lectus per scelerisque vehicula. Eu cubilia dictum sodales aenean finibus rutrum convallis vulputate. Scelerisque dui suscipit nostra at vel accumsan.
-    </Kebab>
-    <Exit character="Kebab"/>
-    <Background image="bg1"/>
+<Chapter>
+    <Enter character="Kebab" />
+    <Voiceline face="Sad" character="Kebab">
+        Lorem ipsum odor amet, consectetuer adipiscing elit.
+        Mauris sociosqu in pulvinar auctor cubilia suspendisse pretium varius.
+        Cras mus netus fames; dui iaculis sed platea posuere. Apotenti mauris pretium primis ligula,
+        euismod morbi. Dui suspendisse quam congue; massa erat diam. Eleifend ligula augue curae
+        tortor etiam; lacinia arcu dis. Vehicula himenaeos odio urna lectus per scelerisque
+        vehicula. Eu cubilia dictum sodales aenean finibus rutrum convallis vulputate. Scelerisque
+        dui suscipit nostra at vel accumsan.
+    </Voiceline>
+    <Exit character="Kebab" />
+    <Background image="bg1" />
+    <Music file="song.mp3" />
     <Minigame settingA="asfd">
+        <MoreMinigameStuff />
     </Minigame>
-    <Link path="scripts/script1.xml"/>
-</Script>
+    <Link path="scripts/script1.xml" />
+</Chapter>
