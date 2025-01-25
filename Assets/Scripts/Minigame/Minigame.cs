@@ -32,24 +32,55 @@ public class Minigame : MonoBehaviour
 
     private void StartMinigame(MinigameStart values)
     {
-        (ingredientsSection.transform as RectTransform).DOAnchorPos(Vector2.zero, animationDuration);
-        (drinkSection.transform as RectTransform).DOAnchorPos(Vector2.zero, animationDuration);
-        (controlsSection.transform as RectTransform).DOAnchorPos(Vector2.zero, animationDuration);
+        AnimateInRectTransform(ingredientsSection.transform as RectTransform);
+        AnimateInRectTransform(drinkSection.transform as RectTransform);
+        AnimateInRectTransform(controlsSection.transform as RectTransform);
     }
 
     private void EndMinigame()
     {
-        AnimateRectTransform(ingredientsSection.transform as RectTransform);
-        AnimateRectTransform(drinkSection.transform as RectTransform);
-        AnimateRectTransform(controlsSection.transform as RectTransform);
+        AnimateOutRectTransform(ingredientsSection.transform as RectTransform);
+        AnimateOutRectTransform(drinkSection.transform as RectTransform);
+        AnimateOutRectTransform(controlsSection.transform as RectTransform);
     }
 
-    private void AnimateRectTransform(RectTransform rectTransform)
+    private void AnimateOutRectTransform(RectTransform rectTransform)
     {
         Vector2 target = rectTransform.sizeDelta;
-        target.x = Mathf.Min(target.x, 0);
-        target.y = Mathf.Min(target.y, 0);
-        target.y *= -1;
+        if (target.x < 0)
+        {
+            target.x = rectTransform.anchoredPosition.x;
+        }
+        if (target.y < 0)
+        {
+            target.y = rectTransform.anchoredPosition.y;
+        }
+        else
+        {
+            target.y *= -1;
+        }
+        rectTransform.DOAnchorPos(target, animationDuration);
+    }
+
+    private void AnimateInRectTransform(RectTransform rectTransform)
+    {
+        Vector2 target = rectTransform.sizeDelta;
+        if (target.x < 0)
+        {
+            target.x = rectTransform.anchoredPosition.x;
+        }
+        else
+        {
+            target.x = 0;
+        }
+        if (target.y < 0)
+        {
+            target.y = rectTransform.anchoredPosition.y;
+        }
+        else
+        {
+            target.y = 0;
+        }
         rectTransform.DOAnchorPos(target, animationDuration);
     }
 }
