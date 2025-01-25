@@ -27,6 +27,7 @@ class Director : Singleton<Director>
         { "Enter", () => new DeserializeHandler<Enter>() },
         { "Exit", () => new DeserializeHandler<Exit>() },
         { "Update", () => new DeserializeHandler<Update>() },
+        { "MinigameStart", () => new DeserializeHandler<MinigameStart>() },
     };
 
     public IEnumerator LoadScript(ChapterData script)

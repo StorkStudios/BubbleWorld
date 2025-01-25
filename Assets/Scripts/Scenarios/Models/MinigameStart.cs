@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Xml.Serialization;
 using UnityEngine;
 
 public enum TeaBase { EarlGray, Mint, Matcha }
@@ -6,20 +7,39 @@ public enum TeaSyroup { PassionFruit, Strawberry, Milk }
 public enum TeaJelly { Chocolate, Almond, Banana }
 public enum TeaMixage { Light, Medium, Hard }
 
-public class MinigameStart
+public class MinigameStart : ChapterElement
 {
-    public readonly TeaBase teaBase;
-    public readonly TeaSyroup teaSyroup;
-    public readonly TeaSyroup? secondSyroup;
-    public readonly List<TeaJelly> teaJellies;
-    public readonly TeaMixage teaMixage;
+    [XmlElement("TeaBase")]
+    public TeaBase teaBase;
 
-    public MinigameStart(TeaBase teaBase, TeaSyroup teaSyroup, TeaSyroup? secondSyroup, List<TeaJelly> teaJellies, TeaMixage teaMixage)
+    [XmlElement("TeaSyroup")]
+    public TeaSyroup teaSyroup;
+
+    [XmlElement("SecondSyroup")]
+    public string secondSyroupString;
+
+    [XmlArray("TeaJellies")]
+    [XmlArrayItem("Jelly")]
+    public TeaJelly[] teaJellies;
+
+    [XmlElement("TeaMixage")]
+    public TeaMixage teaMixage;
+
+    [XmlIgnore]
+    public TeaSyroup? secondSyroup
     {
-        this.teaBase = teaBase;
-        this.teaSyroup = teaSyroup;
-        this.secondSyroup = secondSyroup;
-        this.teaJellies = teaJellies;
-        this.teaMixage = teaMixage;
+        get
+        {
+            if (secondSyroupString == null)
+            {
+                return null;
+            }
+            return (TeaSyroup)System.Enum.Parse(typeof(TeaSyroup), secondSyroupString);
+        }
+    }
+
+    public MinigameStart()
+    {
+
     }
 }
