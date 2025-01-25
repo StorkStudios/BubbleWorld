@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.Xml;
 
 public class ChapterElementHandler
@@ -14,14 +15,9 @@ public class ChapterElementHandler
 
     }
 
-    public virtual bool HasChild()
+    public virtual XmlNode GetNextChild()
     {
-        return Node.HasChildNodes;
-    }
-
-    public virtual XmlNode GetChild()
-    {
-        return Node.FirstChild;
+        return null;
     }
 
     public virtual void Exit()

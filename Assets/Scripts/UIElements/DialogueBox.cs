@@ -66,7 +66,7 @@ public class DialogueBox : MonoBehaviour
 
     private void Update()
     {
-        speechText.UpdateVertexData();
+        speechText.UpdateVertexData(TMP_VertexDataUpdateFlags.Colors32);
     }
 
     public void ShowDialogue(Speech values)

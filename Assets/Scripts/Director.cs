@@ -15,7 +15,7 @@ class Director : Singleton<Director>
 
     private readonly Dictionary<string, Func<ChapterElementHandler>> handlerFactories = new Dictionary<string, Func<ChapterElementHandler>>
     {
-        { "Chapter", () => new ChapterElementHandler() },
+        { "Chapter", () => new ChapterHandler() },
         { "Speech", () => new SpeechHandler() },
     };
 
@@ -86,19 +86,18 @@ class Director : Singleton<Director>
             handler.Enter();
         }
 
-        if (handler.HasChild())
+        XmlNode child = handler.GetNextChild();
+        while (child != null && child.NodeType == XmlNodeType.Text)
+        {
+            child = handler.GetNextChild();
+        }
+        if (child != null)
         {
             chapterStack.Push(handler);
-            return handler.GetChild();
+            return child;
         }
 
         handler.Exit();
-        
-        XmlNode sibling = node.NextSibling;
-        if (sibling != null)
-        {
-            return sibling;
-        }
         return null;
     }
 }

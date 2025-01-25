@@ -17,6 +17,6 @@ public class SpeechHandler : ChapterElementHandler
 
     public override void Enter()
     {
-        //Call display
+        Debug.Log($"Speech node: {speech.characterName}: {speech.voiceline}");
     }
 }
