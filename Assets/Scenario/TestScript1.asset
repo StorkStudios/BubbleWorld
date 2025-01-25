@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2e16a31f55f7361d7a26f02472a632ba, type: 3}
-  m_Name: SimpleExampleScript
+  m_Name: TestScript1
   m_EditorClassIdentifier: 
-  path: example_simple.xml
+  path: start.vnml

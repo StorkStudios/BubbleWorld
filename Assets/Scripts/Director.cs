@@ -78,12 +78,19 @@ class Director : Singleton<Director>
         ChapterElementHandler handler;
         if (node == null)
         {
-            //Get from stack
             handler = chapterStack.Pop();
         }
         else
         {
-            handler = handlerFactories[node.Name]();
+            if (handlerFactories.TryGetValue(node.Name, out Func<ChapterElementHandler> handlerFactory))
+            {
+                handler = handlerFactory();
+            }
+            else
+            {
+                handler = new ChapterElementHandler();
+                Debug.LogWarning($"Unknown chapter element: {node.Name}");
+            }
             handler.Init(node);
             handler.Enter();
         }

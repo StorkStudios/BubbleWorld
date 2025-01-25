@@ -12,7 +12,10 @@ public class SpeechHandler : ChapterElementHandler
     {
         base.Init(node);
         
-        speech = reader.Deserialize(node);
+        speech = new Speech();
+        XmlAttribute character = node.Attributes["character"];
+        speech.characterName = character?.InnerText;
+        speech.voiceline = node.InnerXml;
     }
 
     public override void Enter()

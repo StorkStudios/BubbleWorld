@@ -1,0 +1,308 @@
+Moja przerwa zaczyna się trochę dłużyć.
+
+Zdecydowanie nie jest to zbyt ludna okolica. Od czasu tej ostatniej dziewczyny za oknem nie widziałem żadnego przechodnia.
+
+Moje myśli wracają do niej. Zdecydowanie jest bardzo...
+
+Dzyń dzyń!
+
+Podnoszę wzrok. Przed ladą stoi młoda dziewczyna w okularach. Zdaje się być trochę przytłoczona atmosferą tego miejsca.
+
+Brunetka: Dzień dobry...
+
+Gracz: Dzień dobry!
+
+Gracz: Co dla ciebie?
+
+Jej wzrok kieruje się ku obszernej liście za moimi plecami. Mruży oczy za szkłami okularów i zaczyna się jej przyglądać.
+
+Mija chwila. Dziewczyna nadal w ciszy studiuje menu.
+
+1. Pozstaję cicho
+2. "Może jakoś pomóc?"
+3. "Na co masz ochotę?"
+
+1.{
+Po na prawdę długiej chwili dziewczyna w końcu odrywa wzrok od listy i spogląda na mnie nieśmiało.
+
+Brunetka: Czy... czy jest... kawa?
+
+Gracz: Kawy... nie oferujemy.
+
+Brunetka: Och.
+
+Dziewczyna wbija wzrok w ziemię. Widać że nie bardzo wie co powiedzieć. Staram się ratować sytuację.
+
+Gracz: Mamy za to Bubble Tea o smaku kawy. Może skusisz się na jedną? Są naprawdę dobre.
+
+Brunetka: Och?
+
+Gracz: Tak, dokładniej o smaku mocha. Z podobnych, nieowocowych smaków mamy też migdałową oraz czekoladową.
+
+Widzę że dziewczyna szybkim spojrzeniem na tablicę rewiduje moje słowa.
+
+Brunetka: M-musiałam ich nie zauważyć...
+}
+
+2.{
+Dziewczyna odwraca wzrok od tablicy i patrzy na mnie pytająco.
+
+Gracz: Chciałabyś coś klasycznego? Może jakieś ciekawe, owocowe smaki? A może bardziej w stronę czegoś innego, jak Bubble Tea kawowa albo czekoladowa?
+
+Widzę błysk w jej oku gdy wspominam o ostatniej opcji i czuję, że będzie to ta którą wybierze.
+
+Brunetka: Bubble Tea o smaku kawowym i czekoladowym?
+
+Gracz: Tak, choć najpopularniejsze są smaki owocowe, to mamy też opcje dla klientów chcących spróbować czego innego.
+
+Gracz: W naszej ofercie są trzy nieowocowe smaki: mocha, czekoladowa oraz migdałowa.
+
+Brunetka: Brzmi... ciekawie.
+}
+
+3.{
+Dziewczyna spuszcza wzrok, onieśmielona.
+
+Brunetka: Nie jestem pewna...
+
+Gracz: Na pewno miałaś na coś ochotę, przychodząc tu.
+
+Dziewczyna wydaje się jeszcze bardziej spłoszona, jej policzki płoną czerwienią.
+
+Brunetka: T-tak na prawdę to... Przyjaciółka poleciła mi to miejsce...
+
+3.1. "Przyjaciółka?"
+3.2. "Rozumiem, spróbuję jakoś pomóc."
+
+1.{
+Brunetka: T-tak...
+
+Brunetka: Ma na imię Daria. Mieszka obok mnie. Mówiła że to bardzo fajne miejsce i że muszę tu wpaść.
+
+Gracz: Tak mówiła?
+
+Widzę że czuje się nieco spłoszona tym pytaniem, ale kiwa głową potwierdzająco.
+
+Gracz: Miło to słyszeć. Była tu dziś rano.
+
+Gracz: Może w takim razie chciałabyś to co ona?
+
+Brunetka: A... co wzięła?
+
+Na szczęście nie miałem dziś wielu klientów więc bez problemu przypominam sobie że wzięła tę, no...
+
+1. Bananową
+2. Truskawkową
+3. Czekoladową
+
+3.1.1./3.1.2.{
+Brunetka: Och.
+
+Gracz: Coś nie tak?
+
+Brunetka: Nie wiem... nie jestem pewna czy owocowe to faktycznie moje smaki.
+
+Brunetka: Przepraszam...
+
+Gracz: Nie szkodzi, mamy też kilka nieowocowych Bubble Tea.
+
+Dziewczyna spogląda na mnie z zaskoczeniem. Widocznie nie bywa często w takich miejscach.
+
+Brunetka: Naprawdę?
+
+Gracz: Oczywiście. Mogę ci zaproponować smaki: mocha, migdałową albo kawową.
+
+Brunetka: Och. Tak, myślę że to bardziej dla mnie...
+
+Brunetka: Wszystkie te opcje brzmią zachęcająco...
+}
+
+3.1.3{
+Brunetka: O, to trochę nie w jej stylu... Ale mi... chyba odpowiada.
+
+SKIP DO: "Gracz: W takim razie już przygotowuję"
+}
+
+}
+
+2.{
+Gracz: Jakie smaki najbardziej lubisz?
+
+Gracz: Może coś klasycznego, jak truskawka czy mango? Chyba że jakieś bardziej egzotyczne owoce? A może bardziej w stronę czegoś innego, jak Bubble Tea kawowa albo czekoladowa?
+
+Widzę błysk w jej oku gdy wspominam o ostatniej opcji.
+
+Brunetka: Bubble Tea o smaku kawowym i czekoladowym?
+
+Gracz: Tak, mamy trzy nieowocowe smaki: mocha, czekoladowa oraz migdałowa.
+
+Brunetka: Brzmi... ciekawie.
+}
+
+Brunetka: To co by mi pan w takim razie polecił?
+
+1. Mocha
+2. Migdałową
+3. Czekoladową
+
+1{
+<Gracz wymienia zalety mochy>
+
+Brunetka: To skorzystam z pańskiej propozycji. Niech będzie mocha.
+}
+
+2{
+<Gracz wymienia zalety migdałowej>
+
+Brunetka: To skorzystam z pańskiej propozycji. Niech będzie migdałowa.
+}
+
+3{
+<Gracz wymienia zalety czekoladowej> 
+
+Brunetka: To skorzystam z pańskiej propozycji. Niech będzie czekoladowa.
+}
+
+Gracz: W takim razie już przygotowuję.
+
+// POCZĄTEK MINIGRY
+
+Widzę że jest dużo bardziej rozluźniona niż w momencie gdy weszła do lokalu. Rozgląda się, oglądając wnętrze.
+
+Brunetka: Ładny lokal. Z początku wydawał mi się zbyt krzykliwy, ale teraz zmieniłam zdanie.
+
+Brunetka: Kolory komponują się ze sobą. A cała stylistyka dobrze współgra z oferowanymi tu napojami.
+
+Brunetka: Pan również wygląda tu ładnie.
+
+Dziewczyna nagle się zaczerwienia i spuszcza wzrok, orientując się co właśnie powiedziała.
+
+0. (8s) Zbywam tę uwagę milczeniem
+1. "Dzięki, miło mi."
+2. "Cóż, ty chyba nie potrzebujesz specjalnego otoczenia by wyglądać ładnie."
+3. "Daj spokój, mam dość tego uniformu. Wolałbym przyjść we własnych ciuchach."
+
+0.{
+Mieszam spokojnie jej Bubble Tea, udając że nie widzę jej płonącej twarzy.
+
+Trwamy w milczeniu. Dziewczyna poświęca całą uwagę arcyciekawej podłodze pod jej stopami.
+
+Po jakimś czasie dziewczyna wreszcie zbiera się na odwagę i odzywa się.
+}
+
+1.{
+<Krótka rozmowa gdzie obie strony udają że nie zauważają niezręczności z chwili wcześniej>
+}
+
+2.{
+<Shiori reaguje bardzo nieśmiało, gracz żartobliwie brnie w temat>
+}
+
+3.{
+Brunetka: Tak! Uniform. Pasuje. Znaczy się, jak chodzi ci się w nim źle to możesz go zdją...
+
+Gryzie się w język, czerwieniejąc jeszcze bardziej.
+}
+
+Brunetka: ...w każdym razie, widać że dobrze ci się tu pracuje.
+
+Gracz: Nie jest źle.
+
+Gracz: Mam tutaj sporo udogodnień, mogę spać na zapleczu i dostaję regularne posiłki pracownicze.
+
+Gracz: Więc może nie jest to praca marzeń, ale nie narzekam.
+
+Brunetka: A co byłoby twoją pracą marzeń?
+
+0. 8s "W sumie... nie myślałem o tym"
+1. "Bycie astronautą"
+2. "Bycie piłkarzem"
+3. "Bycie prezydentem"
+
+0.{}
+
+1.{
+Brunetka: Astronautą?
+
+Gracz: Zawsze chciałem wychodzić poza ograniczenia i odkrywać nowe rzeczy.
+
+Gracz: A co jest bardziej wyjściem poza ograniczenia niż pokonanie grawitacji?
+
+<Gracz i duch odkrywcy>
+}
+
+2.{
+<Gracz i duch sportowca>
+}
+
+3.{
+Brunetka: Prezydentem?
+
+Gracz: No. To ważna rola. Odpowiedzialna. Masz na wszystko wpływ.
+
+<Gracz i duch lidera>
+}
+
+Brunetka: Bo ja chciałabym być pisarką.
+
+Gracz: Pisarką? Lubisz literaturę?
+
+Jej twarz rozjaśnia się, widzę że tylko czekała na to pytanie.
+
+Brunetka: Uwielbiam!
+
+Brunetka: Czytam książki od kiedy byłam mała. Zawsze mnie fascynowało jak autor może wpłynąć na twoje emocje używając jedynie słów.
+
+Brunetka: Moja ulubiona książka to >>Mediator<<. Ma bardzo spokojny klimat, jednocześnie poruszając ważne tematy, a zakończenie jest na prawdę zaskakujące.
+
+Brunetka: A ty? Co najbardziej lubisz czytać?
+
+3.0. 8s "Yyy, oglądam seriale."
+3.1. "Komiksy o superbohaterach"
+3.2. "Mangę"
+3.3. "Widzisz, >>Mediator<< to też moja ulubiona książka!"
+
+3.0./3.1./3.2.{
+Brunetka: Och.
+
+Widzę że nie na taką odpowiedź liczyła. Wybija ją to z rytmu, milknie i wpatruje się w podłogę.
+
+Robi mi się trochę przykro. Mogłem chociaż wygrzebać jakąś starą lekturę ze szkoły i poudawać że mi się bardzo podobała.
+
+Nawet jeśli czytałem tylko streszczenie i zasnąłem w połowie.
+}
+
+3.3.{
+Brunetka: Naprawdę!? Co za zbieg okoliczności! Kto jest twoim ulubionym bohateram?
+
+3.0. 8s "Ta, no, eee... Świnka Peppa."
+3.1. "Gahlammon"
+3.2. "Gahalamon"
+3.3. "Galhamnon"
+}
+
+0.{
+<Shiori jest trochę oburzona że sobie z niej kpisz>
+}
+
+1.{
+<Shiori daje trochę gadaniny o Mediatorze>
+}
+
+2.3.{
+<Shiori staje się trochę podejrzliwa i zmienia temat>
+}
+
+Gracz: W każdym razie, twoja Bubble Tea jest gotowa.
+
+To mówiąc podaję jej kubek z gotowym napojem.
+
+Brunetka: Dziękuję. Jestem pewna że będzie pyszna.
+
+Gdy już ma opuścić lokal, zatrzymuje się w drzwiach i obraca do mnie.
+
+Brunetka: Pewnie będę tu jeszcze wpadać, więc no... jestem Shiori jakby co.
+
+Gracz: Tenteki.
+
+Brunetka: W takim razie do zobaczenia, Tenteki!
