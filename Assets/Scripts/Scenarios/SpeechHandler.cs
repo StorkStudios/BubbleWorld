@@ -14,7 +14,9 @@ public class SpeechHandler : ChapterElementHandler
         
         XmlAttribute character = node.Attributes["character"];
         XmlAttribute characterId = node.Attributes["character_id"];
-        speech = new Speech(character?.InnerText ?? "", node.InnerXml, characterId?.InnerText);
+        XmlAttribute duration = node.Attributes["duration"];
+        float? durationValue = duration != null ? float.Parse(duration.InnerText) : null;
+        speech = new Speech(character?.InnerText ?? "", node.InnerXml, characterId?.InnerText, durationValue);
     }
 
     public override IEnumerator Enter()
