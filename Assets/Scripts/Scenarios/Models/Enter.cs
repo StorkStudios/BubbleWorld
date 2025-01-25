@@ -4,6 +4,15 @@ using System.Xml.Serialization;
 [XmlRoot("Enter")]
 public class Enter
 {
-    [XmlAttribute("character")]
-    public string Character { get; set; }
+    [XmlAttribute("character_id")]
+    public string characterId;
+
+    [XmlAttribute("eyes")]
+    public CharacterData.EyesPose eyes;
+
+    [XmlAttribute("mouth")]
+    public CharacterData.MouthPose mouth;
+
+    [XmlAttribute("position")]
+    public float position;
 }
