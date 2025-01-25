@@ -34,6 +34,8 @@ public class ChoicePopup : MonoBehaviour
             return;
         }
 
+        GameManager.Instance.CanSkip = false;
+
         canvasGroup.DOFade(1, fadeDuration);
 
         Options options = values as Options;
@@ -82,5 +84,6 @@ public class ChoicePopup : MonoBehaviour
         }
 
         Director.Instance.DirectorStepEvent?.Invoke(id);
+        GameManager.Instance.CanSkip = true;
     }
 }

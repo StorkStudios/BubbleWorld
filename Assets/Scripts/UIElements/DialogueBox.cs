@@ -174,6 +174,11 @@ public class DialogueBox : MonoBehaviour
 
     public void Skip()
     {
+        if (!GameManager.Instance.CanSkip)
+        {
+            return;
+        }
+
         if (animationCompleted)
         {
             if (durationCoroutine != null)
