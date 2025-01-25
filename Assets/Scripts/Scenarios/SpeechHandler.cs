@@ -1,9 +1,12 @@
+using System.Collections;
 using System.Xml;
 using UnityEngine;
 
 public class SpeechHandler : ChapterElementHandler
 {
     private Speech speech;
+
+    private bool finished = false;
 
     public override void Init(XmlNode node)
     {
@@ -14,9 +17,16 @@ public class SpeechHandler : ChapterElementHandler
         speech = new Speech(character?.InnerText ?? "", node.InnerXml, characterId?.InnerText);
     }
 
-    public override void Enter()
+    public override IEnumerator Enter()
     {
-        Debug.Log($"Speech node: {speech.characterName}: {speech.voiceline}");
+        Director.Instance.DirectorStepEvent += OnDirectorStep;
         Director.Instance.ElementReadEvent?.Invoke("Speech", speech);
+        yield return new WaitUntil(() => finished);
+        Director.Instance.DirectorStepEvent -= OnDirectorStep;
+    }
+
+    private void OnDirectorStep(string _)
+    {
+        finished = true;
     }
 }

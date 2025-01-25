@@ -1,41 +1,67 @@
+using System.Collections;
 using System.Collections.Generic;
 using System.Xml;
 using UnityEngine;
 
 public class ChoiceHandler : ChapterElementHandler
 {
+    private string stepParameter;
+    private Options options;
+    private bool choiceReturned = false;
+
     public override void Init(XmlNode node)
     {
         base.Init(node);
 
         XmlNode optionsNode = node.SelectSingleNode("Options");
-        XmlAttribute duration = optionsNode.Attributes["duration"];
-        float? durationValue = duration != null ? float.Parse(duration.InnerText) : null;
-        XmlAttribute defaultId = optionsNode.Attributes["default_id"];
-        string defaultIdValue = defaultId?.InnerText;
-        List<Option> optionsList = new List<Option>();
-        foreach (XmlNode optionNode in optionsNode.SelectNodes("Option"))
+        if (optionsNode != null)
         {
-            string text = optionNode.InnerXml;
-            string id = optionNode.Attributes["id"].InnerText;
-            optionsList.Add(new Option(id, text));
+            XmlAttribute duration = optionsNode.Attributes["duration"];
+            float? durationValue = duration != null ? float.Parse(duration.InnerText) : null;
+            XmlAttribute defaultId = optionsNode.Attributes["default_id"];
+            string defaultIdValue = defaultId?.InnerText;
+            List<Option> optionsList = new List<Option>();
+            foreach (XmlNode optionNode in optionsNode.SelectNodes("Option"))
+            {
+                string text = optionNode.InnerXml;
+                string id = optionNode.Attributes["id"].InnerText;
+                optionsList.Add(new Option(id, text));
+            }
+            options = new Options(durationValue, optionsList, defaultIdValue);
         }
-        Options options = new Options(durationValue, optionsList, defaultIdValue);
-        Director.Instance.ElementReadEvent?.Invoke("Options", options);
     }
 
-    public override void Enter()
+    public override IEnumerator Enter()
     {
-
+        Director.Instance.DirectorStepEvent += OnDirectorStep;
+        Director.Instance.ElementReadEvent?.Invoke("Options", options);
+        yield return new WaitUntil(() => stepParameter != null);
+        Director.Instance.DirectorStepEvent -= OnDirectorStep;
     }
 
     public override XmlNode GetNextChild()
     {
-        return null;
+        if (choiceReturned)
+        {
+            return null;
+        }
+
+        XmlNode selectedNode = Node.SelectSingleNode($"Option[@id='{stepParameter}']");
+        if (selectedNode == null && options == null)
+        {
+            Debug.LogError($"Selected option not found: {stepParameter}");
+        }
+        choiceReturned = true;
+        return selectedNode;
     }
 
-    public override void Exit()
+    public override IEnumerator Exit()
     {
+        yield return null;
+    }
 
+    private void OnDirectorStep(string selectedOptionId)
+    {
+        stepParameter = selectedOptionId;
     }
 }

@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using System.Xml;
 
@@ -10,9 +11,9 @@ public class ChapterElementHandler
         Node = node;
     }
 
-    public virtual void Enter()
+    public virtual IEnumerator Enter()
     {
-
+        yield return null;
     }
 
     public virtual XmlNode GetNextChild()
@@ -20,8 +21,8 @@ public class ChapterElementHandler
         return null;
     }
 
-    public virtual void Exit()
+    public virtual IEnumerator Exit()
     {
-
+        yield return null;
     }
 }

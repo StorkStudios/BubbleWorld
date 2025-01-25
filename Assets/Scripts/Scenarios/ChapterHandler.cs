@@ -18,11 +18,6 @@ public class ChapterHandler : ChapterElementHandler
         children = node.GetEnumerator();
     }
 
-    public override void Enter()
-    {
-        
-    }
-
     public override XmlNode GetNextChild()
     {
         return children.MoveNext() ? (XmlNode)children.Current : null;

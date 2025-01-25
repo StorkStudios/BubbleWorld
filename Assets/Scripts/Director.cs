@@ -14,6 +14,7 @@ class Director : Singleton<Director>
     private Stack<ChapterElementHandler> chapterStack = new Stack<ChapterElementHandler>();
 
     public Action<string, ChapterElement> ElementReadEvent;
+    public Action<string> DirectorStepEvent;
 
     private readonly Dictionary<string, Func<ChapterElementHandler>> handlerFactories = new Dictionary<string, Func<ChapterElementHandler>>
     {
