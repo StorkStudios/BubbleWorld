@@ -21,8 +21,6 @@ public class DialogueBox : MonoBehaviour
     [SerializeField]
     private float textSequenceSpeed;
 
-    public event System.Action SkipRequested;
-
     private float FadeSpeed => 1 / fadeDuration;
 
     public bool Hidden
@@ -45,10 +43,12 @@ public class DialogueBox : MonoBehaviour
     }
 
     private bool hidden = false;
+    private bool animationCompleted = false;
 
     private CanvasGroup canvasGroup;
 
-    private HashSet<Tween> sequenceTweens = new HashSet<Tween>();
+    private readonly HashSet<Tween> sequenceTweens = new HashSet<Tween>();
+    private Coroutine durationCoroutine = null;
 
     private void Awake()
     {
@@ -68,6 +68,13 @@ public class DialogueBox : MonoBehaviour
 
     public void ShowDialogue(Speech values)
     {
+        if (durationCoroutine != null)
+        {
+            StopCoroutine(durationCoroutine);
+            durationCoroutine = null;
+        }
+        animationCompleted = false;
+
         characterName.text = values.characterName;
 
         KillTweens();
@@ -98,6 +105,18 @@ public class DialogueBox : MonoBehaviour
                 .SetDelay(k / textSequenceSpeed)
                 .SetSpeedBased();
             sequenceTweens.Add(tween);
+            if (i == textInfo.characterCount - 1 && values.duration.HasValue)
+            {
+                tween.OnComplete(() => 
+                {
+                    animationCompleted = true;
+                    durationCoroutine = this.CallDelayed(values.duration.Value, () =>
+                    {
+                        durationCoroutine = null;
+                        Skip();
+                    });
+                });
+            }
         }
         characterName.DOFade(1, textFadeSpeed).SetSpeedBased();
 
@@ -107,8 +126,9 @@ public class DialogueBox : MonoBehaviour
     {
         KillTweens();
 
+        animationCompleted = false;
         speechText.DOFade(0, textFadeSpeed).SetSpeedBased();
-        characterName.DOFade(0, textFadeSpeed).SetSpeedBased();
+        characterName.DOFade(0, textFadeSpeed).SetSpeedBased().OnComplete(() => animationCompleted = true);
     }
 
     private void KillTweens()
@@ -154,13 +174,25 @@ public class DialogueBox : MonoBehaviour
 
     public void Skip()
     {
+        if (animationCompleted)
+        {
+            if (durationCoroutine != null)
+            {
+                StopCoroutine(durationCoroutine);
+                durationCoroutine = null;
+            }
+
+            Director.Instance.DirectorStepEvent?.Invoke("bulech");
+
+            return;
+        }
+
         characterName.DOComplete();
         foreach (Tween tween in sequenceTweens)
         {
             tween.Complete();
         }
         sequenceTweens.Clear();
-        SkipRequested?.Invoke();
     }
 
     private void OnElementRead(string element, ChapterElement values)

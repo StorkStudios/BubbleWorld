@@ -80,5 +80,7 @@ public class ChoicePopup : MonoBehaviour
             StopCoroutine(currentTimer);
             currentTimer = null;
         }
+
+        Director.Instance.DirectorStepEvent?.Invoke(id);
     }
 }
