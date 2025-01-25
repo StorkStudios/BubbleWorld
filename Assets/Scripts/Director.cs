@@ -23,9 +23,18 @@ class Director : Singleton<Director>
             documentText = request.downloadHandler.text;
         }
 #else
-        StreamReader reader = new StreamReader(path);
-        documentText = reader.ReadToEnd();
         yield return null;
+        try
+        {
+            using (StreamReader reader = new StreamReader(path))
+            {
+                documentText = reader.ReadToEnd();
+            }
+        }
+        catch (Exception e)
+        {
+            Debug.Log($"Exception {e}");
+        }
 #endif
     }
 
@@ -50,7 +59,7 @@ class Director : Singleton<Director>
         {
             node = ProcessNode(node);
         }
-        while (node != currentDocument);
+        while (node != null);
     }
 
     private XmlNode ProcessNode(XmlNode node)
@@ -63,13 +72,25 @@ class Director : Singleton<Director>
     {
         if (node.HasChildNodes)
         {
-            return node.FirstChild;
+            XmlNode child = node.FirstChild;
+            do
+            {
+                if (child.NodeType != XmlNodeType.Text)
+                {
+                    return child;
+                }
+                child = child.NextSibling;
+            } while (child != null);
         }
         XmlNode sibling = node.NextSibling;
-        if (sibling != null)
+        while (sibling != null)
         {
-            return sibling;
+            if (sibling.NodeType != XmlNodeType.Text)
+            {
+                return sibling;
+            }
+            sibling = sibling.NextSibling;
         }
-        return node.ParentNode;
+        return node.ParentNode.NextSibling;
     }
 }
