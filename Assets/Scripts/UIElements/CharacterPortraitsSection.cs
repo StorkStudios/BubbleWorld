@@ -9,6 +9,8 @@ public class CharacterPortraitsSection : MonoBehaviour
     [SerializeField]
     private float fadeDuration;
     [SerializeField]
+    private float moveSpeed;
+    [SerializeField]
     private SerializedDictionary<string, CharacterData> characters;
 
     private readonly Dictionary<string, CharacterPortrait> characterPortraits = new Dictionary<string, CharacterPortrait>();
@@ -28,6 +30,10 @@ public class CharacterPortraitsSection : MonoBehaviour
             case "Exit":
                 DespawnCharacter(values as Exit);
                 break;
+            case "Update":
+                UpdateCharacter(values as Update);
+                break;
+
         }
     }
 
@@ -35,16 +41,16 @@ public class CharacterPortraitsSection : MonoBehaviour
     {
         CharacterData characterData = characters[values.characterId];
 
-        CharacterPortrait characterPortrait = Instantiate(characterPortraitPrefab.gameObject, transform).GetComponent<CharacterPortrait>();
-        characterPortrait.position = values.position;
-        characterPortrait.Base = characterData.BaseSprite;
-        characterPortrait.Eyes = characterData.Eyes[values.eyes];
-        characterPortrait.Mouth = characterData.Mouth[values.mouth];
+        CharacterPortrait portrait = Instantiate(characterPortraitPrefab.gameObject, transform).GetComponent<CharacterPortrait>();
+        portrait.position = values.position;
+        portrait.Base = characterData.BaseSprite;
+        portrait.Eyes = characterData.Eyes[values.eyes];
+        portrait.Mouth = characterData.Mouth[values.mouth];
 
-        characterPortrait.CanvasGroup.alpha = 0;
-        characterPortrait.CanvasGroup.DOFade(1, fadeDuration);
+        portrait.CanvasGroup.alpha = 0;
+        portrait.CanvasGroup.DOFade(1, fadeDuration);
 
-        characterPortraits[values.characterId] = characterPortrait;
+        characterPortraits[values.characterId] = portrait;
     }
 
     private void DespawnCharacter(Exit values)
@@ -52,5 +58,25 @@ public class CharacterPortraitsSection : MonoBehaviour
         GameObject characterToDestroy = characterPortraits[values.characterId].gameObject;
         characterPortraits[values.characterId].CanvasGroup.DOFade(0, fadeDuration).OnComplete(() => Destroy(characterToDestroy));
         characterPortraits.Remove(values.characterId);
+    }
+
+    private void UpdateCharacter(Update values)
+    {
+        CharacterPortrait portrait = characterPortraits[values.characterId];
+        CharacterData characterData = characters[values.characterId];
+
+        if (values.position.HasValue)
+        {
+            DOTween.To(() => portrait.position, x => portrait.position = x, values.position.Value, moveSpeed).SetSpeedBased();
+        }
+
+        if (values.eyes.HasValue)
+        {
+            portrait.Eyes = characterData.Eyes[values.eyes.Value];
+        }
+        if (values.mouth.HasValue)
+        {
+            portrait.Mouth = characterData.Mouth[values.mouth.Value];
+        }
     }
 }

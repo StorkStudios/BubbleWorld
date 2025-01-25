@@ -20,24 +20,24 @@ MonoBehaviour:
       Value: {fileID: -2559235654017407220, guid: 377033afca89b3d4bbfc61cf09d5d1c3, type: 3}
     - Key:
         item: 1
-      Value: {fileID: -2559235654017407220, guid: 377033afca89b3d4bbfc61cf09d5d1c3, type: 3}
+      Value: {fileID: -680129646643233233, guid: 377033afca89b3d4bbfc61cf09d5d1c3, type: 3}
     - Key:
         item: 2
-      Value: {fileID: -2559235654017407220, guid: 377033afca89b3d4bbfc61cf09d5d1c3, type: 3}
+      Value: {fileID: 7187665122349066479, guid: 0185ac717965f20498be4cfcf26aee36, type: 3}
     - Key:
         item: 3
-      Value: {fileID: -2559235654017407220, guid: 377033afca89b3d4bbfc61cf09d5d1c3, type: 3}
+      Value: {fileID: 1431812790390797381, guid: 377033afca89b3d4bbfc61cf09d5d1c3, type: 3}
   mouth:
     pairs:
     - Key:
         item: 0
-      Value: {fileID: 3871612080142871573, guid: 94409ad81826be346ac6f272ed4012a9, type: 3}
+      Value: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
     - Key:
         item: 1
-      Value: {fileID: 3871612080142871573, guid: 94409ad81826be346ac6f272ed4012a9, type: 3}
+      Value: {fileID: 3691463601059337291, guid: 9551a43035c3ab8418e99defe2f3a74d, type: 3}
     - Key:
         item: 2
-      Value: {fileID: 3871612080142871573, guid: 94409ad81826be346ac6f272ed4012a9, type: 3}
+      Value: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
     - Key:
         item: 3
-      Value: {fileID: 3871612080142871573, guid: 94409ad81826be346ac6f272ed4012a9, type: 3}
+      Value: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}

@@ -1,10 +1,7 @@
 <Chapter>
-    <Enter character_id="Kebab" eyes="Forward" mouth="Neutral" position="0.5"/>
     <Speech>
         <i>Moja przerwa zaczyna się trochę dłużyć.</i>
     </Speech>
-    <Update character_id="Kebab" eyes="Closed" position="0.3"/>
-    <Exit character_id="Kebab"/>
     <Speech>
         <i>Zdecydowanie nie jest to zbyt ludna okolica. Od czasu tej ostatniej dziewczyny za oknem nie widziałem żadnego przechodnia.</i>
     </Speech>
@@ -14,6 +11,7 @@
     <Speech>        
         Dzyń dzyń!
     </Speech>
+    <Enter character_id="Kebab" eyes="Forward" mouth="Neutral" position="0.5"/>
     <Speech>        
         Podnoszę wzrok. Przed ladą stoi młoda dziewczyna w okularach. Zdaje się być trochę przytłoczona atmosferą tego miejsca.
     </Speech>
@@ -26,6 +24,7 @@
     <Speech character="Gracz">        
         Co dla ciebie?
     </Speech>
+    <Update character_id="Kebab" eyes="Closed" position="0.3"/>
     <Speech>        
         Jej wzrok kieruje się ku obszernej liście za moimi plecami. Mruży oczy za szkłami okularów i zaczyna się jej przyglądać.
     </Speech>
@@ -117,4 +116,5 @@
             </Case>
         </Switch>
     </Choice>
+    <Exit character_id="Kebab"/>
 </Chapter>

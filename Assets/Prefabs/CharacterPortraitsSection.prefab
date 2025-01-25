@@ -50,6 +50,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterPortraitPrefab: {fileID: 6640494147441806557, guid: aaa4247867798594d989162ed3abd008, type: 3}
   fadeDuration: 1
+  moveSpeed: 1
   characters:
     pairs:
     - Key:

@@ -1,4 +1,5 @@
 
+using System.Globalization;
 using System.Xml.Serialization;
 
 [XmlRoot("Update")]
@@ -39,7 +40,7 @@ public class Update : ChapterElement
     {
         get
         {
-            return positionValue == null ? null : float.Parse(positionValue);
+            return positionValue == null ? null : float.Parse(positionValue, CultureInfo.InvariantCulture);
         }
     }
 }
