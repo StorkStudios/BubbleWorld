@@ -14,19 +14,19 @@
     <Speech>
         Świadomość że to klientka nie przyszła od razu i nie miałem pomysłu co powiedzieć.
     </Speech>
-    <Speech character="Gracz">
+    <Speech character="Ja">
         Witamy w BubbleWorld... w czym mogę pomóc?
     </Speech>
-    <Speech character="Blondynka">
+    <Speech character="???">
         Chciałabym tylko truskawkową herbatę z bąbelkami.
     </Speech>
-    <Speech character="Gracz">
+    <Speech character="Ja">
         Tak, jasne...
     </Speech>
     <Speech>
         Schowałem się pod ladę, szukając kubka.
     </Speech>
-    <Speech character="Blondynka">
+    <Speech character="???">
         Jak długo pracuję te cafe?
     </Speech>
     <Speech>
@@ -50,30 +50,30 @@
                 <Speech>
                     Chciałbym najpierw się trochę obudzić zanim włączę się w konwersację.
                 </Speech>
-                <Speech character="Blondynka">
+                <Speech character="???">
                     Nie kojarzę ciebie, jesteś stąd?
                 </Speech>
                 <Speech>
                     <i>Chyba jednak nie dam rady jej ignorować.</i>
                 </Speech>
-                <Speech character="Gracz">
+                <Speech character="Ja">
                     <i>Tak, po prostu... rzadko stąd wychodzę. A ty?</i>
                 </Speech>
             </Case>
             <Case option_id="2">
-                <Speech character="Gracz">
+                <Speech character="Ja">
                     Jesteśmy tu dopiero miesiąc, ale nie widziałem cię tu wcześniej, przeprowadziłaś się?
                 </Speech>
-                <Speech character="Blondynka">
+                <Speech character="???">
                     Tak, jestem studentką z wymiany, studiuję japońską kulturę do mojej pracy magisterskiej.
                 </Speech>
-                <Speech character="Gracz">
+                <Speech character="Ja">
                     Skąd jesteś?
                 </Speech>
             </Case>
         </Switch>
     </Choice>
-    <Speech character="Blondynka">
+    <Speech character="???">
         Jestem z Białorusi, to w Europie Wschodniej.
     </Speech>
     <Speech>
@@ -86,7 +86,7 @@
         </Options>
         <Switch>
             <Case option_id="1">
-                <Speech character="Gracz">
+                <Speech character="Ja">
                     Spoko.
                 </Speech>
                 <Speech>
@@ -95,7 +95,7 @@
                 <Speech>
                     Dziewczyna uśmiecha się, patrząc na mnie.
                 </Speech>
-                <Speech character="Blondynka">
+                <Speech character="???">
                     Białoruś nie mówi ci zbyt wiele, co?
                 </Speech>
                 <Speech>
@@ -103,7 +103,7 @@
                 </Speech>
             </Case>
             <Case option_id="2">
-                <Speech character="Gracz">
+                <Speech character="Ja">
                     Ach, Białoruś, chabry, ziemniaki, coś słyszałem.
                 </Speech>
                 <Speech>
@@ -112,10 +112,10 @@
                 <Speech>
                     <i>Zdaje się że powiedziałem coś głupiego.</i>
                 </Speech>
-                <Speech character="Gracz">
+                <Speech character="Ja">
                     Przepraszam, nie chciałem cię urazić tym stereotypem...
                 </Speech>
-                <Speech character="Blondynka">
+                <Speech character="???">
                     W porządku, niewielu ludzi tutaj wie cokolwiek innego o moim kraju, to trochę zabawne.
                 </Speech>
             </Case>
@@ -134,39 +134,45 @@
         </Options>
         <Switch>
             <Case option_id="1">
-                <Speech character="Gracz">
-                    Spoko.
+                <Speech character="???">
+                    Nie przejmuj się, przywykłam.
+                </Speech>
+                <Speech character="???">
+                    Spędziłam już pewną część czasu w Japonii, nie jesteś pierwszą osobą która reaguje w ten sposób. 
                 </Speech>
                 <Speech>
-                    Zapada niezręczna cisza, zaburzana tylko stukaniem mieszadła o kubek. Nie bardzo wiem jak kontynuować rozmowę.
+                    Uśmiecham się pod nosem.
+                </Speech>
+                <Speech  character="Ja">
+                    Czyli mogę się czuć rozgrzeszony?
                 </Speech>
                 <Speech>
-                    Dziewczyna uśmiecha się, patrząc na mnie.
+                    Dziewczyna odwzajemnia uśmiech.
                 </Speech>
-                <Speech character="Blondynka">
-                    Białoruś nie mówi ci zbyt wiele, co?
+                <Speech character="???">
+                    Powiedzmy.
                 </Speech>
             </Case>
             <Case option_id="2">
-                <Speech character="Gracz">
+                <Speech character="Ja">
                     Jak się nazywa ten drink który dla ciebie robię po białorusku?
                 </Speech>
-                <Speech character="Blondynka">
+                <Speech character="???">
                     Гарбата з суніцамі.
                 </Speech>
-                <Speech character="Gracz">
+                <Speech character="Ja">
                     Wow, brzmi niesamowicie, możesz powiedzieć coś innego?
                 </Speech>
                 <Speech>
                     Na jej twarzy pojawił się lekko złowieszczy uśmieszek.
                 </Speech>
-                <Speech character="Blondynka">
+                <Speech character="???">
                     забі зяпу.
                 </Speech>
-                <Speech character="Gracz">
+                <Speech character="Ja">
                     Co to znaczy?
                 </Speech>
-                <Speech character="Blondynka">
+                <Speech character="???">
                     Nie powiem.
                 </Speech>
                 <Speech>
@@ -188,16 +194,16 @@
         </Options>
         <Switch>
             <Case option_id="1">
-                <Speech character="Gracz">
+                <Speech character="Ja">
                     Och, zapomniałem, jak masz na imię? Muszę podpisać kubek.
                 </Speech>
-                <Speech character="Blondynka">
+                <Speech character="???">
                     Daria.
                 </Speech>
                 <Speech>
                     Chwilę się zastanawiam jak to się pisze, po czym nanoszę obco brzmiące imię na kubek i daję go klientce.
                 </Speech>
-                <Speech character="Blondynka">
+                <Speech character="???">
                     Wow, to pierwszy raz, kiedy ktoś poprawnie przeliterował moje imię, jestem zaszczycona, dziękuję!
                 </Speech>
                 <Speech>
@@ -205,10 +211,10 @@
                 </Speech>
             </Case>
             <Case option_id="2">
-                <Speech character="Gracz">
+                <Speech character="Ja">
                     Proszę, twój truskawkowy Bubble Tea.
                 </Speech>
-                <Speech character="Blondynka">
+                <Speech character="???">
                     Dziękuję.
                 </Speech>
             </Case>
