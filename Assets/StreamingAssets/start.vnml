@@ -1,16 +1,6 @@
 <Chapter>
-    <MinigameStart>
-        <TeaBase>EarlGray</TeaBase>
-        <TeaSyroup>PassionFruit</TeaSyroup>
-        <SecondSyroup>Strawberry</SecondSyroup>
-        <TeaJellies>
-            <Jelly>Chocolate</Jelly>
-            <Jelly>Almond</Jelly>
-        </TeaJellies>
-        <TeaMixage>Hard</TeaMixage>
-    </MinigameStart>
     <Variable name="test"
-              value="1" />
+              value="-3" />
     <Variable name="test2"
               value="1" />
     <Choice>
@@ -51,6 +41,16 @@
     <Speech character="Brunetka">        
         Dzień dobry...
     </Speech>
+    <MinigameStart>
+        <TeaBase>EarlGray</TeaBase>
+        <TeaSyroup>PassionFruit</TeaSyroup>
+        <SecondSyroup>Strawberry</SecondSyroup>
+        <TeaJellies>
+            <Jelly>Chocolate</Jelly>
+            <Jelly>Almond</Jelly>
+        </TeaJellies>
+        <TeaMixage>Hard</TeaMixage>
+    </MinigameStart>
     <Speech character="Gracz">        
         Dzień dobry!
     </Speech>

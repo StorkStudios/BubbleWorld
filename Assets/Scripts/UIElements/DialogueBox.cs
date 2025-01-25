@@ -23,7 +23,7 @@ public class DialogueBox : MonoBehaviour
 
     private float FadeSpeed => 1 / fadeDuration;
 
-    public bool Hidden
+    private bool Hidden
     {
         get => hidden;
         set
@@ -68,6 +68,11 @@ public class DialogueBox : MonoBehaviour
 
     public void ShowDialogue(Speech values)
     {
+        if (Hidden)
+        {
+            return;
+        }
+
         if (durationCoroutine != null)
         {
             StopCoroutine(durationCoroutine);
@@ -179,7 +184,7 @@ public class DialogueBox : MonoBehaviour
 
     public void Skip()
     {
-        if (!GameManager.Instance.CanSkip)
+        if (!GameManager.Instance.CanSkip || Hidden)
         {
             return;
         }
@@ -207,11 +212,17 @@ public class DialogueBox : MonoBehaviour
 
     private void OnElementRead(string element, ChapterElement values)
     {
-        if (element != "Speech")
+        switch(element)
         {
-            return;
+            case "Speech":
+                ShowDialogue(values as Speech);
+                break;
+            case "MinigameStart":
+                Hidden = true;
+                break;
+            case "MinigameEnd":
+                Hidden = false;
+                break;
         }
-
-        ShowDialogue(values as Speech);
     }
 }

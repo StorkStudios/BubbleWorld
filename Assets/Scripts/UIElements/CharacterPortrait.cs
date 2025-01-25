@@ -54,7 +54,7 @@ public class CharacterPortrait : MonoBehaviour
 
     private void UpdatePosition()
     {
-        float parentWidth = (rectTransform.parent as RectTransform).sizeDelta.x;
+        float parentWidth = (rectTransform.parent as RectTransform).rect.width;
         float thisWidth = rectTransform.sizeDelta.x;
         float newX = Mathf.LerpUnclamped(thisWidth / 2, parentWidth - thisWidth / 2, position);
         Vector2 pos = rectTransform.anchoredPosition;
