@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.IO;
 using System.Xml;
+using System.Xml.Serialization;
 using UnityEngine;
 using UnityEngine.Networking;
 
@@ -41,7 +42,7 @@ class Director : Singleton<Director>
 
     public void ReadScript()
     {
-        Debug.Log($"Read data begining: {documentText.Substring(0, 100)}");
+        //Debug.Log($"Read data begining: {documentText.Substring(0, 100)}");
         try
         {
             currentDocument.LoadXml(documentText);
@@ -55,7 +56,6 @@ class Director : Singleton<Director>
 
     public IEnumerator RunScript()
     {
-        Debug.Log("Run script");
         XmlNode node = currentDocument.FirstChild;
         do
         {
@@ -67,7 +67,13 @@ class Director : Singleton<Director>
 
     private XmlNode ProcessNode(XmlNode node)
     {
-        Debug.Log(node.Name);
+        //Debug.Log(node.Name);
+        if (node.Name == "Enter")
+        {
+            XmlSerializer serializer = new XmlSerializer(typeof(Enter));
+            Enter enter = serializer.Deserialize(new StringReader(node.OuterXml)) as Enter;
+            Debug.Log($"Enter character: {enter.Character}");
+        }
         return GetNextNode(node);
     }
 
