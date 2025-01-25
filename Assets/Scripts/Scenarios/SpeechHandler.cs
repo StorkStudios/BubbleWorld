@@ -18,5 +18,6 @@ public class SpeechHandler : ChapterElementHandler
     public override void Enter()
     {
         Debug.Log($"Speech node: {speech.characterName}: {speech.voiceline}");
+        Director.Instance.ElementReadEvent?.Invoke("Speech", speech);
     }
 }
