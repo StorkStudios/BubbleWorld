@@ -24,6 +24,7 @@ class Director : Singleton<Director>
         { "Speech", () => new SpeechHandler() },
         { "Choice", () => new ChoiceHandler() },
         { "Case", () => new IterationHandler() },
+        { "Enter", () => new DeserializeHandler<Enter>() },
     };
 
     public IEnumerator LoadScript(ChapterData script)

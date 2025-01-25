@@ -1,4 +1,5 @@
 <Chapter>
+    <Enter character_id="Kebab" eyes="Forward" mouth="Neutral" position="0.5"/>
     <Speech>
         <i>Moja przerwa zaczyna się trochę dłużyć.</i>
     </Speech>
