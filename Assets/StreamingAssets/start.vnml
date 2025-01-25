@@ -10,6 +10,7 @@
                 <Speech>
                     <b>Bulech bulech bulech blech</b>
                 </Speech>
+                <GameOver text="Koniec gry" background="GameOver"/>
                 <Background name="Shop2"/>
             </Case>
             <Case value="-3">

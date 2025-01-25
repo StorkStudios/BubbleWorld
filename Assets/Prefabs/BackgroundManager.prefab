@@ -96,3 +96,6 @@ MonoBehaviour:
     - Key:
         item: Shop2
       Value: {fileID: 2347633499205131774, guid: 87ab92613c7354071b7bff3f56a5e916, type: 3}
+    - Key:
+        item: GameOver
+      Value: {fileID: 5400790608277296647, guid: bf98ca974e6e27c459889f7b0e9fbc34, type: 3}
