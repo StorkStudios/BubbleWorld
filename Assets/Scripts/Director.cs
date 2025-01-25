@@ -20,9 +20,10 @@ class Director : Singleton<Director>
 
     private readonly Dictionary<string, Func<ChapterElementHandler>> handlerFactories = new Dictionary<string, Func<ChapterElementHandler>>
     {
-        { "Chapter", () => new ChapterHandler() },
+        { "Chapter", () => new IterationHandler() },
         { "Speech", () => new SpeechHandler() },
         { "Choice", () => new ChoiceHandler() },
+        { "Case", () => new IterationHandler() },
     };
 
     public IEnumerator LoadScript(ChapterData script)

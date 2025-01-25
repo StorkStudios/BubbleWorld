@@ -2,19 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Xml;
 
-public class ChapterHandler : ChapterElementHandler
+public class IterationHandler : ChapterElementHandler
 {
-    private Chapter chapter;
-
-    private ChapterElementReader<Chapter> reader = new ChapterElementReader<Chapter>();
-
     private IEnumerator children;
 
     public override void Init(XmlNode node)
     {
         base.Init(node);
         
-        chapter = reader.Deserialize(node);
         children = node.GetEnumerator();
     }
 
