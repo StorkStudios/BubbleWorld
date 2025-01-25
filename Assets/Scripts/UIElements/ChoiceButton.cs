@@ -16,6 +16,12 @@ public class ChoiceButton : MonoBehaviour
         set => label.text = value;
     }
 
+    public bool Clickable
+    {
+        get => button.interactable;
+        set => button.interactable = value;
+    }
+
     private Button button;
 
     private void Awake()

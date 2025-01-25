@@ -11,6 +11,8 @@ public class ChoiceHandler : ChapterElementHandler
         XmlNode optionsNode = node.SelectSingleNode("Options");
         XmlAttribute duration = optionsNode.Attributes["duration"];
         float? durationValue = duration != null ? float.Parse(duration.InnerText) : null;
+        XmlAttribute defaultId = optionsNode.Attributes["default_id"];
+        string defaultIdValue = defaultId?.InnerText;
         List<Option> optionsList = new List<Option>();
         foreach (XmlNode optionNode in optionsNode.SelectNodes("Option"))
         {
@@ -18,7 +20,7 @@ public class ChoiceHandler : ChapterElementHandler
             string id = optionNode.Attributes["id"].InnerText;
             optionsList.Add(new Option(id, text));
         }
-        Options options = new Options(durationValue, optionsList);
+        Options options = new Options(durationValue, optionsList, defaultIdValue);
         Director.Instance.ElementReadEvent?.Invoke("Options", options);
     }
 
