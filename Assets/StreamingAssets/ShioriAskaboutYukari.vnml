@@ -1,0 +1,128 @@
+<Chapter>
+    <Speech>
+        Yukari nie przyszła.
+    </Speech>
+    <Speech>
+        Yukari nie przyszła. :<
+    </Speech>
+    <Speech>
+        Dzyń dzyń
+    </Speech>
+    <Speech>
+        Podnoszę wzrok. To Shiori.
+    </Speech>
+    <Speech character="Shiori">
+        Dzień dobry, Tenteki.
+    </Speech>
+    <Speech character="Ja">
+        Cześć, Shiori... Nie spodziewałem się tu ciebie dzisiaj.
+    </Speech>
+    <Speech>
+        Shiori patrzy na mnie ze zdziwieniem.
+    </Speech>
+    <Speech character="Shiori">
+        Czemu? Coś nie tak?
+    </Speech>
+    <Speech character="Ja">
+        Po prostu wczoraj jakoś tak zniknęłaś, myślałem że jesteś na mnie obrażona.
+    </Speech>
+    <Speech character="Shiori">
+        Obrażona...? Ale za co? Sprzedałeś mi to o co poprosiłam, było bardzo smaczne...
+    </Speech>
+    <Speech>
+        <i>Co?</i>
+    </Speech>
+    <Speech character="Ja">
+        Sprzedałem...?
+    </Speech>
+    <Speech character="Shiori">
+        Taak...
+    </Speech>
+    <Speech>
+        Shiori ewidentnie czuje się niekomfortowo w tej sytuacji, patrzy się w ścianę, od czasu do czasu zerkając na mnie podejrzliwie.
+    </Speech>
+    <Speech character="Shiori">
+        Przecież miałam spróbować tej <nazwa Bubble Tea>, co jej jeszcze nie piłam.
+    </Speech>
+    <Speech character="Shiori">
+        Polecałeś mi ją.
+    </Speech>
+    <Speech character="Ja">
+        Eee... no tak, musiało mi coś umknąć. Pewnie po prostu ta sytuacja z Yukari zaprzątnęła mi myśli.
+    </Speech>
+    <Speech character="Shiori">
+        Z kim?
+    </Speech>
+    <Speech>
+        <i>Co.</i>
+    </Speech>
+    <Speech>
+        <i>A chwila. Przecież ona nie zna imienia Yukari.</i>
+    </Speech>
+    <Speech character="Ja">
+        No, z tą dziewczyną o fioletowych włosach co tu wczoraj wbiegła gdy zamawiałaś swoją Bubble Tea.
+    </Speech>
+    <Speech character="Ja">
+        Ma na imię Yukari. Nie widziałaś jej może od tego czasu?
+    </Speech>
+    <Speech>
+        Orientuję się że Shiori patrzy na mnie przerażona.
+    </Speech>
+    <Speech character="Shiori">
+        Tenteki... Nikogo tu wczoraj nie było gdy zamawiałam...
+    </Speech>
+    <Speech>
+        <i>???</i>
+    </Speech>
+    <Speech character="Ja">
+        Masz... masz na myśli że weszłaś, zamówiłaś i wyszłaś?
+    </Speech>
+    <Speech character="Ja">
+        Nikt ci nie przeszkadzał? Nikt nie wszedł do lokalu?
+    </Speech>
+    <Speech character="Shiori">
+        ...d-dobrze się czujesz?
+    </Speech>
+    <Speech>
+        Shiori dyskretnie robi krok do tyłu.
+    </Speech>
+    <Speech character="Shiori">
+        Może powinieneś... nie wiem, odpocząć... wziąć dzień wolnego...
+    </Speech>
+    <Speech character="Ja">
+        Co...?
+    </Speech>
+    <Speech>
+        Shiori robi kolejny krok w tył.
+    </Speech>
+    <Speech character="Shiori">
+        Wiesz, bo... Przypomniało mi się, że zostawiłam coś w domu... i nie zakluczyłam zamka w drzwiach...
+    </Speech>
+    <Speech character="Shiori">
+        Więc... no...
+    </Speech>
+    <Speech>
+        Próbuję jeszcze coś powiedzieć ale Shiori odwraca się i wybiega z lokalu.
+    </Speech>
+    <Speech>
+        <i>Co tu się właśnie wydarzyło</i>
+    </Speech>
+    <Speech>
+        Przypomina mi się że mamy ogólnodostępny rejestr sprzedaży w systemie kasowym. Odpalam go i sprawdzam co wydarzyło się poprzedniego dnia.
+    </Speech>
+    <Speech>
+        Sprzedana jedna <Bubble Tea Shiori>.
+    </Speech>
+    <Speech>
+        Sprawdzam po kilka razy, ale nie ma wątpiwości: nie sprzedałem wczoraj żadnej Bubble Tea o smaku marakui.
+    </Speech>
+    <Speech>
+        Nagle zauważam coś innego i po plecach spływa mi zimny pot.
+    </Speech>
+    <Speech>
+        W ogóle przez ostatni tydzień nie została sprzedana żadna Bubble Tea o smaku marakui.
+    </Speech>
+    <Speech>
+        <i>Co się tutaj dzieje?</i>
+    </Speech>
+</Chapter>
