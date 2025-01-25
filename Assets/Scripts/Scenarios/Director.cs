@@ -32,14 +32,14 @@ class Director : Singleton<Director>
         { "VariableAdd", () => new VariableAddHandler() },
     };
 
-    public IEnumerator LoadScript(ChapterData script)
+    public IEnumerator LoadScript(string scriptPath)
     {
-        string path = script.Path;
+        string path = Path.Combine(Application.streamingAssetsPath, scriptPath);
 #if (UNITY_WEBGL && !UNITY_EDITOR)
         using (UnityWebRequest request = UnityWebRequest.Get(path))
         {
             yield return request.SendWebRequest();
-            Debug.Log($"Result of request to {script.Path}: {request.result}");
+            Debug.Log($"Result of request to {path}: {request.result}");
             documentText = request.downloadHandler.text;
         }
 #else

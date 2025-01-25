@@ -148,7 +148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03b24f2db4018b931b6feacbbe5a4ad9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  script: {fileID: 11400000, guid: a76be91c4cb2026ef9fa57ffcc68ea67, type: 2}
+  scriptPath: start.vnml
   CanSkip: 0
 --- !u!4 &183770193
 Transform:
