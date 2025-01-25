@@ -55,13 +55,10 @@ public class DialogueBox : MonoBehaviour
         canvasGroup = GetComponent<CanvasGroup>();
     }
 
-    private IEnumerator Start()
+    private void Start()
     {
         HideCurrentDialogue();
-        yield return new WaitForSeconds(1);
-        ShowDialogue(new Speech("bulech", "Lorem ipsum dolor sit amen bulech bulech bulech bulech"));
-        yield return new WaitForSeconds(1);
-        Skip();
+        Director.Instance.ElementReadEvent += OnElementRead;
     }
 
     private void Update()
@@ -73,15 +70,19 @@ public class DialogueBox : MonoBehaviour
     {
         characterName.text = values.characterName;
 
-        speechText.DOKill();
+        foreach (Tween tween in sequenceTweens)
+        {
+            tween.Kill();
+        }
+        sequenceTweens.Clear();
         characterName.DOKill();
 
         speechText.alpha = 0;
         characterName.alpha = 0;
 
-        sequenceTweens.Clear();
+        
         TMP_TextInfo textInfo = speechText.GetTextInfo(values.voiceline);
-        int k = 1;
+        int k = values.characterName.Length > 0 ? 1 : 0;
         for (int i = 0; i < textInfo.characterCount; i++)
         {
             if (char.IsWhiteSpace(speechText.text[i]))
@@ -106,7 +107,11 @@ public class DialogueBox : MonoBehaviour
 
     public void HideCurrentDialogue()
     {
-        speechText.DOKill();
+        foreach (Tween tween in sequenceTweens)
+        {
+            tween.Kill();
+        }
+        sequenceTweens.Clear();
         characterName.DOKill();
 
         speechText.DOFade(0, textFadeSpeed).SetSpeedBased();
@@ -151,6 +156,17 @@ public class DialogueBox : MonoBehaviour
         {
             tween.Complete();
         }
+        sequenceTweens.Clear();
         SkipRequested?.Invoke();
+    }
+
+    private void OnElementRead(string element, ChapterElement values)
+    {
+        if (element != "Speech")
+        {
+            return;
+        }
+
+        ShowDialogue(values as Speech);
     }
 }
