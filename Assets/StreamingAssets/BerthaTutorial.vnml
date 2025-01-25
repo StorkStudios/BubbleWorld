@@ -1,0 +1,170 @@
+<Chapter>
+    <Speech>
+        <i>Ach jaki piękny poranek.</i>
+    </Speech>
+    <Speech>
+        <i>Byłby jednak dużo piękniejszy jakbym mógł pospać trochę dłużej.</i>
+    </Speech>
+    <Speech>
+        <i>Niestety przeszkadza mi w tym troche moja szefowa.</i>
+    </Speech>
+    <Speech character_id="Ruda" character_name="???">
+        Wstawaj, wstawaj, wstawaj! Klientka chce zamówić bubble tea!
+    </Speech>
+    <Speech>
+        <i>To właśnie ona: Bertha</i>
+    </Speech>
+    <Speech character_id="Gracz" character_name="Ja">
+        Przecież jest dopiero 9 rano. Jeszcze nie ma klientów w sklepie.
+    </Speech>
+    <Speech character_id="Ruda" character_name="Bertha">
+        Ja jestem klientką.
+    </Speech>
+    <Speech>
+        <i>Jest czasami troche dziecinna</i>
+    </Speech>
+    <Speech character_id="Ruda" character_name="Bertha">
+        Zrób mi truskawkowe bubble tea z mlekiem.
+    </Speech>
+    <Speech character_id="Ruda" character_name="Bertha">
+        Na miętowej herbacie oczywięcie.
+    </Speech>
+    <Speech character_id="Ruda" character_name="Bertha">
+        I nie mieszaj za dużo! To psuje smak.
+    </Speech>
+    <Speech character_id="Gracz" character_name="Ja">
+        Tak jest szefowo.
+    </Speech>
+    <Speech character_id="Ruda" character_name="Bertha">
+        hehehe
+    </Speech>
+    <MinigameStart>
+        <TeaBase>Mint</TeaBase>
+        <TeaSyroup>Strawberry</TeaSyroup>
+        <SecondSyroup>Milk</SecondSyroup>
+        <TeaJellies>
+            <Jelly>Banana</Jelly>
+            <Jelly>Banana</Jelly>
+            <Jelly>Banana</Jelly>
+        </TeaJellies>
+        <TeaMixage>Light</TeaMixage>
+    </MinigameStart>
+    <Speech>
+        <i>Czuję na sobie wzrok Berthy.</i>
+    </Speech>
+    <Speech>
+        <i>Musze się skupić żeby dobrze przygotować jej zamówienie.</i>
+    </Speech>
+    <Speech character_id="Ruda" character_name="Bertha">
+        A i daj mi dużo żelków bananowych.
+    </Speech>
+    <Speech character_id="Ruda" character_name="Bertha">
+        D U Ż O
+    </Speech>
+    <Choice>
+        <Options>
+            <Option id="1">Ok</Option>
+            <Option id="2">Tak jest prze pani.</Option>
+            <Option id="3">Oczywiście. Dużo bananowych.</Option>
+        </Options>
+        <Switch>
+            <Case option_id="1"></Case>
+            <Case option_id="2"></Case>
+            <Case option_id="3"></Case>
+        </Switch>
+    </Choice>
+    <Speech character_id="Ruda" character_name="Bertha">
+        No. widzę że czegoś się już nauczyłeś.
+    </Speech>
+    <Speech character_id="Gracz" character_name="Ja">
+        Przecież pracjuę tutaj już od dłuższego czasu.
+    </Speech>
+    <Speech character_id="Gracz" character_name="Ja">
+        Muszę wiedzieć jak się przygotowuje herbatę prawda?
+    </Speech>
+    <Speech character_id="Ruda" character_name="Bertha">
+        Racja. Zapomniałam.
+    </Speech>
+    <Speech>
+        <i>Zapomniała że tu pracuje? Jak? Widzimy się tutaj codziennie.</i>
+    </Speech>
+    <Speech character_id="Gracz" character_name="Ja">
+        Zapo-
+    </Speech>
+    <Speech character_id="Ruda" character_name="Bertha">
+        To gdzie jest ta moja herbata?
+    </Speech>
+    <Speech>
+        <i>Wygląda na to że się nie dowiem.</i>
+    </Speech>
+    <Speech character_id="Gracz" character_name="Ja">
+        Poczkaj jeszcze chwilę. Jeszcze ją przygotowuje.
+    </Speech>
+    <Speech character_id="Ruda" character_name="Bertha">
+        To rób ją szybciej! Chce moją herbatę TERAZ!
+    </Speech>
+    <Speech>
+        <i>Zawsze była taka niecierpliwa?</i>
+    </Speech>
+    <Choice>
+        <Options>
+            <Option id="1">Dodaje jeszcze dodatkową porcje bananowych żelków.</Option>
+            <Option id="2">Już kończe poczekaj jeszcze chwilę.</Option>
+            <Option id="3">Zaraz będzie gotowa.</Option>
+        </Options>
+        <Switch>
+            <Case option_id="1"></Case>
+            <Case option_id="2"></Case>
+            <Case option_id="3"></Case>
+        </Switch>
+    </Choice>
+    <Speech character_id="Ruda" character_name="Bertha">
+        Hhhhhhhhhhhhhhhhhhhhhhhh.
+    </Speech>
+    <MinigameEnd>
+    <Speech character_id="Gracz" character_name="Ja">
+        Twoja herbata. - <i> Mówie wyciągając w jej stronę rękę z napojem.</i>
+    </Speech>
+    <Speech>
+        Berta gwałtownie rzuca się w moją stronę i praktyczne wyrywa mi go z ręki.
+    </Speech>
+    <Speech>
+        Próbuje jededn łyk po czym się krzywi i mówi:
+    </Speech>
+    <Choice>
+        <Variable name="MinigameResult" />
+        <Switch>
+            <Case value="0">
+                <Speech character_id="Ruda" character_name="Bertha">
+                    Błeeee! Ohyda!
+                </Speech>
+                <Speech character_id="Ruda" character_name="Bertha">
+                    Gdyby nie to że zaraz otwieramy to byś musiał robić wszystko od początku!
+                </Speech>
+                <Speech character_id="Ruda" character_name="Bertha">
+                    A teraz do roboty!
+                </Speech>
+            </Case>
+            <Case value="1">
+                <Speech character_id="Ruda" character_name="Bertha">
+                    Sama bym zrobiła lepszą, ale powiedzy że ujdzie.
+                </Speech>
+                <Speech character_id="Ruda" character_name="Bertha">
+                    Zaraz otwieramy. Idź wszystko przygotować.
+                </Speech>
+            </Case>
+            <Case value="2">
+                <Speech character_id="Ruda" character_name="Bertha">
+                    Nawet dobre.
+                </Speech>
+                <Speech character_id="Ruda" character_name="Bertha">
+                    Jak będziesz robił takie wszystkim klientom to będziemy bogaci!
+                </Speech>
+                <Speech character_id="Ruda" character_name="Bertha">
+                    Znaczy ja będę hehe.
+                </Speech>
+            </Case>
+        </Switch>
+    </Choice>
+    <Link path="DariaStart.vnml"/>
+</Chapter>

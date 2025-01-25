@@ -1,5 +1,8 @@
 <Chapter>
     <Speech>
+        <i>Kończy się kolejny piękny dzień w Bubble World.</i>
+    </Speech>
+    <Speech>
         <i>Już miałem iśc spać, ale zobaczyłem, że za mną stoi Bertha.</i>
     </Speech>
     <Speech character_id="Gracz" character_name="Ja">
