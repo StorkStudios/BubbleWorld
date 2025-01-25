@@ -9,9 +9,25 @@
         </TeaJellies>
         <TeaMixage>Hard</TeaMixage>
     </MinigameStart>
-    <Variable name="test" value="1"/>
-    <Variable name="test2" value="1"/>
-    <VariableAdd name="test" value="-4"/>
+    <Variable name="test"
+              value="1" />
+    <Variable name="test2"
+              value="1" />
+    <Choice>
+        <Variable name="test" />
+        <Switch>
+            <Case value="1">
+                <Speech>
+                    <i>Test = 1</i>
+                </Speech>
+            </Case>
+            <Case value="-3">
+                <Speech>
+                    <i>Test = -3</i>
+                </Speech>
+            </Case>
+        </Switch>
+    </Choice>
     <Speech>
         <i>Moja przerwa zaczyna się trochę dłużyć.</i>
     </Speech>
@@ -24,7 +40,10 @@
     <Speech>        
         Dzyń dzyń!
     </Speech>
-    <Enter character_id="Kebab" eyes="Forward" mouth="Neutral" position="0.5"/>
+    <Enter character_id="Kebab"
+           eyes="Forward"
+           mouth="Neutral"
+           position="0.5" />
     <Speech>        
         Podnoszę wzrok. Przed ladą stoi młoda dziewczyna w okularach. Zdaje się być trochę przytłoczona atmosferą tego miejsca.
     </Speech>
@@ -37,7 +56,9 @@
     <Speech character="Gracz">        
         Co dla ciebie?
     </Speech>
-    <Update character_id="Kebab" eyes="Closed" position="0.3"/>
+    <Update character_id="Kebab"
+            eyes="Closed"
+            position="0.3" />
     <Speech>        
         Jej wzrok kieruje się ku obszernej liście za moimi plecami. Mruży oczy za szkłami okularów i zaczyna się jej przyglądać.
     </Speech>
@@ -129,5 +150,5 @@
             </Case>
         </Switch>
     </Choice>
-    <Exit character_id="Kebab"/>
+    <Exit character_id="Kebab" />
 </Chapter>

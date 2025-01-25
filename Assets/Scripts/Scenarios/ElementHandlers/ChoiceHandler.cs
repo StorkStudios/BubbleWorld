@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Xml;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class ChoiceHandler : ChapterElementHandler
@@ -15,6 +16,7 @@ public class ChoiceHandler : ChapterElementHandler
     private Options options;
     private bool choiceReturned = false;
     private ChoiceType choiceType;
+    private string variableName;
 
     public override void Init(XmlNode node)
     {
@@ -40,15 +42,29 @@ public class ChoiceHandler : ChapterElementHandler
         else
         {
             choiceType = ChoiceType.Variable;
+            XmlNode variableNode = node.SelectSingleNode("Variable");
+            if (variableNode == null)
+            {
+                Debug.LogError("Variable node not found in Choice element");
+                return;
+            }
+            variableName = variableNode.Attributes["name"].InnerText;
         }
     }
 
     public override IEnumerator Enter()
     {
-        Director.Instance.DirectorStepEvent += OnDirectorStep;
-        Director.Instance.ElementReadEvent?.Invoke("Options", options);
-        yield return new WaitUntil(() => stepParameter != null);
-        Director.Instance.DirectorStepEvent -= OnDirectorStep;
+        if (choiceType == ChoiceType.Options)
+        {
+            Director.Instance.DirectorStepEvent += OnDirectorStep;
+            Director.Instance.ElementReadEvent?.Invoke("Options", options);
+            yield return new WaitUntil(() => stepParameter != null);
+            Director.Instance.DirectorStepEvent -= OnDirectorStep;
+        }
+        else
+        {
+            yield break;
+        }
     }
 
     public override XmlNode GetNextChild()
@@ -58,18 +74,26 @@ public class ChoiceHandler : ChapterElementHandler
             return null;
         }
         
-        XmlNode selectedNode = Node.SelectSingleNode($"Switch/Case[@option_id='{stepParameter}']");
-        if (selectedNode == null && choiceType == ChoiceType.Options)
+        XmlNode selectedNode;
+        if (choiceType == ChoiceType.Options)
         {
-            Debug.LogError($"Selected option not found: {stepParameter}");
+            selectedNode = Node.SelectSingleNode($"Switch/Case[@option_id='{stepParameter}']");
+            if (selectedNode == null)
+            {
+                Debug.LogError($"Selected option not found: {stepParameter}");
+            }
+        }
+        else
+        {
+            int value = StoryVariablesManager.Instance.Variables[variableName];
+            selectedNode = Node.SelectSingleNode($"Switch/Case[@value='{value}']");
+            if (selectedNode == null)
+            {
+                Debug.LogError($"Variable value not found: {variableName}");
+            }
         }
         choiceReturned = true;
         return selectedNode;
-    }
-
-    public override IEnumerator Exit()
-    {
-        yield return null;
     }
 
     private void OnDirectorStep(string selectedOptionId)
