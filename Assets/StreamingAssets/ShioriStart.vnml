@@ -1,0 +1,462 @@
+<Chapter>
+    <Speech>
+        Moja przerwa zaczyna się trochę dłużyć.
+    </Speech>
+    <Speech>
+        Zdecydowanie nie jest to zbyt ludna okolica. Od czasu tej ostatniej dziewczyny za oknem nie widziałem żadnego przechodnia.
+    </Speech>
+    <Speech>
+        Moje myśli wracają do niej. Zdecydowanie jest bardzo...
+    </Speech>
+    <Speech>        
+        Dzyń dzyń!
+    </Speech>
+    <Speech>        
+        Podnoszę wzrok. Przed ladą stoi młoda dziewczyna w okularach. Zdaje się być trochę przytłoczona atmosferą tego miejsca.
+    </Speech>
+    <Speech character="???">        
+        Dzień dobry...
+    </Speech>
+    <Speech character="Ja">        
+        Dzień dobry! Witamy w Bubble World!
+    </Speech>
+    <Speech character="Ja">        
+        Co dla ciebie?
+    </Speech>
+    <Speech>        
+        Jej wzrok kieruje się ku obszernej liście za moimi plecami. Mruży oczy za szkłami okularów i zaczyna się jej przyglądać.
+    </Speech>
+    <Speech>        
+        Mija chwila. Dziewczyna nadal w ciszy studiuje menu.
+    </Speech>
+    <Choice>
+        <Options>
+            <Option id="1">
+                <i>Pozstaję cicho</i>
+            </Option>
+            <Option id="2">Może jakoś pomóc?</Option>
+            <Option id="3">Na co masz ochotę?</Option>
+        </Options>
+        <Switch>
+            <Case option_id="1">
+                <Speech>                    
+                    Po naprawdę długiej chwili dziewczyna w końcu odrywa wzrok od listy i spogląda na mnie nieśmiało.
+                </Speech>
+                <Speech character="???">                    
+                    Czy... czy jest... kawa?
+                </Speech>
+                <Speech character="Ja">                    
+                    Kawy... nie oferujemy.
+                </Speech>
+                <Speech character="???">                    
+                    Och.
+                </Speech>
+                <Speech>                    
+                    Dziewczyna wbija wzrok w ziemię. Widać że nie bardzo wie co powiedzieć. Staram się ratować sytuację.
+                </Speech>
+                <Speech character="Ja">                    
+                    Mamy za to Bubble Tea o smaku kawy. Może skusisz się na jedną? Są naprawdę dobre.
+                </Speech>
+                <Speech character="???">                    
+                    Och?
+                </Speech>
+                <Speech character="Ja">                    
+                    Tak, dokładniej o smaku mocha. Z podobnych, nieowocowych smaków mamy też
+                    migdałową oraz czekoladową.
+                </Speech>
+                <Speech>                    
+                    Widzę że dziewczyna szybkim spojrzeniem na tablicę rewiduje moje słowa.
+                </Speech>
+                <Speech character="???">                    
+                    M-musiałam ich nie zauważyć...
+                </Speech>
+            </Case>
+            <Case option_id="2">
+                <Speech>                    
+                    Dziewczyna odwraca wzrok od tablicy i patrzy na mnie pytająco.
+                </Speech>
+                <Speech character="Ja">                    
+                    Chciałabyś coś klasycznego? Może jakieś ciekawe, owocowe smaki? A może bardziej w stronę czegoś innego, jak Bubble Tea kawowa albo czekoladowa?
+                </Speech>
+                <Speech>                    
+                    Widzę błysk w jej oku gdy wspominam o ostatniej opcji i czuję, że będzie to ta którą wybierze.
+                </Speech>
+                <Speech character="???">                    
+                    Bubble Tea o smaku kawowym i czekoladowym?
+                </Speech>
+                <Speech character="Ja">                    
+                    Tak, choć najpopularniejsze są smaki owocowe, to mamy też opcje dla klientów chcących spróbować czego innego.
+                </Speech>
+                <Speech character="Ja">                    
+                    W naszej ofercie są trzy nieowocowe smaki: mocha, czekoladowa oraz migdałowa.
+                </Speech>
+                <Speech character="???">                    
+                    Brzmi... ciekawie.
+                </Speech>
+            </Case>
+            <Case option_id="3">
+                <Speech>                    
+                    Dziewczyna spuszcza wzrok, onieśmielona.
+                </Speech>
+                <Speech character="???">                    
+                    Nie jestem pewna...
+                </Speech>
+                <Speech character="Ja">                    
+                    Na pewno miałaś na coś ochotę, przychodząc tu.
+                </Speech>
+                <Speech>                    
+                    Dziewczyna wydaje się jeszcze bardziej spłoszona, jej policzki płoną czerwienią.
+                </Speech>
+                <Speech character="???">                    
+                    T-tak naprawdę to... Przyjaciółka poleciła mi to miejsce...
+                </Speech>
+                <Choice>
+                    <Options>
+                        <Option id="1">Przyjaciółka?</Option>
+                        <Option id="2">Rozumiem, spróbuję jakoś pomóc</Option>
+                    </Options>
+                    <Switch>
+                        <Case option_id="1">
+                            <Speech character="???">                    
+                                T-tak...
+                            </Speech>
+                            <Speech character="???">                    
+                                Ma na imię Daria. Mieszka obok mnie. Mówiła że to bardzo fajne miejsce i że muszę tu wpaść.
+                            </Speech>
+                            <Speech character="Ja">                    
+                                Tak mówiła?
+                            </Speech>
+                            <Speech>
+                                Widzę że czuje się nieco spłoszona tym pytaniem, ale kiwa głową potwierdzająco.
+                            </Speech>
+                            <Speech>                    
+                                Dziewczyna wbija wzrok w ziemię. Widać że nie bardzo wie co powiedzieć. Staram się ratować sytuację.
+                            </Speech>
+                            <Speech character="Ja">                    
+                                Miło to słyszeć. Była tu dziś rano.
+                            </Speech>
+                            <Speech character="Ja">                    
+                                Może w takim razie chciałabyś to co ona?
+                            </Speech>
+                            <Speech character="???">                    
+                                A... co wzięła?
+                            </Speech>
+                            <Speech character="Ja">                    
+                                Truskawkową
+                            </Speech>
+                            <Speech character="???">                    
+                                Och.
+                            </Speech>
+                            <Speech character="Ja">                    
+                                Coś nie tak?
+                            </Speech>
+                            <Speech character="???">                    
+                                Nie wiem... nie jestem pewna czy owocowe to faktycznie moje smaki.
+                            </Speech>
+                            <Speech character="???">                    
+                                Przepraszam...
+                            </Speech>
+                            <Speech character="Ja">                    
+                                Nie szkodzi, mamy też kilka nieowocowych Bubble Tea.
+                            </Speech>
+                            <Speech>                    
+                                Dziewczyna spogląda na mnie z zaskoczeniem. Widocznie nie bywa często w takich miejscach.
+                            </Speech>
+                            <Speech character="???">                    
+                                Naprawdę?
+                            </Speech>
+                            <Speech character="Ja">                    
+                                Oczywiście. Mogę ci zaproponować smaki: mocha, migdałową albo kawową.
+                            </Speech>
+                            <Speech character="???">                    
+                                Och. Tak, myślę że to bardziej dla mnie...
+                            </Speech>
+                            <Speech character="???">                    
+                                Wszystkie te opcje brzmią zachęcająco...
+                            </Speech>
+                        </Case>
+                        <Case option_id="2">
+                            <Speech character="Ja">              
+                                Jakie smaki najbardziej lubisz?
+                            </Speech>
+                            <Speech character="Ja">                    
+                                Może coś klasycznego, jak truskawka czy mango? Chyba że jakieś bardziej egzotyczne owoce? A może bardziej w stronę czegoś innego, jak Bubble Tea kawowa albo czekoladowa?
+                            </Speech>
+                            <Speech>                    
+                                Widzę błysk w jej oku gdy wspominam o ostatniej opcji.
+                            </Speech>
+                            <Speech character="???">                    
+                                Bubble Tea o smaku kawowym i czekoladowym?
+                            </Speech>
+                            <Speech character="Ja">                    
+                                Tak, mamy trzy nieowocowe smaki: mocha, czekoladowa oraz migdałowa.
+                            </Speech>
+                            <Speech character="???">                    
+                                Brzmi... ciekawie.
+                            </Speech>
+                        </Case>
+                    </Switch>
+                </Choice>
+            </Case>
+        </Switch>
+    </Choice>
+    <Speech character="???">        
+        To co by mi pan w takim razie polecił?
+    </Speech>
+    <Choice>
+        <Options>
+            <Option id="1">Mocha</Option>
+            <Option id="2">Migdałowa</Option>
+            <Option id="2">Czekoladowa</Option>
+        </Options>
+        <Switch>
+            <Case option_id="1">
+                <Speech character="Ja">
+                    To proponuję mocha. Połączenie goryczy kawy i słodyczy czekolady zaprawione smakiem cynamonu to bardzo bogata miesznka, która na pewno przypadnie ci do gustu. 
+                </Speech>
+                <Speech character="???">
+                    To skorzystam z pańskiej propozycji. Niech będzie mocha.
+                </Speech>
+            </Case>
+            <Case option_id="2">
+                <Speech character="Ja">
+                    To proponuję migdałową. Jest dosyć prosta, ale jej słodkawy orzechowy smak jest bardzo orzeźwiający.
+                </Speech>
+                <Speech character="???">
+                    To skorzystam z pańskiej propozycji. Niech będzie migdałowa.
+                </Speech>
+            </Case>
+            <Case option_id="3">
+                <Speech character="Ja">
+                    To na start proponuję czekoladową. Klasyczny smak słodkiego kakao jest znajomy, co może pomóc w sprawniejszym oswojeniu się z Bubble Tea.
+                </Speech>
+                <Speech character="???">
+                    To skorzystam z pańskiej propozycji. Niech będzie czekoladowa.
+                </Speech>
+            </Case>
+        </Switch>
+    </Choice>
+    <Speech>
+        Widzę że jest dużo bardziej rozluźniona niż w momencie gdy weszła do lokalu. Rozgląda się, oglądając wnętrze.
+    </Speech>
+    <Speech character="???">
+        Ładny lokal. Z początku wydawał mi się zbyt krzykliwy, ale teraz zmieniłam zdanie.
+    </Speech>
+    <Speech character="???">
+        Kolory komponują się ze sobą. A cała stylistyka dobrze współgra z oferowanymi tu napojami.
+    </Speech>
+    <Speech character="???">
+        Pan również wygląda tu ładnie.
+    </Speech>
+    <Speech>
+        Dziewczyna nagle się zaczerwienia i spuszcza wzrok, orientując się co właśnie powiedziała.
+    </Speech>
+    <Choice>
+        <Options duration="8" default_id="0">
+            <Option id="0"><i>Zbywam tę uwagę milczeniem</i></Option>
+            <Option id="1">Dzięki, miło mi.</Option>
+            <Option id="2">Cóż, ty chyba nie potrzebujesz specjalnego otoczenia by wyglądać ładnie.</Option>
+            <Option id="2">Daj spokój, mam dość tego uniformu. Wolałbym przyjść we własnych ciuchach.</Option>
+        </Options>
+        <Switch>
+            <Case option_id="0">
+                <Speech>
+                    Mieszam spokojnie jej Bubble Tea, udając że nie widzę jej płonącej twarzy.
+                </Speech>
+                <Speech>
+                    Trwamy w milczeniu. Dziewczyna poświęca całą uwagę arcyciekawej podłodze pod jej stopami.
+                </Speech>
+            </Case>
+            <Case option_id="1">
+                <Speech character="???">
+                    P-pewnie, nie ma za co...
+                </Speech>
+                <Speech>
+                    Widzę że trochę się rozluźniła, słysząc że nie próbowałem w jakiś dziwny sposób interpretować jej wypowiedzi.
+                </Speech>
+                <Speech>
+                    Niemniej nadal wygląda na skrępowaną tym co powiedziała i chwilę się nie odzywa.
+                </Speech>
+            </Case>
+            <Case option_id="2">
+                <Speech>
+                    Uśmiecham się do niej miło, mówiąc te słowa.
+                </Speech>
+                <Speech character="???">
+                    Ja... Och.
+                </Speech>
+                <Speech>
+                    Dziewczyna czerwienieje jak burak i odwraca wzrok, cichnąc na dłuższą chwilę.
+                </Speech>
+            </Case>
+            <Case option_id="3">
+                <Speech character="???">
+                    Brunetka: Tak! Uniform. Pasuje. Znaczy się, jak chodzi ci się w nim źle to możesz go zdją...
+                </Speech>
+                <Speech>
+                    Gryzie się w język, czerwieniejąc jeszcze bardziej, po czym cichnie na dłuższą chwilę.
+                </Speech>
+            </Case>
+        </Switch>
+    </Choice>
+    <Speech>
+        Po jakimś czasie wreszcie zbiera się na odwagę i odzywa się.
+    </Speech>
+    <Speech character="???">
+        ...w każdym razie, widać że dobrze ci się tu pracuje.
+    </Speech>
+    <Speech character="Ja">        
+        Nie jest źle.
+    </Speech>
+    <Speech character="Ja">        
+        Mam tutaj sporo udogodnień, mogę spać na zapleczu i dostaję regularne posiłki pracownicze.
+    </Speech>
+    <Speech character="Ja">        
+        Więc może nie jest to praca marzeń, ale nie narzekam.
+    </Speech>
+    <Speech character="???">
+        A co byłoby twoją pracą marzeń?
+    </Speech>
+
+    <Speech>        
+        Podnoszę wzrok. Przed ladą stoi młoda dziewczyna w okularach. Zdaje się być trochę przytłoczona atmosferą tego miejsca.
+    </Speech>
+    <Speech character="Ja">        
+        Dzień dobry! Witamy w Bubble World!
+    </Speech>
+    <Speech character="Ja">        
+        Co dla ciebie?
+    </Speech>
+    <Speech>        
+        Jej wzrok kieruje się ku obszernej liście za moimi plecami. Mruży oczy za szkłami okularów i zaczyna się jej przyglądać.
+    </Speech>
+    <Speech>        
+        Mija chwila. Dziewczyna nadal w ciszy studiuje menu.
+    </Speech>
+    <Choice>
+        <Options duration="8" default_id="0">
+            <Option id="0">W sumie... nie myślałem o tym.</Option>
+            <Option id="1">Bycie astronautą.</Option>
+            <Option id="2">Bycie piłkarzem.</Option>
+            <Option id="2">Bycie prezydentem.</Option>
+        </Options>
+        <Switch>
+            <Case option_id="0">
+            </Case>
+            <Case option_id="1">
+                <Speech character="???">
+                    Astronautą?
+                </Speech>
+                <Speech character="Ja">
+                    Tak. Zawsze lubiłem osiągać rzeczy które zdają się być nieosiągalne.
+                </Speech>
+                <Speech character="Ja">
+                    Wyobraź sobie co to by było postawić stopę na innej planecie albo księżycu!
+                </Speech>
+                <Speech character="???">
+                    Brzmi faktycznie ekscytująco... ale i niebezpiecznie. Nie wiem czy odważyłabym się na taką podróż.
+                </Speech>
+            </Case>
+            <Case option_id="2">
+                <Speech character="???">
+                    Piłkarzem?
+                </Speech>
+                <Speech>
+                    Kiwam głową.
+                </Speech>
+                <Speech character="Ja">
+                    Zawsze lubiłem sport. W młodości dużo grałem w piłkę nożną i nie tylko.
+                </Speech>
+                <Speech character="Ja">
+                    Myślę że super by było być prawdziwie profesjonalnym sportowcem, grającym dla tysięcy kibicy w świetle reflektorów.
+                </Speech>
+                <Speech character="???">
+                    Wydaje mi się że wiązałoby się z bardzo dużą presją.
+                </Speech>
+            </Case>
+            <Case option_id="3">
+                <Speech character="???">
+                    Prezydentem?
+                </Speech>
+                <Speech character="Ja">
+                    Mhm. Zawsze uważałem że potrafię przemówić do ludzi i pociągały mnie gry o wysoką stawkę.
+                </Speech>
+                <Speech character="Ja">
+                    Stanie na czele całego narodu wydaje się naprawdę ekscytującym zajęciem.
+                </Speech>
+                <Speech character="???">
+                    No nie wiem... To potężna odpowiedzialność i wielkie brzemię. Brzmi jak trochę zbyt wiele dla mnie.
+                </Speech>
+            </Case>
+        </Switch>
+    </Choice>
+    <Speech character="???">
+        Ja chciałabym być pisarką.
+    </Speech>
+    <Speech character="Ja">
+        Pisarką? Lubisz literaturę?
+    </Speech>
+    <Speech>
+        Jej twarz rozjaśnia się, widzę że tylko czekała na to pytanie.
+    </Speech>
+    <Speech character="???">
+        Uwielbiam!
+    </Speech>
+    <Speech character="???">
+        Czytam książki od kiedy byłam mała. Zawsze mnie fascynowało jak autor może wpłynąć na twoje emocje używając jedynie słów.
+    </Speech>
+    <Speech character="???">
+        Moja ulubiona książka to >>Mediator<<. Ma bardzo spokojny klimat, jednocześnie poruszając ważne tematy, a zakończenie jest na prawdę zaskakujące.
+    </Speech>
+    <Speech character="???">
+        Kojarzysz?
+    </Speech>
+    <Choice>
+        <Options duration="8" default_id="0">
+            <Option id="0">Nie, sorry...</Option>
+            <Option id="1">Kojarzę!</Option>
+        </Options>
+        <Switch>
+            <Case option_id="0">
+                <Speech>
+                    Dziewczyna pokiwała głową ze zrozumieniem.
+                </Speech>
+                <Speech character="???">
+                    Domyślałam się, to dosyć niszowa książka. Ale bardzo dobra, polecam ci z całego serca.
+                </Speech>
+            </Case>
+            <Case option_id="1">
+                <Speech character="???">
+                    Naprawdę!? Zaskoczyłeś mnie, to w gruncie rzeczy bardzo niszowa książka.
+                </Speech>
+                <Speech character="???">
+                    Moją ulubioną bohaterką jest Generał Lora.
+                </Speech>
+                <Speech character="???">
+                    Bardzo ją lubię za jej wewnętrzną siłę i to jak zawsze podejmuje walkę, nawet jeśli wszystko zmawia się przeciwko niej.
+                </Speech>
+            </Case>
+        </Switch>
+    </Choice>
+    <Speech character="Ja">
+        W każdym razie, twoja Bubble Tea jest gotowa.
+    </Speech>
+    <Speech>
+        To mówiąc podaję jej kubek z gotowym napojem.
+    </Speech>
+    <Speech character="???">
+        Dziękuję. Jestem pewna że będzie pyszna.
+    </Speech>
+    <Speech>
+        Gdy już ma opuścić lokal, zatrzymuje się w drzwiach i obraca do mnie.
+    </Speech>
+    <Speech character="Shiori">
+        Pewnie będę tu jeszcze wpadać, więc no... jestem Shiori jakby co.
+    </Speech>
+    <Speech character="Ja">
+        Tenteki.
+    </Speech>
+    <Speech character="Shiori">
+        W takim razie do zobaczenia, Tenteki!
+    </Speech>
+</Chapter>
