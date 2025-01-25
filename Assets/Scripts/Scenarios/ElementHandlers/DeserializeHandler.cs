@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DeserializeHandler<T> : ChapterElementHandler where T : ChapterElement
 {
-    private ChapterElementReader<T> reader = new ChapterElementReader<T>();
+    private ChapterElementDeserializer<T> reader = new ChapterElementDeserializer<T>();
 
     private T element;
 

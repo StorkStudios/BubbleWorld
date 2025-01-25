@@ -32,6 +32,7 @@ class Director : Singleton<Director>
         { "VariableAdd", () => new VariableAddHandler() },
         { "Link", () => new LinkHandler() },
         { "Background", () => new DeserializeHandler<Background>() },
+        { "MinigameEnd", () => new MinigameEndHandler() },
     };
 
     public IEnumerator LoadScript(string scriptPath)
