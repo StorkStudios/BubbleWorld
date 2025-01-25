@@ -1,4 +1,5 @@
 using DG.Tweening;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class CharacterPortraitsSection : MonoBehaviour
@@ -10,7 +11,7 @@ public class CharacterPortraitsSection : MonoBehaviour
     [SerializeField]
     private SerializedDictionary<string, CharacterData> characters;
 
-    private SerializedDictionary<string, CharacterPortrait> characterPortraits = new SerializedDictionary<string, CharacterPortrait>();
+    private readonly Dictionary<string, CharacterPortrait> characterPortraits = new Dictionary<string, CharacterPortrait>();
 
     private void Start()
     {
@@ -23,6 +24,9 @@ public class CharacterPortraitsSection : MonoBehaviour
         {
             case "Enter":
                 SpawnCharacter(values as Enter);
+                break;
+            case "Exit":
+                DespawnCharacter(values as Exit);
                 break;
         }
     }
@@ -39,5 +43,14 @@ public class CharacterPortraitsSection : MonoBehaviour
 
         characterPortrait.CanvasGroup.alpha = 0;
         characterPortrait.CanvasGroup.DOFade(1, fadeDuration);
+
+        characterPortraits[values.characterId] = characterPortrait;
+    }
+
+    private void DespawnCharacter(Exit values)
+    {
+        GameObject characterToDestroy = characterPortraits[values.characterId].gameObject;
+        characterPortraits[values.characterId].CanvasGroup.DOFade(0, fadeDuration).OnComplete(() => Destroy(characterToDestroy));
+        characterPortraits.Remove(values.characterId);
     }
 }
