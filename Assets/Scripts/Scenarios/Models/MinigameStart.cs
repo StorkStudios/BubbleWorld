@@ -3,7 +3,7 @@ using UnityEngine;
 
 public enum TeaBase { EarlGray, Mint, Matcha }
 public enum TeaSyroup { Mango, Strawberry, Milk }
-public enum TeaJelly { Chocholate, Almond, Banana }
+public enum TeaJelly { Chocolate, Almond, Banana }
 public enum TeaMixage { Light, Medium, Hard }
 
 public class MinigameStart
