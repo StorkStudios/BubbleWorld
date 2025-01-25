@@ -34,6 +34,7 @@ class Director : Singleton<Director>
         catch (Exception e)
         {
             Debug.Log($"Exception {e}");
+            throw;
         }
 #endif
     }
@@ -48,16 +49,18 @@ class Director : Singleton<Director>
         catch (Exception e)
         {
             Debug.LogError($"Read XML exception: {e}");
+            throw;
         }
     }
 
-    public void RunScript()
+    public IEnumerator RunScript()
     {
         Debug.Log("Run script");
         XmlNode node = currentDocument.FirstChild;
         do
         {
             node = ProcessNode(node);
+            yield return null;
         }
         while (node != null);
     }
