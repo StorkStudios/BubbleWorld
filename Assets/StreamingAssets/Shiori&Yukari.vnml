@@ -1,0 +1,307 @@
+<Chapter>
+    <Variable name="decisionShioriYukari"
+              value="0" />
+    <Speech>
+        Robi się trochę późno, a ciągle nie przyszedł żaden klient.
+    </Speech>
+    <Speech>
+        <i>Czy raczej klientka.</i>
+    </Speech>
+    <Speech>
+        Ciężko udawać że w ostatnim czasie pojawia się tu ktokolwiek poza tymi trzema dziewczynami.
+    </Speech>
+    <Speech>
+        Dzyń dzyń
+    </Speech>
+    <Speech>
+        O wilczycy mowa. To Shiori.
+    </Speech>
+    <Speech character="Shriori">
+        Dzień dobry, Tenteki.
+    </Speech>
+    <Speech character="Ja">
+        Cześć, Shiori. Co dziś dla ciebie?
+    </Speech>
+    <Speech character="Shriori">
+        Myślę że-
+    </Speech>
+    <Speech>
+        DZY-DZYŃ!
+    </Speech>
+    <Speech>
+        W wejściu stoi Yukari. Żwawym krokiem podchodzi do lady.
+    </Speech>
+    <Speech character="Yukari">
+        Siema Tenteki, jedna marakuja!
+    </Speech>
+    <Speech>
+        Shiori odsuwa się trochę i patrzy zaskoczona na drugą dziewczynę.
+    </Speech>
+    <Speech character="Shriori">
+        Eee... Przepraszam, ale... Ummm...
+    </Speech>
+    <Speech>
+        Yukari nie zdaje się zauważać że w lokalu jest ktoś poza nią i patrzy na mnie wyczekująco.
+    </Speech>
+    <Choice>
+        <Options>
+            <Option id="1">Jedna marakuja, robi się!</Option>
+            <Option id="2">Sorry Yukari, ale Shiori stała przed tobą.</Option>
+        </Options>
+        <Switch>
+            <Case option_id="1">
+                <VariableAdd name="decisionShioriYukari" value="2" />
+            </Case>
+            <Case option_id="2">
+                <Speech character="Yukari">
+                    Ojej, faktycznie, ktoś tu stoi. Jestem pewna że może chwilę poczekać.
+                </Speech>
+                <Speech>
+                    Yukari nawet spojrzała na drugą dziewczynę przy ladzie, wyczekująco wwiercając się we mnie wzrokiem.
+                </Speech>
+                <Speech character="Shiori">
+                    Ale... Przecież...
+                </Speech>
+                <Speech>
+                    Yukari odwraca się w stronę Shiori.
+                </Speech>
+                <Speech character="Yukari">
+                    Coś mówiłaś?
+                </Speech>
+                <Speech>
+                    Shiori stoi z wzrokiem wlepionym we własne buty.
+                </Speech>
+                <Speech character="Shiori">
+                    No bo... Jakby... Byłam tu pierwsza...
+                </Speech>
+                <Speech character="Shiori">
+                    I... Jakbyś mogła chwilę poczekać... Na pewno zaraz będzie twoja kolej...
+                </Speech>
+                <Speech character="Yukari">
+                    Sorry, ale śpieszy mi się.
+                </Speech>
+                <Speech character="Yukari">
+                    Poczytaj sobie coś i nawet nie zauważysz jak stąd wyjdę. Okej?
+                </Speech>
+                <Speech character="Shiori">
+                    Ja... znaczy... skoro się śpieszysz, to w porządku...
+                </Speech>
+                <Choice>
+                    <Options>
+                        <Option id="1">Czyli ustalone, marakuja raz. [ZRÓB BUBBLE TEA YUKARI]</Option>
+                        <Option id="2">Yukari, nieważne czy się śpieszysz czy nie. Shiori była pierwsza i to ją pierwszą obsłużę. [ZRÓB BUBBLE TEA SHIORI] </Option>
+                    </Options>
+                    <Switch>
+                        <Case option_id="1">
+                            <VariableAdd name="decisionShioriYukari" value="2" />
+                        </Case>
+                        <Case option_id="2">
+                            <VariableAdd name="decisionShioriYukari" value="1" />
+                        </Case>
+                    </Switch>
+                </Choice>
+            </Case>
+        </Switch>
+    </Choice>
+    <Choice>
+        <Variable name="decisionShioriYukari" />
+        <Switch>
+            <Case value="1">
+                <Speech character="Yukari">
+                    Pfff, serio? Nie spodziewałam się tego po tobie.
+                </Speech>
+                <Speech character="Yukari">
+                    Jak mówiłam, śpieszy mi się. Do widzenia.
+                </Speech>
+                <Speech>
+                    Yukari odwraca się gwałtownie i wypada z lokalu.
+                </Speech>
+                <Speech>
+                    Z lokalu zapada cisza, mącona tylko podrygującym wciąż nad drzwiami dzwonkiem.
+                </Speech>
+                <Speech character="Ja">
+                    Tooo... co dla ciebie?
+                </Speech>
+                <Speech character="Shiori">
+                    C-czekoladowa.
+                </Speech>
+                <Speech>
+                    Kucam pod ladę i wyciągam z tamtąd kubek. Gdy wstaję, napotykam niepewne spojrzenie Shiori.
+                </Speech>
+                <Speech character="Shiori">
+                    Może nie musiałeś jej złościć... Może naprawdę się śpieszyła.
+                </Speech>
+                <Choice>
+                    <Options duration="8" default_id="0">
+                        <Option id="0">No i?</Option>
+                        <Option id="1">Może. Ale ty byłaś przed nią w kolejce.</Option>
+                        <Option id="2">Shiori, nie możesz dać się tak rozstawiać po kątach.</Option>
+                    </Options>
+                    <Switch>
+                        <Case option_id="0">
+                            <Speech character="Shiori">
+                                Po prostu nie chcę by przeze mnie była spóźniona...
+                            </Speech>
+                            <Speech>
+                                Przewracam oczami, słysząc te słowa.
+                            </Speech>
+                            <Speech character="Ja">
+                                Shiori, ona właśnie wyszła. Nigdzie się nie spóźni.
+                            </Speech>
+                            <Speech character="Ja">
+                                Przestań się zamartwiać.
+                            </Speech>
+                            <Speech character="Ja">
+                                Shiori, ona właśnie wyszła. Nigdzie się nie spóźni.
+                            </Speech>
+                            <Speech character="Ja">
+                                Chciała cię po prostu zastraszyć i tyle.
+                            </Speech>
+                            <Speech character="Shiori">
+                                Pewnie... pewnie masz rację.
+                            </Speech>
+                            <Speech>
+                                Shiori powoli uspokaja się, ale widać że zestresowała ją ta sytuacja. Uśmiecham się do niej, chcąc podnieść ją na duchu.
+                            </Speech>
+                        </Case>
+                        <Case option_id="1">
+                            <Speech character="Shiori">
+                                Ja... dziękuję. To miłe z twojej strony.
+                            </Speech>
+                            <Speech>
+                                Dziewczyna nieśmiało uśmiecha się, po chwili orientuję się że robię to samo.
+                            </Speech>
+                        </Case>
+                        <Case option_id="2">
+                            <Speech character="Ja">
+                                Chciałaś się od razu poddać w tej dyskusji, mimo że wiedziałaś że to ty masz rację.
+                            </Speech>
+                            <Speech character="Shiori">
+                                Ona... zestresowała mnie.
+                            </Speech>
+                            <Speech character="Ja">
+                                Zauważyłem. Potrafi być strasznie napastliwa. Ale musisz nauczyć się bronić przed takim zachowaniem, inaczej ludzie zawsze będą cię spychać do tyłu.
+                            </Speech>
+                            <Speech character="Shiori">
+                                Wiem, po prostu mam straszny problem z tym...
+                            </Speech>
+                            <Speech character="Shiori">
+                                Ale dziękuję że chcesz mi z tym pomóc.
+                            </Speech>
+                            <Speech character="Shiori">
+                                Doceniam to. Naprawdę.
+                            </Speech>
+                            <Speech>
+                                Shiori uśmiecha się do mnie miło, choć widzę, że ciągle jest trochę spięta po tej sytuacji. Odwzajemniam uśmiech, by podnieść ją na duchu.
+                            </Speech>
+                        </Case>
+                    </Switch>
+                </Choice>
+                <Speech character="Shiori">
+                    Wiesz, ja... nie przywykłam zbyt do takich sytuacji.
+                </Speech>
+                <Speech>
+                    Shiori opiera się o kontuar i kładzie głowę na rękach, jej włosy rozsypują się po blacie.
+                </Speech>
+                <Speech character="Shiori">
+                    To nie jest zbyt ludna okolica. Rzadko kiedy losowo spotykam tu innych ludzi, więc nie nauczyłam się zbyt z nimi rozmawiać.
+                </Speech>
+                <Speech character="Shiori">
+                    Daria to co innego, tam gdzie ona mieszka miała sporo relacji z rówieśnikami.
+                </Speech>
+                <Speech character="Shiori">
+                    Ale ja, cóż... Powiedzmy że mam na tym polu pewne zaległości.
+                </Speech>
+                <Speech>
+                    Zerkam na nią, ciągle mieszając jej napój.
+                </Speech>
+                <Speech character="Ja">
+                    Moim zdaniem nie masz się czym martwić.
+                </Speech>
+                <Speech character="Ja">
+                    Takie zaległości da się nadrobić. A masz wiele innych zalet które są bardzo cenne.
+                </Speech>
+                <Speech>
+                    Shiori obraca głowę i patrzy na mnie. Uśmiecha się.
+                </Speech>
+                <Speech character="Shiori">
+                    Dzięki, Tenteki. To bardzo miłe.
+                </Speech>
+                <Speech character="Ja">
+                    Drobiazg. Trzymaj, oto twój napój.
+                </Speech>
+                <Speech>
+                    Podaję jej kubek ze słomką, ona chwyta go w rękę i wstaje.
+                </Speech>
+                <Speech character="Shiori">
+                    Dzięki jeszcze raz. Będę lecieć. Do następnego.
+                </Speech>
+                <Speech>
+                    Dziewczyna podchodzi do drzwi i wychodzi na zewnątrz. Idąc wzdłuż szyb kawiarni, macha mi jeszcze ręką na pożegnanie.
+                </Speech>
+                <Speech>
+                    Odmachuję jej.
+                </Speech>
+            </Case>
+            <Case value="2">
+                <Speech character="Yukari">
+                    No i zajebiście!
+                </Speech>
+                <Speech>
+                    Yukari znów traci zainteresowanie Shiori.
+                </Speech>
+                <Speech character="Yukari">
+                    W ogóle to nie uwierzysz co się stało! Udało mi się zdobyć świetne miejscówki na ten koncert, o którym Ci mówiłam.
+                </Speech>
+                <Speech character="Yukari">
+                    Znaczy jeszcze ich nie mam. Ale już niedługo. Dlatego tak bardzo się spieszę.
+                </Speech>
+                <Speech character="Yukari">
+                    Jakiś frajer sprzedaje dobre miejsca za pół darmo. Już mam je zarezerwowane.
+                </Speech>
+                <Speech>
+                    Widzę jak tryska z niej radość. Musi jej naprawdę mocno zależeć na tym koncercie.
+                </Speech>
+                <Speech character="Ja">
+                    Nie chcę hamować twojego zapału, ale nie udało mi się jeszcze przekonać szefowej żeby dała mi wolne.
+                </Speech>
+                <Speech character="Yukari">
+                    Wiem, że ci się uda.
+                </Speech>
+                <Speech>
+                    To mówiąc, uśmiechnęła się do mnie promiennie.
+                </Speech>
+                <Speech>
+                    Zakłopotany podaję jej zamówione przez nią bubble tea.
+                </Speech>
+                <Speech character="Ja">
+                    Proszę.
+                </Speech>
+                <Speech character="Yukari">
+                    Dzięki. Powinnam jeszcze wpaść przed koncertem.
+                </Speech>
+                <Speech>
+                    Wygląda jakby się wachała, ale po chwili dodaje jeszcze.
+                </Speech>
+                <Speech character="Yukari">
+                    Jakby ci się jednak nie udało przekonać szefowej to daj mi z nią chwile porozmawiać. Jestem pewna, że zaraz zmieni zdanie.
+                </Speech>
+                <Speech>
+                    Po tych słowach rusza w stronę drzwi. Wychodząc rzuca mi jeszcze jedno przelotne spojrzenie i uśmiech.
+                </Speech>
+                <Speech>
+                    Patrzę na nią jeszcze przez chwilę gdy idzie ulicą, zanim znikna za krawędzią okna.
+                </Speech>
+                <Speech>
+                    Przypominając sobie o czymś, rozglądam się w poszukiwaniu Shiori, ale wszystkie stoliki są puste.
+                </Speech>
+                <Speech>
+                    Wygląda na to że wyszła podczas mojej rozmowy z Yukari. 
+                </Speech>
+                <Speech>
+                    <i>Może jednak powinienem był dać jej zamówić jako pierwszej?</i>
+                </Speech>
+            </Case>
+        </Switch>
+    </Choice>
+</Chapter>
