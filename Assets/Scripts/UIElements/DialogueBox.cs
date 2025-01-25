@@ -1,5 +1,6 @@
 using DG.Tweening;
 using System.Collections;
+using System.Collections.Generic;
 using System.Globalization;
 using TMPro;
 using UnityEngine;
@@ -19,6 +20,8 @@ public class DialogueBox : MonoBehaviour
     private float textFadeSpeed;
     [SerializeField]
     private float textSequenceSpeed;
+
+    public event System.Action SkipRequested;
 
     private float FadeSpeed => 1 / fadeDuration;
 
@@ -45,6 +48,8 @@ public class DialogueBox : MonoBehaviour
 
     private CanvasGroup canvasGroup;
 
+    private HashSet<Tween> sequenceTweens = new HashSet<Tween>();
+
     private void Awake()
     {
         canvasGroup = GetComponent<CanvasGroup>();
@@ -55,6 +60,8 @@ public class DialogueBox : MonoBehaviour
         HideCurrentDialogue();
         yield return new WaitForSeconds(1);
         ShowDialogue(new Speech("bulech", "Lorem ipsum dolor sit amen bulech bulech bulech bulech"));
+        yield return new WaitForSeconds(1);
+        Skip();
     }
 
     private void Update()
@@ -72,6 +79,7 @@ public class DialogueBox : MonoBehaviour
         speechText.alpha = 0;
         characterName.alpha = 0;
 
+        sequenceTweens.Clear();
         TMP_TextInfo textInfo = speechText.GetTextInfo(values.voiceline);
         int k = 1;
         for (int i = 0; i < textInfo.characterCount; i++)
@@ -90,6 +98,7 @@ public class DialogueBox : MonoBehaviour
                 textFadeSpeed)
                 .SetDelay(k / textSequenceSpeed)
                 .SetSpeedBased();
+            sequenceTweens.Add(tween);
         }
         characterName.DOFade(1, textFadeSpeed).SetSpeedBased();
 
@@ -133,5 +142,15 @@ public class DialogueBox : MonoBehaviour
         Color32[] vertexColors = textInfo.meshInfo[materialIndex].colors32;
         int vertexIndex = textInfo.characterInfo[charIndex].vertexIndex;
         return vertexColors[vertexIndex].a;
+    }
+
+    public void Skip()
+    {
+        characterName.DOComplete();
+        foreach (Tween tween in sequenceTweens)
+        {
+            tween.Complete();
+        }
+        SkipRequested?.Invoke();
     }
 }
