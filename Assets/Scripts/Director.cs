@@ -16,6 +16,8 @@ class Director : Singleton<Director>
     public Action<string, ChapterElement> ElementReadEvent;
     public Action<string> DirectorStepEvent;
 
+    private XmlNode currentNode;
+
     private readonly Dictionary<string, Func<ChapterElementHandler>> handlerFactories = new Dictionary<string, Func<ChapterElementHandler>>
     {
         { "Chapter", () => new ChapterHandler() },
@@ -52,7 +54,6 @@ class Director : Singleton<Director>
 
     public void ReadScript()
     {
-        //Debug.Log($"Read data begining: {documentText.Substring(0, 100)}");
         try
         {
             currentDocument.LoadXml(documentText);
@@ -66,35 +67,34 @@ class Director : Singleton<Director>
 
     public IEnumerator RunScript()
     {
-        XmlNode node = currentDocument.FirstChild;
+        currentNode = currentDocument.FirstChild;
         do
         {
-            node = ProcessNode(node);
-            yield return null;
+            yield return ProcessNode();
         }
         while (chapterStack.Count != 0);
     }
 
-    private XmlNode ProcessNode(XmlNode node)
+    private IEnumerator ProcessNode()
     {
         ChapterElementHandler handler;
-        if (node == null)
+        if (currentNode == null)
         {
             handler = chapterStack.Pop();
         }
         else
         {
-            if (handlerFactories.TryGetValue(node.Name, out Func<ChapterElementHandler> handlerFactory))
+            if (handlerFactories.TryGetValue(currentNode.Name, out Func<ChapterElementHandler> handlerFactory))
             {
                 handler = handlerFactory();
             }
             else
             {
                 handler = new ChapterElementHandler();
-                Debug.LogWarning($"Unknown chapter element: {node.Name}");
+                Debug.LogWarning($"Unknown chapter element: {currentNode.Name}");
             }
-            handler.Init(node);
-            handler.Enter();
+            handler.Init(currentNode);
+            yield return handler.Enter();
         }
 
         XmlNode child = handler.GetNextChild();
@@ -105,10 +105,12 @@ class Director : Singleton<Director>
         if (child != null)
         {
             chapterStack.Push(handler);
-            return child;
+            currentNode = child;
         }
-
-        handler.Exit();
-        return null;
+        else
+        {
+            yield return handler.Exit();
+            currentNode = null;
+        }
     }
 }

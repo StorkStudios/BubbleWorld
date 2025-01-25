@@ -5,9 +5,16 @@ using UnityEngine;
 
 public class ChoiceHandler : ChapterElementHandler
 {
+    private enum ChoiceType
+    {
+        Options,
+        Variable
+    }
+
     private string stepParameter;
     private Options options;
     private bool choiceReturned = false;
+    private ChoiceType choiceType;
 
     public override void Init(XmlNode node)
     {
@@ -16,6 +23,7 @@ public class ChoiceHandler : ChapterElementHandler
         XmlNode optionsNode = node.SelectSingleNode("Options");
         if (optionsNode != null)
         {
+            choiceType = ChoiceType.Options;
             XmlAttribute duration = optionsNode.Attributes["duration"];
             float? durationValue = duration != null ? float.Parse(duration.InnerText) : null;
             XmlAttribute defaultId = optionsNode.Attributes["default_id"];
@@ -28,6 +36,10 @@ public class ChoiceHandler : ChapterElementHandler
                 optionsList.Add(new Option(id, text));
             }
             options = new Options(durationValue, optionsList, defaultIdValue);
+        }
+        else
+        {
+            choiceType = ChoiceType.Variable;
         }
     }
 
@@ -45,9 +57,9 @@ public class ChoiceHandler : ChapterElementHandler
         {
             return null;
         }
-
-        XmlNode selectedNode = Node.SelectSingleNode($"Option[@id='{stepParameter}']");
-        if (selectedNode == null && options == null)
+        
+        XmlNode selectedNode = Node.SelectSingleNode($"Switch/Case[@option_id='{stepParameter}']");
+        if (selectedNode == null && choiceType == ChoiceType.Options)
         {
             Debug.LogError($"Selected option not found: {stepParameter}");
         }
