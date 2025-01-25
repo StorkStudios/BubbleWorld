@@ -70,14 +70,12 @@ public class DialogueBox : MonoBehaviour
     {
         characterName.text = values.characterName;
 
-        foreach (Tween tween in sequenceTweens)
-        {
-            tween.Kill();
-        }
-        sequenceTweens.Clear();
-        characterName.DOKill();
+        KillTweens();
 
-        speechText.alpha = 0;
+        for (int i = 0; i < speechText.textInfo.characterCount; i++)
+        {
+            SetCharacterAlpha(speechText.textInfo, i, 0);
+        }
         characterName.alpha = 0;
 
         
@@ -107,15 +105,20 @@ public class DialogueBox : MonoBehaviour
 
     public void HideCurrentDialogue()
     {
+        KillTweens();
+
+        speechText.DOFade(0, textFadeSpeed).SetSpeedBased();
+        characterName.DOFade(0, textFadeSpeed).SetSpeedBased();
+    }
+
+    private void KillTweens()
+    {
         foreach (Tween tween in sequenceTweens)
         {
             tween.Kill();
         }
         sequenceTweens.Clear();
         characterName.DOKill();
-
-        speechText.DOFade(0, textFadeSpeed).SetSpeedBased();
-        characterName.DOFade(0, textFadeSpeed).SetSpeedBased();
     }
 
     private void SetCharacterAlpha(TMP_TextInfo textInfo, int charIndex, float alpha)
