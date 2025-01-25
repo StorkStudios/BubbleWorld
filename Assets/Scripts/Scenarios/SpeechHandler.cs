@@ -10,7 +10,8 @@ public class SpeechHandler : ChapterElementHandler
         base.Init(node);
         
         XmlAttribute character = node.Attributes["character"];
-        speech = new Speech(character?.InnerText ?? "", node.InnerXml);
+        XmlAttribute characterId = node.Attributes["character_id"];
+        speech = new Speech(character?.InnerText ?? "", node.InnerXml, characterId?.InnerText);
     }
 
     public override void Enter()

@@ -19,6 +19,7 @@ class Director : Singleton<Director>
     {
         { "Chapter", () => new ChapterHandler() },
         { "Speech", () => new SpeechHandler() },
+        { "Choice", () => new ChoiceHandler() },
     };
 
     public IEnumerator LoadScript(ChapterData script)

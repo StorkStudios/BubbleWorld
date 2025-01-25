@@ -30,7 +30,7 @@
         Mija chwila. Dziewczyna nadal w ciszy studiuje menu.
     </Speech>
     <Choice>
-        <Options>
+        <Options duration="10">
             <Option id="1">
                 <i>Pozstaję cicho</i>
             </Option>
