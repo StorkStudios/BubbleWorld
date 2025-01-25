@@ -1,0 +1,56 @@
+<Chapter>
+    <Speech>
+        <i>Już miałem iśc spać, ale zobaczyłem, że za mną stoi Bertha.</i>
+    </Speech>
+    <Speech character_id="Gracz" character_name="Ja">
+        O, jeszcze jesteś w pracy?
+    </Speech>
+    <Speech character_id="Gracz" character_name="Ja">
+        Dobrze się składa, chcia-
+    </Speech>
+    <Speech character_id="Ruda" character_name="Bertha">
+        Jak mogłeś?!
+    </Speech>
+    <Speech character_id="Ruda" character_name="Bertha">
+        Myślałeś że się nie dowiem?!
+    </Speech>
+    <Speech character_id="Gracz" character_name="Ja">
+        O czym się nie dowiesz?
+    </Speech>
+    <Speech character_id="Ruda" character_name="Bertha">
+        Nie udawaj głupiego!
+    </Speech>
+    <Speech character_id="Ruda" character_name="Bertha">
+        Wiem o was wszystko!
+    </Speech>
+    <Speech>
+        <i>Zatkało mnie.</i>
+    </Speech>
+    <Speech character_id="Gracz" character_name="Ja">
+        Zrobiłem coś nie tak?
+    </Speech>
+    <Speech character_id="Ruda" character_name="Bertha">
+        A żebyś wiedział że zrobiłeś!
+    </Speech>
+    <Speech character_id="Ruda" character_name="Bertha">
+        Ale jeszcze mogę to naprawić.
+    </Speech>
+    <Speech>
+        Uśmiechnęła się złowieszczo.
+    </Speech>
+    <Speech>
+        <i>Gdy ją tak zobaczyłem to aż poczułem ciarki na plecach.</i>
+    </Speech>
+    <Speech character_id="Ruda" character_name="Bertha">
+        Przypomniało mi się że miałam zadzwonić do mojego taty.
+    </Speech>
+    <Speech character_id="Ruda" character_name="Bertha">
+        Widzimy się jutro.
+    </Speech>
+    <Speech>
+        I sobie poszła.
+    </Speech>
+    <Speech>
+        Tej nocy miałem problemy z zaśnięciem, ale w końcu usnąłem.
+    </Speech>
+</Chapter>
