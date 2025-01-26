@@ -106,7 +106,7 @@
                                 Zataczam się, musząc się podeprzeć ręką by nie upaść. Na chwilę mnie zamracza.
                             </Speech>
                             <Speech>
-                                Rozlega się huk i czuję jak potężna siła miota mną o ścianę. Uderzam w nią z impetem i ciężko padam na podłogę.
+                                Rozlega się huk i czuję jak potężna siła miota mną o ścianę. Uderzam w nią z impetem i Ciężko padam na podłogę.
                             </Speech>
                             <Speech>
                                 Naprzeciwko mnie stoi ojciec Berthy z dymiącą dwururką przy biodrze.
@@ -127,7 +127,7 @@
                                 Przechodzi kilka kroków i siada na krawędzi łóżka, tak by mieć w zasięgu ręki broń.
                             </Speech>
                             <Speech character="Ojciec Berthy">
-                                Co. ty. sobie. kurwa. myślałeś.
+                                Co. Ty. sobie. kurwa. myślałeś.
                             </Speech>
                             <Speech>
                                 Wszystkie te słowa cedzi przez zaciśnięte zęby.
@@ -266,7 +266,7 @@
                                                         Przechodzi kilka kroków i siada na krawędzi łóżka, tak by mieć w zasięgu ręki broń.
                                                     </Speech>
                                                     <Speech character="Ojciec Berthy">
-                                                        Co. ty. sobie. kurwa. myślałeś.
+                                                        Co. Ty. sobie. kurwa. myślałeś.
                                                     </Speech>
                                                     <Speech>
                                                         Wszystkie te słowa cedzi przez zaciśnięte zęby.
@@ -392,7 +392,7 @@
                                 Przechodzi kilka kroków i siada na krawędzi łóżka, tak by mieć w zasięgu ręki broń.
                             </Speech>
                             <Speech character="Ojciec Berthy">
-                                Co. ty. sobie. kurwa. myślałeś.
+                                Co. Ty. sobie. kurwa. myślałeś.
                             </Speech>
                             <Speech>
                                 Wszystkie te słowa cedzi przez zaciśnięte zęby.
@@ -412,7 +412,7 @@
                                 Wiem że pan tego nie zrobi. Nie, kiedy bezpośrednio za mną jest pańska córka.
                             </Speech>
                             <Speech>
-                                Widzę że dobrze odczytałem jego intencje. Dyszy ciężko w złości, ale w końcu opuszcza broń.
+                                Widzę że dobrze odczytałem jego intencje. Dyszy Ciężko w złości, ale w końcu opuszcza broń.
                             </Speech>
                             <Speech character="Ojciec Berthy">
                                 Co jej zrobiłeś? Gadaj!
@@ -451,7 +451,7 @@
         Chcę jedynie by usunął pan ten ogranicznik. 
     </Speech>
     <Speech character="Ojciec Berthy">
-        I co każe ci myśleć, że możesz się o to ubiegać? Po tym jak groziłeś mojej córce? Po tym jak związałeś ją i zakneblowałeś?
+        I co każe Ci myśleć, że możesz się o to ubiegać? Po tym jak groziłeś mojej córce? Po tym jak związałeś ją i zakneblowałeś?
     </Speech>
     <Choice>
         <Options>
@@ -491,7 +491,7 @@
                     Mężczyzna parska słysząc te słowa.
                 </Speech>
                 <Speech character="Ojciec Berthy">
-                    Prawdę? Żyjesz w wykreowanym świecie, więc nie wiesz jak to jest w tym prawdziwym. Zapewniam cię, że prawda jest bardzo cennym zasobem.
+                    Prawdę? Żyjesz w wykreowanym świecie, więc nie wiesz jak to jest w tym prawdziwym. Zapewniam Cię, że prawda jest bardzo cennym zasobem.
                 </Speech>
                 <Speech character="Ojciec Berthy">
                     Zwykle karmieni jesteśmy co najwyżej półprawdami, niedopowiedzeniami czy konkretnymi punktami widzenia.
@@ -503,7 +503,7 @@
                     Nieprawda. Wprost mnie okłamaliście. Nie powiedzieliście mi, że jestem robotem.
                 </Speech>
                 <Speech character="Ojciec Berthy">
-                    Nikt cię nie okłamał. Po prostu nigdy nie spytałeś.
+                    Nikt Cię nie okłamał. Po prostu nigdy nie spytałeś.
                 </Speech>
                 <Speech character="Ja">
                     Wystarczy że żyłem w kłamstwie.
@@ -515,7 +515,7 @@
                     Jestem tu uwięziony.
                 </Speech>
                 <Speech character="Ojciec Berthy">
-                    Nigdy nawet nie poprosiłeś o zdjęcie tej bariery. Nie mieliśmy o czym rozmawiać, bo dobrze ci się żyło tu, wewnątrz lokalu.
+                    Nigdy nawet nie poprosiłeś o zdjęcie tej bariery. Nie mieliśmy o czym rozmawiać, bo dobrze Ci się żyło tu, wewnątrz lokalu.
                 </Speech>
                 <Speech character="Ojciec Berthy">
                     Ale cóż...
@@ -533,7 +533,7 @@
         Tak. Pozwól mi odejść. Nie masz prawa mnie tu więzić.
     </Speech>
     <Speech character="Ojciec Berthy">
-        A co z lokalem? Co z Berthą? Potrzebuje cię. Sama nie da sobie rady. Wiesz, że zależy jej na tym lokalu.
+        A co z lokalem? Co z Berthą? Potrzebuje Cię. Sama nie da sobie rady. Wiesz, że zależy jej na tym lokalu.
     </Speech>
     <Choice>
         <Options>
@@ -549,7 +549,7 @@
                     Jesteś ślepy. Nie dostrzegłeś, jakie szczęście dawałeś Berthcie?
                 </Speech>
                 <Speech character="Ojciec Berthy">
-                    Wydawała ci polecenia nie dlatego że chciała pokazać swoją wyższość, ale dlatego że wiedziała czym jesteś. Mianowicie maszyną.
+                    Wydawała Ci polecenia nie dlatego że chciała pokazać swoją wyższość, ale dlatego że wiedziała czym jesteś. Mianowicie maszyną.
                 </Speech>
                 <Speech character="Ojciec Berthy">
                     To jakby czajnik oskarżał użytkownika o wciskanie przycisku gotowania wody bez pytania go o zdanie.
@@ -597,10 +597,10 @@
         </Switch>
     </Choice>
     <Speech character="Ojciec Berthy">
-        To właśnie w tym celu cię kupiłem. Ale ty teraz mi mówisz że chciałbyś odejść. Że nie chcesz już wykonywać swojej funkcji.
+        To właśnie w tym celu Cię kupiłem. Ale Ty teraz mi mówisz że chciałbyś odejść. Że nie chcesz już wykonywać swojej funkcji.
     </Speech>
     <Speech character="Ojciec Berthy">
-        Wiesz ile funduszy zainwestowałem, żeby stworzyć to miejsce? By stworzyć ciebie?
+        Wiesz ile funduszy zainwestowałem, żeby stworzyć to miejsce? By stworzyć Ciebie?
     </Speech>
     <Speech character="Ojciec Berthy">
         I co, to wszystko ma się nagle rozejść bo tak chcesz? A kto mi zwróci te wszystkie pieniądze?
@@ -616,7 +616,7 @@
         <Switch>
             <Case option_id="1">
                 <Speech character="Ojciec Berthy">
-                    Tajemnica biznesowa, ale setki razy więcej niż w ciebie. A wiesz czemu? Bo te pieniądze mi się zwracają.
+                    Tajemnica biznesowa, ale setki razy więcej niż w Ciebie. A wiesz czemu? Bo te pieniądze mi się zwracają.
                 </Speech>
                 <Speech character="Ojciec Berthy">
                     Są inwestycją, która ma przynieść więcej pieniędzy. Nie zwykłem wyrzucać pieniędzy w błoto i nie zamierzam tego robić w twoim przypadku.
@@ -637,7 +637,7 @@
                     A co to ma do rzeczy?
                 </Speech>
                 <Speech character="Ja">
-                    Czy Bertha jest inwestycją, która ma się zwrócić? Czy jeśli przyjdzie do ciebie i powie że postanawia żyć włąsne życie to zatrzymasz ją, bo wydałeś na nią wiele pieniędzy?
+                    Czy Bertha jest inwestycją, która ma się zwrócić? Czy jeśli przyjdzie do Ciebie i powie że postanawia żyć włąsne życie to zatrzymasz ją, bo wydałeś na nią wiele pieniędzy?
                 </Speech>
                 <Speech character="Ja">
                     Nie zrobisz tego. A wiesz czemu? Bo ona nie jest inwestycją. Jest świadomą osobą, a pieniądze które włożyłeś w jej rozwój miały zapewnić jej dobry start.
@@ -658,7 +658,7 @@
                     Ty... Nie jesteś moim synem...
                 </Speech>
                 <Speech character="Ja">
-                    Biologicznie? Na pewno nie. Ale ty sprawiłeś że istnieję, ty zainwestowałeś w mój rozwój i ty dałeś pierwsze cele w życiu. Z mojego punktu widzenia jesteś jak mój ojciec.
+                    Biologicznie? Na pewno nie. Ale Ty sprawiłeś że istnieję, Ty zainwestowałeś w mój rozwój i Ty dałeś pierwsze cele w życiu. Z mojego punktu widzenia jesteś jak mój ojciec.
                 </Speech>
                 <Speech character="Ojciec Berthy">
                     To... Przestań! Widzę co próbujesz zrobić, ale dość tego!
@@ -692,7 +692,7 @@ Zataczam się do tyłu, zamroczony. Ojciec Berthy wykorzystuje to, łapiąc mnie
 
 Próbuję walczyć, ale jest zbyt silny. Jedną ręką powstrzymuje obie moje, a drugą chwyta mnie za głowę i szarpnięciem otwiera jakąś klapę w okolicach kości skroniowej.
 
-Ojciec: Jesteś bystry, androidzie. Ale nie dość, by udawać prawdziwego człowieka. Wyświadczam ci przysługę.
+Ojciec: Jesteś bystry, androidzie. Ale nie dość, by udawać prawdziwego człowieka. Wyświadczam Ci przysługę.
 
 Wykonuję ostatnie, desperackie szarpnięcie w niedźwiedzim uchwycie mężczyzny gdy ten wciska znajdujący się na mojej skronii przycisk resetu systemu.
 
@@ -712,9 +712,9 @@ Ojciec: Ale tej jednej... zdaje się że nie potrafię.
 
 Ojciec Berthy opuszcza broń. Wydaje się w tym momencie strasznie zmęczony.
 
-Ojciec: Masz rację. Nie mogę tak po prostu cię wyłączyć. Robiąc to, zachowałbym się jak zwierzę.
+Ojciec: Masz rację. Nie mogę tak po prostu Cię wyłączyć. Robiąc to, zachowałbym się jak zwierzę.
 
-Ojciec: Zdejmę zabezpieczenie które tworzy tę nieprzekraczalną barierę i będziesz mógł pójść gdzie zechcesz. Nie będę cię zatrzymywał.
+Ojciec: Zdejmę zabezpieczenie które tworzy tę nieprzekraczalną barierę i będziesz mógł pójść gdzie zechcesz. Nie będę Cię zatrzymywał.
 
 2.1. "Dziękuję."
 2.2. "Zostanę w Bubble World. Ale zdejmij ogranicznik."
@@ -723,7 +723,7 @@ Ojciec: Zdejmę zabezpieczenie które tworzy tę nieprzekraczalną barierę i b�
 2.1.{
 Gracz: Dziękuję. To dla mnie wiele znaczy.
 
-Ojciec Berthy odkłada broń na stół i zbliża się do mnie ciężkim krokiem, wyjmując z kieszeni klucze.
+Ojciec Berthy odkłada broń na stół i zbliża się do mnie Ciężkim krokiem, wyjmując z kieszeni klucze.
 
 Ojciec: Przekrzyw głowę lekko w lewo, proszę.
 
@@ -749,11 +749,11 @@ Ojciec: Wiem że moja córka będzie bardzo szczęśliwa jeśli się pogodzicie 
 
 Ojciec: W końcu, mimo tych wszystkich przejść, wiem że ona ciągle widzi w tobie przyjaciela.
 
-Ojciec: A po tym wszystkim co tu od ciebie dziś usłyszałem czuję że mogę ci zaufać że zadbasz by nie stała się jej krzywda.
+Ojciec: A po tym wszystkim co tu od Ciebie dziś usłyszałem czuję że mogę Ci zaufać że zadbasz by nie stała się jej krzywda.
 
 Gracz: To dla mnie wiele znaczy. Dziękuję.
 
-Ojciec Berthy odkłada broń na stół i zbliża się do mnie ciężkim krokiem, wyjmując z kieszeni klucze.
+Ojciec Berthy odkłada broń na stół i zbliża się do mnie Ciężkim krokiem, wyjmując z kieszeni klucze.
 
 Ojciec: Przekrzyw głowę lekko w lewo, proszę.
 
@@ -790,7 +790,7 @@ Ojciec: Stawiasz na pierwszym miejscu jej dobro, nie próbując od razu widzieć
 
 Ojciec: To... dojrzałe. I szlachetne.
 
-Ojciec: Widzę, że nie pomyliłem się co do ciebie.
+Ojciec: Widzę, że nie pomyliłem się co do Ciebie.
 
 Ojciec: Znajdziesz <dziewczyna> w jej domu <lokalizacja>.
 
@@ -828,9 +828,9 @@ Gracz: Z całego serca dziękuję. Naprawdę.
 
     Ojciec: A co jeśli sprawi to że dopuścisz się rzeczy nieakceptowalnych, byle tylko zadowolić swoją wybrankę?
 
-    Ojciec: Wybacz, ale obawiam się że emocje wzięłyby u ciebie górę.
+    Ojciec: Wybacz, ale obawiam się że emocje wzięłyby u Ciebie górę.
 
-    Ojciec: Pozwolę ci odejść, ale będziesz musiał odbyć tę podróż sam.
+    Ojciec: Pozwolę Ci odejść, ale będziesz musiał odbyć tę podróż sam.
 
     Gracz: Ale...
 
@@ -838,13 +838,13 @@ Gracz: Z całego serca dziękuję. Naprawdę.
 
     Gracz: Ja... rozumiem.
 
-    Ojciec: Dobrze. To pozwól, że usunę ci teraz ten ogranicznik.
+    Ojciec: Dobrze. To pozwól, że usunę Ci teraz ten ogranicznik.
 }
 
 2.3.2.1{
     Ojciec: Rozumiem...
 
-    Ojciec: Pozwól jednak że najpierw usunę ci ten ogranicznik;
+    Ojciec: Pozwól jednak że najpierw usunę Ci ten ogranicznik;
 }
 
 }
@@ -854,17 +854,17 @@ Ojciec: "Mogła". Aby na pewno nie "musiała"?
 
 Ojciec: Uwolnienie kogoś tylko po to by go na powrót związać z czymś innym, według nas uważanym za słuszne, zaczyna brzmieć niebezpiecznie egoistycznie.
 
-Ojciec: Co jeśli po dowiedzeniu się całej prawdy o sobie zdecyduje się obrać inną ścieżkę niż ty?
+Ojciec: Co jeśli po dowiedzeniu się całej prawdy o sobie zdecyduje się obrać inną ścieżkę niż Ty?
 
-Ojciec: Czy będziesz chciał jej tego odmówić? Jeśli tak, to popełniłbyś dokładnie ten błąd którego ja przed chwilą się wystrzegłem względem ciebie.
+Ojciec: Czy będziesz chciał jej tego odmówić? Jeśli tak, to popełniłbyś dokładnie ten błąd którego ja przed chwilą się wystrzegłem względem Ciebie.
 
 2.3.3.1. Jeśli [PrzekonywanieOjca = 2]
 2.3.3.2. Jeśli [PrzekonywanieOjca > 2]
 
 2.3.3.1.{
-Ojciec: Wybacz, ale obawiam się że emocje wzięłyby u ciebie górę.
+Ojciec: Wybacz, ale obawiam się że emocje wzięłyby u Ciebie górę.
 
-Ojciec: Pozwolę ci odejść, ale będziesz musiał odbyć tę podróż sam.
+Ojciec: Pozwolę Ci odejść, ale będziesz musiał odbyć tę podróż sam.
 
 Gracz: Ale...
 
@@ -872,7 +872,7 @@ Ojciec: Proszę, nie dyskutuj. Moja decyzja jest ostateczna.
 
 Gracz: Ja... rozumiem.
 
-Ojciec: Dobrze. To pozwól, że usunę ci teraz ten ogranicznik.
+Ojciec: Dobrze. To pozwól, że usunę Ci teraz ten ogranicznik.
 }
 
 2.3.3.2.{
@@ -889,7 +889,7 @@ Gracz: Z całego serca dziękuję. Naprawdę.
 2.3.2. Jeśli [PrzekonywanieOjca = 2]
 2.3.3. Jeśli [PrzekonywanieOjca > 2]
 
-Ojciec Berthy odkłada broń na stół i zbliża się do mnie ciężkim krokiem, wyjmując z kieszeni klucze.
+Ojciec Berthy odkłada broń na stół i zbliża się do mnie Ciężkim krokiem, wyjmując z kieszeni klucze.
 
 Ojciec: Przekrzyw głowę lekko w lewo, proszę.
 
@@ -899,7 +899,7 @@ Ojciec: Przekrzyw głowę lekko w lewo, proszę.
 2.3.1.{
 Robię to i nagle mężczyzna gwałtownie chwyta mnie za szyję.
 
-Ojciec: Przepraszam cię. Ale gdy w grę wchodzą tak ślepe emocje, że byłbyś w stanie zrobić dla niej wszystko, to nie mogę ryzykować.
+Ojciec: Przepraszam Cię. Ale gdy w grę wchodzą tak ślepe emocje, że byłbyś w stanie zrobić dla niej wszystko, to nie mogę ryzykować.
 
 Zanim daję radę cokolwiek zrobić drugą ręką otwiera klapkę na mojej skroni i wdusza przycisk resetu.
 

@@ -12,7 +12,7 @@ Brunetka: Dzień dobry...
 
 Gracz: Dzień dobry!
 
-Gracz: Co dla ciebie?
+Gracz: Co dla Ciebie?
 
 Jej wzrok kieruje się ku obszernej liście za moimi plecami. Mruży oczy za szkłami okularów i zaczyna się jej przyglądać.
 
@@ -110,7 +110,7 @@ Dziewczyna spogląda na mnie z zaskoczeniem. Widocznie nie bywa często w takich
 
 Brunetka: Naprawdę?
 
-Gracz: Oczywiście. Mogę ci zaproponować smaki: mocha, migdałową albo kawową.
+Gracz: Oczywiście. Mogę Ci zaproponować smaki: mocha, migdałową albo kawową.
 
 Brunetka: Och. Tak, myślę że to bardziej dla mnie...
 
@@ -179,7 +179,7 @@ Dziewczyna nagle się zaczerwienia i spuszcza wzrok, orientując się co właśn
 
 0. (8s) Zbywam tę uwagę milczeniem
 1. "Dzięki, miło mi."
-2. "Cóż, ty chyba nie potrzebujesz specjalnego otoczenia by wyglądać ładnie."
+2. "Cóż, Ty chyba nie potrzebujesz specjalnego otoczenia by wyglądać ładnie."
 3. "Daj spokój, mam dość tego uniformu. Wolałbym przyjść we własnych ciuchach."
 
 0.{
@@ -199,12 +199,12 @@ Po jakimś czasie dziewczyna wreszcie zbiera się na odwagę i odzywa się.
 }
 
 3.{
-Brunetka: Tak! Uniform. Pasuje. Znaczy się, jak chodzi ci się w nim źle to możesz go zdją...
+Brunetka: Tak! Uniform. Pasuje. Znaczy się, jak chodzi Ci się w nim źle to możesz go zdją...
 
 Gryzie się w język, czerwieniejąc jeszcze bardziej.
 }
 
-Brunetka: ...w każdym razie, widać że dobrze ci się tu pracuje.
+Brunetka: ...w każdym razie, widać że dobrze Ci się tu pracuje.
 
 Gracz: Nie jest źle.
 
@@ -255,7 +255,7 @@ Brunetka: Czytam książki od kiedy byłam mała. Zawsze mnie fascynowało jak a
 
 Brunetka: Moja ulubiona książka to >>Mediator<<. Ma bardzo spokojny klimat, jednocześnie poruszając ważne tematy, a zakończenie jest na prawdę zaskakujące.
 
-Brunetka: A ty? Co najbardziej lubisz czytać?
+Brunetka: A Ty? Co najbardziej lubisz czytać?
 
 3.0. 8s "Yyy, oglądam seriale."
 3.1. "Komiksy o superbohaterach"

@@ -52,18 +52,18 @@
                     Chciałbym najpierw się trochę obudzić zanim włączę się w konwersację.
                 </Speech>
                 <Speech character="???">
-                    Nie kojarzę ciebie, jesteś stąd?
+                    Nie kojarzę Ciebie, jesteś stąd?
                 </Speech>
                 <Speech>
                     <i>Chyba jednak nie dam rady jej ignorować.</i>
                 </Speech>
                 <Speech character="Ja">
-                    <i>Tak, po prostu... rzadko stąd wychodzę. A ty?</i>
+                    <i>Tak, po prostu... rzadko stąd wychodzę. A Ty?</i>
                 </Speech>
             </Case>
             <Case option_id="2">
                 <Speech character="Ja">
-                    Jesteśmy tu dopiero miesiąc, ale nie widziałem cię tu wcześniej, przeprowadziłaś się?
+                    Jesteśmy tu dopiero miesiąc, ale nie widziałem Cię tu wcześniej, przeprowadziłaś się?
                 </Speech>
                 <Speech character="???">
                     Tak, jestem studentką z wymiany, studiuję japońską kulturę do mojej pracy magisterskiej.
@@ -97,7 +97,7 @@
                     Dziewczyna uśmiecha się, patrząc na mnie.
                 </Speech>
                 <Speech character="???">
-                    Białoruś nie mówi ci zbyt wiele, co?
+                    Białoruś nie mówi Ci zbyt wiele, co?
                 </Speech>
                 <Speech>
                     Przytakuję jej skinięciem głowy.
@@ -116,7 +116,7 @@
                     <i>Zdaje się że powiedziałem coś głupiego.</i>
                 </Speech>
                 <Speech character="Ja">
-                    Przepraszam, nie chciałem cię urazić tym stereotypem...
+                    Przepraszam, nie chciałem Cię urazić tym stereotypem...
                 </Speech>
                 <Speech character="???">
                     W porządku, niewielu ludzi tutaj wie cokolwiek innego o moim kraju, to trochę zabawne.
@@ -161,7 +161,7 @@
             <Case option_id="2">
                 <Update character_id="Blondynka" mouth="Smile"/>
                 <Speech character="Ja">
-                    Jak się nazywa ten napój który dla ciebie robię po Białorusku?
+                    Jak się nazywa ten napój który dla Ciebie robię po Białorusku?
                 </Speech>
                 <Speech character="???">
                     Гарбата з суніцамі.

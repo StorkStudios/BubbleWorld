@@ -311,6 +311,9 @@ MonoBehaviour:
     - Key:
         item: Brunetka
       Value: {fileID: 11400000, guid: 235b38bbe5d3127918c988a787e2fc22, type: 2}
+    - Key:
+        item: Stary
+      Value: {fileID: 11400000, guid: 384bc4a54935b6ca096f5a995596ef65, type: 2}
   speechBubbles:
     pairs:
     - Key:

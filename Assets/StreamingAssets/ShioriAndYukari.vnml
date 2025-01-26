@@ -20,7 +20,7 @@
         Dzień dobry, Tenteki.
     </Speech>
     <Speech character="Ja">
-        Cześć, Shiori. Co dziś dla ciebie?
+        Cześć, Shiori. Co dziś dla Ciebie?
     </Speech>
     <Speech character="Shriori">
         Myślę że-
@@ -46,7 +46,7 @@
     <Choice>
         <Options>
             <Option id="1">Jedna marakuja, robi się!</Option>
-            <Option id="2">Sorry Yukari, ale Shiori stała przed tobą.</Option>
+            <Option id="2">Sorry Yukari, ale Shiori stała przed Tobą.</Option>
         </Options>
         <Switch>
             <Case option_id="1">
@@ -120,7 +120,7 @@
                     W lokalu zapada cisza, mącona tylko podrygującym wciąż nad drzwiami dzwonkiem.
                 </Speech>
                 <Speech character="Ja">
-                    Tooo... co dla ciebie?
+                    Tooo... co dla Ciebie?
                 </Speech>
                 <Speech character="Shiori">
                     C-czekoladowa.
@@ -134,7 +134,7 @@
                 <Choice>
                     <Options duration="8" default_id="0">
                         <Option id="0">No i?</Option>
-                        <Option id="1">Może. Ale ty byłaś przed nią w kolejce.</Option>
+                        <Option id="1">Może. Ale Ty byłaś przed nią w kolejce.</Option>
                         <Option id="2">Shiori, nie możesz dać się tak rozstawiać po kątach.</Option>
                     </Options>
                     <Switch>
@@ -155,7 +155,7 @@
                                 Shiori, ona właśnie wyszła. Nigdzie się nie spóźni.
                             </Speech>
                             <Speech character="Ja">
-                                Chciała cię po prostu zastraszyć i tyle.
+                                Chciała Cię po prostu zastraszyć i tyle.
                             </Speech>
                             <Speech character="Shiori">
                                 Pewnie... pewnie masz rację.
@@ -174,13 +174,13 @@
                         </Case>
                         <Case option_id="2">
                             <Speech character="Ja">
-                                Chciałaś się od razu poddać w tej dyskusji, mimo że wiedziałaś że to ty masz rację.
+                                Chciałaś się od razu poddać w tej dyskusji, mimo że wiedziałaś że to Ty masz rację.
                             </Speech>
                             <Speech character="Shiori">
                                 Ona... zestresowała mnie.
                             </Speech>
                             <Speech character="Ja">
-                                Zauważyłem. Potrafi być strasznie napastliwa. Ale musisz nauczyć się bronić przed takim zachowaniem, inaczej ludzie zawsze będą cię spychać do tyłu.
+                                Zauważyłem. Potrafi być strasznie napastliwa. Ale musisz nauczyć się bronić przed takim zachowaniem, inaczej ludzie zawsze będą Cię spychać do tyłu.
                             </Speech>
                             <Speech character="Shiori">
                                 Wiem, po prostu mam straszny problem z tym...
@@ -266,7 +266,7 @@
                     Nie chcę hamować twojego zapału, ale nie udało mi się jeszcze przekonać szefowej żeby dała mi wolne.
                 </Speech>
                 <Speech character="Yukari">
-                    Wiem, że ci się uda.
+                    Wiem, że Ci się uda.
                 </Speech>
                 <Speech>
                     To mówiąc, uśmiechnęła się do mnie promiennie.
@@ -284,7 +284,7 @@
                     Wygląda jakby się wachała, ale po chwili dodaje jeszcze.
                 </Speech>
                 <Speech character="Yukari">
-                    Jakby ci się jednak nie udało przekonać szefowej to daj mi z nią chwile porozmawiać. Jestem pewna, że zaraz zmieni zdanie.
+                    Jakby Ci się jednak nie udało przekonać szefowej to daj mi z nią chwile porozmawiać. Jestem pewna, że zaraz zmieni zdanie.
                 </Speech>
                 <Speech>
                     Po tych słowach rusza w stronę drzwi. Wychodząc rzuca mi jeszcze jedno przelotne spojrzenie i uśmiech.

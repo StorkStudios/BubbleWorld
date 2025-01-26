@@ -1,6 +1,6 @@
 <Chapter>
     <Speech character_id="Gracz" character_name="Ja">
-        Ehh. To był ciężki dzień. Dawno nie było aż tylu klientów.
+        Ehh. To był Ciężki dzień. Dawno nie było aż tylu klientów.
     </Speech>
     <Speech character_id="Ruda" character_name="Bertha">
         Dobrze się spisałeś.
@@ -33,7 +33,7 @@
         Widać było że Bertha się chwile wacha, ale w końcu dodała:
     </Speech>
     <Speech character_id="Ruda" character_name="Bertha">
-        Ale masz rację że należy ci się jakaś nagroda.
+        Ale masz rację że należy Ci się jakaś nagroda.
     </Speech>
     <Speech character_id="Ruda" character_name="Bertha">
         Możesz mi zrobić bubble tea!

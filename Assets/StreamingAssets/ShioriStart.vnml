@@ -11,6 +11,7 @@
     <Speech>        
         Dzyń dzyń!
     </Speech>
+    <Enter character_id="Brunetka" position="0.2" eyes="Forward" mouth="Neutral"/>
     <Speech>        
         Podnoszę wzrok. Przed ladą stoi młoda dziewczyna w okularach. Zdaje się być trochę przytłoczona atmosferą tego miejsca.
     </Speech>
@@ -21,8 +22,9 @@
         Dzień dobry! Witamy w Bubble World!
     </Speech>
     <Speech character="Ja">        
-        Co dla ciebie?
+        Co dla Ciebie?
     </Speech>
+    <Update character_id="Brunetka" eyes="Forward"/>
     <Speech>        
         Jej wzrok kieruje się ku obszernej liście za moimi plecami. Mruży oczy za szkłami okularów i zaczyna się jej przyglądać.
     </Speech>
@@ -51,6 +53,7 @@
                 <Speech character="???">                    
                     Och.
                 </Speech>
+                <Update character_id="Brunetka" eyes="Down"/>
                 <Speech>                    
                     Dziewczyna wbija wzrok w ziemię. Widać że nie bardzo wie co powiedzieć. Staram się ratować sytuację.
                 </Speech>
@@ -129,6 +132,7 @@
                             <Speech>
                                 Widzę że czuje się nieco spłoszona tym pytaniem, ale kiwa głową potwierdzająco.
                             </Speech>
+                            <Update character_id="Brunetka" eyes="Down"/>
                             <Speech>                    
                                 Dziewczyna wbija wzrok w ziemię. Widać że nie bardzo wie co powiedzieć. Staram się ratować sytuację.
                             </Speech>
@@ -166,7 +170,7 @@
                                 Naprawdę?
                             </Speech>
                             <Speech character="Ja">                    
-                                Oczywiście. Mogę ci zaproponować smaki: mocha, migdałową albo kawową.
+                                Oczywiście. Mogę Ci zaproponować smaki: mocha, migdałową albo kawową.
                             </Speech>
                             <Speech character="???">                    
                                 Och. Tak, myślę że to bardziej dla mnie...
@@ -212,7 +216,7 @@
         <Switch>
             <Case option_id="1">
                 <Speech character="Ja">
-                    To proponuję mocha. Połączenie goryczy kawy i słodyczy czekolady zaprawione smakiem cynamonu to bardzo bogata miesznka, która na pewno przypadnie ci do gustu. 
+                    To proponuję mocha. Połączenie goryczy kawy i słodyczy czekolady zaprawione smakiem cynamonu to bardzo bogata miesznka, która na pewno przypadnie Ci do gustu. 
                 </Speech>
                 <Speech character="???">
                     To skorzystam z pańskiej propozycji. Niech będzie mocha.
@@ -236,6 +240,7 @@
             </Case>
         </Switch>
     </Choice>
+    <Update character_id="Brunetka" mouth="Smile"/>
     <Speech>
         Widzę że jest dużo bardziej rozluźniona niż w momencie gdy weszła do lokalu. Rozgląda się, oglądając wnętrze.
     </Speech>
@@ -251,11 +256,12 @@
     <Speech>
         Dziewczyna nagle się zaczerwienia i spuszcza wzrok, orientując się co właśnie powiedziała.
     </Speech>
+    <Update character_id="Brunetka" eyes="Down" mouth="Neutral"/>
     <Choice>
         <Options duration="8" default_id="0">
             <Option id="0"><i>Zbywam tę uwagę milczeniem</i></Option>
             <Option id="1">Dzięki, miło mi.</Option>
-            <Option id="2">Cóż, ty chyba nie potrzebujesz specjalnego otoczenia by wyglądać ładnie.</Option>
+            <Option id="2">Cóż, Ty chyba nie potrzebujesz specjalnego otoczenia by wyglądać ładnie.</Option>
             <Option id="2">Daj spokój, mam dość tego uniformu. Wolałbym przyjść we własnych ciuchach.</Option>
         </Options>
         <Switch>
@@ -291,7 +297,7 @@
             </Case>
             <Case option_id="3">
                 <Speech character="???">
-                    Brunetka: Tak! Uniform. Pasuje. Znaczy się, jak chodzi ci się w nim źle to możesz go zdją...
+                    Brunetka: Tak! Uniform. Pasuje. Znaczy się, jak chodzi Ci się w nim źle to możesz go zdją...
                 </Speech>
                 <Speech>
                     Gryzie się w język, czerwieniejąc jeszcze bardziej, po czym cichnie na dłuższą chwilę.
@@ -302,8 +308,9 @@
     <Speech>
         Po jakimś czasie wreszcie zbiera się na odwagę i odzywa się.
     </Speech>
+    <Update character_id="Brunetka" eyes="Forward"/>
     <Speech character="???">
-        ...w każdym razie, widać że dobrze ci się tu pracuje.
+        ...w każdym razie, widać że dobrze Ci się tu pracuje.
     </Speech>
     <Speech character="Ja">        
         Nie jest źle.
@@ -316,22 +323,6 @@
     </Speech>
     <Speech character="???">
         A co byłoby twoją pracą marzeń?
-    </Speech>
-
-    <Speech>        
-        Podnoszę wzrok. Przed ladą stoi młoda dziewczyna w okularach. Zdaje się być trochę przytłoczona atmosferą tego miejsca.
-    </Speech>
-    <Speech character="Ja">        
-        Dzień dobry! Witamy w Bubble World!
-    </Speech>
-    <Speech character="Ja">        
-        Co dla ciebie?
-    </Speech>
-    <Speech>        
-        Jej wzrok kieruje się ku obszernej liście za moimi plecami. Mruży oczy za szkłami okularów i zaczyna się jej przyglądać.
-    </Speech>
-    <Speech>        
-        Mija chwila. Dziewczyna nadal w ciszy studiuje menu.
     </Speech>
     <Choice>
         <Options duration="8" default_id="0">
@@ -399,6 +390,7 @@
     <Speech>
         Jej twarz rozjaśnia się, widzę że tylko czekała na to pytanie.
     </Speech>
+    <Update character_id="Brunetka" mouth="Smile"/>
     <Speech character="???">
         Uwielbiam!
     </Speech>
@@ -406,7 +398,7 @@
         Czytam książki od kiedy byłam mała. Zawsze mnie fascynowało jak autor może wpłynąć na twoje emocje używając jedynie słów.
     </Speech>
     <Speech character="???">
-        Moja ulubiona książka to >>Mediator<<. Ma bardzo spokojny klimat, jednocześnie poruszając ważne tematy, a zakończenie jest na prawdę zaskakujące.
+        Moja ulubiona książka to "Mediator". Ma bardzo spokojny klimat, jednocześnie poruszając ważne tematy, a zakończenie jest na prawdę zaskakujące.
     </Speech>
     <Speech character="???">
         Kojarzysz?
@@ -418,11 +410,12 @@
         </Options>
         <Switch>
             <Case option_id="0">
+                <Update character_id="Brunetka" mouth="Neutral"/>
                 <Speech>
                     Dziewczyna pokiwała głową ze zrozumieniem.
                 </Speech>
                 <Speech character="???">
-                    Domyślałam się, to dosyć niszowa książka. Ale bardzo dobra, polecam ci z całego serca.
+                    Domyślałam się, to dosyć niszowa książka. Ale bardzo dobra, polecam Ci z całego serca.
                 </Speech>
             </Case>
             <Case option_id="1">
@@ -456,7 +449,9 @@
     <Speech character="Ja">
         Tenteki.
     </Speech>
+    <Update character_id="Brunetka" mouth="Smile"/>
     <Speech character="Shiori">
         W takim razie do zobaczenia, Tenteki!
     </Speech>
+    <Exit character_id="Brunetka"/>
 </Chapter>

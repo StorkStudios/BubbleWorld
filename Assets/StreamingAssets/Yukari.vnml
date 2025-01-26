@@ -39,7 +39,7 @@
         <i>Sprzedajemy tylko jeden rozmiar, ale wolałem jej tego nie mówić.</i>
     </Speech>
     <Speech character_id="Farbowana" character_name="Yukari">
-        Jestem Yukari, a ty?
+        Jestem Yukari, a Ty?
     </Speech>
     <Speech character_id="Gracz" character_name="Ja">
         Jestem Tenteki.
@@ -78,7 +78,7 @@
         Teraz to najchętniej znalazłabym kogoś innego żeby jak najszybciej o nim zapomnieć.
     </Speech>
     <Speech character_id="Farbowana" character_name="Yukari">
-        A ty masz kogoś? Jesteś całkiem całkiem.
+        A Ty masz kogoś? Jesteś całkiem całkiem.
     </Speech>
     <Choice>
         <Options>

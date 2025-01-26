@@ -6,7 +6,7 @@
         Ja też nie chce tego robić!
     </Speech>
     <Speech character_id="Ruda" character_name="Bertha">
-        To ty mnie do tego zmusiłeś!
+        To Ty mnie do tego zmusiłeś!
     </Speech>
     <Variable name="fightResult" value="0" />
     <Choice>
@@ -18,7 +18,7 @@
         <Switch>
             <Case option_id="0">
                 <Speech>
-                    Bertha zadała ci cios w brzuch.
+                    Bertha zadała Ci cios w brzuch.
                 </Speech>
             </Case>
             <Case option_id="1">
@@ -29,7 +29,7 @@
             </Case>
             <Case option_id="2">
                 <Speech>
-                    Uniknąłeś w złą stronę i Bertha zadała ci cios w plecy.
+                    Uniknąłeś w złą stronę i Bertha zadała Ci cios w plecy.
                 </Speech>
             </Case>
         </Switch>
@@ -47,7 +47,7 @@
                     <Switch>
                         <Case option_id="0">
                         <Speech>
-                            Bertha korzysta z twojej chwili nieuwagi i cię atakuje.
+                            Bertha korzysta z twojej chwili nieuwagi i Cię atakuje.
                         </Speech>
                         </Case>
                         <Case option_id="1">
@@ -131,7 +131,7 @@
         I tak zaraz będzie po tobie!
     </Speech>
     <Speech character_id="Ruda" character_name="Bertha">
-        Zaraz przyjedzie tutaj mój ojciec i cię załatwi!
+        Zaraz przyjedzie tutaj mój ojciec i Cię załatwi!
     </Speech>
     <Link path="Finale.vnml"/>
 </Chapter>
