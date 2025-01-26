@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Earlgray_0: 2129260683433625913
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
