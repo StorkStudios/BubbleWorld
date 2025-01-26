@@ -306,7 +306,7 @@ MonoBehaviour:
         item: Farbowana
       Value: {fileID: 11400000, guid: 837b654c6901098f6953aed471c65819, type: 2}
     - Key:
-        item: Bondynka
+        item: Blondynka
       Value: {fileID: 11400000, guid: 8d75386fb80030328abede22ed1e698a, type: 2}
     - Key:
         item: Brunetka

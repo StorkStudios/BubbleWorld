@@ -150,7 +150,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firstChapterPath: start.vnml
   CanSkip: 0
-  IsMinigame: 0
 --- !u!4 &183770193
 Transform:
   m_ObjectHideFlags: 0
