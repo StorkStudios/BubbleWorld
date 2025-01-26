@@ -33,7 +33,7 @@ public class CharacterPortrait : MonoBehaviour
 
     public float position;
 
-    private RectTransform rectTransform;
+    public RectTransform rectTransform;
     private CanvasGroup canvasGroup;
     
     private void Awake()

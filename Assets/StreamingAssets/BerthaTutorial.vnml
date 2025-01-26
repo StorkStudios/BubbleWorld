@@ -12,7 +12,6 @@
     <Speech character_id="Ruda" character_name="???">
         Wstawaj, wstawaj, wstawaj! Klientka chce zamówić bubble tea!
     </Speech>
-    <Enter character_id="Ruda" position="0.5" eyes="Angry" mouth="Sad"/>
     <Speech>
         <i>To właśnie ona: Bertha.</i>
     </Speech>

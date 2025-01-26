@@ -1,5 +1,6 @@
 using DG.Tweening;
 using System.Collections.Generic;
+using System.Reflection;
 using UnityEngine;
 
 public class CharacterPortraitsSection : MonoBehaviour
@@ -65,6 +66,7 @@ public class CharacterPortraitsSection : MonoBehaviour
         portrait.Base = characterData.BaseSprite;
         portrait.Eyes = characterData.Eyes[values.eyes];
         portrait.Mouth = characterData.Mouth[values.mouth];
+        portrait.rectTransform.sizeDelta = characterData.Size;
 
         portrait.CanvasGroup.alpha = 0;
         portrait.CanvasGroup.DOFade(1, fadeDuration);

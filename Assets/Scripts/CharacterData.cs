@@ -31,4 +31,8 @@ public class CharacterData : ScriptableObject
     private SerializedDictionary<MouthPose, Sprite> mouth;
     public SerializedDictionary<MouthPose, Sprite> Mouth => mouth;
 
+    [SerializeField]
+    private Vector2 size;
+    public Vector2 Size => size;
+
 }
