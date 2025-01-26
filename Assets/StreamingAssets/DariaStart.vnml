@@ -107,11 +107,11 @@
                 <Speech character="Ja">
                     Ach, Białoruś, chabry, ziemniaki, coś słyszałem.
                 </Speech>
-                <Update character_id="Blondynka" mouth="Angry"/>
+                <Update character_id="Blondynka" eyes="Angry" mouth="Neutral"/>
                 <Speech>
                     Po tym jak wypowiedziałem to zdanie, na jej twarzy pojawił się wyraz oburzenia, ale zaraz zniknął i zamienił się w lekki uśmiech.
                 </Speech>
-                <Update character_id="Blondynka" mouth="Smile"/>
+                <Update character_id="Blondynka" mouth="Happy" eyes="Forward"/>
                 <Speech>
                     <i>Zdaje się że powiedziałem coś głupiego.</i>
                 </Speech>
@@ -137,7 +137,7 @@
         </Options>
         <Switch>
             <Case option_id="1">
-                <Update character_id="Blondynka" mouth="Neutral"/>
+                <Update character_id="Blondynka" mouth="Neutral" eyes="Forward"/>
                 <Speech character="???">
                     Nie przejmuj się, przywykłam.
                 </Speech>
@@ -153,13 +153,13 @@
                 <Speech>
                     Dziewczyna odwzajemnia uśmiech.
                 </Speech>
-                <Update character_id="Blondynka" mouth="Smile"/>
+                <Update character_id="Blondynka" mouth="Smile" eyes="Forward"/>
                 <Speech character="???">
                     Powiedzmy.
                 </Speech>
             </Case>
             <Case option_id="2">
-                <Update character_id="Blondynka" mouth="Smile"/>
+                <Update character_id="Blondynka" mouth="Smile" eyes="Forward"/>
                 <Speech character="Ja">
                     Jak się nazywa ten napój który dla Ciebie robię po Białorusku?
                 </Speech>
@@ -223,7 +223,7 @@
                 <Speech>
                     Odbierając kubek, dziewczyna patrzy na podpis na nim i uśmiech na jej twarzy natychmiast ustępuje miejsca frustracji. Odzywa się z irytacją.
                 </Speech>
-                <Update character_id="Blondynka" mouth="Angry"/>
+                <Update character_id="Blondynka" mouth="Neutral" eyes="Angry"/>
                 <Speech character="???">
                    Oh, dzięki...
                 </Speech>
