@@ -102,28 +102,28 @@
                                 </TeaJellies>
                                 <TeaMixage>Medium</TeaMixage>
                             </MinigameStart>
-                            <Speech character="Yukari">
+                            <Speech character="Yukari" character_id="Farbowana">
                                 No i zajebiście!
                             </Speech>
                             <Speech>
                                 Yukari znów traci zainteresowanie Shiori.
                             </Speech>
-                            <Speech character="Yukari">
+                            <Speech character="Yukari" character_id="Farbowana">
                                 W ogóle to nie uwierzysz co się stało! Udało mi się zdobyć świetne miejscówki na ten koncert, o którym Ci mówiłam.
                             </Speech>
-                            <Speech character="Yukari">
+                            <Speech character="Yukari" character_id="Farbowana">
                                 Znaczy jeszcze ich nie mam. Ale już niedługo. Dlatego tak bardzo się spieszę.
                             </Speech>
-                            <Speech character="Yukari">
+                            <Speech character="Yukari" character_id="Farbowana">
                                 Jakiś frajer sprzedaje dobre miejsca za pół darmo. Już mam je zarezerwowane.
                             </Speech>
                             <Speech>
                                 Widzę jak tryska z niej radość. Musi jej naprawdę mocno zależeć na tym koncercie.
                             </Speech>
-                            <Speech character="Ja">
+                            <Speech character="Ja" character_id="Gracz">
                                 Nie chcę hamować twojego zapału, ale nie udało mi się jeszcze przekonać szefowej żeby dała mi wolne.
                             </Speech>
-                            <Speech character="Yukari">
+                            <Speech character="Yukari" character_id="Farbowana">
                                 Wiem, że Ci się uda.
                             </Speech>
                             <Speech>
@@ -133,16 +133,16 @@
                                 Zakłopotany podaję jej zamówione przez nią bubble tea.
                             </Speech>
                             <MinigameEnd />
-                            <Speech character="Ja">
+                            <Speech character="Ja" character_id="Gracz">
                                 Proszę.
                             </Speech>
-                            <Speech character="Yukari">
+                            <Speech character="Yukari" character_id="Farbowana">
                                 Dzięki. Powinnam jeszcze wpaść przed koncertem.
                             </Speech>
                             <Speech>
                                 Wygląda jakby się wachała, ale po chwili dodaje jeszcze.
                             </Speech>
-                            <Speech character="Yukari">
+                            <Speech character="Yukari" character_id="Farbowana">
                                 Jakby Ci się jednak nie udało przekonać szefowej to daj mi z nią chwile porozmawiać. Jestem pewna, że zaraz zmieni zdanie.
                             </Speech>
                             <Speech>
@@ -163,10 +163,10 @@
                         </Case>
                         <Case option_id="2">
                             <VariableAdd name="Shiori" value="1" />
-                            <Speech character="Yukari">
+                            <Speech character="Yukari" character_id="Farbowana">
                                 Pfff, serio? Nie spodziewałam się tego po tobie.
                             </Speech>
-                            <Speech character="Yukari">
+                            <Speech character="Yukari" character_id="Farbowana">
                                 Jak mówiłam, śpieszy mi się. Do widzenia.
                             </Speech>
                             <Speech>
@@ -175,10 +175,10 @@
                             <Speech>
                                 W lokalu zapada cisza, mącona tylko podrygującym wciąż nad drzwiami dzwonkiem.
                             </Speech>
-                            <Speech character="Ja">
+                            <Speech character="Ja" character_id="Gracz">
                                 Tooo... co dla Ciebie?
                             </Speech>
-                            <Speech character="Shiori">
+                            <Speech character="Shiori" character_id="Brunetka">
                                 To co ostatnio, proszę.
                             </Speech>
                             <Speech>
@@ -193,7 +193,7 @@
                                 </TeaJellies>
                                 <TeaMixage>Light</TeaMixage>
                             </MinigameStart>
-                            <Speech character="Shiori">
+                            <Speech character="Shiori" character_id="Brunetka">
                                 Może nie musiałeś jej złościć... Może naprawdę się śpieszyła.
                             </Speech>
                             <Choice>
@@ -204,7 +204,7 @@
                                 </Options>
                                 <Switch>
                                     <Case option_id="0">
-                                        <Speech character="Shiori">
+                                        <Speech character="Shiori" character_id="Brunetka">
                                             Po prostu nie chcę by przeze mnie była spóźniona...
                                         </Speech>
                                         <Speech>
@@ -222,7 +222,7 @@
                                         <Speech character="Ja">
                                             Chciała Cię po prostu zastraszyć i tyle.
                                         </Speech>
-                                        <Speech character="Shiori">
+                                        <Speech character="Shiori" character_id="Brunetka">
                                             Pewnie... pewnie masz rację.
                                         </Speech>
                                         <Speech>
@@ -230,7 +230,7 @@
                                         </Speech>
                                     </Case>
                                     <Case option_id="1">
-                                        <Speech character="Shiori">
+                                        <Speech character="Shiori" character_id="Brunetka">
                                             Ja... dziękuję. To miłe z twojej strony.
                                         </Speech>
                                         <Speech>
@@ -241,19 +241,19 @@
                                         <Speech character="Ja">
                                             Chciałaś się od razu poddać w tej dyskusji, mimo że wiedziałaś że to Ty masz rację.
                                         </Speech>
-                                        <Speech character="Shiori">
+                                        <Speech character="Shiori" character_id="Brunetka">
                                             Ona... zestresowała mnie.
                                         </Speech>
                                         <Speech character="Ja">
                                             Zauważyłem. Potrafi być strasznie napastliwa. Ale musisz nauczyć się bronić przed takim zachowaniem, inaczej ludzie zawsze będą Cię spychać do tyłu.
                                         </Speech>
-                                        <Speech character="Shiori">
+                                        <Speech character="Shiori" character_id="Brunetka">
                                             Wiem, po prostu mam straszny problem z tym...
                                         </Speech>
-                                        <Speech character="Shiori">
+                                        <Speech character="Shiori" character_id="Brunetka">
                                             Ale dziękuję że chcesz mi z tym pomóc.
                                         </Speech>
-                                        <Speech character="Shiori">
+                                        <Speech character="Shiori" character_id="Brunetka">
                                             Doceniam to. Naprawdę.
                                         </Speech>
                                         <Speech>
@@ -262,19 +262,19 @@
                                     </Case>
                                 </Switch>
                             </Choice>
-                            <Speech character="Shiori">
+                            <Speech character="Shiori" character_id="Brunetka">
                                 Wiesz, ja... nie przywykłam zbyt do takich sytuacji.
                             </Speech>
                             <Speech>
                                 Shiori opiera się o kontuar i kładzie głowę na rękach, jej włosy rozsypują się po blacie.
                             </Speech>
-                            <Speech character="Shiori">
+                            <Speech character="Shiori" character_id="Brunetka">
                                 To nie jest zbyt ludna okolica. Rzadko kiedy losowo spotykam tu innych ludzi, więc nie nauczyłam się zbyt z nimi rozmawiać.
                             </Speech>
-                            <Speech character="Shiori">
+                            <Speech character="Shiori" character_id="Brunetka">
                                 Daria to co innego, tam gdzie ona mieszka miała sporo relacji z rówieśnikami.
                             </Speech>
-                            <Speech character="Shiori">
+                            <Speech character="Shiori" character_id="Brunetka">
                                 Ale ja, cóż... Powiedzmy że mam na tym polu pewne zaległości.
                             </Speech>
                             <Speech>
@@ -289,7 +289,7 @@
                             <Speech>
                                 Shiori obraca głowę i patrzy na mnie. Uśmiecha się.
                             </Speech>
-                            <Speech character="Shiori">
+                            <Speech character="Shiori" character_id="Brunetka">
                                 Dzięki, Tenteki. To bardzo miłe.
                             </Speech>
                             <MinigameEnd />
@@ -299,7 +299,7 @@
                             <Speech>
                                 Podaję jej kubek ze słomką, ona chwyta go w rękę i wstaje.
                             </Speech>
-                            <Speech character="Shiori">
+                            <Speech character="Shiori" character_id="Brunetka">
                                 Dzięki jeszcze raz. Będę lecieć. Do następnego.
                             </Speech>
                             <Speech>

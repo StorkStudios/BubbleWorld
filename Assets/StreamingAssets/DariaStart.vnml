@@ -38,7 +38,7 @@
         </TeaJellies>
         <TeaMixage>Medium</TeaMixage>
     </MinigameStart>
-    <Speech character="???">
+    <Speech character="???" character_id="Blondynka">
         Jak długo pracuję te cafe?
     </Speech>
     <Speech>
