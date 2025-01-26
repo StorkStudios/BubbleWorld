@@ -1,7 +1,9 @@
 <Chapter>
+    <Enter character_id="Ruda" position="0.5" eyes="Forward" mouth="Neutral"/>
     <Speech character_id="Gracz" character="Ja">
         Ehh. To był Ciężki dzień. Dawno nie było aż tylu klientów.
     </Speech>
+    <Update character_id="Ruda" mouth="Smile"/>
     <Speech character_id="Ruda" character="Bertha">
         Dobrze się spisałeś.
     </Speech>
@@ -14,6 +16,7 @@
     <Speech>
         <i>Jak jest dzisiaj taka miła to może uda się coś wynegocjować?</i>
     </Speech>
+    <Update character_id="Ruda" mouth="Neutral"/>
     <Speech character_id="Ruda" character="Bertha">
         Pfff.
     </Speech>
@@ -35,6 +38,7 @@
     <Speech character_id="Ruda" character="Bertha">
         Ale masz rację że należy Ci się jakaś nagroda.
     </Speech>
+    <Update character_id="Ruda" mouth="Smile"/>
     <Speech character_id="Ruda" character="Bertha">
         Możesz mi zrobić bubble tea!
     </Speech>
@@ -47,7 +51,17 @@
     <Speech character_id="Gracz" character="Ja">
         Jak sobie życzysz.
     </Speech>
-    <MinigameStart />
+        <MinigameStart>
+        <TeaBase>Mint</TeaBase>
+        <TeaSyroup>Strawberry</TeaSyroup>
+        <SecondSyroup>Milk</SecondSyroup>
+        <TeaJellies>
+            <Jelly>Banana</Jelly>
+            <Jelly>Banana</Jelly>
+            <Jelly>Banana</Jelly>
+        </TeaJellies>
+        <TeaMixage>Light</TeaMixage>
+    </MinigameStart>
     <Speech character_id="Ruda" character="Bertha">
         I jak tam minął Ci dzień?
     </Speech>
@@ -68,6 +82,7 @@
                 <Speech character_id="Gracz" character="Ja">
                     Mówiła, że jest z Białorusi i przyjechała tutaj studiować japońską kulturę.
                 </Speech>
+                <Update character_id="Ruda" mouth="Neutral"/>
                 <Speech character_id="Ruda" character="Bertha">
                     Japońską?
                 </Speech>
@@ -88,6 +103,7 @@
                 <Speech character_id="Gracz" character="Ja">
                     Najbardziej moją uwagę zwróciła Shiori.
                 </Speech>
+                <Update character_id="Ruda" mouth="Neutral"/>
                 <Speech character_id="Gracz" character="Ja">
                     Była bardzo nieśmiała, ale jak zacząłem z nią rozmawiać, to rozmowa się już jakoś potoczyła.
                 </Speech>
@@ -99,6 +115,7 @@
                 <Speech character_id="Gracz" character="Ja">
                     Najlepiej rozmawiało mi się z Yukari.
                 </Speech>
+                <Update character_id="Ruda" mouth="Neutral"/>
                 <Speech character_id="Gracz" character="Ja">
                     Jest dosyć porywcza, ale nie uważem żeby to była jej wada.
                 </Speech>
@@ -123,14 +140,18 @@
             <Case option_id="3"></Case>
         </Switch>
     </Choice>
+    <Update character_id="Ruda" mouth="Angry"/>
     <Speech>
         Bertha nie wyglądała na zadowoloną z tej odpowiedzi.
     </Speech>
+    <Update character_id="Ruda" mouth="Neutral"/>
     <Speech>
         Wpatrywała się we mnie dopóki nie skończyłem przygotowywać jej herbaty.
     </Speech>
-    <MinigameEnd>
+    <MinigameEnd/>
     <Speech>
         Chwyciła ją i pomaszerowała w stronę drzwi.
     </Speech>
+    <Exit character_id="Ruda"/>
+    <Link path="DariaAndShiori.ynml" />
 </Chapter>
