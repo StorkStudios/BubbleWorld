@@ -464,7 +464,7 @@
     <Speech character="Ja">
         Tenteki.
     </Speech>
-    <Update character_id="Brunetka" mouth="Smile" eyes="Smile"/>
+    <Update character_id="Brunetka" mouth="Smile" eyes="Happy"/>
     <Speech character="Shiori">
         W takim razie do zobaczenia, Tenteki!
     </Speech>

@@ -164,13 +164,13 @@
                 <Speech>
                     Dziewczyna odwzajemnia uśmiech.
                 </Speech>
-                <Update character_id="Blondynka" mouth="Smile" eyes="Forward"/>
+                <Update character_id="Blondynka" mouth="Happy" eyes="Forward"/>
                 <Speech character="???" character_id="Blondynka">
                     Powiedzmy.
                 </Speech>
             </Case>
             <Case option_id="2">
-                <Update character_id="Blondynka" mouth="Smile" eyes="Forward"/>
+                <Update character_id="Blondynka" mouth="Happy" eyes="Forward"/>
                 <Speech character="Ja">
                     Jak się nazywa ten napój który dla Ciebie robię po Białorusku?
                 </Speech>
