@@ -23,9 +23,6 @@ TextureImporter:
   - first:
       213: 3407071456032388209
     second: brunetkaEyesAngry_6
-  - first:
-      213: 8075368373079075230
-    second: brunetkaEyesAngry_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -148,7 +145,7 @@ TextureImporter:
         serializedVersion: 2
         x: 527
         y: 1189
-        width: 78
+        width: 83
         height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -168,10 +165,10 @@ TextureImporter:
       name: brunetkaEyesAngry_2
       rect:
         serializedVersion: 2
-        x: 576
-        y: 1179
-        width: 30
-        height: 19
+        x: 595
+        y: 1182
+        width: 8
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,10 +187,10 @@ TextureImporter:
       name: brunetkaEyesAngry_3
       rect:
         serializedVersion: 2
-        x: 591
-        y: 1197
-        width: 19
-        height: 14
+        x: 630
+        y: 1189
+        width: 86
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -212,10 +209,10 @@ TextureImporter:
       name: brunetkaEyesAngry_4
       rect:
         serializedVersion: 2
-        x: 630
-        y: 1189
-        width: 86
-        height: 37
+        x: 634
+        y: 1150
+        width: 78
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,10 +231,10 @@ TextureImporter:
       name: brunetkaEyesAngry_5
       rect:
         serializedVersion: 2
-        x: 634
-        y: 1150
-        width: 78
-        height: 51
+        x: 592
+        y: 1172
+        width: 14
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -256,28 +253,6 @@ TextureImporter:
       name: brunetkaEyesAngry_6
       rect:
         serializedVersion: 2
-        x: 592
-        y: 1172
-        width: 14
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 174fe251079584f20800000000000000
-      internalID: 3407071456032388209
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: brunetkaEyesAngry_7
-      rect:
-        serializedVersion: 2
         x: 616
         y: 1122
         width: 7
@@ -290,8 +265,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e996dcb00c8711070800000000000000
-      internalID: 8075368373079075230
+      spriteID: 174fe251079584f20800000000000000
+      internalID: 3407071456032388209
       vertices: []
       indices: 
       edges: []
