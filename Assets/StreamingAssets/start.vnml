@@ -1,4 +1,5 @@
 <Chapter>
+    <Music name="Cafe" />
     <Enter character_id="Blondynka"
            eyes="Forward"
            mouth="Neutral"

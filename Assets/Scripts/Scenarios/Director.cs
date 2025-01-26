@@ -34,6 +34,7 @@ class Director : Singleton<Director>
         { "Background", () => new DeserializeHandler<Background>() },
         { "MinigameEnd", () => new MinigameEndHandler() },
         { "GameOver", () => new GameOverHandler() },
+        { "Music", () => new DeserializeHandler<Music>() },
     };
 
     public IEnumerator LoadScript(string scriptPath)
