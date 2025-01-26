@@ -53,9 +53,78 @@
         </Options>
         <Switch>
             <Case option_id="1">
-                <Speech character="DEV">
-                    UNIMPLEMENTED
-                </Speech>
+                <Case option_id="1">
+                    <VariableAdd name="Yukari" value="1" />
+                    <MinigameStart>
+                        <TeaBase>Matcha</TeaBase>
+                        <TeaSyroup>PassionFruit</TeaSyroup>
+                        <TeaJellies>
+                            <Jelly>Chocolate</Jelly>
+                            <Jelly>Chocolate</Jelly>
+                        </TeaJellies>
+                        <TeaMixage>Medium</TeaMixage>
+                    </MinigameStart>
+                    <Speech character="Yukari" character_id="Farbowana">
+                        No i zajebiście!
+                    </Speech>
+                    <Speech>
+                        Yukari znów traci zainteresowanie Shiori.
+                    </Speech>
+                    <Speech character="Yukari" character_id="Farbowana">
+                        W ogóle to nie uwierzysz co się stało! Udało mi się zdobyć świetne miejscówki na ten koncert, o którym Ci mówiłam.
+                    </Speech>
+                    <Speech character="Yukari" character_id="Farbowana">
+                        Znaczy jeszcze ich nie mam. Ale już niedługo. Dlatego tak bardzo się spieszę.
+                    </Speech>
+                    <Exit character_id="Brunetka" />
+                    <Speech character="Yukari" character_id="Farbowana">
+                        Jakiś frajer sprzedaje dobre miejsca za pół darmo. Już mam je zarezerwowane.
+                    </Speech>
+                    <Speech>
+                        Widzę jak tryska z niej radość. Musi jej naprawdę mocno zależeć na tym koncercie.
+                    </Speech>
+                    <Speech character="Ja" character_id="Gracz">
+                        Nie chcę hamować twojego zapału, ale nie udało mi się jeszcze przekonać szefowej żeby dała mi wolne.
+                    </Speech>
+                    <Speech character="Yukari" character_id="Farbowana">
+                        Wiem, że Ci się uda.
+                    </Speech>
+                    <Speech>
+                        To mówiąc, uśmiechnęła się do mnie promiennie.
+                    </Speech>
+                    <Speech>
+                        Zakłopotany podaję jej zamówione przez nią bubble tea.
+                    </Speech>
+                    <MinigameEnd />
+                    <Speech character="Ja" character_id="Gracz">
+                        Proszę.
+                    </Speech>
+                    <Speech character="Yukari" character_id="Farbowana">
+                        Dzięki. Powinnam jeszcze wpaść przed koncertem.
+                    </Speech>
+                    <Speech>
+                        Wygląda jakby się wachała, ale po chwili dodaje jeszcze.
+                    </Speech>
+                    <Speech character="Yukari" character_id="Farbowana">
+                        Jakby Ci się jednak nie udało przekonać szefowej to daj mi z nią chwile porozmawiać. Jestem pewna, że zaraz zmieni zdanie.
+                    </Speech>
+                    <Speech>
+                        Po tych słowach rusza w stronę drzwi. Wychodząc rzuca mi jeszcze jedno przelotne spojrzenie i uśmiech.
+                    </Speech>
+                    <Exit character_id="Farbowana" />
+                    <Speech>
+                        Patrzę na nią jeszcze przez chwilę gdy idzie ulicą, zanim znikna za krawędzią okna.
+                    </Speech>
+                    <Speech>
+                        Przypominając sobie o czymś, rozglądam się w poszukiwaniu Shiori, ale wszystkie stoliki są puste.
+                    </Speech>
+                    <Speech>
+                        Wygląda na to że wyszła podczas mojej rozmowy z Yukari. 
+                    </Speech>
+                    <Speech>
+                        <i>Może jednak powinienem był dać jej zamówić jako pierwszej?</i>
+                    </Speech>
+                </Case>
                 <Exit character_id="Brunetka" />
                 <Exit character_id="Farbowana" />
             </Case>
@@ -157,7 +226,7 @@
                             <Speech>
                                 Po tych słowach rusza w stronę drzwi. Wychodząc rzuca mi jeszcze jedno przelotne spojrzenie i uśmiech.
                             </Speech>
-                            <Exit character_id="Farbowana />
+                            <Exit character_id="Farbowana" />
                             <Speech>
                                 Patrzę na nią jeszcze przez chwilę gdy idzie ulicą, zanim znikna za krawędzią okna.
                             </Speech>
