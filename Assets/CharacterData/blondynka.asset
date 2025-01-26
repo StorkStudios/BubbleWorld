@@ -12,33 +12,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ff230c37c3b02a45bb7cd855aedf6b0, type: 3}
   m_Name: blondynka
   m_EditorClassIdentifier: 
-  baseSprite: {fileID: -7928931306396499924, guid: 580712a50ac5792479125218e6a7d98d, type: 3}
+  baseSprite: {fileID: -2155997606133485209, guid: 96bdfbb4d439143489c46d691f055530, type: 3}
   eyes:
     pairs:
     - Key:
         item: 0
-      Value: {fileID: -7928931306396499924, guid: 580712a50ac5792479125218e6a7d98d, type: 3}
-    - Key:
-        item: 1
-      Value: {fileID: -7928931306396499924, guid: 580712a50ac5792479125218e6a7d98d, type: 3}
-    - Key:
-        item: 2
-      Value: {fileID: -7928931306396499924, guid: 580712a50ac5792479125218e6a7d98d, type: 3}
+      Value: {fileID: 2268252861159670733, guid: a546b3efd32f4994f8bc38d6a84139f1, type: 3}
     - Key:
         item: 3
-      Value: {fileID: -7928931306396499924, guid: 580712a50ac5792479125218e6a7d98d, type: 3}
+      Value: {fileID: 4019739032413224118, guid: 979613e0c0bd5ff47b2f0ae5a5b5d58e, type: 3}
+    - Key:
+        item: 7
+      Value: {fileID: -6076139971842420693, guid: c68e51127da2c2045b05cb1b9daa64b9, type: 3}
+    - Key:
+        item: 6
+      Value: {fileID: 2268252861159670733, guid: a546b3efd32f4994f8bc38d6a84139f1, type: 3}
   mouth:
     pairs:
     - Key:
-        item: 0
-      Value: {fileID: -7928931306396499924, guid: 580712a50ac5792479125218e6a7d98d, type: 3}
+        item: 5
+      Value: {fileID: 7183768420718982998, guid: 8c9676d494f2a9c40807b7a561c360fe, type: 3}
     - Key:
-        item: 1
-      Value: {fileID: -7928931306396499924, guid: 580712a50ac5792479125218e6a7d98d, type: 3}
+        item: 0
+      Value: {fileID: -4709820027719721722, guid: 400143de13231654192aa84322a1d6e9, type: 3}
     - Key:
         item: 2
-      Value: {fileID: -7928931306396499924, guid: 580712a50ac5792479125218e6a7d98d, type: 3}
+      Value: {fileID: 1267232341474515489, guid: ba7bc4b92037f674484944b81227c41a, type: 3}
     - Key:
         item: 3
-      Value: {fileID: -7928931306396499924, guid: 580712a50ac5792479125218e6a7d98d, type: 3}
+      Value: {fileID: -4709820027719721722, guid: 400143de13231654192aa84322a1d6e9, type: 3}
   size: {x: 275, y: 700}

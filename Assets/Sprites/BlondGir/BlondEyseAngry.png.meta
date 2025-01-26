@@ -111,6 +111,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -118,10 +131,10 @@ TextureImporter:
       name: BlondEyseAngry_0
       rect:
         serializedVersion: 2
-        x: 308
-        y: 1420
-        width: 133
-        height: 73
+        x: 113
+        y: 0
+        width: 848
+        height: 1803
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -136,95 +149,6 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: BlondEyseAngry_1
-      rect:
-        serializedVersion: 2
-        x: 337
-        y: 1469
-        width: 104
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 351e35357eba31600800000000000000
-      internalID: 437882598808871251
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BlondEyseAngry_2
-      rect:
-        serializedVersion: 2
-        x: 489
-        y: 1462
-        width: 94
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d81c4bfb5153b50e0800000000000000
-      internalID: -2280170418806144627
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BlondEyseAngry_3
-      rect:
-        serializedVersion: 2
-        x: 607
-        y: 1490
-        width: 7
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 10f89b0c48f401050800000000000000
-      internalID: 5769198554249268993
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BlondEyseAngry_4
-      rect:
-        serializedVersion: 2
-        x: 486
-        y: 1421
-        width: 133
-        height: 61
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 49022b02e6fa33fd0800000000000000
-      internalID: -2363352491909570412
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: BlondEyseAngry_5
       rect:
         serializedVersion: 2
@@ -259,7 +183,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BlondEyseAngry_0: 4019739032413224118
+      BlondEyseAngry_1: 437882598808871251
+      BlondEyseAngry_2: -2280170418806144627
+      BlondEyseAngry_3: 5769198554249268993
+      BlondEyseAngry_4: -2363352491909570412
+      BlondEyseAngry_5: 5274446925665550462
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
