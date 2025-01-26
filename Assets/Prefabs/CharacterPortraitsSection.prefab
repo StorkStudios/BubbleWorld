@@ -299,6 +299,18 @@ MonoBehaviour:
     - Key:
         item: Kebab
       Value: {fileID: 11400000, guid: 695e6c72eae07b5438a88f29e3bf9a56, type: 2}
+    - Key:
+        item: Ruda
+      Value: {fileID: 11400000, guid: 44b15fad20f300e289b07d39a278a7d9, type: 2}
+    - Key:
+        item: Farbowana
+      Value: {fileID: 11400000, guid: 837b654c6901098f6953aed471c65819, type: 2}
+    - Key:
+        item: Bondynka
+      Value: {fileID: 11400000, guid: 8d75386fb80030328abede22ed1e698a, type: 2}
+    - Key:
+        item: Brunetka
+      Value: {fileID: 11400000, guid: 235b38bbe5d3127918c988a787e2fc22, type: 2}
   speechBubbles:
     pairs:
     - Key:
