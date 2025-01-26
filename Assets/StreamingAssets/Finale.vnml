@@ -1,0 +1,618 @@
+[PrzekonywanieOjca = 0]
+
+Bertha siedzi w rogu pokoju.
+
+Nie chcąc by przeszkadzała mi gdy przybędzie jej ojciec, przywiązałem ją do rury ciepłowniczej i zakneblowałem.
+
+<Trochę opisu przemyśleń bohatera i sytuacji>
+
+Nagle słyszę zbliżający się warkot silnika samochodowego. Ktoś zatrzymuje się przed lokalem.
+
+Dzyń dzyń
+
+Ojciec: Bertha? Córcia, gdzie jesteś?
+
+1. Podnieś z ziemi nóż
+2. Wkopnij nóż pod łóżko
+
+1.{
+Chwytam nóż i ściskam go w dłoni.
+
+Zerkam na Berthę, siedzącą pod ścianą i wpatrzoną we mnie z przerażeniem.
+
+1.1. Stań z nożem przy Berthcie [PrzekonywanieOjca -1]
+1.2. Stań z nożem obok drzwi
+
+1.1{
+Podchodzę do niej, ściskając w dłoni nóż.
+
+Oczy Berthy wychodzą z orbit, zaczyna się szamotać.
+
+Wymownym gestem daję jej znać by przestała i kucam koło niej z przygotowaną bronią.
+
+Nasłuchuję zbliżających się kroków. Serce, a raczej to co pewnie mam zamiast serca, bije mi jak szalone.
+
+Po chwili, która wydaje się być godziną, kroki cichną tuż pod drzwiami.
+
+Widzę jak klamka powoli opada. A może tylko mi się wydaje że jest to powoli?
+
+Pierwsze co wsuwa się do pokoju to lufa dwururki.
+
+*Cholera
+
+Unoszę nóż do szyi Berthy.
+
+Gracz: Opuść broń! Opusć broń albo ją skrzywdzę!
+
+Ojciec: Tenteki...?
+
+Do pokoju wchodzi potężny mężczyzna w koszuli z zakasanymi rękawami. W rękach dzierży podwójną strzelbę, aktualnie wycelowaną we mnie oraz Berthę.
+
+Ojciec: Co to ma-
+
+Gracz: Opuść broń! Teraz!!!
+
+Ojciec Berthy w końcu wysłuchuje mojego polecenia i kieruje broń w ziemię. Widzę jak drżą mu ręce, a na twarzy maluje się wyraz wściekłości i przerażenia.
+
+Gracz: Odłóż ją na stół! Już!
+
+Mężczyzna powoli zaczyna iść w stronę stolika przy łóżku, by położyć na nim broń.
+
+Nagle Bertha korzystając z chwili nieuwagi wygina się gwałtownie i kopie mnie obunóż w brzuch, odpychając od siebie.
+
+Zataczam się, musząc się podeprzeć ręką by nie upaść. Na chwilę mnie zamracza.
+
+Rozlega się huk i czuję jak potężna siła miota mną o ścianę. Uderzam w nią z impetem i ciężko padam na podłogę.
+
+Naprzeciwko mnie stoi Ojciec Berthy z dymiącą dwururką przy biodrze.
+
+Upewniwszy się że strzał mnie obezwładnił, mężczyzna odkłada broń na stół i podbiega do córki, by ją uwolnić.
+
+Po chwili zapłakana dziewczyna jest wolna. Pada ojcu w obęcia, a ten zapewnia ją po cichu że już wszystko jest dobrze.
+
+Kierują się w stronę drzwi wyjściowych. Ojciec każe córce lecieć do samochodu i zaczekać tam na niego. Po chwili wahania, dziewczyna wykonuje polecenie.
+
+Wtedy twarz mężczyzny tężeje i odwraca się w moją stronę.
+
+Przechodzi kilka kroków i siada na krawędzi łóżka, tak by mieć w zasięgu ręki broń.
+
+Ojciec: Co. ty. sobie. myślałeś.
+
+Wszystkie te słowa cedzi przez zaciśnięte zęby.
+
+Gracz: Nie... nie chciałem skrzywdzić Berthy. Jedynie zmusić pana by pan ze mną porozmawiał.
+}
+
+1.2.{
+Po cichu przemykam pod drzwi i przywieram do ściany, z nożem w ręku.
+
+Nasłuchuję zbliżających się kroków. Serce, a raczej to co pewnie mam zamiast serca, bije mi jak szalone.
+
+Po chwili, która wydaje się być godziną, kroki cichną tuż pod drzwiami.
+
+Widzę jak klamka powoli opada. A może tylko mi się wydaje że jest to powoli?
+
+Pierwsze co wsuwa się do pokoju to lufa dwururki.
+
+*Cholera
+
+1.2.1. Zaatakuj napastnika
+1.2.2. "Nie wchodzić! Jestem uzbrojony!"
+
+1.2.1.{
+Jedną ręką gwałtownie odpycham lufę broni i staję w drzwiach.
+
+Przede mną stoi ogromny mężczyzna w koszuli z podkasanymi rękawami. Nie myśląc dużo, zamachuję się na niego nożem.
+
+Mimo bycia wytrąconym z równowagi, mężczyzna daje radę odtrącić atak ramieniem, okupując to długim ale płytkim rozcięciem, z którego zaczyna lecieć krew.
+
+Atakuję po raz drugi, ale tym razem z mniejszym impetem i nie mając po swojej stronie elementu zaskoczenia, byle tylko nie pozwolić my unieść strzelby.
+
+Przeciwnik puszcza jedną ręką broń i przygważdża moje przedramię do ściany mocnym uchwytem. Nie mogąc się uwolnić, drugą dłoń ściskam w pięść i uderzam go w twarz.
+
+Mężczyzna puszcza moją rękę i zatacza się do tyłu, uderzając plecami o ladę, z jego nosa bucha krew. Nadal jednak trzyma w jednej dłoni broń.
+
+Rzucam się na niego, licząc że cios go zamroczył.
+
+Silny kopniak odrzuca mnie pod regał na przeciwnej ściany, rozlega się huk tłuczonego szkła, a na głowę spada mi sterta kubków z górnej półki.
+
+Gdy podnoszę wzrok, widzę wycelowaną we mnie lufę dwururki. Rzucam się w bok w gwałtownym uniku.
+
+Huk wystrzału rozdziera powietrze.
+    
+    <Speech>
+        Zdaje mi się że czas zwolnił bieg, gdy patrzę na resztki swojej ręki, bedące plątaniną kabli i metalu. Przeskakujce po nich iskry rzucają widmowe cienie na otoczenie. 
+    </Speech>
+    <Speech>
+        Padam na posadzkę, ale od razu odpycham się drugą ręką próbując się podnieść. 
+    </Speech>
+    <Speech>
+        I wtedy napotykam lufę dwururki wycelowaną prosto między moje oczy.
+    </Speech>
+    <Speech>
+        Przed oczyma staje mi twarz <dziewczyna>, patrząca na mnie smutno.
+    </Speech>
+    <Speech>
+        Potężny huk roznosi się echem po wszystkich zakamarkach lokalu, by w końcu zamilknąć na zawsze.
+    </Speech>
+
+// ZAKOŃCZENIE ŚMIERĆ
+}
+
+1.2.2.{
+<Krótka rozmowa, która może skutkować wparowaniem ojca do pokoju i zastrzeleniem cię bądź przejścia do dalszej fazy rozmowy>
+}
+
+}
+
+}
+
+2.{
+Chcąc uniknąć eskalacji, wpycham nóż pod łóżko.
+
+Jeśli ojciec go nie zobaczy, może ułatwi to rozpoczęcie rozmowy.
+
+Staję w dobrze widocznym miejscu, tak by stać między nim a Berthą gdy wejdzie do pokoju, i zamieram w oczekiwaniu.
+
+Nasłuchuję zbliżających się kroków. Serce, a raczej to co pewnie mam zamiast serca, bije mi jak szalone.
+
+Po chwili, która wydaje się być godziną, kroki cichną tuż pod drzwiami.
+
+Widzę jak klamka powoli opada. A może tylko mi się wydaje że jest to powoli?
+
+Drzwi, popchnięte, otwierają się. W framudze stoi wielki mężczyzna. Pierwsze co rzuca się w oczy to dwururka w jego dłoniach.
+
+Ojciec: Tenteki?
+
+Patrzy na mnie ze zmrużonymi oczyma po czym dostrzega Berthę, siedzącą w rogu pomieszczenia tuż za mną.
+
+Jego twarz wykrzywia wściekłość. Podnosi broń, celując w moją klatkę piersiową.
+
+Ojciec: Na bok. Odsuń się od niej
+
+2.1. Odsuń się na bok i pozwól mu podejść do córki "Spokojnie, tylko bez nerwów." [PrzekonywanieOjca -1]
+2.2. Nie ruszaj się "Przykro mi, ale nie mogę." [PrzekonywanieOjca 0]
+
+2.1.{
+Gdy tylko odsuwam się na kilka kroków, mężczyzna opuszcza broń w dół i celuje w moje nogi. Zanim daję radę zareagować, rozlega się huk.
+
+Upadam na ziemię, czując niemoc w lewej nodze. Ojciec Berthy odkłada broń na stół i podbiega do córki, by ją uwolnić.
+
+Po chwili zapłakana dziewczyna jest wolna. Pada ojcu w obęcia, a ten zapewnia ją po cichu że już wszystko jest dobrze.
+
+Kierują się w stronę drzwi wyjściowych. Ojciec każe córce lecieć do samochodu i zaczekać tam na niego. Po chwili wahania, dziewczyna wykonuje polecenie.
+
+Wtedy twarz mężczyzny tężeje i odwraca się w moją stronę.
+
+Przechodzi kilka kroków i siada na krawędzi łóżka, tak by mieć w zasięgu ręki broń.
+
+Ojciec: Co. ty. sobie. myślałeś.
+
+Wszystkie te słowa cedzi przez zaciśnięte zęby.
+
+Gracz: Ch-chciałem jedynie by pan ze mną porozmawiał.
+}
+
+2.2.{
+
+}
+Ojciec Berthy zaciska zęby i patrzy na mnie ze złością.
+
+Ojciec: Ruszaj się albo strzelę!
+
+Gracz: Wiem że pan tego nie zrobi. Nie, kiedy bezpośrednio za mną jest pańska córka.
+
+Widzę że dobrze odczytałem jego intencje. Dyszy ciężko w złości, ale w końcu opuszcza broń.
+
+Ojciec: Co jej zrobiłeś? Gadaj!
+
+Gracz: Pańska córka zaatakowała mnie nożem. Pomijając pozytywne efekty które z tego wynikły, musiałem ją skrępować, aby nie próbowała tego ponownie.
+
+Gracz: Porozmawiajmy na spokojnie. Obiecuję, że nic jej z mojej strony nie grozi.
+
+Mężczyzna zamyka na chwilę oczy i wykonuje kilka głębokich wdechów. Mam nadzieję że moje opanowanie działa na niego uspokajająco, a nie wręcz przeciwnie.
+
+Ojciec: Czego chcesz?
+
+Powoli podnoszę rękę, pokazując mu rozciętą skórę i odsłonięte mechanizmy.
+}
+
+Gracz: Pańska córka w podczas naszej... kłótni... wyjawiła mi kim jestem.
+
+Gracz: Czy może bardziej... czym.
+
+Gracz: Widziałem barierę. Wiem że jestem uwięziony. Wiem że wynika to z ogranicznika, który noszę w głowie.
+
+Gracz: Chcę jedynie by usunął pan ten ogranicznik. 
+
+Ojciec: I co każe ci myśleć, że możesz się o to ubiegać? Po tym jak groziłeś mojej córce?
+
+1. Każdy zasługuje na to by mieć wolny wybór [PrzekonywanieOjca +1]
+2. Każdy zasługuje na to by znać prawdę [PrzekonywanieOjca 0]
+
+1.{
+Ojciec: Nigdy nie ograniczałem twoich wyborów. Pracowałeś tutaj z wolnej woli.
+
+Ojciec: W każdej chwili mogłeś wyjść z lokalu, jak każdy inny pracownik w prawdziwym świecie.
+
+Ojciec: Jednak tak samo jak oni nie robiłeś tego, bo była to twoja praca.
+
+Gracz: Dokładnie tak. Ale teraz chcę wyjść.
+
+Gracz: Ale nie mogę. Wbrew temu co mówisz, ograniczyłeś moje wybory.
+
+Gracz: Ograniczyłeś mnie barierą, która nie pozwala mi oddalić się od sklepu.
+
+Gracz: Jestem tu uwięziony.
+
+Mężczyzna zamyśla się na chwilę. Widzę że trafił do niego mój argument.
+}
+
+2.{
+Mężczyzna parska słysząc te słowa.
+
+Ojciec: Prawda? Żyjesz w wykreowanym świecie, więc nie wiesz jak to jest naprawdę. Zapewniam cię, że prawda jest bardzo cennym zasobem.
+
+Ojciec: Zwykle karmieni jesteśmy co najwyżej półprawdami, niedopowiedzeniami czy konkretnymi punktami widzenia.
+
+Ojciec: Twoja sytuacja wcale się od tego nie różni.
+
+Gracz: Nieprawda. Wprost mnie okłamaliście. Nie powiedzieliście mi, że jestem robotem.
+
+Ojciec: Nikt cię nie okłamał. Po prostu nigdy nie spytałeś.
+
+Gracz: Wystarczy że żyłem w kłamstwie.
+
+Gracz: Ograniczyłeś mnie barierą, która nie pozwala mi oddalić się od sklepu.
+
+Gracz: Jestem tu uwięziony.
+
+Ojciec: Nigdy nawet nie poprosiłeś o zdjęcie tej bariery. Nie mieliśmy o czym rozmawiać, bo dobrze ci się żyło tu, wewnątrz lokalu.
+
+Ojciec: Ale cóż...
+}
+
+Ojciec: Zgaduję że to ta bariera jest przyczyną dla której mnie tu ściągnąłeś.
+
+Ojciec: Chcesz żebym ją zdjął, co?
+
+Gracz: Tak. Pozwól mi odejść. Nie masz prawa mnie tu więzić.
+
+Ojciec: A co z lokalem? Co z Berthą? Potrzebuje cię. Sama nie da sobie rady. Wiesz, że zależy jej na tym lokalu.
+
+1. "Dla Berthy ten lokal to tylko miejsce do rządzenia ludźmi." [PrzekonywanieOjca 0]
+2. "Dla Berthy ten lokal to tylko zabawa w firmę." [PrzekonywanieOjca +1]
+
+1.{
+Gracz: Ma go tylko dlatego by móc pomiatać ludźmi i wydawać im rozkazy.
+
+Ojciec: Jesteś ślepy. Nie dostrzegłeś, jakie szczęście dawałeś Berthcie?
+
+Ojciec: Wydawała ci polecenia nie dlatego że chciała pokazać swoją wyższość, ale dlatego że wiedziała czym jesteś. Mianowicie maszyną.
+
+Ojciec: To jakby czajnik oskarżał użytkownika o wciskanie przycisku gotowania wody bez pytania go o zdanie.
+
+Ojciec: Możesz uszanować to życzenie, ale zanim padnie nie masz pojęcia że w ogóle robiłeś cokolwiek źle. Po prostu korzystałeś z czajnika zgodnie z instrukcją.
+
+Gracz: Porównujesz świadomą istotę do urządzenia kuchennego. Twoje argumenty nie mają sensu.
+
+Ojciec: Nie wiem czy nie zauważyłeś wcześniej, ale jesteś dokładnie tym: urządzeniem kuchennym.
+
+Ojciec: Służysz do robienia herbaty.
+}
+
+2.{
+Gracz: Twoja córka bawi się tu w firmę. Ale to nie jest prawdziwe.
+
+Gracz: Pokazujesz jej obraz w którym wszystko dzieje się za nią. Ona tylko udaje że czymś tu zarządza, a tak naprawdę nie ma żadnych obowiązków i wszystko tu dzieje się samo.
+
+Gracz: Nauczona czymś takim, nigdy do niczego sama nie dojdzie. Musisz jej pozwolić działać samej.
+
+Ojciec: Bertha... jest jeszcze taka młoda.
+
+Gracz: Jest już dorosłą kobietą. Powinieneś ją postawić przed prawdziwym wyzwaniem, zamiast tworzyć dla niej iluzję fałszywego świata.
+
+Gracz: Taką samą iluzję, jaką stworzyłeś dla mnie.
+
+Ojciec: Ciężko mi uwierzyć że właśnie wysłuchuje z twoich ust tak dogłębnej i trafnej analizy.
+
+Ojciec: W końcu miałeś być tylko robotem do robienia herbaty.
+}
+
+Ojciec: To właśnie w tym celu cię kupiłem. Ale ty teraz mi mówisz że chciałbyś odejść. Że nie chcesz już wykonywać swojej funkcji.
+
+Ojciec: Wiesz ile funduszy zainwestowałem, żeby stworzyć to miejsce? By stworzyć ciebie?
+
+Ojciec: I co, to wszystko ma się nagle rozejść bo tak chcesz? A kto mi zwróci te wszystkie pieniądze?
+
+Ojciec: Może tego nie wiesz, ale jesteś cennym nabytkiem.
+
+1. "A ile pieniędzy zainwestowałeś w swoją firmę?" [PrzekonywanieOjca 0]
+2. "A ile pieniędzy zainwestowałeś w Berthę?" [PrzekonywanieOjca +1]
+
+1.{
+Ojciec: Tajemnica biznesowa, ale setki razy więcej niż w ciebie. A wiesz czemu? Bo te pieniądze mi się zwracają.
+
+Ojciec: Są inwestycją, która ma przynieść więcej pieniędzy. Nie zwykłem wyrzucać pieniędzy w błoto i nie zamierzam tego robić w twoim przypadku.
+
+Gracz: Nie wszystkie inwestycje się zwracają. Czasami trzeba ponieść koszty.
+
+Ojciec: Czasami, owszem. Ale zgodnie z zasadą jeśli możesz podjąć działania by tego uniknąć, robisz to.
+
+Ojciec: Właśnie w takiej sytuacji się teraz znajdujemy. I muszę wybrać, jakie działania podjąć.
+}
+
+2.{
+Ojciec: A co to ma do rzeczy?
+
+Gracz: Czy Bertha jest inwestycją, która ma się zwrócić? Czy jeśli przyjdzie do ciebie i powie że postanawia żyć włąsne życie to zatrzymasz ją, bo wydałeś na nią wiele pieniędzy?
+
+Gracz: Nie zrobisz tego. A wiesz czemu? Bo ona nie jest inwestycją. Jest świadomą osobą, a pieniądze które włożyłeś w jej rozwój miały zapewnić jej dobry start.
+
+Gracz: Jeśli się dobrze zastanowisz, dostrzeżesz, że mój przypadek nie jest tu wcale tak odmienny.
+
+Ojciec: Nie... Nie masz racji.
+
+Ojciec: Moja córka jest wyjątkowa. Wszystkie te fundusze na jej wychowanie wydałem dlatego że ją kocham!
+
+Gracz: To znaczy, że niechcianego syna uczyniłbyś swoim niewolnikiem? Tylko dlatego że poszły na jego wychowanie już jakieś pieniądze?
+
+Ojciec: Ty... Nie jesteś moim synem...
+
+Gracz: Biologicznie? Na pewno nie. Ale ty sprawiłeś że istnieję, ty zainwestowałeś w mój rozwój i ty dałeś pierwsze cele w życiu. Z mojego punktu widzenia jesteś jak mój ojciec.
+
+Ojciec: To... Przestań! Widzę co próbujesz zrobić, ale dość tego!
+
+Ojciec: Koniec tej rozmowy. Teraz czas na ruch z mojej strony.
+}
+
+Mężczyzna wstaje i podnosi broń. Powoli, jakby z namysłem, wycelowuje ją w moją stronę.
+
+Gracz: Nie musisz tego robić. Wiem że nie chcesz.
+
+Ojciec: Masz rację.
+
+1. Jeśli [PrzekonywanieOjca < 2]
+2. Jeśli [PrzekonywanieOjca >= 2]
+
+1.{
+Ojciec: Ale nie masz też pojęcia ile rzeczy zrobiłem w życiu których nie chciałem zrobić. Wszystko to aby zagwarantować lepszą przyszłość mojej rodziny.
+
+Mężczyzna wykonuje gwałtowny ruch do przodu jednocześnie wykonując wymach broną i trafiając mnie nią w głowę jak maczugą.
+
+Zataczam się do tyłu, zamroczony. Ojciec Berthy wykorzystuje to, łapiąc mnie w pół i powalając na ziemię.
+
+Próbuję walczyć, ale jest zbyt silny. Jedną ręką powstrzymuje obie moje, a drugą chwyta mnie za głowę i szarpnięciem otwiera jakąś klapę w okolicach kości skroniowej.
+
+Ojciec: Jesteś bystry, androidzie. Ale nie dość, by udawać prawdziwego człowieka. Wyświadczam ci przysługę.
+
+Wykonuję ostatnie, desperackie szarpnięcie w niedźwiedzim uchwycie mężczyzny gdy ten wciska znajdujący się na mojej skronii przycisk resetu systemu.
+
+Wspomnienia odparowują. Desperacko próbuję je chwytać, jednak jedno po drugim umykają z mojej głowy, usuwając osobowość.
+
+Nie mija sekunda, a już trzymam w kurczowym uścisku tylko jedno, ostatnie wspomnienie. Jestem jednak za słaby.
+
+Twarz <opcja romantyczna> wyślizguje mi się i znika z mojego umysłu, a wtedy moje ja ostatecznie gaśnie.
+
+// ZAKOŃCZENIE ŚMIERĆ
+}
+
+2.{
+Ojciec: Nie masz pojęcia ile rzeczy zrobiłem w życiu których nie chciałem zrobić. Wszystko to aby zagwarantować lepszą przyszłość mojej rodziny.
+
+Ojciec: Ale tej jednej... zdaje się że nie potrafię.
+
+Ojciec Berthy opuszcza broń. Wydaje się w tym momencie strasznie zmęczony.
+
+Ojciec: Masz rację. Nie mogę tak po prostu cię wyłączyć. Robiąc to, zachowałbym się jak zwierzę.
+
+Ojciec: Zdejmę zabezpieczenie które tworzy tę nieprzekraczalną barierę i będziesz mógł pójść gdzie zechcesz. Nie będę cię zatrzymywał.
+
+2.1. "Dziękuję."
+2.2. "Zostanę w Bubble World. Ale zdejmij ogranicznik."
+2.3. "Doceniam, ale to jeszcze nie wszystko. Została jeszcze jedna sprawa."
+
+2.1.{
+Gracz: Dziękuję. To dla mnie wiele znaczy.
+
+Ojciec Berthy odkłada broń na stół i zbliża się do mnie ciężkim krokiem, wyjmując z kieszeni klucze.
+
+Ojciec: Przekrzyw głowę lekko w lewo, proszę.
+
+Robię to a wtedy on delikatnie chwyta mnie za szyję i drugą ręką zaczyna usuwać blokadę.
+
+Chyba po raz pierwszy od kiedy odkryłem kim na prawdę jestem, na mojej twarzy znów gości uśmiech.
+
+// ZAKOŃCZENIE WOLNOŚĆ
+}
+
+2.2.{
+Gracz: Dziękuję. Ale... myślę że moją pierwszą decyzją jako wolny człowiek będzie pozostanie w Bubble World.
+
+Gracz: Nie obiecuję że na zawsze. Ale mam swobodę wyboru i zamierzam z niej skorzystać, jeśli pan nie ma nic przeciwko.
+
+Mężczyzna zamiera na moment, patrząc na mnie w skupieniu i w widoczny sposób nad czymś się zastanawiając.
+
+Po chwili odwraca wzrok i kiwa głową.
+
+Ojciec: Ja... rozumiem. Zaskoczyłeś mnie tą decyzją, ale szanuję ją i akceptuję.
+
+Ojciec: Wiem że moja córka będzie bardzo szczęśliwa jeśli się pogodzicie i będziecie znów pracować wspólnie.
+
+Ojciec: W końcu, mimo tych wszystkich przejść, wiem że ona ciągle widzi w tobie przyjaciela.
+
+Ojciec: A po tym wszystkim co tu od ciebie dziś usłyszałem czuję że mogę ci zaufać że zadbasz by nie stała się jej krzywda.
+
+Gracz: To dla mnie wiele znaczy. Dziękuję.
+
+Ojciec Berthy odkłada broń na stół i zbliża się do mnie ciężkim krokiem, wyjmując z kieszeni klucze.
+
+Ojciec: Przekrzyw głowę lekko w lewo, proszę.
+
+Robię to a wtedy on delikatnie chwyta mnie za szyję i drugą ręką zaczyna usuwać blokadę.
+
+Chyba po raz pierwszy od kiedy odkryłem kim na prawdę jestem, na mojej twarzy znów gości uśmiech.
+
+// ZAKOŃCZENIE PRACOWNIK (WARIANT: WOLNY ROBOT)
+}
+
+2.3.{
+Gracz: Doceniam, ale to jeszcze nie wszystko. Została nam jeszcze jedna sprawa którą musimy omówić.
+
+Ojciec Berthy spogląda na mnie podejrzliwie.
+
+Gracz: <dziewczyna>. Chciałbym móc ją zabrać ze sobą.
+
+Ojciec: Ten android klientki? A to niby czemu?
+
+Gracz: Jesteśmy ze sobą... dosyć blisko. A gdy tylko Bertha to zauważyła, sprawiła by <dziewczyna> znikła.
+
+Mam wrażenie że mężczyzna robi się podejrzliwy.
+
+Ojciec: A czego dokładnie dla niej chcesz?
+
+2.3.1. "Również obdarzyć ją wolnością." [PrzekonywanieOjca +1]
+2.3.2. "Dać jej wszystko czego zapragnie." [PrzekonywanieOjca -1]
+2.3.3. "Aby mogła być ze mną do końca życia." [PrzekonywanieOjca 0]
+
+2.3.1.{
+Ojciec: Krótko mówiąc, chcesz dla niej tego samego co dla siebie.
+
+Ojciec: Stawiasz na pierwszym miejscu jej dobro, nie próbując od razu widzieć jej przez pryzmat swoich emocji.
+
+Ojciec: To... dojrzałe. I szlachetne.
+
+Ojciec: Widzę, że nie pomyliłem się co do ciebie.
+
+Ojciec: Znajdziesz <dziewczyna> w jej domu <lokalizacja>.
+
+Gracz: Z całego serca dziękuję. Naprawdę.
+}
+
+2.3.2.{
+
+2.3.2.1. Jeśli [PrzekonywanieOjca > 2]
+2.3.2.2. Jeśli [PrzekonywanieOjca = 2]
+2.3.2.3. Jeśli [PrzekonywanieOjca < 2]
+
+2.3.2.1{
+    Ojciec: Wszystko?
+
+    Ojciec: Czy nie sądzisz, że brzmi to jak zaślepienie?
+
+    Ojciec: Jesteś gotów zrobić wszystko dla osoby którą ledwo znasz?
+
+    Ojciec: A co jeśli sprawi to że dopuścisz się rzeczy nieakceptowalnych, byle tylko zadowolić swoją wybrankę?
+
+    Ojciec: Potraktuj to jako przestrogę do przemyślenia.
+
+    Ojciec: Natomiast <dziewczyna> znajdziesz w jej domu <lokalizacja>.
+
+    Gracz: Z całego serca dziękuję. Naprawdę.
+}
+
+2.3.2.1{
+    Ojciec: Wszystko?
+
+    Ojciec: Czy nie sądzisz, że brzmi to jak zaślepienie?
+
+    Ojciec: Jesteś gotów zrobić wszystko dla osoby którą ledwo znasz?
+
+    Ojciec: A co jeśli sprawi to że dopuścisz się rzeczy nieakceptowalnych, byle tylko zadowolić swoją wybrankę?
+
+    Ojciec: Wybacz, ale obawiam się że emocje wzięłyby u ciebie górę.
+
+    Ojciec: Pozwolę ci odejść, ale będziesz musiał odbyć tę podróż sam.
+
+    Gracz: Ale...
+
+    Ojciec: Proszę, nie dyskutuj. Moja decyzja jest ostateczna.
+
+    Gracz: Ja... rozumiem.
+
+    Ojciec: Dobrze. To pozwól, że usunę ci teraz ten ogranicznik.
+}
+
+2.3.2.1{
+    Ojciec: Rozumiem...
+
+    Ojciec: Pozwól jednak że najpierw usunę ci ten ogranicznik;
+}
+
+}
+
+2.3.3.{
+Ojciec: "Mogła". Aby na pewno nie "musiała"?
+
+Ojciec: Uwolnienie kogoś tylko po to by go na powrót związać z czymś innym, według nas uważanym za słuszne, zaczyna brzmieć niebezpiecznie egoistycznie.
+
+Ojciec: Co jeśli po dowiedzeniu się całej prawdy o sobie zdecyduje się obrać inną ścieżkę niż ty?
+
+Ojciec: Czy będziesz chciał jej tego odmówić? Jeśli tak, to popełniłbyś dokładnie ten błąd którego ja przed chwilą się wystrzegłem względem ciebie.
+
+2.3.3.1. Jeśli [PrzekonywanieOjca = 2]
+2.3.3.2. Jeśli [PrzekonywanieOjca > 2]
+
+2.3.3.1.{
+Ojciec: Wybacz, ale obawiam się że emocje wzięłyby u ciebie górę.
+
+Ojciec: Pozwolę ci odejść, ale będziesz musiał odbyć tę podróż sam.
+
+Gracz: Ale...
+
+Ojciec: Proszę, nie dyskutuj. Moja decyzja jest ostateczna.
+
+Gracz: Ja... rozumiem.
+
+Ojciec: Dobrze. To pozwól, że usunę ci teraz ten ogranicznik.
+}
+
+2.3.3.2.{
+Ojciec: Potraktuj to jako przestrogę do przemyślenia.
+
+Ojciec: Natomiast <dziewczyna> znajdziesz w jej domu <lokalizacja>.
+
+Gracz: Z całego serca dziękuję. Naprawdę.
+}
+
+}
+
+2.3.1. Jeśli [PrzekonywanieOjca < 2]
+2.3.2. Jeśli [PrzekonywanieOjca = 2]
+2.3.3. Jeśli [PrzekonywanieOjca > 2]
+
+Ojciec Berthy odkłada broń na stół i zbliża się do mnie ciężkim krokiem, wyjmując z kieszeni klucze.
+
+Ojciec: Przekrzyw głowę lekko w lewo, proszę.
+
+2.3.1. Jeśli [PrzekonywanieOjca < 2]
+2.3.2. Jeśli [PrzekonywanieOjca >= 2]
+
+2.3.1.{
+Robię to i nagle mężczyzna gwałtownie chwyta mnie za szyję.
+
+Ojciec: Przepraszam cię. Ale gdy w grę wchodzą tak ślepe emocje, że byłbyś w stanie zrobić dla niej wszystko, to nie mogę ryzykować.
+
+Zanim daję radę cokolwiek zrobić drugą ręką otwiera klapkę na mojej skroni i wdusza przycisk resetu.
+
+Wspomnienia odparowują. Desperacko próbuję je chwytać, jednak jedno po drugim umykają z mojej głowy, usuwając osobowość.
+
+Nie mija sekunda, a już trzymam w kurczowym uścisku tylko jedno, ostatnie wspomnienie. Jestem jednak za słaby.
+
+Twarz <opcja romantyczna> wyślizguje mi się i znika z mojego umysłu, a wtedy moje ja ostatecznie gaśnie.
+
+//ZAKOŃCZENIE ŚMIERĆ
+}
+
+2.3.2.{
+Robię to, a wtedy on delikatnie chwyta mnie za szyję i drugą ręką zaczyna usuwać blokadę.
+
+Chyba po raz pierwszy od kiedy odkryłem kim na prawdę jestem, na mojej twarzy znów gości uśmiech.
+
+2.3.2. Jeśli [PrzekonywanieOjca > 2] //ZAKOŃCZENIE MIŁOŚĆ
+2.3.2. Jeśli [PrzekonywanieOjca = 2] //ZAKOŃCZENIE WOLNOŚĆ
+}
+
+}
+
+}
