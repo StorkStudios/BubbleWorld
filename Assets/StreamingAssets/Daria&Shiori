@@ -1,0 +1,276 @@
+<Chapter>
+    <Speech>
+        Jest ranek tuż po otwarciu, nadal jestem jeszcze trochę zaspany. Tej nocy męczyła mnie bezsenność i w efekcie prawie w ogóle nie wypocząłem.
+    </Speech>
+    <Speech>
+        Dzyń dzyń
+    </Speech>
+    <Speech>
+        Podnoszę wzrok i z zaciekawieniem zauważam że tym razem znajomy dźwięk dzwonka towarzyszy niecodziennej scenie.
+    </Speech>
+    <Speech>
+        W drzwiach dostrzegłem dwie sylwetki jednocześnie, co nie pamiętam kiedy ostatnio mi się przydarzyło.
+    </Speech>
+    <Speech>
+        Jeszcze bardziej zaskoczyło mnie to że znam obie klientki. Są to Daria i Shiori.
+    </Speech>
+    <Speech character="Ja">
+        Cześć, nie spodziewałem się zobaczyć was razem.
+    </Speech>
+    <Speech>
+        Słysząc to, Daria zerknęła na Shiori.
+    </Speech>
+    <Speech character="Daria">
+        Och, wiesz Shiori, nie wiedziałam, że też tu byłaś.
+    </Speech>
+    <Speech>
+        Shriori odwróciła wzrok, wydając się nieco skrępowana tym stwierdzeniem.
+    </Speech>
+    <Speech character="Shiori">
+        Och... No, przyszłam tu wczoraj, tak jak mi poleciłaś...
+    </Speech>
+    <Speech character="Ja">
+        W każdym razie, dziewczyny, co chciałybyście zamówić?
+    </Speech>
+    <Speech character="Daria">
+        Bubble tea z truskawkami.
+    </Speech>
+    <Speech>
+        Przenoszę wzrok na Shiori, żeby zobaczyć, co chce, ale ona po prostu stoi w milczeniu, częściowo schowana za plecami Darii.
+    </Speech>
+    <Speech character="Ja">
+        Shiori, a co dla cie-
+    </Speech>
+    <Speech>
+        Nie daję rady dokończyć zdania kiedy przerywa mi Daria.
+    </Speech>
+    <Speech character="Daria">
+        To dla nas obu, po prostu daj nam dwie słomki.
+    </Speech>
+    <Speech character="Ja">
+        Oczywiście, już robię.
+    </Speech>
+    <Speech>
+        To mówiąc, kucam i wyjmuję kubek spod lady, razem z dwiema słomkami.
+    </Speech>
+    <Speech character="Ja">
+        A więc, wy się znacie?
+    </Speech>
+    <Speech character="Daria">
+        Tak, poznałyśmy się na uniwersytecie, Shiori bardzo pomogła mi się zaaklimatyzować po przeprowadzce, ponieważ jest jedną z niewielu osób, które dobrze znają angielski.
+    </Speech>
+    <Speech>
+        Zaskoczony, przenoszę swój wzrok na Shriori.
+    </Speech>
+    <Speech character="Ja">
+        Doprawdy? Nie wiedziałem że jesteś biegła w językach obcych.
+    </Speech>
+    <Speech character="Shiori">
+        T-tak, uczyłam się korzystając z kilku kursów, a potem doskonaliłam umiejętności czytając angielskie książki w oryginale. Ale nadal nie jestem szczególnie dobra...
+    </Speech>
+    <Speech character="Daria">
+        Daj spokój, mówisz bardzo dobrze.
+    </Speech>
+    <Speech>
+        To mówiąc, Daria klepie przyjaciółkę po ramieniu. Shiori czerwieni się i zawstydzona spuszcza wzrok.
+    </Speech>
+    <Speech character="Ja">
+        Fakt że się przyjaźnicie chyba potwierdza że powiedzenie o przeciwieństwach przyciągających się nawzajem jest prawdziwe.
+    </Speech>
+    <Speech character="Ja">
+        Gdybym na was spojrzał na ulicy nie domyśliłbym się że macie wspólne tematy, tak bardzo się od siebie różnicie.
+    </Speech>
+    <Speech>
+        Daria śmieje się na tę uwagę.
+    </Speech>
+    <Speech character="Daria">
+        Coś w tym jest, Shiori nigdy się nie wystroi ani nie umaluje, za to zawsze ukrywa się pod kilkoma warstwami swetrów.
+    </Speech>
+    <Speech character="Shiori">
+        T-tak mi wygodniej.
+    </Speech>
+    <Speech>
+        Shiori mamrocze tę uwagę pod nosem, widać że dla niej to drażliwy temat. Darii jednak widocznie umyka ten szczegół, bo kontynuuje rozmowę.
+    </Speech>
+    <Speech character="Daria">
+        Może i wygodniej, ale w ten sposób zamykasz się na ludzi. Jeśli nie dbasz o siebie, zaprzepaszczasz wszelkie szanse że ktokolwiek się do ciebie odezwie.
+    </Speech>
+    <Speech character="Shiori">
+        Nie... nie potrzebuję zbyt dużo uwagi. Mam już kilku przyjaciół.
+    </Speech>
+    <Speech character="Daria">
+        Tak ci się wydaje, bo zamykasz się w czterech ścianach z nosem w książkach. Nie masz wrażenia że całe życie przelatuje ci przed oczami, a ty tego nie zauważasz?
+    </Speech>
+    <Speech character="Shiori">
+        N-nie. To moja decyzja co robię. I na pewno nie jest to marnowanie życia.
+    </Speech>
+    <Speech>
+        Kończę ich napój i stawiam go przed nimi bez słowa, nie chcąc im przeszkadzać.
+    </Speech>
+    <Speech>
+        Shiori natychmiast bierze kubek i zaczyna siorbać napój. Widzę że jest mocno spięta i nie chce rozmawiać o tym temacie.
+    </Speech>
+    <Speech>
+        Z drugiej strony Daria wydaje się bardzo zdeterminowana by ten temat omówić.
+    </Speech>
+    <Speech character="Daria">
+        Nie no, Shiori, czasami nie wiem z tą twoją nieśmiałością! Tenteki, mów jej że izolując się na ludzi, przepuszcza życie między palcami!
+    </Speech>
+    <Choice>
+        <Options>
+            <Option id="1">Daria ma rację, Shiori. Izolując się od otoczenia i zamykając w sobie marnujesz sobie życie.</Option>
+            <Option id="2">Daria, przestań! Nawet jeśli masz rację, to wybór należy do Shiori, nie możesz jej zmuszać!</Option>
+        </Options>
+        <Switch>
+            <Case option_id="1">
+                <Speech character="Shiori">
+                    Przestańcie!
+                </Speech>
+                <Speech>
+                    Daria patrzy na swoją przyjaciółkę ze zdziwieniem. Widocznie takie wybuchy są u niej rzadkością.
+                </Speech>
+                <Speech character="Shiori">
+                    Dobrze, wszystko co robię jest dla mnie złe! Ale czasami to właśnie tam znajduję najwięcej radości!
+                </Speech>
+                <Speech>
+                    Shiori jest cała czerwona, zaciska mocno ręce na trzymanym w rękach kubku.
+                </Speech>
+                <Speech character="Shiori">
+                    I nawet nie lubię truskawkowej!
+                </Speech>
+                <Speech>
+                    Odstawiwszy kubek z impetem na blat, Shiori odwraca się i wybiega z lokalu.
+                </Speech>
+                <Speech>
+                    Wymieniamy z Darią spojrzenia. Chyba oboje nie spodziewaliśmy się tego ze strony Shiori.
+                </Speech>
+                <Speech>
+                    Daria wzdycha, podnosi pozostawiony przez Shiori kubek i siorbie powoli swój napój.
+                </Speech>
+                <Speech character="Daria">
+                    To było dziwnie mocne, ale zasadniczo dobrze że tak się wydarzyło.
+                </Speech>
+                <Speech character="Ja">
+                    Poważnie? Mam wrażenie że ona nas teraz nie chce więcej widzieć na oczy.
+                </Speech>
+                <Speech character="Daria">
+                    Teraz tak. Ale znam ją i widywałam już u niej stany takie jak ten.
+                </Speech>
+                <Speech>
+                    Daria odstawia napój na blat i nachyla się do mnie.
+                </Speech>
+                <Speech character="Daria">
+                    Teraz pobiegnie do swojego domu i ochłonie. A jak będzie potem to przeanalizuje wszystko i zrozumie.
+                </Speech>
+                <Speech character="Daria">
+                    Uwierz mi, zmienię ją dzięki temu na lepsze. Zobaczysz, jeszcze będzie mi dziękować. 
+                </Speech>
+                <Speech>
+                    Dziewczyna zabiera łokcie z blatu i opiera się o niego plecami. Przez chwilę trwamy w ciszy, patrząc na widok za oknem.
+                </Speech>
+                <Speech character="Daria">
+                    Tenteki?
+                </Speech>
+                <Speech character="Ja">
+                    Tak?
+                </Speech>
+                <Speech>
+                    Daria obraca się do mnie, patrząc mi poważnie w oczy.
+                </Speech>
+                <Speech character="Daria">
+                    Dziękuję że mnie poparłeś. Że zaufałeś że to co zrobiłam było by pomóc Shiori. To nie zdarza się mnie często i wiele dla mnie znaczy.
+                </Speech>
+                <Speech character="Ja">
+                    Ja... Pewnie. Zawsze możesz na mnie liczyć w tej sprawie.
+                </Speech>
+                <Speech>
+                    Daria uśmiecha się pięknie na tę odpowiedź i unosi do ust kubek, dopijając resztę swojej Bubble Tea.
+                </Speech>
+                <Speech character="Daria">
+                    Będę iść. Trzymaj się, przyjdę tu znowu jutro.
+                </Speech>
+                <Speech character="Ja">
+                    Na razie, Daria.
+                </Speech>
+                <Speech>
+                    Dziewczyna wstaje i wychodzi, częstując mnie na pożegnanie jeszcze jednym ze swoich uśmiechów. Długo potem jeszcze wpatruję się w krawędź okna za którą zniknęła.
+                </Speech>
+            </Case>
+            <Case option_id="2">
+                <Speech character="Daria">
+                    Tenteki...!
+                </Speech>
+                <Speech character="Ja">
+                    Nie, Daria, wystarczy! Shiori nie chce teraz o tym rozmawiać. Jak możesz tego nie widzieć? 
+                </Speech>
+                <Speech>
+                    Daria wydaje z siebie nieartykułowane pufnięcie i macha z rezygnacją ręką.
+                </Speech>
+                <Speech character="Daria">
+                    Dobra, widzę że jestem w mniejszej części nas. To jak nikt nie ma ochoty na moje towarzystwo, to ja pójdę się przejść.
+                </Speech>
+                <Speech>
+                    To powiedziawszy, Daria wstaje ze stołka i wychodzi z lokalu. Shiori odprowadza ją wzrokiem, w pewnym momencie mam wrażenie że chce coś powiedzieć, ale rezygnuje.
+                </Speech>
+                <Speech character="Ja">
+                    Żyjesz?
+                </Speech>
+                <Speech>
+                    Shiori zerka na mnie niepewnie.
+                </Speech>
+                <Speech character="Shiori">
+                    Ja... t-tak, chyba tak.
+                </Speech>
+                <Speech character="Ja">
+                    Nie masz mi za złe że się wtrąciłem?
+                </Speech>
+                <Speech>
+                    Shiori gwałtownie kręci głową.
+                </Speech>
+                <Speech character="Shiori">
+                    N-nie, co ty! Sama bym chyba nie dała rady. Gdy Daria robi się taka to strasznie ciężko mi się z nią rozmawia...
+                </Speech>
+                <Speech character="Ja">
+                    To się zdarzyło wcześniej? Nie wpłynęło to negatywnie na waszą przyjaźń?
+                </Speech>
+                <Speech character="Shiori">
+                    Ja wiem że ona ma dobre intencje... Po prostu czasami, jak dziś... nie jestem zdolna do takich rozmów.
+                </Speech>
+                <Speech character="Shiori">
+                    Daria nie zawsze jest w stanie to wyczuć i czasami sytuacja robi się... napięta.
+                </Speech>
+                <Speech character="Shiori">
+                    Dlatego dziękuję że mi pomogłeś.
+                </Speech>
+                <Speech character="Ja">
+                    Drobiazg.
+                </Speech>
+                <Speech>
+                    Uśmiecham się do niej, ona odwzajemnia uśmiech. Popycham kubek z napojem w jej stronę.
+                </Speech>
+                <Speech character="Ja">
+                    Twoja Bubble Tea.
+                </Speech>
+                <Speech>
+                    Dziewczyna łapie kubek i przygląda się cieczy w środku.
+                </Speech>
+                <Speech character="Shiori">
+                    Dzięki. Zasadniczo nieszczególnie przepadam za truskawkową, ale wezmę ją i zaniosę Darii.
+                </Speech>
+                <Speech character="Ja">
+                    Jesteś pewna że chcesz z nią teraz rozmawiać?
+                </Speech>
+                <Speech>
+                    Shiori pozwala sobie na lekki uśmiech.
+                </Speech>
+                <Speech character="Shiori">
+                    Pewna...? Nie, zdecydowanie nie. Ale powinnam. Im dłużej będę zwlekać, tym gorzej będzie. Na razie, Tenteki.
+                </Speech>
+                <Speech>
+                    To powiedziawszy wstaje ze stołka i rusza w stronę wyjścia. W drzwiach jeszcze macha mi na pożegnanie i rusza w stronę w którą poszła Daria.
+                </Speech>
+            </Case>
+        </Switch>
+    </Choice>
+</Chapter>
+	 
