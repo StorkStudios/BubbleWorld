@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      girl2_mouth_crazy_0: 4119929677373409880
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
