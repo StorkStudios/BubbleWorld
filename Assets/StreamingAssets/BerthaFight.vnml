@@ -2,40 +2,40 @@
     <Speech>
         <i>Następnego dnia idę od razu porozmawiać z Berthą.</i>
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Hej mam pytanie.
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Wiesz może dlaczego na zewnątrz jest wielka bańka?
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Wydaje się że zatrzymuje wszystko co próbuje przez nią przejść.
     </Speech>
-    <Speech character_id="Ruda" character_name="Bertha">
+    <Speech character_id="Ruda" character="Bertha">
         ...
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         ...
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Ty coś wiesz.
     </Speech>
     <Speech>
         <i>Chwytam ją za ramię.</i>
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Powiedz mi wszystko.
     </Speech>
-    <Speech character_id="Ruda" character_name="Bertha">
+    <Speech character_id="Ruda" character="Bertha">
         Puść mnie!
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Spokojnie, chce się tylko dowiedzieć czym jest ta wielka bańka.
     </Speech>
-    <Speech character_id="Ruda" character_name="Bertha">
+    <Speech character_id="Ruda" character="Bertha">
         Nic Ci nie powiem!
     </Speech>
-    <Speech character_id="Ruda" character_name="Bertha">
+    <Speech character_id="Ruda" character="Bertha">
         A teraz mnie puść!
     </Speech>
     <Speech>
@@ -50,6 +50,7 @@
     <Speech>
         <i>Gdyby nie mój refleks to już nie miałbym ręki!</i>
     </Speech>
+    <Music name="Fight" />
     <Choice>
         <Options>
             <Option id="1">Chwyć za nóż.</Option>
@@ -60,19 +61,19 @@
                 <Link path="BerthaActualFight.vnml"/>
             </Case>
             <Case option_id="2">
-                <Speech character_id="Gracz" character_name="Ja">
+                <Speech character_id="Gracz" character="Ja">
                     Spokojnie nie chce walczyć!
                 </Speech>
-                <Speech character_id="Gracz" character_name="Ja">
+                <Speech character_id="Gracz" character="Ja">
                     Zrobię wszystko co tylko będziesz chciała!
                 </Speech>
-                <Speech character_id="Ruda" character_name="Bertha">
+                <Speech character_id="Ruda" character="Bertha">
                     Tak?
                 </Speech>
-                <Speech character_id="Ruda" character_name="Bertha">
+                <Speech character_id="Ruda" character="Bertha">
                     W takim razie nie zadawaj zbędnych pytań.
                 </Speech>
-                <Speech character_id="Ruda" character_name="Bertha">
+                <Speech character_id="Ruda" character="Bertha">
                     I zostań pracuj tutaj tak jak do tej pory.
                 </Speech>
                 <Choice>
@@ -85,12 +86,13 @@
                             <Link path="BerthaActualFight.vnml"/>
                         </Case>
                         <Case option_id="2">
-                            <Speech character_id="Gracz" character_name="Ja">
+                            <Speech character_id="Gracz" character="Ja">
                                 Jeżeli to jest dla Ciebie takie ważne to niech będzie.
                             </Speech>
-                            <Speech character_id="Gracz" character_name="Ja">
+                            <Speech character_id="Gracz" character="Ja">
                                 Zrobię to co zechcesz.
                             </Speech>
+                            <Music name="None" />
                         </Case>
                     </Switch>
                 </Choice>

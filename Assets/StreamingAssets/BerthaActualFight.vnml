@@ -1,34 +1,39 @@
 <Chapter>
-    <Speech>
+    <Speech>        
         Chwytasz za nóż i wyciągasz go w stronę Berthy.
     </Speech>
-    <Speech character_id="Ruda" character_name="Bertha">
+    <Speech character_id="Ruda"
+            character_name="Bertha">        
         Ja też nie chce tego robić!
     </Speech>
-    <Speech character_id="Ruda" character_name="Bertha">
+    <Speech character_id="Ruda"
+            character_name="Bertha">        
         To Ty mnie do tego zmusiłeś!
     </Speech>
-    <Variable name="fightResult" value="0" />
+    <Variable name="fightResult"
+              value="0" />
     <Choice>
-        <Options duration="1" default_id="0">
+        <Options duration="1"
+                 default_id="0">
             <Option id="0">Nie rób nic</Option>
             <Option id="1">Zrób unik w prawo</Option>
             <Option id="2">Zrób unik w lewo</Option>
         </Options>
         <Switch>
             <Case option_id="0">
-                <Speech>
+                <Speech>                    
                     Bertha zadała Ci cios w brzuch.
                 </Speech>
             </Case>
             <Case option_id="1">
-                <Variable name="fightResult" add="1">
-                <Speech>
+                <Variable name="fightResult"
+                          add="1" />
+                <Speech>                    
                     Uniknąłeś ciosu!
                 </Speech>
             </Case>
             <Case option_id="2">
-                <Speech>
+                <Speech>                    
                     Uniknąłeś w złą stronę i Bertha zadała Ci cios w plecy.
                 </Speech>
             </Case>
@@ -39,68 +44,82 @@
         <Switch>
             <Case value="1">
                 <Choice>
-                    <Options duration="1" default_id="0">
+                    <Options duration="1"
+                             default_id="0">
                         <Option id="0">Nie rób nic</Option>
                         <Option id="1">Zrób unik</Option>
                         <Option id="2">Zaatakuj</Option>
                     </Options>
                     <Switch>
                         <Case option_id="0">
-                        <Speech>
-                            Bertha korzysta z twojej chwili nieuwagi i Cię atakuje.
-                        </Speech>
+                            <Speech>                                
+                                Bertha korzysta z twojej chwili nieuwagi i Cię atakuje.
+                            </Speech>
                         </Case>
                         <Case option_id="1">
-                        <Speech>
-                            Bertha zadała kolejny cios akurat w to miejsce, w które uskoczyłeś.
-                        </Speech>
+                            <Speech>                                
+                                Bertha zadała kolejny cios akurat w to miejsce, w które uskoczyłeś.
+                            </Speech>
                         </Case>
                         <Case option_id="2">
-                            <Variable name="fightResult" add="1">
+                            <Variable name="fightResult"
+                                      add="1" />
                         </Case>
                     </Switch>
                 </Choice>
                 <Choice>
-                <Variable name="fightResult" />
-                <Switch>
-                    <Case value="0">
-                        <Speech character_id="Ruda" character_name="Bertha">
-                            Ugh
-                        </Speech>
-                        <Speech character_id="Gracz" character_name="Ja">
-                            Ha! I co teraz?!
-                        </Speech>
-                        <Speech character_id="Gracz" character_name="Ja">
-                            Wszystko mi powiesz!
-                        </Speech>
-                        <Speech character_id="Ruda" character_name="Bertha">
-                            ...
-                        </Speech>
-                        <Speech character_id="Gracz" character_name="Ja">
-                            Bertha?
-                        </Speech>
-                        <Speech>
-                            Dopiero teraz do mnie dotarło, że nie oddycha.
-                        </Speech>
-                        <Link path="FinaleAlternate.vnml"/>
-                    </Case>
-                    <Case value="1"></Case>
-                    <Case value="2"></Case>
+                    <Variable name="fightResult" />
+                    <Switch>
+                        <Case value="0">
+                            <Speech character_id="Ruda"
+                                    character_name="Bertha">                                
+                                Ugh
+                            </Speech>
+                            <Music name="None" />
+                            <Speech character_id="Gracz"
+                                    character_name="Ja">                                
+                                Ha! I co teraz?!
+                            </Speech>
+                            <Speech character_id="Gracz"
+                                    character_name="Ja">                                
+                                Wszystko mi powiesz!
+                            </Speech>
+                            <Speech character_id="Ruda"
+                                    character_name="Bertha">                                
+                                ...
+                            </Speech>
+                            <Speech character_id="Gracz"
+                                    character_name="Ja">                                
+                                Bertha?
+                            </Speech>
+                            <Speech>                                
+                                Dopiero teraz do mnie dotarło, że nie oddycha.
+                            </Speech>
+                            <Link path="FinaleAlternate.vnml" />
+                        </Case>
+                        <Case value="1" />
+                        <Case value="2" />
+                    </Switch>
+                </Choice>
             </Case>
-            <Case value="0"></Case>
+            <Case value="0" />
         </Switch>
     </Choice>
-
-    <Speech character_id="Gracz" character_name="Ja">
+    <Music name="None" />
+    <Speech character_id="Gracz"
+            character_name="Ja">        
         Co to był za dźwięk?
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz"
+            character_name="Ja">        
         Czemu ja nie krwawie?
     </Speech>
-    <Speech character_id="Ruda" character_name="Bertha">
+    <Speech character_id="Ruda"
+            character_name="Bertha">        
         Bo jesteś tylko robotem!
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz"
+            character_name="Ja">        
         Huh?
     </Speech>
     <Speech>
@@ -121,17 +140,21 @@
     <Speech>
         <i>Ale znaczy to też że nie może mnie zranić!</i>
     </Speech>
-    <Speech>
+    <Music name="Fight" />
+    <Speech>        
         Ruszam w jej stronę z otwartymi ramionami.
     </Speech>
-    <Speech>
+    <Speech>        
         Mimo że uderza mnie parę razy nożem to udaje mi się ją złapać.
     </Speech>
-    <Speech character_id="Ruda" character_name="Bertha">
+    <Speech character_id="Ruda"
+            character_name="Bertha">        
         I tak zaraz będzie po tobie!
     </Speech>
-    <Speech character_id="Ruda" character_name="Bertha">
+    <Speech character_id="Ruda"
+            character_name="Bertha">        
         Zaraz przyjedzie tutaj mój ojciec i Cię załatwi!
     </Speech>
-    <Link path="Finale.vnml"/>
+    <Music name="None" />
+    <Link path="Finale.vnml" />
 </Chapter>
