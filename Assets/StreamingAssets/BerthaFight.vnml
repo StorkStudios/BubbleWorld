@@ -3,13 +3,13 @@
         <i>Następnego dnia idę od razu porozmawiać z Berthą.</i>
     </Speech>
     <Speech character_id="Gracz" character="Ja">
-        Hej mam pytanie.
+        Hej, to zabrzmi dziwnie, ale mam pytanie.
     </Speech>
     <Speech character_id="Gracz" character="Ja">
-        Wiesz może dlaczego na zewnątrz jest wielka bańka?
+        Widziałaś może tę wielka bańka na zewnątrz?
     </Speech>
     <Speech character_id="Gracz" character="Ja">
-        Wydaje się że zatrzymuje wszystko co próbuje przez nią przejść.
+        Wydaje się że to jakaś bariera co zatrzymuje wszystko co próbuje przez nią przejść.
     </Speech>
     <Speech character_id="Ruda" character="Bertha">
         ...
@@ -20,17 +20,20 @@
     <Speech character_id="Gracz" character="Ja">
         Ty coś wiesz.
     </Speech>
+    <Speech character_id="Ruda" character="Bertha">
+        Nie, nic nie wiem.
+    </Speech>
     <Speech>
         <i>Chwytam ją za ramię.</i>
     </Speech>
     <Speech character_id="Gracz" character="Ja">
-        Powiedz mi wszystko.
+        Powiedz mi o co tu chodzi!
     </Speech>
     <Speech character_id="Ruda" character="Bertha">
         Puść mnie!
     </Speech>
     <Speech character_id="Gracz" character="Ja">
-        Spokojnie, chce się tylko dowiedzieć czym jest ta wielka bańka.
+        Chce się tylko dowiedzieć o co chodzi z tą barierą!
     </Speech>
     <Speech character_id="Ruda" character="Bertha">
         Nic Ci nie powiem!
@@ -41,6 +44,9 @@
     <Speech>
         Po tych słowach zamachnęła się na mnie czymś co trzymała w ręku.
     </Speech>
+    <Speech character_id="Ruda" character="Bertha">
+        Odsuń się ode mnie!
+    </Speech>
     <Speech>
         Na szczęście odruchowo ją puściłem i lekko się odsunąłem.
     </Speech>
@@ -50,11 +56,14 @@
     <Speech>
         <i>Gdyby nie mój refleks to już nie miałbym ręki!</i>
     </Speech>
+    <Speech>
+        Widzę że Bertha klika ukryty pod blatem przycisk wzywania ochrony.
+    </Speech>
     <Music name="Fight" />
     <Choice>
         <Options>
-            <Option id="1">Chwyć za nóż.</Option>
-            <Option id="2">Pokaż że nie chcesz walczyć.</Option>
+            <Option id="1">Chwytam za nóż</Option>
+            <Option id="2">Pokazuję że nie chcę walczyć</Option>
         </Options>
         <Switch>
             <Case option_id="1">
@@ -65,21 +74,24 @@
                     Spokojnie nie chce walczyć!
                 </Speech>
                 <Speech character_id="Gracz" character="Ja">
-                    Zrobię wszystko co tylko będziesz chciała!
+                    Po prostu chcę się dowiedzieć o co chodzi!
                 </Speech>
                 <Speech character_id="Ruda" character="Bertha">
-                    Tak?
+                    Zostaw mnie!
                 </Speech>
                 <Speech character_id="Ruda" character="Bertha">
-                    W takim razie nie zadawaj zbędnych pytań.
+                    Przestań zadawać te swoje pytania!
                 </Speech>
                 <Speech character_id="Ruda" character="Bertha">
-                    I zostań pracuj tutaj tak jak do tej pory.
+                    Po prostu udaj że nic nie widziałeś i pracuj tutaj tak jak do tej pory!
+                </Speech>
+                <Speech>
+                    Zbliża się do mnie, mam ostatnią szansę żeby wziąć broń albo odepchnie mnie poza jej zasięg
                 </Speech>
                 <Choice>
                     <Options>
-                        <Option id="1">Chwyć za nóż.</Option>
-                        <Option id="2">Zgódź się</Option>
+                        <Option id="1">Chwytam za nóż</Option>
+                        <Option id="2">Zgadzam się na propozycję Berthy</Option>
                     </Options>
                     <Switch>
                         <Case option_id="1">

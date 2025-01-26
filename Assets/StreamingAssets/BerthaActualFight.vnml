@@ -2,13 +2,32 @@
     <Speech>        
         Chwytasz za nóż i wyciągasz go w stronę Berthy.
     </Speech>
-    <Speech character_id="Ruda"
-            character_name="Bertha">        
-        Ja też nie chce tego robić!
+    <Speech character_id="Gracz"
+            character="Ja">        
+        Nie zbliżaj się!
+    </Speech>
+    <Speech>        
+        Nagle dostrzegam że Bertha musiała mnie jednak trafić przy pierwszym ataku.
+    </Speech>
+    <Speech>        
+        Mam podłużną ranę na przedramieniu, ale z jakiegoś powodu ani trochę nie krwawi.
+    </Speech>
+    <Speech>        
+        Nie mam nawet chwili by się nad tym zastanowić, bo Bertha naciera na mnie z nożem.
     </Speech>
     <Speech character_id="Ruda"
-            character_name="Bertha">        
-        To Ty mnie do tego zmusiłeś!
+            character="Bertha">        
+        Przestań być zepsuty!
+    </Speech>
+    <Speech character_id="Ruda"
+            character="Bertha">        
+        Zacznij robić co mówię!
+    </Speech>
+    <Speech>        
+        <i>O czym ona plecie?</i>
+    </Speech>
+    <Speech>        
+        Bertha jednak nie żartuje i macha w noją stronę nożem.
     </Speech>
     <Variable name="fightResult"
               value="0" />
@@ -71,29 +90,38 @@
                     <Variable name="fightResult" />
                     <Switch>
                         <Case value="0">
+                            <Speech>                                
+                                Unikam jej ataku i wyprowadzam własny cios.
+                            </Speech>
                             <Speech character_id="Ruda"
-                                    character_name="Bertha">                                
-                                Ugh
+                                    character="Bertha">                                
+                                Ugh...
                             </Speech>
                             <Music name="None" />
                             <Speech character_id="Gracz"
-                                    character_name="Ja">                                
-                                Ha! I co teraz?!
+                                    character="Ja">                                
+                                Mam cię! I co teraz?!
                             </Speech>
                             <Speech character_id="Gracz"
-                                    character_name="Ja">                                
-                                Wszystko mi powiesz!
+                                    character="Ja">                                
+                                Uspokoisz się wreszcie?
                             </Speech>
                             <Speech character_id="Ruda"
-                                    character_name="Bertha">                                
+                                    character="Bertha">                                
                                 ...
                             </Speech>
+                            <Speech>                                
+                                Dziewczyna zatacza się i upada na posadzkę.
+                            </Speech>
                             <Speech character_id="Gracz"
-                                    character_name="Ja">                                
+                                    character="Ja">                                
                                 Bertha?
                             </Speech>
                             <Speech>                                
-                                Dopiero teraz do mnie dotarło, że nie oddycha.
+                                Dopiero teraz do mnie dotarło, właśnie dźgnąłem ją nożem.
+                            </Speech>
+                            <Speech>                                
+                                Gdy kucam na podłodze obok niej, już nie oddycha.
                             </Speech>
                             <Link path="FinaleAlternate.vnml" />
                         </Case>
@@ -106,54 +134,126 @@
         </Switch>
     </Choice>
     <Music name="None" />
-    <Speech character_id="Gracz"
-            character_name="Ja">        
-        Co to był za dźwięk?
+    <Speech>                                
+        <i>Co to był za dźwięk</i>, zastanawiam się, gdy kolejny cios odrzuca mnie do tyłu.
+    </Speech>
+    <Speech>                                
+        Zasapana Bertha przystaje, ja też odczekuję chwilę by złapać oddech.
+    </Speech>
+    <Speech>                                
+        Mój wzrok pada na ranę na przedramieniu, którą zadała mi Bertha.
+    </Speech>
+    <Speech>                                
+        To, co dostrzegam, sprawia że po plecach spływa mi zimny pot.
     </Speech>
     <Speech character_id="Gracz"
-            character_name="Ja">        
-        Czemu ja nie krwawie?
+            character="Ja">        
+        T-to... moja ręka?
+    </Speech>
+    <Speech character_id="Gracz"
+            character="Ja">        
+        B-Bertha... Powiesz mi może chociaż, czemu wewnątrz mojej ręki są... k-kable?
+    </Speech>
+    <Speech>                                
+        Bertha zaczyna płakać.
     </Speech>
     <Speech character_id="Ruda"
-            character_name="Bertha">        
-        Bo jesteś tylko robotem!
+            character="Bertha">        
+        Bo jesteś głupim robotem!
+    </Speech>
+    <Speech character_id="Ruda"
+            character="Bertha">        
+        Miałeś tylko robić herbatę!
+    </Speech>
+    <Speech character_id="Ruda"
+            character="Bertha">        
+        Miałeś obsługiwać ten lokal! MÓJ lokal! MOJĄ małą firmę!
     </Speech>
     <Speech character_id="Gracz"
-            character_name="Ja">        
-        Huh?
+            character="Ja">        
+        C-co?
+    </Speech>
+    <Speech>                                
+        Przyglądam się bliżej swojej ręce. Pod rozciętą cieńką warstwą skóry dostrzegam plątaninę kabli i metalowe panele jakiegoś wewnętrznego szkieletu.
+    </Speech>
+    <Speech>                                
+        Nie dowierzając własnym oczom, sprawdzam inne rany. Wszędzie powtarza się ten sam schemat.
+    </Speech>
+    <Speech character_id="Gracz"
+            character="Ja">        
+        Bertha... Czym ja jestem?
+    </Speech>
+    <Speech character_id="Ruda"
+            character="Bertha">        
+        Mówiłam ci już! Robotem! Robotem dla Bubble World!
+    </Speech>
+    <Speech>                                
+        Dziewczyna pociąga nosem.
+    </Speech>
+    <Speech character_id="Ruda"
+            character="Bertha">        
+        Ten bąbel, ta bańka czy inna bariera miały cię tu trzymać, żebyś sobie nie poszedł.
+    </Speech>
+    <Speech character_id="Ruda"
+            character="Bertha">        
+        Masz czip w głowie który ją generuje! Mój tata ci go założył!
+    </Speech>
+    <Speech character_id="Ruda"
+            character="Bertha">        
+        Bo ja cię potrzebuję, Tenteki! Bez ciebie nie ma sklepu!
+    </Speech>
+    <Speech character_id="Ruda"
+            character="Bertha">        
+        Bez ciebie i tych robotycznych klientek!
+    </Speech>
+    <Speech>                                
+        Podnoszę wzrok i patrzę na nią z niedowierzaniem.
+    </Speech>
+    <Speech character_id="Gracz"
+            character="Ja">        
+        Daria, Shiori i Yukari? O nich mówisz?
+    </Speech>
+    <Speech character_id="Gracz"
+            character="Ja">        
+        To dlatego pojawiały się tu ciągle tylko one?
+    </Speech>
+    <Speech character_id="Gracz"
+            character="Ja">        
+        To wszystko tylko po to byś mogła sobie pozarządzać sklepem?
+    </Speech>
+    <Speech>                                
+        Płacz Berthy się wzmógł.
+    </Speech>
+    <Speech character_id="Ruda"
+            character="Bertha">        
+        One działały! Mogłam jedną wyłączyć a reszcie kazać o niej zapomnieć! Ale ty jesteś zapsuty! Czemu się nie naprawisz?
+    </Speech>
+    <Speech>                                
+        Potrzebowałem chwili by zrozumieć o co chodzi.
+    </Speech>
+    <Speech character_id="Gracz"
+            character="Ja">        
+        Zaraz... To przez ciebie <dziewczyna gracza> zniknęła!?
     </Speech>
     <Speech>
-        <i>Przez chwilę jestem zdezorientowany tym faktem.</i>
+        Bertha orientuje się co powiedziała i na jej twarzy maluje się przerażenie.
     </Speech>
     <Speech>
         <i>Po chwili jednak wszystko zaczyna układać się w sensowną całość.</i>
     </Speech>
     <Speech>
-        <i>Brak mojego czasu wolnego, zniknięcie i wielki bąbel.</i>
-    </Speech>
-    <Speech>
-        <i>To dlaczego Bertha nie pamiętała, że tu wcześniej pracowałem.</i>
-    </Speech>
-    <Speech>
-        <i>...</i>
-    </Speech>
-    <Speech>
-        <i>Ale znaczy to też że nie może mnie zranić!</i>
+        <i>Skoro faktycznie jestem robotem... To znaczy że nie jesteś w stanie zrobić mi krzywdy tym nożem!</i>
     </Speech>
     <Music name="Fight" />
     <Speech>        
         Ruszam w jej stronę z otwartymi ramionami.
     </Speech>
     <Speech>        
-        Mimo że uderza mnie parę razy nożem to udaje mi się ją złapać.
+        Bertha zaczyna piszczeć.
     </Speech>
     <Speech character_id="Ruda"
-            character_name="Bertha">        
-        I tak zaraz będzie po tobie!
-    </Speech>
-    <Speech character_id="Ruda"
-            character_name="Bertha">        
-        Zaraz przyjedzie tutaj mój ojciec i Cię załatwi!
+            character="Bertha">        
+        Zostaw mnie, zostaw! Zaraz przyjedzie tutaj mój tata i Cię załatwi jak mnie nie zostawisz!
     </Speech>
     <Music name="None" />
     <Link path="Finale.vnml" />
