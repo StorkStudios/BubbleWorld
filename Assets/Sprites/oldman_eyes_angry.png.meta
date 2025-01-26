@@ -1,22 +1,28 @@
 fileFormatVersion: 2
-guid: a546b3efd32f4994f8bc38d6a84139f1
+guid: 3597f8018b6188040a9acebbb00838e2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2268252861159670733
-    second: BlondEyesdle_0
+      213: 8385359143143735478
+    second: oldman_eyes_angry_0
   - first:
-      213: 1023492186579730065
-    second: BlondEyesdle_1
+      213: -6099864453023574440
+    second: oldman_eyes_angry_1
   - first:
-      213: -7895225739558063600
-    second: BlondEyesdle_2
+      213: 7705434401230147919
+    second: oldman_eyes_angry_2
   - first:
-      213: -6994173820472888121
-    second: BlondEyesdle_3
+      213: -2065677356839364023
+    second: oldman_eyes_angry_3
   - first:
-      213: 5757786341858812308
-    second: BlondEyesdle_4
+      213: 6957989547268932459
+    second: oldman_eyes_angry_4
+  - first:
+      213: -964808792069048699
+    second: oldman_eyes_angry_5
+  - first:
+      213: -4827434730092570027
+    second: oldman_eyes_angry_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -112,13 +118,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BlondEyesdle_0
+      name: oldman_eyes_angry_0
       rect:
         serializedVersion: 2
-        x: 304
-        y: 1417
-        width: 137
-        height: 70
+        x: 2015
+        y: 1901
+        width: 46
+        height: 114
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -127,20 +133,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dc38f22a5f37a7f10800000000000000
-      internalID: 2268252861159670733
+      spriteID: 6b0082196b7ce5470800000000000000
+      internalID: 8385359143143735478
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BlondEyesdle_1
+      name: oldman_eyes_angry_1
       rect:
         serializedVersion: 2
-        x: 310
-        y: 1464
-        width: 137
-        height: 39
+        x: 2054
+        y: 1982
+        width: 99
+        height: 55
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,20 +155,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 19ef87398bc243e00800000000000000
-      internalID: 1023492186579730065
+      spriteID: 8565f73399de85ba0800000000000000
+      internalID: -6099864453023574440
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BlondEyesdle_2
+      name: oldman_eyes_angry_2
       rect:
         serializedVersion: 2
-        x: 481
-        y: 1465
-        width: 133
-        height: 40
+        x: 2121
+        y: 1895
+        width: 46
+        height: 114
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,20 +177,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 012fe1445068e6290800000000000000
-      internalID: -7895225739558063600
+      spriteID: f41d56543c33fea60800000000000000
+      internalID: 7705434401230147919
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BlondEyesdle_3
+      name: oldman_eyes_angry_3
       rect:
         serializedVersion: 2
-        x: 486
-        y: 1417
-        width: 133
-        height: 71
+        x: 1751
+        y: 1824
+        width: 164
+        height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,20 +199,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7c4706d87f3bfee90800000000000000
-      internalID: -6994173820472888121
+      spriteID: 94a950d636d3553e0800000000000000
+      internalID: -2065677356839364023
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BlondEyesdle_4
+      name: oldman_eyes_angry_4
       rect:
         serializedVersion: 2
-        x: 454
-        y: 1367
-        width: 6
-        height: 24
+        x: 1959
+        y: 1820
+        width: 169
+        height: 109
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,8 +221,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 491271ffb24c7ef40800000000000000
-      internalID: 5757786341858812308
+      spriteID: b6388d3d0aebf8060800000000000000
+      internalID: 6957989547268932459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldman_eyes_angry_5
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 1773
+        width: 144
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 586fc80f38f4c92f0800000000000000
+      internalID: -964808792069048699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oldman_eyes_angry_6
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 1765
+        width: 149
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55ad27890b1810db0800000000000000
+      internalID: -4827434730092570027
       vertices: []
       indices: 
       edges: []
@@ -234,12 +284,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      BlondEyesdle_0: 2268252861159670733
-      BlondEyesdle_1: 1023492186579730065
-      BlondEyesdle_2: -7895225739558063600
-      BlondEyesdle_3: -6994173820472888121
-      BlondEyesdle_4: 5757786341858812308
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

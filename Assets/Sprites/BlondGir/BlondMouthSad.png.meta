@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BlondMouthSad_0: 1267232341474515489
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

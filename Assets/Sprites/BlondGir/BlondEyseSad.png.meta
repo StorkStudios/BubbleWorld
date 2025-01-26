@@ -259,7 +259,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BlondEyseSad_0: -6076139971842420693
+      BlondEyseSad_1: -5018451774439565116
+      BlondEyseSad_2: -4848586598369478091
+      BlondEyseSad_3: -2434661289578426297
+      BlondEyseSad_4: -5618202203927393203
+      BlondEyseSad_5: 1048994102724555720
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
