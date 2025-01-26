@@ -155,5 +155,5 @@
         Chwyciła ją i pomaszerowała w stronę drzwi.
     </Speech>
     <Exit character_id="Ruda"/>
-    <Link path="DariaAndShiori.ynml" />
+    <Link path="DariaAndShiori.vnml" />
 </Chapter>
