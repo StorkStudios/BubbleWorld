@@ -39,7 +39,7 @@
         W każdym razie, dziewczyny, co chciałybyście zamówić?
     </Speech>
     <Speech character="Daria">
-        Bubble tea z truskawkami.
+        Miętową bubble tea z truskawkami i żelkami bananowymi. Mocno wymieszaną.
     </Speech>
     <Speech>
         Przenoszę wzrok na Shiori, żeby zobaczyć, co chce, ale ona po prostu stoi w milczeniu, częściowo schowana za plecami Darii.
@@ -53,6 +53,14 @@
     <Speech character="Daria">
         To dla nas obu, po prostu daj nam dwie słomki.
     </Speech>
+    <MinigameStart>
+        <TeaBase>Mint</TeaBase>
+        <TeaSyroup>Strawberry</TeaSyroup>
+        <TeaJellies>
+            <Jelly>Banana</Jelly>
+        </TeaJellies>
+        <TeaMixage>Hard</TeaMixage>
+    </MinigameStart>
     <Speech character="Ja">
         Oczywiście, już robię.
     </Speech>
@@ -62,7 +70,7 @@
     <Speech character="Ja">
         A więc, wy się znacie?
     </Speech>
-    <Speech character="Daria">
+    <Speech character="Daria" character_id="Blondynka">
         Tak, poznałyśmy się na uniwersytecie, Shiori bardzo pomogła mi się zaaklimatyzować po przeprowadzce, ponieważ jest jedną z niewielu osób, które dobrze znają angielski.
     </Speech>
     <Speech>
@@ -71,10 +79,10 @@
     <Speech character="Ja">
         Doprawdy? Nie wiedziałem że jesteś biegła w językach obcych.
     </Speech>
-    <Speech character="Shiori">
+    <Speech character="Shiori" character_id="Brunetka">
         T-tak, uczyłam się korzystając z kilku kursów, a potem doskonaliłam umiejętności czytając angielskie książki w oryginale. Ale nadal nie jestem szczególnie dobra...
     </Speech>
-    <Speech character="Daria">
+    <Speech character="Daria" character_id="Blondynka">
         Daj spokój, mówisz bardzo dobrze.
     </Speech>
     <Speech>
@@ -89,27 +97,28 @@
     <Speech>
         Daria śmieje się na tę uwagę.
     </Speech>
-    <Speech character="Daria">
+    <Speech character="Daria" character_id="Blondynka">
         Coś w tym jest, Shiori nigdy się nie wystroi ani nie umaluje, za to zawsze ukrywa się pod kilkoma warstwami swetrów.
     </Speech>
-    <Speech character="Shiori">
+    <Speech character="Shiori" character_id="Brunetka">
         T-tak mi wygodniej.
     </Speech>
     <Speech>
         Shiori mamrocze tę uwagę pod nosem, widać że dla niej to drażliwy temat. Darii jednak widocznie umyka ten szczegół, bo kontynuuje rozmowę.
     </Speech>
-    <Speech character="Daria">
+    <Speech character="Daria" character_id="Blondynka">
         Może i wygodniej, ale w ten sposób zamykasz się na ludzi. Jeśli nie dbasz o siebie, zaprzepaszczasz wszelkie szanse że ktokolwiek się do Ciebie odezwie.
     </Speech>
-    <Speech character="Shiori">
+    <Speech character="Shiori" character_id="Brunetka">
         Nie... nie potrzebuję zbyt dużo uwagi. Mam już kilku przyjaciół.
     </Speech>
-    <Speech character="Daria">
+    <Speech character="Daria" character_id="Blondynka">
         Tak Ci się wydaje, bo zamykasz się w czterech ścianach z nosem w książkach. Nie masz wrażenia że całe życie przelatuje Ci przed oczami, a Ty tego nie zauważasz?
     </Speech>
-    <Speech character="Shiori">
+    <Speech character="Shiori" character_id="Brunetka">
         N-nie. To moja decyzja co robię. I na pewno nie jest to marnowanie życia.
     </Speech>
+    <MinigameEnd />
     <Speech>
         Kończę ich napój i stawiam go przed nimi bez słowa, nie chcąc im przeszkadzać.
     </Speech>
