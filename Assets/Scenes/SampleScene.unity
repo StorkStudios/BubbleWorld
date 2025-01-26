@@ -1491,12 +1491,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6515519581333824667, guid: 3896cfa438d060d6099784a0b48d286e, type: 3}
+      propertyPath: text
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8763592425743992138, guid: 3896cfa438d060d6099784a0b48d286e, type: 3}
       propertyPath: m_Name
       value: GameOverScreen
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 5276448298826552272, guid: 3896cfa438d060d6099784a0b48d286e, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3896cfa438d060d6099784a0b48d286e, type: 3}
