@@ -21,7 +21,7 @@
     <Speech character_id="Gracz" character="Ja">
         Oczywiście. Mamy taki smak.
     </Speech>
-    <Update character_id="Farbowana" mouth="Smile"/>
+    <Update character_id="Farbowana" mouth="Happy" eyes="Happy"/>
     <Speech character_id="Farbowana" character="???">
         Zajebiście. Poproszę największą jaką macie.
     </Speech>
@@ -45,7 +45,7 @@
     <Speech character_id="Gracz" character="Ja">
         Jestem Tenteki.
     </Speech>
-    <Update character_id="Farbowana" mouth="Neutral"/>
+    <Update character_id="Farbowana" mouth="Neutral" eyes="Forward"/>
     <Speech>
         <i>Przez chwilę nastała niezręczna cisza. Wydawało się, ocenia mnie wzrokiem.</i>
     </Speech>
@@ -67,7 +67,7 @@
     <Speech character_id="Farbowana" character="Yukari">
         Taaaa...
     </Speech>
-    <Update character_id="Farbowana" mouth="Sad"/>
+    <Update character_id="Farbowana" mouth="Sad" eyes="Sad"/>
     <Speech>
         <i>Wygląda na nieco przybitą.</i>
     </Speech>
@@ -80,7 +80,7 @@
     <Speech character_id="Farbowana" character="Yukari">
         Teraz to najchętniej znalazłabym kogoś innego żeby jak najszybciej o nim zapomnieć.
     </Speech>
-    <Update character_id="Farbowana" mouth="Smile"/>
+    <Update character_id="Farbowana" mouth="Happy" eyes="Happy"/>
     <Speech character_id="Farbowana" character="Yukari">
         A Ty masz kogoś? Jesteś całkiem całkiem.
     </Speech>
@@ -96,11 +96,11 @@
         <Case option_id="3"/>
         </Switch>
     </Choice>
-    <Update character_id="Farbowana" mouth="Normal"/>
+    <Update character_id="Farbowana" mouth="Neutral" eyes="Forward"/>
     <Speech character_id="Farbowana" character="Yukari">
         Hmmmm
     </Speech>
-    <Update character_id="Farbowana" mouth="Smile"/>
+    <Update character_id="Farbowana" mouth="Happy" eyes="Happy"/>
     <Speech character_id="Farbowana" character="Yukari">
         A co robisz po pracy?
     </Speech>
@@ -110,7 +110,7 @@
     <Speech character_id="Gracz" character="Ja">
         Zwykle jestem tak zmęczony że idę od razu spać.
     </Speech>
-    <Update character_id="Farbowana" mouth="Normal"/>
+    <Update character_id="Farbowana" mouth="Neutral" eyes="Forward"/>
     <Speech character_id="Farbowana" character="Yukari">
         A w dni wolne?
     </Speech>
@@ -124,7 +124,7 @@
     <Speech>
         <i>Nigdy bym się nie spodziewał, że osoba którą dopiero co poznałem może się tak przejmować moją sytuacją.</i>
     </Speech>
-    <Update character_id="Farbowana" mouth="Neutral"/>
+    <Update character_id="Farbowana" mouth="Neutral" eyes="Forward"/>
     <Speech character_id="Gracz" character="Ja">
         Właściciel tyle dla mnie zrobił, że nie mógłbym tak po prostu się zwolnić. Nawet pozwala mi spać na zapleczu.
     </Speech>
@@ -183,7 +183,7 @@
                 <Speech character_id="Gracz" character="Ja">
                     Postaram się porozmawiać z szefową.
                 </Speech>
-                <Update character_id="Farbowana" mouth="Smile"/>
+                <Update character_id="Farbowana" mouth="Happy" eyes="Happy"/>
                 <Speech character_id="Farbowana" character="Yukari">
                     No ja myśle.
                 </Speech>
@@ -195,14 +195,14 @@
                 <Speech character_id="Gracz" character="Ja">
                     No nie wiem...
                 </Speech>
-                <Update character_id="Farbowana" mouth="Smile"/>
+                <Update character_id="Farbowana" mouth="Happy" eyes="Happy"/>
                 <Speech character_id="Farbowana" character="Yukari">
                     No a ja wiem. Pójdziesz ze mną czy tego chcesz czy nie.
                 </Speech>
             </Case>
         </Switch>
     </Choice>
-    <Update character_id="Farbowana" mouth="Smile"/>
+    <Update character_id="Farbowana" mouth="Happy" eyes="Happy"/>
     <Speech character_id="Farbowana" character="Yukari">
         Będzie grał mój ulubiony zespół. Na pewno Ci się spodoba.
     </Speech>
