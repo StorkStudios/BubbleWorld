@@ -105,7 +105,7 @@
                 <Speech character_id="Blondynka" character="Daria">
                     U mnie w kraju to jest normalne.
                 </Speech>
-                <MinigameEnd>
+                <MinigameEnd />
                 <Choice>
                     <Variable name="MinigameResult" />
                     <Switch>
@@ -223,7 +223,7 @@
                 <Speech character_id="Farbowana" character="Yukari">
                     Wpadnę jeszcze jutro żeby powiedzieć jako poszło.
                 </Speech>
-                <MinigameEnd>
+                <MinigameEnd />
                 <Speech>
                     Podałem jej herbatę.
                 </Speech>
@@ -238,4 +238,4 @@
         </Switch>
     </Choice>
     <Link path="ShioriAndYukari.vnml"/>
-</Chapter
+</Chapter>
