@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      girl1_kidnapped_w_eyes_0: 2162096475480495599
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      girl1_neutral_mouth_0: 7117477215320621749
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

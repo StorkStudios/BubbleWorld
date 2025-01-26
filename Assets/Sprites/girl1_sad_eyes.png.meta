@@ -284,7 +284,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      girl1_sad_eyes_0: 2691986426654266805
+      girl1_sad_eyes_1: 3822524032013465012
+      girl1_sad_eyes_2: -1228366572251912223
+      girl1_sad_eyes_3: -1186597766543801419
+      girl1_sad_eyes_4: -5350277859166879504
+      girl1_sad_eyes_5: 8377140481809671409
+      girl1_sad_eyes_6: 2462333484773391832
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
