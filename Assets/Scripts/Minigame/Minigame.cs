@@ -15,6 +15,7 @@ public class Minigame : MonoBehaviour
 
     private DrinkData currentDrink;
     private DrinkData targetDrink;
+    private TeaMixage targetMixage;
 
     private bool doneClicked = false;
 
@@ -127,6 +128,7 @@ public class Minigame : MonoBehaviour
             secondJelly = values.teaJellies.Length > 1 ? values.teaJellies[1] : null,
             thirdJelly = values.teaJellies.Length > 2 ? values.teaJellies[2] : null
         };
+        targetMixage = values.teaMixage;
 
         ingredientsSection.SetClickableBase(true);
         ingredientsSection.SetClickableSyroup(true);
@@ -163,7 +165,20 @@ public class Minigame : MonoBehaviour
 
     private int GetRating()
     {
-        return 0;
+        int v = 0;
+        if (currentDrink.IsSame(targetDrink))
+        {
+            v += 1;
+        }
+        if (targetMixage == controlsSection.currentMixage)
+        {
+            v += 1;
+        }
+        if (!doneClicked)
+        {
+            v -= 1;
+        }
+        return v;
     }
 
     private Tween AnimateOutRectTransform(RectTransform rectTransform)

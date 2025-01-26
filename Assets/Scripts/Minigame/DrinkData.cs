@@ -37,4 +37,14 @@ public class DrinkData
             yield return iconMap.TeaJellies[thirdJelly.Value];
         }
     }
+
+    public bool IsSame(DrinkData other)
+    {
+        return teaBase == other.teaBase &&
+            teaSyroup == other.teaSyroup &&
+            secondSyroup == other.secondSyroup &&
+            firstJelly == other.firstJelly &&
+            secondJelly == other.secondJelly &&
+            thirdJelly == other.thirdJelly;
+    }
 }

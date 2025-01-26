@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      girl1_mouth_angry_0: 4123212423804736562
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
