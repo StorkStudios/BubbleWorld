@@ -1,0 +1,49 @@
+<Chapter>
+    <Speech character_id="Stary" character="Ojciec Berthy">
+        Ale nie masz też pojęcia ile rzeczy zrobiłem w życiu których nie chciałem zrobić.
+    </Speech>
+    <Speech character_id="Stary" character="Ojciec Berthy">
+        Wszystko to aby zagwarantować lepszą przyszłość mojej rodziny.
+    </Speech>
+    <Speech>
+        Mężczyzna wykonuje gwałtowny ruch do przodu jednocześnie wykonując wymach broną i trafiając mnie nią w głowę jak maczugą.
+    </Speech>
+    <Speech>
+        Zataczam się do tyłu, zamroczony. Ojciec Berthy wykorzystuje to, łapiąc mnie w pół i powalając na ziemię.
+    </Speech>
+    <Speech>
+        Próbuję walczyć, ale jest zbyt silny. Jedną ręką powstrzymuje obie moje, a drugą chwyta mnie za głowę i szarpnięciem otwiera jakąś klapę w okolicach kości skroniowej.
+    </Speech>
+    <Speech character_id="Stary" character="Ojciec Berthy">
+        Jesteś bystry, androidzie. Ale nie dość, by udawać prawdziwego człowieka. Wyświadczam Ci przysługę.
+    </Speech>
+    <Speech>
+        Wykonuję ostatnie, desperackie szarpnięcie w niedźwiedzim uchwycie mężczyzny gdy ten wciska znajdujący się na mojej skronii przycisk resetu systemu.
+    </Speech>
+    <Speech>
+        Wspomnienia odparowują. Desperacko próbuję je chwytać, jednak jedno po drugim umykają z mojej głowy, usuwając osobowość.
+    </Speech>
+    <Speech>
+        Nie mija sekunda, a już trzymam w kurczowym uścisku tylko jedno, ostatnie wspomnienie. Jestem jednak za słaby.
+    </Speech>
+    <Choice>
+        <Variable name="chosenOne" />
+        <Switch>
+            <Case value="1">
+                <Speech>
+                    Twarz Darii wyślizguje mi się i znika z mojego umysłu, a wtedy moje ja ostatecznie gaśnie.
+                </Speech>
+            </Case>
+            <Case value="2">
+                <Speech>
+                    Twarz Shiori wyślizguje mi się i znika z mojego umysłu, a wtedy moje ja ostatecznie gaśnie.
+                </Speech>
+            </Case>
+            <Case value="3">
+                <Speech>
+                    Twarz Yukari wyślizguje mi się i znika z mojego umysłu, a wtedy moje ja ostatecznie gaśnie.
+                </Speech>
+            </Case>
+        </Switch>
+    </Choice>
+</Chapter>

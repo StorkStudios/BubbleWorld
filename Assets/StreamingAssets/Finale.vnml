@@ -460,7 +460,7 @@
         </Options>
         <Switch>
             <Case option_id="1">
-                <VariableAdd name="przekonywanieOjca" value="+1" />
+                <VariableAdd name="przekonywanieOjca" value="1" />
                 <Speech character="Ojciec Berthy">
                     Nigdy nie ograniczałem twoich wyborów. Pracowałeś tutaj z wolnej woli.
                 </Speech>
@@ -568,7 +568,7 @@
                 </Speech>
             </Case>
             <Case option_id="2">
-                <VariableAdd name="przekonywanieOjca" value="+1" />
+                <VariableAdd name="przekonywanieOjca" value="1" />
                 <Speech character="Ja">
                     Twoja córka bawi się tu w firmę. Ale to nie jest prawdziwe.
                 </Speech>
@@ -632,7 +632,7 @@
                 </Speech>
             </Case>
             <Case option_id="2">
-                <VariableAdd name="przekonywanieOjca" value="+1" />
+                <VariableAdd name="przekonywanieOjca" value="1" />
                 <Speech character="Ojciec Berthy">
                     A co to ma do rzeczy?
                 </Speech>
@@ -678,249 +678,411 @@
     <Speech character="Ojciec Berthy">
         Masz rację.
     </Speech>
+    <Choice>
+        <Variable name="PrzekonywanieOjca">
+        <Switch>
+            <Case value="0">
+                <Link path="FatherDefeat.vnml"/>
+            </Case>
+            <Case value="1">
+                <Link path="FatherDefeat.vnml"/>
+            </Case>
+            <Case value="-1">
+                <Link path="FatherDefeat.vnml"/>
+            </Case>
+            <Case value="-2">
+                <Link path="FatherDefeat.vnml"/>
+            </Case>
+            <Case value="-3">
+                <Link path="FatherDefeat.vnml"/>
+            </Case>
+            <Case value="2"></Case>
+            <Case value="3"></Case>
+        </Switch>
+    </Choice
+    <Speech character_id="Stary" character="Ojciec Berthy">
+        Nie masz pojęcia ile rzeczy zrobiłem w życiu których nie chciałem zrobić. Wszystko to aby zagwarantować lepszą przyszłość mojej rodziny.
+    </Speech>
+    <Speech character_id="Stary" character="Ojciec Berthy">
+        Ale tej jednej... zdaje się że nie potrafię.
+    </Speech>
+    <Speech>
+        Ojciec Berthy opuszcza broń. Wydaje się w tym momencie strasznie zmęczony.
+    </Speech>
+    <Speech character_id="Stary" character="Ojciec Berthy">
+        Masz rację. Nie mogę tak po prostu Cię wyłączyć. Robiąc to, zachowałbym się jak zwierzę.
+    </Speech>
+    <Speech character_id="Stary" character="Ojciec Berthy">
+        Zdejmę zabezpieczenie które tworzy tę nieprzekraczalną barierę i będziesz mógł pójść gdzie zechcesz. Nie będę Cię zatrzymywał.
+    </Speech>
+    <Choice>
+        <Options>
+            <Option id="1">Dziękuję.</Option>
+            <Option id="2">Zostanę w Bubble World. Ale zdejmij ogranicznik.</Option>
+            <Option id="3">Doceniam, ale to jeszcze nie wszystko. Została jeszcze jedna sprawa.</Option>
+        </Options>
+        <Switch>
+            <Case option_id="1">
+                <Speech character="Ja">
+                    Dziękuję. To dla mnie wiele znaczy.
+                </Speech>
+                <Speech>
+                    Ojciec Berthy odkłada broń na stół i zbliża się do mnie Ciężkim krokiem, wyjmując z kieszeni klucze.
+                </Speech>
+                <Speech character="Ojciec Berthy">
+                    Przekrzyw głowę lekko w lewo, proszę.
+                </Speech>
+                <Speech>
+                    Robię to a wtedy on delikatnie chwyta mnie za szyję i drugą ręką zaczyna usuwać blokadę.
+                </Speech>
+                <Speech>
+                    Chyba po raz pierwszy od kiedy odkryłem kim na prawdę jestem, na mojej twarzy znów gości uśmiech.
+                </Speech>
+            </Case>
+            <Case option_id="2">
+                <Speech character="Ja">
+                    Dziękuję. Ale... myślę że moją pierwszą decyzją jako wolny człowiek będzie pozostanie w Bubble World.
+                </Speech>
+                <Speech character="Ja">
+                    Nie obiecuję że na zawsze. Ale mam swobodę wyboru i zamierzam z niej skorzystać, jeśli pan nie ma nic przeciwko.
+                </Speech>
+                <Speech character="Ojciec Berthy">
+                    Ja... rozumiem. Zaskoczyłeś mnie tą decyzją, ale szanuję ją i akceptuję.
+                </Speech>
+                <Speech character="Ojciec Berthy">
+                    Wiem że moja córka będzie bardzo szczęśliwa jeśli się pogodzicie i będziecie znów pracować wspólnie.
+                </Speech>
+                <Speech character="Ojciec Berthy">
+                    W końcu, mimo tych wszystkich przejść, wiem że ona ciągle widzi w tobie przyjaciela.
+                </Speech>
+                <Speech character="Ojciec Berthy">
+                    A po tym wszystkim co tu od Ciebie dziś usłyszałem czuję że mogę Ci zaufać że zadbasz by nie stała się jej krzywda.
+                </Speech>
+                <Speech character="Ja">
+                    To dla mnie wiele znaczy. Dziękuję.
+                </Speech>
+                <Speech>
+                    Ojciec Berthy odkłada broń na stół i zbliża się do mnie Ciężkim krokiem, wyjmując z kieszeni klucze.
+                </Speech>
+                <Speech character="Ojciec Berthy">
+                    Przekrzyw głowę lekko w lewo, proszę.
+                </Speech>
+                <Speech>
+                    Robię to a wtedy on delikatnie chwyta mnie za szyję i drugą ręką zaczyna usuwać blokadę.
+                </Speech>
+                <Speech>
+                    Chyba po raz pierwszy od kiedy odkryłem kim na prawdę jestem, na mojej twarzy znów gości uśmiech.
+                </Speech>
+            </Case>
+            <Case option_id="3">
+                <Speech character="Ja">
+                    Doceniam, ale to jeszcze nie wszystko. Została nam jeszcze jedna sprawa którą musimy omówić.
+                </Speech>
+                <Speech>
+                    Ojciec Berthy spogląda na mnie podejrzliwie.
+                </Speech>
+                <Choice>
+                    <Variable name="chosenOne" />
+                    <Switch>
+                        <Case value="1">
+                            <Speech character="Ja">
+                                Daria. Chciałbym móc ją zabrać ze sobą.
+                            </Speech>
+                        </Case>
+                        <Case value="2">
+                            <Speech character="Ja">
+                                Shiori. Chciałbym móc ją zabrać ze sobą.
+                            </Speech>
+                        </Case>
+                        <Case value="3">
+                            <Speech character="Ja">
+                                Yukari. Chciałbym móc ją zabrać ze sobą.
+                            </Speech>
+                        </Case>
+                    </Switch>
+                </Choice>
+                <Speech character="Ojciec Berthy">
+                    Ten android klientki? A to niby czemu?
+                </Speech>
+                <Choice>
+                    <Variable name="chosenOne" />
+                    <Switch>
+                        <Case value="1">
+                            <Speech character="Ja">
+                                Jesteśmy ze sobą... dosyć blisko. A gdy tylko Bertha to zauważyła, sprawiła by Daria zniknęła.
+                            </Speech>
+                        </Case>
+                        <Case value="2">
+                            <Speech character="Ja">
+                                Jesteśmy ze sobą... dosyć blisko. A gdy tylko Bertha to zauważyła, sprawiła by Shiori zniknęła.
+                            </Speech>
+                        </Case>
+                        <Case value="3">
+                            <Speech character="Ja">
+                                Jesteśmy ze sobą... dosyć blisko. A gdy tylko Bertha to zauważyła, sprawiła by Yukari zniknęła.
+                            </Speech>
+                        </Case>
+                    </Switch>
+                </Choice>
+                <Speech>
+                    Mam wrażenie że mężczyzna robi się podejrzliwy.
+                </Speech>
+                <Speech character="Ojciec Berthy">
+                    A czego dokładnie dla niej chcesz?
+                </Speech>
+                <Choice>
+                    <Options>
+                        <Option id="1">Również obdarzyć ją wolnością.</Option>
+                        <Option id="2">Dać jej wszystko czego zapragnie.</Option>
+                        <Option id="3">Aby mogła być ze mną do końca życia.</Option>
+                    </Options>
+                    <Switch>
+                        <Case option_id="1">
+                            VariableAdd name="przekonywanieOjca" value="1" />
+                        </Case>
+                        <Case option_id="2">
+                            VariableAdd name="przekonywanieOjca" value="-1" />
+                            <Speech character="Ojciec Berthy">
+                                Wszystko?
+                            </Speech>
+                            <Speech character="Ojciec Berthy">
+                                Czy nie sądzisz, że brzmi to jak zaślepienie?
+                            </Speech>
+                            <Speech character="Ojciec Berthy">
+                                Jesteś gotów zrobić wszystko dla osoby którą ledwo znasz?
+                            </Speech>
+                            <Speech character="Ojciec Berthy">
+                                A co jeśli sprawi to że dopuścisz się rzeczy nieakceptowalnych, byle tylko zadowolić swoją wybrankę?
+                            </Speech>
+                            <Speech character="Ojciec Berthy">
+                                Potraktuj to jako przestrogę do przemyślenia.
+                            </Speech>
+                            <Choice>
+                                <Variable name="przekonywanieOjca" />
+                                    <Switch>
+                                        <Case value="2">
+                                            <Choice>
+                                                <Variable name="chosenOne" />
+                                                <Switch>
+                                                    <Case value="1">
+                                                        <Speech character="Ojciec Berthy">
+                                                            Natomiast Darie znajdziesz w jej domu naprzeciw sklepu.
+                                                        </Speech>
+                                                    </Case>
+                                                    <Case value="2">
+                                                        <Speech character="Ojciec Berthy">
+                                                            Natomiast Shiori znajdziesz w jej domu naprzeciw sklepu.
+                                                        </Speech>
+                                                    </Case>
+                                                    <Case value="3">
+                                                        <Speech character="Ojciec Berthy">
+                                                            Natomiast Yukari znajdziesz w jej domu naprzeciw sklepu.
+                                                        </Speech>
+                                                    </Case>
+                                                </Switch>
+                                            </Choice>
+                                            <Speech character="Ja">
+                                                Z całego serca dziękuję. Naprawdę.
+                                            </Speech>
+                                            <Speech>
+                                                Ojciec Berthy odkłada broń na stół i zbliża się do mnie Ciężkim krokiem, wyjmując z kieszeni klucze.
+                                            </Speech>
+                                            <Speech character="Ojciec Berthy">
+                                                Przekrzyw głowę lekko w lewo, proszę.
+                                            </Speech>
+                                            <Speech>
+                                                Robię to a wtedy on delikatnie chwyta mnie za szyję i drugą ręką zaczyna usuwać blokadę.
+                                            </Speech>
+                                            <Speech>
+                                                Chyba po raz pierwszy od kiedy odkryłem kim na prawdę jestem, na mojej twarzy znów gości uśmiech.
+                                            </Speech>
+                                        </Case>
+                                        <Case value="1">
+                                            <Speech character="Ojciec Berthy">
+                                                Pozwolę Ci odejść, ale będziesz musiał odbyć tę podróż sam.
+                                            </Speech>
+                                            <Speech character="Ja">
+                                                Ale...
+                                            </Speech>
+                                            <Speech character="Ojciec Berthy">
+                                                Proszę, nie dyskutuj. Moja decyzja jest ostateczna.
+                                            </Speech>
+                                            <Speech character="Ja">
+                                                Ja... rozumiem.
+                                            </Speech>
+                                            <Speech character="Ojciec Berthy">
+                                                Dobrze. To pozwól, że usunę Ci teraz ten ogranicznik.
+                                            </Speech>
+                                            <Speech character="Ja">
+                                                Dziękuję.
+                                            </Speech>
+                                            <Speech>
+                                                Ojciec Berthy odkłada broń na stół i zbliża się do mnie Ciężkim krokiem, wyjmując z kieszeni klucze.
+                                            </Speech>
+                                            <Speech character="Ojciec Berthy">
+                                                Przekrzyw głowę lekko w lewo, proszę.
+                                            </Speech>
+                                            <Speech>
+                                                Robię to a wtedy on delikatnie chwyta mnie za szyję i drugą ręką zaczyna usuwać blokadę.
+                                            </Speech>
+                                            <Speech>
+                                                Chyba po raz pierwszy od kiedy odkryłem kim na prawdę jestem, na mojej twarzy znów gości uśmiech.
+                                            </Speech>
+                                        </Case>
+                                    </Switch>
+                            </Choice>
+                        </Case>
+                        <Case option_id="3"></Case>
+                    </Switch>
+                </Choice>
+                <Choice>
+                    <Variable name="przekonywanieOjca" />
+                    <Switch>
+                        <Case value="4">
+                            <Speech character="Ojciec Berthy">
+                                Krótko mówiąc, chcesz dla niej tego samego co dla siebie.
+                            </Speech>
+                            <Speech character="Ojciec Berthy">
+                                Stawiasz na pierwszym miejscu jej dobro, nie próbując od razu widzieć jej przez pryzmat swoich emocji.
+                            </Speech>
+                            <Speech character="Ojciec Berthy">
+                                To... dojrzałe. I szlachetne.
+                            </Speech>
+                            <Speech character="Ojciec Berthy">
+                                Widzę, że nie pomyliłem się co do Ciebie.
+                            </Speech>
+                            <Choice>
+                                <Variable name="chosenOne" />
+                                <Switch>
+                                    <Case value="1">
+                                        <Speech character="Ojciec Berthy">
+                                            Znajdziesz Darie w jej domu naprzeciw sklepu.
+                                        </Speech>
+                                    </Case>
+                                    <Case value="2">
+                                        <Speech character="Ojciec Berthy">
+                                            Znajdziesz Shiori w jej domu naprzeciw sklepu.
+                                        </Speech>
+                                    </Case>
+                                    <Case value="3">
+                                        <Speech character="Ojciec Berthy">
+                                            Znajdziesz Yukari w jej domu naprzeciw sklepu.
+                                        </Speech>
+                                    </Case>
+                                </Switch>
+                            </Choice>
+                            <Speech character="Ja">
+                                Z całego serca dziękuję. Naprawdę.
+                            </Speech>
+                            <Speech>
+                                Ojciec Berthy odkłada broń na stół i zbliża się do mnie Ciężkim krokiem, wyjmując z kieszeni klucze.
+                            </Speech>
+                            <Speech character="Ojciec Berthy">
+                                Przekrzyw głowę lekko w lewo, proszę.
+                            </Speech>
+                            <Speech>
+                                Robię to a wtedy on delikatnie chwyta mnie za szyję i drugą ręką zaczyna usuwać blokadę.
+                            </Speech>
+                            <Speech>
+                                Chyba po raz pierwszy od kiedy odkryłem kim na prawdę jestem, na mojej twarzy znów gości uśmiech.
+                            </Speech>
+                        </Case>
+                        <Case value="3">
+                            <Speech character="Ojciec Berthy">
+                                Krótko mówiąc, chcesz dla niej tego samego co dla siebie.
+                            </Speech>
+                            <Speech character="Ojciec Berthy">
+                                Stawiasz na pierwszym miejscu jej dobro, nie próbując od razu widzieć jej przez pryzmat swoich emocji.
+                            </Speech>
+                            <Speech character="Ojciec Berthy">
+                                To... dojrzałe. I szlachetne.
+                            </Speech>
+                            <Speech character="Ojciec Berthy">
+                                Widzę, że nie pomyliłem się co do Ciebie.
+                            </Speech>
+                            <Choice>
+                                <Variable name="chosenOne" />
+                                <Switch>
+                                    <Case value="1">
+                                        <Speech character="Ojciec Berthy">
+                                            Znajdziesz Darie w jej domu naprzeciw sklepu.
+                                        </Speech>
+                                    </Case>
+                                    <Case value="2">
+                                        <Speech character="Ojciec Berthy">
+                                            Znajdziesz Shiori w jej domu naprzeciw sklepu.
+                                        </Speech>
+                                    </Case>
+                                    <Case value="3">
+                                        <Speech character="Ojciec Berthy">
+                                            Znajdziesz Yukari w jej domu naprzeciw sklepu.
+                                        </Speech>
+                                    </Case>
+                                </Switch>
+                            </Choice>
+                            <Speech character="Ja">
+                                Z całego serca dziękuję. Naprawdę.
+                            </Speech>
+                            <Speech>
+                                Ojciec Berthy odkłada broń na stół i zbliża się do mnie Ciężkim krokiem, wyjmując z kieszeni klucze.
+                            </Speech>
+                            <Speech character="Ojciec Berthy">
+                                Przekrzyw głowę lekko w lewo, proszę.
+                            </Speech>
+                            <Speech>
+                                Robię to a wtedy on delikatnie chwyta mnie za szyję i drugą ręką zaczyna usuwać blokadę.
+                            </Speech>
+                            <Speech>
+                                Chyba po raz pierwszy od kiedy odkryłem kim na prawdę jestem, na mojej twarzy znów gości uśmiech.
+                            </Speech>
+                        </Case>
+                        <Case value="2">
+                            <Speech character="Ojciec Berthy">
+                                "Mogła". Aby na pewno nie "musiała"?
+                            </Speech>
+                            <Speech character="Ojciec Berthy">
+                                Uwolnienie kogoś tylko po to by go na powrót związać z czymś innym, według nas uważanym za słuszne, zaczyna brzmieć niebezpiecznie egoistycznie.
+                            </Speech>
+                            <Speech character="Ojciec Berthy">
+                                Co jeśli po dowiedzeniu się całej prawdy o sobie zdecyduje się obrać inną ścieżkę niż Ty?
+                            </Speech>
+                            <Speech character="Ojciec Berthy">
+                                Czy będziesz chciał jej tego odmówić? Jeśli tak, to popełniłbyś dokładnie ten błąd którego ja przed chwilą się wystrzegłem względem Ciebie.
+                            </Speech>
+                            <Speech character="Ojciec Berthy">
+                                Wybacz, ale obawiam się że emocje wzięłyby u Ciebie górę.
+                            </Speech>
+                            <Speech character="Ojciec Berthy">
+                                Pozwolę Ci odejść, ale będziesz musiał odbyć tę podróż sam.
+                            </Speech>
+                            <Speech character="Ja">
+                                Ale...
+                            </Speech>
+                            <Speech character="Ojciec Berthy">
+                                Proszę, nie dyskutuj. Moja decyzja jest ostateczna.
+                            </Speech>
+                            <Speech character="Ja">
+                                Ja... rozumiem.
+                            </Speech>
+                            <Speech character="Ojciec Berthy">
+                                Dobrze. To pozwól, że usunę Ci teraz ten ogranicznik.
+                            </Speech>
+                            <Speech>
+                                Ojciec Berthy odkłada broń na stół i zbliża się do mnie Ciężkim krokiem, wyjmując z kieszeni klucze.
+                            </Speech>
+                            <Speech character="Ojciec Berthy">
+                                Przekrzyw głowę lekko w lewo, proszę.
+                            </Speech>
+                            <Speech>
+                                Robię to a wtedy on delikatnie chwyta mnie za szyję i drugą ręką zaczyna usuwać blokadę.
+                            </Speech>
+                            <Speech>
+                                Chyba po raz pierwszy od kiedy odkryłem kim na prawdę jestem, na mojej twarzy znów gości uśmiech.
+                            </Speech>
+                        </Case>
+                    </Switch>
+                </Choice>
+            </Case>
+        </Switch>
+    </Choice>
 </Chapter>
-
-1. Jeśli [PrzekonywanieOjca < 2]
-2. Jeśli [PrzekonywanieOjca >= 2]
-
-1.{
-Ojciec: Ale nie masz też pojęcia ile rzeczy zrobiłem w życiu których nie chciałem zrobić. Wszystko to aby zagwarantować lepszą przyszłość mojej rodziny.
-
-Mężczyzna wykonuje gwałtowny ruch do przodu jednocześnie wykonując wymach broną i trafiając mnie nią w głowę jak maczugą.
-
-Zataczam się do tyłu, zamroczony. Ojciec Berthy wykorzystuje to, łapiąc mnie w pół i powalając na ziemię.
-
-Próbuję walczyć, ale jest zbyt silny. Jedną ręką powstrzymuje obie moje, a drugą chwyta mnie za głowę i szarpnięciem otwiera jakąś klapę w okolicach kości skroniowej.
-
-Ojciec: Jesteś bystry, androidzie. Ale nie dość, by udawać prawdziwego człowieka. Wyświadczam Ci przysługę.
-
-Wykonuję ostatnie, desperackie szarpnięcie w niedźwiedzim uchwycie mężczyzny gdy ten wciska znajdujący się na mojej skronii przycisk resetu systemu.
-
-Wspomnienia odparowują. Desperacko próbuję je chwytać, jednak jedno po drugim umykają z mojej głowy, usuwając osobowość.
-
-Nie mija sekunda, a już trzymam w kurczowym uścisku tylko jedno, ostatnie wspomnienie. Jestem jednak za słaby.
-
-Twarz <opcja romantyczna> wyślizguje mi się i znika z mojego umysłu, a wtedy moje ja ostatecznie gaśnie.
-
-// ZAKOŃCZENIE ŚMIERĆ
-}
-
-2.{
-Ojciec: Nie masz pojęcia ile rzeczy zrobiłem w życiu których nie chciałem zrobić. Wszystko to aby zagwarantować lepszą przyszłość mojej rodziny.
-
-Ojciec: Ale tej jednej... zdaje się że nie potrafię.
-
-Ojciec Berthy opuszcza broń. Wydaje się w tym momencie strasznie zmęczony.
-
-Ojciec: Masz rację. Nie mogę tak po prostu Cię wyłączyć. Robiąc to, zachowałbym się jak zwierzę.
-
-Ojciec: Zdejmę zabezpieczenie które tworzy tę nieprzekraczalną barierę i będziesz mógł pójść gdzie zechcesz. Nie będę Cię zatrzymywał.
-
-2.1. "Dziękuję."
-2.2. "Zostanę w Bubble World. Ale zdejmij ogranicznik."
-2.3. "Doceniam, ale to jeszcze nie wszystko. Została jeszcze jedna sprawa."
-
-2.1.{
-Gracz: Dziękuję. To dla mnie wiele znaczy.
-
-Ojciec Berthy odkłada broń na stół i zbliża się do mnie Ciężkim krokiem, wyjmując z kieszeni klucze.
-
-Ojciec: Przekrzyw głowę lekko w lewo, proszę.
-
-Robię to a wtedy on delikatnie chwyta mnie za szyję i drugą ręką zaczyna usuwać blokadę.
-
-Chyba po raz pierwszy od kiedy odkryłem kim na prawdę jestem, na mojej twarzy znów gości uśmiech.
-
-// ZAKOŃCZENIE WOLNOŚĆ
-}
-
-2.2.{
-Gracz: Dziękuję. Ale... myślę że moją pierwszą decyzją jako wolny człowiek będzie pozostanie w Bubble World.
-
-Gracz: Nie obiecuję że na zawsze. Ale mam swobodę wyboru i zamierzam z niej skorzystać, jeśli pan nie ma nic przeciwko.
-
-Mężczyzna zamiera na moment, patrząc na mnie w skupieniu i w widoczny sposób nad czymś się zastanawiając.
-
-Po chwili odwraca wzrok i kiwa głową.
-
-Ojciec: Ja... rozumiem. Zaskoczyłeś mnie tą decyzją, ale szanuję ją i akceptuję.
-
-Ojciec: Wiem że moja córka będzie bardzo szczęśliwa jeśli się pogodzicie i będziecie znów pracować wspólnie.
-
-Ojciec: W końcu, mimo tych wszystkich przejść, wiem że ona ciągle widzi w tobie przyjaciela.
-
-Ojciec: A po tym wszystkim co tu od Ciebie dziś usłyszałem czuję że mogę Ci zaufać że zadbasz by nie stała się jej krzywda.
-
-Gracz: To dla mnie wiele znaczy. Dziękuję.
-
-Ojciec Berthy odkłada broń na stół i zbliża się do mnie Ciężkim krokiem, wyjmując z kieszeni klucze.
-
-Ojciec: Przekrzyw głowę lekko w lewo, proszę.
-
-Robię to a wtedy on delikatnie chwyta mnie za szyję i drugą ręką zaczyna usuwać blokadę.
-
-Chyba po raz pierwszy od kiedy odkryłem kim na prawdę jestem, na mojej twarzy znów gości uśmiech.
-
-// ZAKOŃCZENIE PRACOWNIK (WARIANT: WOLNY ROBOT)
-}
-
-2.3.{
-Gracz: Doceniam, ale to jeszcze nie wszystko. Została nam jeszcze jedna sprawa którą musimy omówić.
-
-Ojciec Berthy spogląda na mnie podejrzliwie.
-
-Gracz: <dziewczyna>. Chciałbym móc ją zabrać ze sobą.
-
-Ojciec: Ten android klientki? A to niby czemu?
-
-Gracz: Jesteśmy ze sobą... dosyć blisko. A gdy tylko Bertha to zauważyła, sprawiła by <dziewczyna> znikła.
-
-Mam wrażenie że mężczyzna robi się podejrzliwy.
-
-Ojciec: A czego dokładnie dla niej chcesz?
-
-2.3.1. "Również obdarzyć ją wolnością." [PrzekonywanieOjca +1]
-2.3.2. "Dać jej wszystko czego zapragnie." [PrzekonywanieOjca -1]
-2.3.3. "Aby mogła być ze mną do końca życia." [PrzekonywanieOjca 0]
-
-2.3.1.{
-Ojciec: Krótko mówiąc, chcesz dla niej tego samego co dla siebie.
-
-Ojciec: Stawiasz na pierwszym miejscu jej dobro, nie próbując od razu widzieć jej przez pryzmat swoich emocji.
-
-Ojciec: To... dojrzałe. I szlachetne.
-
-Ojciec: Widzę, że nie pomyliłem się co do Ciebie.
-
-Ojciec: Znajdziesz <dziewczyna> w jej domu <lokalizacja>.
-
-Gracz: Z całego serca dziękuję. Naprawdę.
-}
-
-2.3.2.{
-
-2.3.2.1. Jeśli [PrzekonywanieOjca > 2]
-2.3.2.2. Jeśli [PrzekonywanieOjca = 2]
-2.3.2.3. Jeśli [PrzekonywanieOjca < 2]
-
-2.3.2.1{
-    Ojciec: Wszystko?
-
-    Ojciec: Czy nie sądzisz, że brzmi to jak zaślepienie?
-
-    Ojciec: Jesteś gotów zrobić wszystko dla osoby którą ledwo znasz?
-
-    Ojciec: A co jeśli sprawi to że dopuścisz się rzeczy nieakceptowalnych, byle tylko zadowolić swoją wybrankę?
-
-    Ojciec: Potraktuj to jako przestrogę do przemyślenia.
-
-    Ojciec: Natomiast <dziewczyna> znajdziesz w jej domu <lokalizacja>.
-
-    Gracz: Z całego serca dziękuję. Naprawdę.
-}
-
-2.3.2.1{
-    Ojciec: Wszystko?
-
-    Ojciec: Czy nie sądzisz, że brzmi to jak zaślepienie?
-
-    Ojciec: Jesteś gotów zrobić wszystko dla osoby którą ledwo znasz?
-
-    Ojciec: A co jeśli sprawi to że dopuścisz się rzeczy nieakceptowalnych, byle tylko zadowolić swoją wybrankę?
-
-    Ojciec: Wybacz, ale obawiam się że emocje wzięłyby u Ciebie górę.
-
-    Ojciec: Pozwolę Ci odejść, ale będziesz musiał odbyć tę podróż sam.
-
-    Gracz: Ale...
-
-    Ojciec: Proszę, nie dyskutuj. Moja decyzja jest ostateczna.
-
-    Gracz: Ja... rozumiem.
-
-    Ojciec: Dobrze. To pozwól, że usunę Ci teraz ten ogranicznik.
-}
-
-2.3.2.1{
-    Ojciec: Rozumiem...
-
-    Ojciec: Pozwól jednak że najpierw usunę Ci ten ogranicznik;
-}
-
-}
-
-2.3.3.{
-Ojciec: "Mogła". Aby na pewno nie "musiała"?
-
-Ojciec: Uwolnienie kogoś tylko po to by go na powrót związać z czymś innym, według nas uważanym za słuszne, zaczyna brzmieć niebezpiecznie egoistycznie.
-
-Ojciec: Co jeśli po dowiedzeniu się całej prawdy o sobie zdecyduje się obrać inną ścieżkę niż Ty?
-
-Ojciec: Czy będziesz chciał jej tego odmówić? Jeśli tak, to popełniłbyś dokładnie ten błąd którego ja przed chwilą się wystrzegłem względem Ciebie.
-
-2.3.3.1. Jeśli [PrzekonywanieOjca = 2]
-2.3.3.2. Jeśli [PrzekonywanieOjca > 2]
-
-2.3.3.1.{
-Ojciec: Wybacz, ale obawiam się że emocje wzięłyby u Ciebie górę.
-
-Ojciec: Pozwolę Ci odejść, ale będziesz musiał odbyć tę podróż sam.
-
-Gracz: Ale...
-
-Ojciec: Proszę, nie dyskutuj. Moja decyzja jest ostateczna.
-
-Gracz: Ja... rozumiem.
-
-Ojciec: Dobrze. To pozwól, że usunę Ci teraz ten ogranicznik.
-}
-
-2.3.3.2.{
-Ojciec: Potraktuj to jako przestrogę do przemyślenia.
-
-Ojciec: Natomiast <dziewczyna> znajdziesz w jej domu <lokalizacja>.
-
-Gracz: Z całego serca dziękuję. Naprawdę.
-}
-
-}
-
-2.3.1. Jeśli [PrzekonywanieOjca < 2]
-2.3.2. Jeśli [PrzekonywanieOjca = 2]
-2.3.3. Jeśli [PrzekonywanieOjca > 2]
-
-Ojciec Berthy odkłada broń na stół i zbliża się do mnie Ciężkim krokiem, wyjmując z kieszeni klucze.
-
-Ojciec: Przekrzyw głowę lekko w lewo, proszę.
-
-2.3.1. Jeśli [PrzekonywanieOjca < 2]
-2.3.2. Jeśli [PrzekonywanieOjca >= 2]
-
-2.3.1.{
-Robię to i nagle mężczyzna gwałtownie chwyta mnie za szyję.
-
-Ojciec: Przepraszam Cię. Ale gdy w grę wchodzą tak ślepe emocje, że byłbyś w stanie zrobić dla niej wszystko, to nie mogę ryzykować.
-
-Zanim daję radę cokolwiek zrobić drugą ręką otwiera klapkę na mojej skroni i wdusza przycisk resetu.
-
-Wspomnienia odparowują. Desperacko próbuję je chwytać, jednak jedno po drugim umykają z mojej głowy, usuwając osobowość.
-
-Nie mija sekunda, a już trzymam w kurczowym uścisku tylko jedno, ostatnie wspomnienie. Jestem jednak za słaby.
-
-Twarz <opcja romantyczna> wyślizguje mi się i znika z mojego umysłu, a wtedy moje ja ostatecznie gaśnie.
-
-//ZAKOŃCZENIE ŚMIERĆ
-}
-
-2.3.2.{
-Robię to, a wtedy on delikatnie chwyta mnie za szyję i drugą ręką zaczyna usuwać blokadę.
-
-Chyba po raz pierwszy od kiedy odkryłem kim na prawdę jestem, na mojej twarzy znów gości uśmiech.
-
-2.3.2. Jeśli [PrzekonywanieOjca > 2] //ZAKOŃCZENIE MIŁOŚĆ
-2.3.2. Jeśli [PrzekonywanieOjca = 2] //ZAKOŃCZENIE WOLNOŚĆ
-}
-
-}
-
-}
