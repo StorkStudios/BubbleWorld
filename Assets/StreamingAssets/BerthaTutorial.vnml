@@ -1,5 +1,5 @@
 <Chapter>
-    <Background image="Shop"/>
+    <Background name="Shop"/>
     <Speech>
         <i>Ach jaki piękny poranek.</i>
     </Speech>
@@ -109,7 +109,7 @@
     <Speech character_id="Ruda" character="Bertha">
         To rób ją szybciej! Chce moją herbatę TERAZ!
     </Speech>
-    <Update character_id="Ruda" eyes="Crazy"/>
+    <Update character_id="Ruda" mouth="Angry" eyes="Angry"/>
     <Speech character_id="Gracz">
         <i>Zawsze była taka niecierpliwa?</i>
     </Speech>
@@ -135,7 +135,7 @@
     <Speech character_id="Gracz">
         Berta gwałtownie rzuca się w moją stronę i praktyczne wyrywa mi go z ręki.
     </Speech>
-    <Update character_id="Ruda" eyes="Forward"/>
+    <Update character_id="Ruda" eyes="Forward" mouth="Neutral"/>
     <Speech character_id="Gracz">
         Próbuje jededn łyk po czym się krzywi i mówi:
     </Speech>
@@ -143,7 +143,7 @@
         <Variable name="MinigameResult" />
         <Switch>
             <Case value="0">
-                <Update character_id="Ruda" eyes="Crazy"/>
+                <Update character_id="Ruda" mouth="Angry" eyes="Angry"/>
                 <Speech character_id="Ruda" character="Bertha">
                     Błeeee! Ohyda!
                 </Speech>

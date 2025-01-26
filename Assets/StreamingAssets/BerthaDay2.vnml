@@ -1,5 +1,5 @@
 <Chapter>
-    <Background image="ShopNight"/>
+    <Background name="ShopNight"/>
     <Enter character_id="Ruda" position="0.5" eyes="Forward" mouth="Neutral"/>
     <Speech character_id="Gracz" character="Ja">
         Ehh. To był Ciężki dzień. Dawno nie było aż tylu klientów.

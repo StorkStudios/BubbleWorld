@@ -111,6 +111,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -118,10 +131,10 @@ TextureImporter:
       name: girl1_eyes_angry_0
       rect:
         serializedVersion: 2
-        x: 1974
-        y: 1321
-        width: 46
-        height: 114
+        x: 1100
+        y: 0
+        width: 1638
+        height: 1644
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,116 +145,6 @@ TextureImporter:
       bones: []
       spriteID: 511a2504f206f9680800000000000000
       internalID: -8746166195271327467
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: girl1_eyes_angry_1
-      rect:
-        serializedVersion: 2
-        x: 2013
-        y: 1402
-        width: 99
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f77f2a8dac73da2e0800000000000000
-      internalID: -2112971305809414273
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: girl1_eyes_angry_2
-      rect:
-        serializedVersion: 2
-        x: 2080
-        y: 1315
-        width: 46
-        height: 114
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 37f27eaa61f19c3a0800000000000000
-      internalID: -6644745592991436941
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: girl1_eyes_angry_3
-      rect:
-        serializedVersion: 2
-        x: 1741
-        y: 1240
-        width: 123
-        height: 121
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2824272ddad2a94b0800000000000000
-      internalID: -5432979775885786494
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: girl1_eyes_angry_4
-      rect:
-        serializedVersion: 2
-        x: 1809
-        y: 1311
-        width: 73
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d1b637da6270f2720800000000000000
-      internalID: 2823483354084764445
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: girl1_eyes_angry_5
-      rect:
-        serializedVersion: 2
-        x: 1939
-        y: 1220
-        width: 148
-        height: 129
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 51fa64214e61cf630800000000000000
-      internalID: 3962066940994170645
       vertices: []
       indices: 
       edges: []
