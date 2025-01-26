@@ -5,37 +5,37 @@
     <Speech>
         <i>Już miałem iśc spać, ale zobaczyłem, że za mną stoi Bertha.</i>
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         O, jeszcze jesteś w pracy?
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Dobrze się składa, chcia-
     </Speech>
-    <Speech character_id="Ruda" character_name="Bertha">
+    <Speech character_id="Ruda" character="Bertha">
         Jak mogłeś?!
     </Speech>
-    <Speech character_id="Ruda" character_name="Bertha">
+    <Speech character_id="Ruda" character="Bertha">
         Myślałeś że się nie dowiem?!
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         O czym się nie dowiesz?
     </Speech>
-    <Speech character_id="Ruda" character_name="Bertha">
+    <Speech character_id="Ruda" character="Bertha">
         Nie udawaj głupiego!
     </Speech>
-    <Speech character_id="Ruda" character_name="Bertha">
+    <Speech character_id="Ruda" character="Bertha">
         Wiem o was wszystko!
     </Speech>
     <Speech>
         <i>Zatkało mnie.</i>
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Zrobiłem coś nie tak?
     </Speech>
-    <Speech character_id="Ruda" character_name="Bertha">
+    <Speech character_id="Ruda" character="Bertha">
         A żebyś wiedział że zrobiłeś!
     </Speech>
-    <Speech character_id="Ruda" character_name="Bertha">
+    <Speech character_id="Ruda" character="Bertha">
         Ale jeszcze mogę to naprawić.
     </Speech>
     <Speech>
@@ -44,10 +44,10 @@
     <Speech>
         <i>Gdy ją tak zobaczyłem to aż poczułem ciarki na plecach.</i>
     </Speech>
-    <Speech character_id="Ruda" character_name="Bertha">
+    <Speech character_id="Ruda" character="Bertha">
         Przypomniało mi się że miałam zadzwonić do mojego taty.
     </Speech>
-    <Speech character_id="Ruda" character_name="Bertha">
+    <Speech character_id="Ruda" character="Bertha">
         Widzimy się jutro.
     </Speech>
     <Speech>

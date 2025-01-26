@@ -6,10 +6,10 @@
     <Speech>
         <i>Cała na czarno, skórzana kurtka i fioletowe włosy. Zapowiadało się ciekawie.</i>
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Witamy w Bubble World!
     </Speech>
-    <Speech character_id="Farbowana" character_name="???">
+    <Speech character_id="Farbowana" character="???">
         Hej. Macie tutaj bubble tea o smaku marakuji?
     </Speech>
     <Speech>
@@ -18,11 +18,11 @@
     <Speech>
         <i>Na szczęście jednak nie będę musiał przez to przechodzić.</i>
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Oczywiście. Mamy taki smak.
     </Speech>
     <Update character_id="Farbowana" mouth="Smile"/>
-    <Speech character_id="Farbowana" character_name="???">
+    <Speech character_id="Farbowana" character="???">
         Zajebiście. Poproszę największą jaką macie.
     </Speech>
     <MinigameStart>
@@ -33,55 +33,55 @@
         </TeaJellies>
         <TeaMixage>Medium</TeaMixage>
     </MinigameStart>
-    <Speech character_id="Farbowana" character_name="???">
+    <Speech character_id="Farbowana" character="???">
         Niedawno się tutaj przeniosłam i już myślałam, że nigdzie jej tu nie sprzedają.
     </Speech>
     <Speech>
         <i>Sprzedajemy tylko jeden rozmiar, ale wolałem jej tego nie mówić.</i>
     </Speech>
-    <Speech character_id="Farbowana" character_name="Yukari">
+    <Speech character_id="Farbowana" character="Yukari">
         Jestem Yukari, a Ty?
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Jestem Tenteki.
     </Speech>
     <Update character_id="Farbowana" mouth="Neutral"/>
     <Speech>
         <i>Przez chwilę nastała niezręczna cisza. Wydawało się, ocenia mnie wzrokiem.</i>
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Dobrze że mamy tak dużo różnych rodzajów herbaty. - rzuciłem sięgając po marakuję.
     </Speech>
-    <Speech character_id="Farbowana" character_name="Yukari">
+    <Speech character_id="Farbowana" character="Yukari">
         No proste że tak. - odprężyła się nieco.
     </Speech>
-    <Speech character_id="Farbowana" character_name="Yukari">
+    <Speech character_id="Farbowana" character="Yukari">
         Nie wiem jak długo bym wytrzymała bez mojego ulubionego smaku. Chyba musiałabym wrócić do Tokyo.
     </Speech>
     <Speech>
         <i>Ostatnio jakoś dużo osób się tutaj przeprowadziło czy mi się tylko wydaje?</i>
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Przyjechałaś tutaj aż z Tokyo?
     </Speech>
-    <Speech character_id="Farbowana" character_name="Yukari">
+    <Speech character_id="Farbowana" character="Yukari">
         Taaaa...
     </Speech>
     <Update character_id="Farbowana" mouth="Sad"/>
     <Speech>
         <i>Wygląda na nieco przybitą.</i>
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Coś się stało?
     </Speech>
-    <Speech character_id="Farbowana" character_name="Yukari">
+    <Speech character_id="Farbowana" character="Yukari">
         Pokłóciłam się z chłopakiem. Teraz to już byłym. Ale nie chce do tego wracać.
     </Speech>
-    <Speech character_id="Farbowana" character_name="Yukari">
+    <Speech character_id="Farbowana" character="Yukari">
         Teraz to najchętniej znalazłabym kogoś innego żeby jak najszybciej o nim zapomnieć.
     </Speech>
     <Update character_id="Farbowana" mouth="Smile"/>
-    <Speech character_id="Farbowana" character_name="Yukari">
+    <Speech character_id="Farbowana" character="Yukari">
         A Ty masz kogoś? Jesteś całkiem całkiem.
     </Speech>
     <Choice>
@@ -97,41 +97,41 @@
         </Switch>
     </Choice>
     <Update character_id="Farbowana" mouth="Normal"/>
-    <Speech character_id="Farbowana" character_name="Yukari">
+    <Speech character_id="Farbowana" character="Yukari">
         Hmmmm
     </Speech>
     <Update character_id="Farbowana" mouth="Smile"/>
-    <Speech character_id="Farbowana" character_name="Yukari">
+    <Speech character_id="Farbowana" character="Yukari">
         A co robisz po pracy?
     </Speech>
     <Speech>
         <i>Czy ona właśnie próbuje mnie gdzieś zaprosić czy to tylko moja wyobraźnia?</i>
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Zwykle jestem tak zmęczony że idę od razu spać.
     </Speech>
     <Update character_id="Farbowana" mouth="Normal"/>
-    <Speech character_id="Farbowana" character_name="Yukari">
+    <Speech character_id="Farbowana" character="Yukari">
         A w dni wolne?
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Dni wolne?
     </Speech>
     <Update character_id="Farbowana" mouth="Angry"/>
-    <Speech character_id="Farbowana" character_name="Yukari">
+    <Speech character_id="Farbowana" character="Yukari">
         Nie masz dni wolnych? Co to za warunki pracy? Dlaczego wogóle tutaj pracujesz? Nie możesz się zwolnić? Ja już bym to dawno zrobiła na twoim miejscu.
     </Speech>
     <Speech>
         <i>Nigdy bym się nie spodziewał, że osoba którą dopiero co poznałem może się tak przejmować moją sytuacją.</i>
     </Speech>
     <Update character_id="Farbowana" mouth="Neutral"/>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Właściciel tyle dla mnie zrobił, że nie mógłbym tak po prostu się zwolnić. Nawet pozwala mi spać na zapleczu.
     </Speech>
-    <Speech character_id="Farbowana" character_name="Yukari">
+    <Speech character_id="Farbowana" character="Yukari">
         ...
     </Speech>
-    <Speech character_id="Farbowana" character_name="Yukari">
+    <Speech character_id="Farbowana" character="Yukari">
         Kiedy ostatnio wogóle stąd wyszedłeś?
     </Speech>
     <Speech>
@@ -140,22 +140,22 @@
     <Speech>
         <i>Ale nie mogłem przecież jej powiedzieć że już prawie nie pamiętam jak wygląda świat poza sklepem.</i>
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         ...
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Chyba gdzieś wyszedłem w zeszły piątek.
     </Speech>
     <Speech>
         <i>Od razu wiedziałem że tego nie kupi.</i>
     </Speech>
-    <Speech character_id="Farbowana" character_name="Yukari">
+    <Speech character_id="Farbowana" character="Yukari">
         Coś kręcisz.
     </Speech>
-    <Speech character_id="Farbowana" character_name="Yukari">
+    <Speech character_id="Farbowana" character="Yukari">
         Wyglądasz jakbyś siedział tu od lat.
     </Speech>
-    <Speech character_id="Farbowana" character_name="Yukari">
+    <Speech character_id="Farbowana" character="Yukari">
         Może wyskoczysz ze mną do jakiegoś klubu albo na koncert?
     </Speech>
     <Choice>
@@ -166,7 +166,7 @@
         </Options>
         <Switch>
             <Case option_id="1">
-                <Speech character_id="Farbowana" character_name="Yukari">
+                <Speech character_id="Farbowana" character="Yukari">
                     Zajebiście. Akurat będzie impreza w klubie na sąsiedniej ulicy.
                 </Speech>
                 <Speech>
@@ -174,39 +174,39 @@
                 </Speech>
             </Case>
             <Case option_id="2">
-                <Speech character_id="Farbowana" character_name="Yukari">
+                <Speech character_id="Farbowana" character="Yukari">
                     Musisz się po prostu bardziej postarać. Na pewno pozwoli Ci zrobić sobie wolne na jedne wieczór.
                 </Speech>
-                <Speech character_id="Farbowana" character_name="Yukari">
+                <Speech character_id="Farbowana" character="Yukari">
                     W ten piątek będzie niezła imprezka w klubie ulicę dalej. Jakbyś jednak znalazł czas to mogę Cie tam wkręcić.
                 </Speech>
-                <Speech character_id="Gracz" character_name="Ja">
+                <Speech character_id="Gracz" character="Ja">
                     Postaram się porozmawiać z szefową.
                 </Speech>
                 <Update character_id="Farbowana" mouth="Smile"/>
-                <Speech character_id="Farbowana" character_name="Yukari">
+                <Speech character_id="Farbowana" character="Yukari">
                     No ja myśle.
                 </Speech>
             </Case>
             <Case option_id="3">
-                <Speech character_id="Farbowana" character_name="Yukari">
+                <Speech character_id="Farbowana" character="Yukari">
                     No mam nadzieje. Musisz się stąd wyrwać. W ten piątek będzie niezła imprezka w klubie ulicę dalej. Jakbyś jednak znalazł czas to mogę Cie tam wkręcić.
                 </Speech>
-                <Speech character_id="Gracz" character_name="Ja">
+                <Speech character_id="Gracz" character="Ja">
                     No nie wiem...
                 </Speech>
                 <Update character_id="Farbowana" mouth="Smile"/>
-                <Speech character_id="Farbowana" character_name="Yukari">
+                <Speech character_id="Farbowana" character="Yukari">
                     No a ja wiem. Pójdziesz ze mną czy tego chcesz czy nie.
                 </Speech>
             </Case>
         </Switch>
     </Choice>
     <Update character_id="Farbowana" mouth="Smile"/>
-    <Speech character_id="Farbowana" character_name="Yukari">
+    <Speech character_id="Farbowana" character="Yukari">
         Będzie grał mój ulubiony zespół. Na pewno Ci się spodoba.
     </Speech>
-    <Speech character_id="Farbowana" character_name="Yukari">
+    <Speech character_id="Farbowana" character="Yukari">
         Słuchasz rocka co nie?
     </Speech>
     <Choice>
@@ -217,7 +217,7 @@
         </Options>
         <Switch>
             <Case option_id="1">
-                <Speech character_id="Farbowana" character_name="Yukari">
+                <Speech character_id="Farbowana" character="Yukari">
                     No i zajebiście!
                 </Speech>
                 <Speech>
@@ -225,7 +225,7 @@
                 </Speech>
             </Case>
             <Case option_id="2">
-                <Speech character_id="Farbowana" character_name="Yukari">
+                <Speech character_id="Farbowana" character="Yukari">
                     To zaczniesz słuchać częściej.
                 </Speech>
                 <Speech>
@@ -233,10 +233,10 @@
                 </Speech>
             </Case>
             <Case option_id="3">
-                <Speech character_id="Farbowana" character_name="Yukari">
+                <Speech character_id="Farbowana" character="Yukari">
                     No chyba żartujesz.
                 </Speech>
-                <Speech character_id="Farbowana" character_name="Yukari">
+                <Speech character_id="Farbowana" character="Yukari">
                     Widać nie słuchałeś jeszcze dobrego zespołu.
                 </Speech>
                 <Speech>
@@ -249,16 +249,16 @@
     <Speech>
         <i>W tym momencie skończyłem robić zamówioną przez nią herbatę.</i>
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Proszę - powiedziałem podając jej kubek z napojem.
     </Speech>
-    <Speech character_id="Farbowana" character_name="Yukari">
+    <Speech character_id="Farbowana" character="Yukari">
         Dzięki.
     </Speech>
     <Speech>
         <i>Wzięła kubek ruszyła w strone wyjścia. Przy drzwiach odwróciła się jednak i rzuciła jeszcze:</i>
     </Speech>
-    <Speech character_id="Farbowana" character_name="Yukari">
+    <Speech character_id="Farbowana" character="Yukari">
         Ten piątek. Pamiętaj.
     </Speech>
     <Exit character_id="Farbowana"/>

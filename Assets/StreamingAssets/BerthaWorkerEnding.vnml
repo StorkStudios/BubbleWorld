@@ -1,32 +1,32 @@
 <Chapter>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Zapraszamy ponownie!
     </Speech>
     <Speech>
         <i>Porzegnałem wychodzącą dziewczynę, po czym cężko westchnąłem.</i>
     </Speech>
-    <Speech character_id="Ruda" character_name="Bertha">
+    <Speech character_id="Ruda" character="Bertha">
         Coś się stało?
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Codziennie wstaje rano, zaczynam pracę i idę spać.
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Czuję, że to nie tak powinno wyglądać życie.
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Czy ja zrobiłem coś nie tak?
     </Speech>
-    <Speech character_id="Ruda" character_name="Bertha">
+    <Speech character_id="Ruda" character="Bertha">
         Jak dla mnie to podjąłeś najlepsze wybory jakie tylko mogłeś.
     </Speech>
-    <Speech character_id="Ruda" character_name="Bertha">
+    <Speech character_id="Ruda" character="Bertha">
         A teraz w nagrodę zrób mi bubble tea.
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         ...
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Robi się...
     </Speech>
 </Chapter>

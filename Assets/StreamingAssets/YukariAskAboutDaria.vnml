@@ -23,34 +23,34 @@
     <Speech character_id="Farbowana" character="Yukari">
         Cześć, Tentaki!
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Cześć, Yukari. Niestety nadal nie mamy marakui.
     </Speech>
     <Speech character_id="Farbowana" character="Yukari">
         Serio? A miałam dzisiaj na nią ochotę.
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Wogóle to mam taką sprawę.
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Nie widziałaś ostatnio Darii?
     </Speech>
     <Speech character_id="Farbowana" character="Yukari">
         Darii?
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Na pewno wiesz o kim mówię.
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Wysoka blądynka, co pryjechała ostatnio z Białorusi.
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Naśmiewałaś się z niej, że zamówiła tą okropną kombinację bubble tea.
     </Speech>
     <Speech character_id="Farbowana" character="Yukari">
         Nie, nie przypominam sobie.
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Nie żartuj! Wiem że się dobrze znacie!
     </Speech>
     <Speech character_id="Farbowana" character="Yukari">

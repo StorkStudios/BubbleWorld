@@ -3,38 +3,38 @@
         <Variable name="chosenOne" />
         <Switch>
             <Case value="1">
-                <Speech character_id="Gracz" character_name="Ja">
+                <Speech character_id="Gracz" character="Ja">
                     Przez ostatnie kilka dni nie widziałem żeby Daria się pojawiła w sklepie.
                 </Speech>
             </Case>
             <Case value="2">
-                <Speech character_id="Gracz" character_name="Ja">
+                <Speech character_id="Gracz" character="Ja">
                     Przez ostatnie kilka dni nie widziałem żeby Shiori się pojawiła w sklepie.
                 </Speech>
             </Case>
             <Case value="3">
-                <Speech character_id="Gracz" character_name="Ja">
+                <Speech character_id="Gracz" character="Ja">
                     Przez ostatnie kilka dni nie widziałem żeby Yukari się pojawiła w sklepie.
                 </Speech>
             </Case>
         </Switch>
     </Choice>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Ciekawe co się stało?
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Bo coś się musiało stać prawda?
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Wcześniej pojawiała się prawie codziennie.
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         ...
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Nie mogę spać.
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Może przejde się po okolicy jej poszukać?
     </Speech>
     <Choice>
@@ -44,7 +44,7 @@
         </Options>
         <Switch>
             <Case option_id="1">
-                <Speech character_id="Gracz" character_name="Ja">
+                <Speech character_id="Gracz" character="Ja">
                     Na pewno niedługo wróci. Jak teraz pójdę jej jszukać to nie wstane rano do pracy. 
                 </Speech>
                 <Speech>
@@ -62,7 +62,7 @@
     <Speech>
         Jakby coś czaiło się pod każdym stolikiem i krzesłem.
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         ...
     </Speech>
     <Speech>
@@ -71,7 +71,7 @@
     <Speech>
         <i>Lepiej się upewnie</i>
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Jesteś tutaj Berto?
     </Speech>
     <Speech>
@@ -80,7 +80,7 @@
     <Speech>
         <i>Chyba mi się tylko wydawało.</i>
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         To pewnie przez tą ciemność.
     </Speech>
     <Speech>
@@ -101,10 +101,10 @@
     <Speech>
         <i>A co dalej?</i>
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Huh? Bąbel?
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Co tu się dzieje?
     </Speech>
     <Speech>
@@ -119,13 +119,13 @@
     <Speech>
         Jedyny problem jest taki że nie mogę przejść na drugą stronę.
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Co to jest?
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Czy to zawsze tutaj było?
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Dlaczego tego nie pamiętam?
     </Speech>
     <Speech>

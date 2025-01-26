@@ -1,26 +1,26 @@
 <Chapter>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Ehh. To był Ciężki dzień. Dawno nie było aż tylu klientów.
     </Speech>
-    <Speech character_id="Ruda" character_name="Bertha">
+    <Speech character_id="Ruda" character="Bertha">
         Dobrze się spisałeś.
     </Speech>
     <Speech>
         <i>Czy Bertha mnie właśnie pochwaliła, czy mi się tylko wydawało?</i>
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Dzięki. Czy to znaczy że będę mógł dostać trochę wolnego?
     </Speech>
     <Speech>
         <i>Jak jest dzisiaj taka miła to może uda się coś wynegocjować?</i>
     </Speech>
-    <Speech character_id="Ruda" character_name="Bertha">
+    <Speech character_id="Ruda" character="Bertha">
         Pfff.
     </Speech>
-    <Speech character_id="Ruda" character_name="Bertha">
+    <Speech character_id="Ruda" character="Bertha">
         Chciałbyś.
     </Speech>
-    <Speech character_id="Ruda" character_name="Bertha">
+    <Speech character_id="Ruda" character="Bertha">
         Żeby dostać dzień wolny to musisz się dużo bardziej postarać.
     </Speech>
     <Speech>
@@ -32,23 +32,23 @@
     <Speech>
         Widać było że Bertha się chwile wacha, ale w końcu dodała:
     </Speech>
-    <Speech character_id="Ruda" character_name="Bertha">
+    <Speech character_id="Ruda" character="Bertha">
         Ale masz rację że należy Ci się jakaś nagroda.
     </Speech>
-    <Speech character_id="Ruda" character_name="Bertha">
+    <Speech character_id="Ruda" character="Bertha">
         Możesz mi zrobić bubble tea!
     </Speech>
-    <Speech character_id="Ruda" character_name="Bertha">
+    <Speech character_id="Ruda" character="Bertha">
         Świetna nagroda prawda?
     </Speech>
     <Speech>
         <i>Ale ja kocham więcej pracy.</i>
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Jak sobie życzysz.
     </Speech>
     <MinigameStart />
-    <Speech character_id="Ruda" character_name="Bertha">
+    <Speech character_id="Ruda" character="Bertha">
         I jak tam minął Ci dzień?
     </Speech>
     <Choice>
@@ -59,19 +59,19 @@
         </Options>
         <Switch>
             <Case option_id="Daria">
-                <Speech character_id="Gracz" character_name="Ja">
+                <Speech character_id="Gracz" character="Ja">
                     Przyszło dzisiaj kilka nowych dziewczyn.
                 </Speech>
-                <Speech character_id="Gracz" character_name="Ja">
+                <Speech character_id="Gracz" character="Ja">
                     Najciekawsza z nich była Daria.
                 </Speech>
-                <Speech character_id="Gracz" character_name="Ja">
+                <Speech character_id="Gracz" character="Ja">
                     Mówiła, że jest z Białorusi i przyjechała tutaj studiować japońską kulturę.
                 </Speech>
-                <Speech character_id="Ruda" character_name="Bertha">
+                <Speech character_id="Ruda" character="Bertha">
                     Japońską?
                 </Speech>
-                <Speech character_id="Ruda" character_name="Bertha">
+                <Speech character_id="Ruda" character="Bertha">
                     A no tak.
                 </Speech>
                 <Speech>
@@ -82,33 +82,33 @@
                 </Speech>
             </Case>
             <Case option_id="Shiori">
-                <Speech character_id="Gracz" character_name="Ja">
+                <Speech character_id="Gracz" character="Ja">
                     Przyszło dzisiaj kilka nowych dziewczyn.
                 </Speech>
-                <Speech character_id="Gracz" character_name="Ja">
+                <Speech character_id="Gracz" character="Ja">
                     Najbardziej moją uwagę zwróciła Shiori.
                 </Speech>
-                <Speech character_id="Gracz" character_name="Ja">
+                <Speech character_id="Gracz" character="Ja">
                     Była bardzo nieśmiała, ale jak zacząłem z nią rozmawiać, to rozmowa się już jakoś potoczyła.
                 </Speech>
             </Case>
             <Case option_id="Yukari">
-                <Speech character_id="Gracz" character_name="Ja">
+                <Speech character_id="Gracz" character="Ja">
                     Przyszło dzisiaj kilka nowych dziewczyn.
                 </Speech>
-                <Speech character_id="Gracz" character_name="Ja">
+                <Speech character_id="Gracz" character="Ja">
                     Najlepiej rozmawiało mi się z Yukari.
                 </Speech>
-                <Speech character_id="Gracz" character_name="Ja">
+                <Speech character_id="Gracz" character="Ja">
                     Jest dosyć porywcza, ale nie uważem żeby to była jej wada.
                 </Speech>
             </Case>
         </Switch>
     </Choice>
-    <Speech character_id="Ruda" character_name="Bertha">
+    <Speech character_id="Ruda" character="Bertha">
         Hmmmm.
     </Speech>
-    <Speech character_id="Ruda" character_name="Bertha">
+    <Speech character_id="Ruda" character="Bertha">
         Podobała Ci się?
     </Speech>
     <Choice>

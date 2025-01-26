@@ -8,22 +8,22 @@
     <Speech>
         <i>Zresztą tak jak zwykle.</i>
     </Speech>
-    <Speech character_id="Farbowana" character_name="Yukari">
+    <Speech character_id="Farbowana" character="Yukari">
         Hej!
     </Speech>
     <Speech>
         <i>Zawołała do mnie już od drzwi.</i>
     </Speech>
-    <Speech character_id="Farbowana" character_name="Yukari">
+    <Speech character_id="Farbowana" character="Yukari">
         Mam te bilety o których mówiłam wcześniej.
     </Speech>
-    <Speech character_id="Farbowana" character_name="Yukari">
+    <Speech character_id="Farbowana" character="Yukari">
          Rozmawiałeś już z szefową?
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Jeszcze nie.
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Ale możesz być spokojna. Przekonam ją.
     </Speech>
     <Speech>
@@ -32,46 +32,46 @@
     <Speech>
         <i>Musi się udać.</i>
     </Speech>
-    <Speech character_id="Farbowana" character_name="Yukari">
+    <Speech character_id="Farbowana" character="Yukari">
          Dobra. Ale jakby co to przyjdę przed koncertem.
     </Speech>
-    <Speech character_id="Farbowana" character_name="Yukari">
+    <Speech character_id="Farbowana" character="Yukari">
          Jeszcze zdąże jej nagadać jakby było trzeba.
     </Speech>
     <Speech>
         <i>Uśmiechnąłem na te słowa.</i>
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Nie mogę Ci pozwolić żebyś robiła wszystko za mnie.
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Ale ciesze się, że Ci zależy.
     </Speech>
     <Speech>
         <i>Pochyliła się w moją stronę.</i>
     </Speech>
-    <Speech character_id="Farbowana" character_name="Yukari">
+    <Speech character_id="Farbowana" character="Yukari">
          Dopiero po koncercie zobaczysz jak bardzo mi zależy.
     </Speech>
     <Speech>
         <i>Po tych słowach się zaśmiała i ruszyła do wyjścia.</i>
     </Speech>
-    <Speech character_id="Farbowana" character_name="Yukari">
+    <Speech character_id="Farbowana" character="Yukari">
          Jutro wielki dzień. Lepiej się dzisiaj wyśpij.
     </Speech>
     <Speech>
         <i>Rzuciła jeszcze i zniknęła za zamykającymi się drzwiami.</i>
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Nie ma opcji, że strace taką okazję.
     </Speech>
     <Speech>
         <i>Powiedziałem do siebie.</i>
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Pójdę na ten koncert nawet jakby szefowa miała z tym problem.
     </Speech>
-    <Speech character_id="Gracz" character_name="Ja">
+    <Speech character_id="Gracz" character="Ja">
         Konsekwencjami będę się martwił później.
     </Speech>
 </Chapter>

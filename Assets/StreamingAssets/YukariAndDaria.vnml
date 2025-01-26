@@ -72,10 +72,10 @@
                     </TeaJellies>
                     <TeaMixage>Hard</TeaMixage>
                 </MinigameStart>
-                <Speech character_id="Gracz" character_name="Ja">
+                <Speech character_id="Gracz" character="Ja">
                     Jak chce wypić taką mieszankę to jej sprawa.
                 </Speech>
-                <Speech character_id="Gracz" character_name="Ja">
+                <Speech character_id="Gracz" character="Ja">
                     Może libi egzotyczne smaki.
                 </Speech>
                 <Speech character_id="Farbowana" character="Yukari">
@@ -129,10 +129,10 @@
                         </Case>
                     </Switch>
                 </Choice>
-                <Speech character_id="Gracz" character_name="Ja">
+                <Speech character_id="Gracz" character="Ja">
                     Jak Ci smakuje to najważniejsze.
                 </Speech>
-                <Speech character_id="Gracz" character_name="Ja">
+                <Speech character_id="Gracz" character="Ja">
                     Nie przejmuj się tym co mówi Yukari.
                 </Speech>
                 <Speech character_id="Blondynka" character="Daria">
@@ -159,13 +159,13 @@
             </Case>
             <Case option_id="2">
                 <Variable name="Yukari" add="1" />
-                <Speech character_id="Gracz" character_name="Ja">
+                <Speech character_id="Gracz" character="Ja">
                     Yukari ma racje.
                 </Speech>
-                <Speech character_id="Gracz" character_name="Ja">
+                <Speech character_id="Gracz" character="Ja">
                     Takie połączenie jest zbyt szalone.
                 </Speech>
-                <Speech character_id="Gracz" character_name="Ja">
+                <Speech character_id="Gracz" character="Ja">
                     Nie mogę przyjąć takiego zamówienia.
                 </Speech>
                 <Speech character_id="Blondynka" character="Daria">
@@ -189,7 +189,7 @@
                 <Speech character_id="Farbowana" character="Yukari">
                     Jest jeszcze marakuja?
                 </Speech>
-                <Speech character_id="Gracz" character_name="Ja">
+                <Speech character_id="Gracz" character="Ja">
                     Masz szczęście. To ostatnia porcja.
                 </Speech>
                 <Speech>
@@ -202,7 +202,7 @@
                     </TeaJellies>
                     <TeaMixage>Medium</TeaMixage>
                 </MinigameStart>
-                <Speech character_id="Gracz" character_name="Ja">
+                <Speech character_id="Gracz" character="Ja">
                     Robi się.
                 </Speech>
                 <Speech character_id="Farbowana" character="Yukari">
@@ -221,7 +221,7 @@
                 <Speech character_id="Farbowana" character="Yukari">
                     Do zobaczenia.
                 </Speech>
-                <Speech character_id="Gracz" character_name="Ja">
+                <Speech character_id="Gracz" character="Ja">
                     Do zobaczenia Yukari.
                 </Speech>
             </Case>
