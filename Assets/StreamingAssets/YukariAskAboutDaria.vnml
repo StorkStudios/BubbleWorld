@@ -1,0 +1,93 @@
+<Chapter>
+    <Speech>
+        Daria nie przyszła.
+    </Speech>
+    <Speech>
+        Siedzę w robocie, strasznie przybity. Nie rozumiem co się stało, Shiori była wczoraj taka szczęśliwa.
+    </Speech>
+    <Speech>
+        Czy to przez jej nieśmiałość, czy boi się tu przyjść? A może to moja wina, może powiedziałem coś nie tak.
+    </Speech>
+    <Speech>
+        A może coś się jej stało? Gdybym tylko miał jakiś sposób żeby się z nią skontaktować...
+    </Speech>
+    <Speech>
+        Dzyń dzyń
+    </Speech>
+    <Speech>
+        Podnoszę wzrok. To Yukari.
+    </Speech>
+    <Speech>
+        Jak zwykle praktycznie wbiegła do kawiarni.
+    </Speech>
+    <Speech character_id="Farbowana" character="Yukari">
+        Cześć, Tentaki!
+    </Speech>
+    <Speech character_id="Gracz" character_name="Ja">
+        Cześć, Yukari. Niestety nadal nie mamy marakui.
+    </Speech>
+    <Speech character_id="Farbowana" character="Yukari">
+        Serio? A miałam dzisiaj na nią ochotę.
+    </Speech>
+    <Speech character_id="Gracz" character_name="Ja">
+        Wogóle to mam taką sprawę.
+    </Speech>
+    <Speech character_id="Gracz" character_name="Ja">
+        Nie widziałaś ostatnio Darii?
+    </Speech>
+    <Speech character_id="Farbowana" character="Yukari">
+        Darii?
+    </Speech>
+    <Speech character_id="Gracz" character_name="Ja">
+        Na pewno wiesz o kim mówię.
+    </Speech>
+    <Speech character_id="Gracz" character_name="Ja">
+        Wysoka blądynka, co pryjechała ostatnio z Białorusi.
+    </Speech>
+    <Speech character_id="Gracz" character_name="Ja">
+        Naśmiewałaś się z niej, że zamówiła tą okropną kombinację bubble tea.
+    </Speech>
+    <Speech character_id="Farbowana" character="Yukari">
+        Nie, nie przypominam sobie.
+    </Speech>
+    <Speech character_id="Gracz" character_name="Ja">
+        Nie żartuj! Wiem że się dobrze znacie!
+    </Speech>
+    <Speech character_id="Farbowana" character="Yukari">
+        O czym ty wogóle mówisz?
+    </Speech>
+    <Speech character_id="Farbowana" character="Yukari">
+        Nigdy nie znałąm żadnej Darii, a tym bardziej z Białorusi.
+    </Speech>
+    <Speech>
+        Z niedowierzaniem patrzę na Yukari.
+    </Speech>
+    <Speech character_id="Gracz" character="Ja">
+        Ale... ale...
+    </Speech>
+    <Speech character_id="Gracz" character="Ja">
+        Już wiem! Mogę przecież sprawdzić historię zakupów na kasie!
+    </Speech>
+    <Speech>
+        <i>Szukam, Szukam...</i>
+    </Speech>
+    <Speech character_id="Gracz" character="Ja">
+        ...
+    </Speech>
+    <Speech character_id="Gracz" character="Ja">
+        Nie ma...
+    </Speech>
+    <Speech character_id="Farbowana" character="Yukari">
+        Wiem że już to proponowałam, ale weź sobie dzień wolnego.
+    </Speech>
+    <Speech character_id="Farbowana" character="Yukari">
+        Naprawdę tego potrzebujesz.
+    </Speech>
+    <Speech>
+        Yukari odwraca się i wychodzi z kawiarni.
+    </Speech>
+    <Speech>
+        <i>Czy Daria naprawdę mi się tylko śniła?</i>
+    </Speech>
+    <Link path="Outside.vnml"/>
+</Chapter>

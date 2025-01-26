@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 35b50632236448d469dbab8345891b64
+guid: ae447b264fc79d44faa0cebe8d24718a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2278732778223432122
-    second: truskawka_0
+      213: -4202431171734217618
+    second: UlicaZBanka_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: truskawka_0
+      name: UlicaZBanka_0
       rect:
         serializedVersion: 2
-        x: 50
+        x: 0
         y: 0
-        width: 50
-        height: 173
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ab1fb08736faf9f10800000000000000
-      internalID: 2278732778223432122
+      spriteID: e6cd0cf5d17fda5c0800000000000000
+      internalID: -4202431171734217618
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      truskawka_0: 2278732778223432122
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

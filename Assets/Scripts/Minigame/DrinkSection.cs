@@ -1,16 +1,31 @@
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DrinkSection : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    [SerializeField]
+    private List<Image> ingedientsPlaces;
+    [SerializeField]
+    private TeaIconMap iconMap;
 
-    // Update is called once per frame
-    void Update()
+    public void ShowDrink(DrinkData data)
     {
-        
+        foreach (Image image in ingedientsPlaces)
+        {
+            image.color = Color.clear;
+        }
+
+        int i = 0;
+        foreach (Sprite sprite in data.GetSprites(iconMap))
+        {
+            if (sprite != null)
+            {
+                ingedientsPlaces[i].sprite = sprite;
+                ingedientsPlaces[i].color = Color.white;
+            }
+
+            i++;
+        }
     }
 }

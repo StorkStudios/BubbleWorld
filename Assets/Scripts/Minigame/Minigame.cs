@@ -1,5 +1,6 @@
 using DG.Tweening;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Minigame : MonoBehaviour
 {
@@ -12,9 +13,57 @@ public class Minigame : MonoBehaviour
     [SerializeField]
     private ControlsSection controlsSection;
 
+    private DrinkData currentDrink;
+    private DrinkData targetDrink;
+
     private void Start()
     {
         Director.Instance.ElementReadEvent += OnElementRead;
+        ingredientsSection.SetClickableBase(false);
+        ingredientsSection.SetClickableSyroup(false);
+        ingredientsSection.SetClickableJellies(false);
+        ingredientsSection.BaseSelected += OnBaseSelected;
+        ingredientsSection.SyroupSelected += OnSyroupSelected;
+        ingredientsSection.JellySelected += OnJellySelected;
+    }
+
+    private void OnBaseSelected(Button _, TeaBase teaBase)
+    {
+        currentDrink.teaBase = teaBase;
+        ingredientsSection.SetClickableBase(false);
+        drinkSection.ShowDrink(currentDrink);
+    }
+
+    private void OnSyroupSelected(Button _, TeaSyroup teaSyroup)
+    {
+        if (!currentDrink.teaSyroup.HasValue)
+        {
+            currentDrink.teaSyroup = teaSyroup;
+        }
+        else
+        {
+            currentDrink.secondSyroup = teaSyroup;
+            ingredientsSection.SetClickableJellies(false);
+        }
+        drinkSection.ShowDrink(currentDrink);
+    }
+
+    private void OnJellySelected(Button _, TeaJelly teaJelly)
+    {
+        if (!currentDrink.firstJelly.HasValue)
+        {
+            currentDrink.firstJelly = teaJelly;
+        }
+        else if (!currentDrink.secondJelly.HasValue)
+        {
+            currentDrink.secondJelly = teaJelly;
+        }
+        else
+        {
+            currentDrink.thirdJelly = teaJelly;
+            ingredientsSection.SetClickableJellies(false);
+        }
+        drinkSection.ShowDrink(currentDrink);
     }
 
     private void OnElementRead(string element, ChapterElement values)
@@ -35,6 +84,21 @@ public class Minigame : MonoBehaviour
         AnimateInRectTransform(ingredientsSection.transform as RectTransform);
         AnimateInRectTransform(drinkSection.transform as RectTransform);
         AnimateInRectTransform(controlsSection.transform as RectTransform);
+
+        currentDrink = new DrinkData();
+        targetDrink = new DrinkData()
+        {
+            teaBase = values.teaBase,
+            teaSyroup = values.teaSyroup,
+            secondSyroup = values.secondSyroup,
+            firstJelly = values.teaJellies.Length > 0 ? values.teaJellies[0] : null,
+            secondJelly = values.teaJellies.Length > 1 ? values.teaJellies[1] : null,
+            thirdJelly = values.teaJellies.Length > 2 ? values.teaJellies[2] : null
+        };
+
+        ingredientsSection.SetClickableBase(true);
+        ingredientsSection.SetClickableSyroup(true);
+        ingredientsSection.SetClickableJellies(true);
     }
 
     private void EndMinigame()
@@ -43,7 +107,16 @@ public class Minigame : MonoBehaviour
         AnimateOutRectTransform(drinkSection.transform as RectTransform);
         AnimateOutRectTransform(controlsSection.transform as RectTransform);
 
-        Director.Instance.DirectorStepEvent?.Invoke("sample value");
+        ingredientsSection.SetClickableBase(false);
+        ingredientsSection.SetClickableSyroup(false);
+        ingredientsSection.SetClickableJellies(false);
+
+        Director.Instance.DirectorStepEvent?.Invoke(GetRating().ToString());
+    }
+
+    private int GetRating()
+    {
+        return 0;
     }
 
     private void AnimateOutRectTransform(RectTransform rectTransform)
