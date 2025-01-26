@@ -54,7 +54,7 @@
                 <Speech character="???">                    
                     Och.
                 </Speech>
-                <Update character_id="Brunetka" eyes="Down"/>
+                <Update character_id="Brunetka" mouth="Sad"/>
                 <Speech>                    
                     Dziewczyna wbija wzrok w ziemię. Widać że nie bardzo wie co powiedzieć. Staram się ratować sytuację.
                 </Speech>
@@ -74,6 +74,7 @@
                 <Speech character="???">                    
                     Brzmi... ciekawie.
                 </Speech>
+                <Update character_id="Brunetka" mouth="Neutral"/>
             </Case>
             <Case option_id="2">
                 <Speech>                    
@@ -133,7 +134,7 @@
                             <Speech>
                                 Widzę że czuje się nieco spłoszona tym pytaniem, ale kiwa głową potwierdzająco.
                             </Speech>
-                            <Update character_id="Brunetka" eyes="Down"/>
+                            <Update character_id="Brunetka" mouth="Sad"/>
                             <Speech>                    
                                 Dziewczyna wbija wzrok w ziemię. Widać że nie bardzo wie co powiedzieć. Staram się ratować sytuację.
                             </Speech>
@@ -253,7 +254,7 @@
         </TeaJellies>
         <TeaMixage>Light</TeaMixage>
     </MinigameStart>
-    <Update character_id="Brunetka" mouth="Smile"/>
+    <Update character_id="Brunetka" mouth="Smile" eyes="Happy"/>
     <Speech>
         Widzę że jest dużo bardziej rozluźniona niż w momencie gdy weszła do lokalu. Rozgląda się, oglądając wnętrze.
     </Speech>
@@ -269,7 +270,7 @@
     <Speech>
         Dziewczyna nagle się zaczerwienia i spuszcza wzrok, orientując się co właśnie powiedziała.
     </Speech>
-    <Update character_id="Brunetka" eyes="Down" mouth="Neutral"/>
+    <Update character_id="Brunetka" eyes="Forward" mouth="Sad"/>
     <Choice>
         <Options duration="8" default_id="0">
             <Option id="0"><i>Zbywam tę uwagę milczeniem</i></Option>
@@ -403,7 +404,7 @@
     <Speech>
         Jej twarz rozjaśnia się, widzę że tylko czekała na to pytanie.
     </Speech>
-    <Update character_id="Brunetka" mouth="Smile"/>
+    <Update character_id="Brunetka" mouth="Smile" eyes="Happy"/>
     <Speech character="???" character_id="Brunetka">
         Uwielbiam!
     </Speech>
@@ -423,7 +424,7 @@
         </Options>
         <Switch>
             <Case option_id="0">
-                <Update character_id="Brunetka" mouth="Neutral"/>
+                <Update character_id="Brunetka" mouth="Neutral" eyes="Forward"/>
                 <Speech>
                     Dziewczyna pokiwała głową ze zrozumieniem.
                 </Speech>
@@ -463,7 +464,7 @@
     <Speech character="Ja">
         Tenteki.
     </Speech>
-    <Update character_id="Brunetka" mouth="Smile"/>
+    <Update character_id="Brunetka" mouth="Smile" eyes="Smile"/>
     <Speech character="Shiori">
         W takim razie do zobaczenia, Tenteki!
     </Speech>

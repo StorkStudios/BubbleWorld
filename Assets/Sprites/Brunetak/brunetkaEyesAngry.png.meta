@@ -114,6 +114,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -121,10 +134,10 @@ TextureImporter:
       name: brunetkaEyesAngry_0
       rect:
         serializedVersion: 2
-        x: 523
-        y: 1149
-        width: 79
-        height: 54
+        x: 335
+        y: 0
+        width: 670
+        height: 1413
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -139,118 +152,7 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: brunetkaEyesAngry_1
-      rect:
-        serializedVersion: 2
-        x: 527
-        y: 1189
-        width: 83
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b92e765d7c08e9630800000000000000
-      internalID: 3935724720135594651
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: brunetkaEyesAngry_2
-      rect:
-        serializedVersion: 2
-        x: 595
-        y: 1182
-        width: 8
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6ba771cdd66f080a0800000000000000
-      internalID: -6881229278917723466
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: brunetkaEyesAngry_3
-      rect:
-        serializedVersion: 2
-        x: 630
-        y: 1189
-        width: 86
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 797e9d94ecacd8e10800000000000000
-      internalID: 2201638780205131671
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: brunetkaEyesAngry_4
-      rect:
-        serializedVersion: 2
-        x: 634
-        y: 1150
-        width: 78
-        height: 51
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bee35b539739be360800000000000000
-      internalID: 7200010578083266283
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: brunetkaEyesAngry_5
-      rect:
-        serializedVersion: 2
-        x: 592
-        y: 1172
-        width: 14
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a6763e85c8ac80ee0800000000000000
-      internalID: -1294562188733487254
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: brunetkaEyesAngry_6
+      name: brunetkaEyesAngry_7
       rect:
         serializedVersion: 2
         x: 616
@@ -292,6 +194,7 @@ TextureImporter:
       brunetkaEyesAngry_4: 7200010578083266283
       brunetkaEyesAngry_5: -1294562188733487254
       brunetkaEyesAngry_6: 3407071456032388209
+      brunetkaEyesAngry_7: 8075368373079075230
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

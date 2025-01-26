@@ -12,33 +12,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ff230c37c3b02a45bb7cd855aedf6b0, type: 3}
   m_Name: brunetka
   m_EditorClassIdentifier: 
-  baseSprite: {fileID: -9074800460878286595, guid: 36a302acea5161c4a92a8f6a1bef5fce, type: 3}
+  baseSprite: {fileID: -9074800460878286595, guid: 68a189f67480dea46a71b9af401d43dc, type: 3}
   eyes:
     pairs:
     - Key:
         item: 0
-      Value: {fileID: -9074800460878286595, guid: 36a302acea5161c4a92a8f6a1bef5fce, type: 3}
+      Value: {fileID: -9140179170669476349, guid: 318f35dd3fe570648a56d755867aee5f, type: 3}
     - Key:
-        item: 1
-      Value: {fileID: -9074800460878286595, guid: 36a302acea5161c4a92a8f6a1bef5fce, type: 3}
+        item: 7
+      Value: {fileID: 9066306737201441656, guid: 9468719b0d5ab01468c899c85344be0c, type: 3}
     - Key:
-        item: 2
-      Value: {fileID: -9074800460878286595, guid: 36a302acea5161c4a92a8f6a1bef5fce, type: 3}
+        item: 6
+      Value: {fileID: -9140179170669476349, guid: 318f35dd3fe570648a56d755867aee5f, type: 3}
     - Key:
         item: 3
-      Value: {fileID: -9074800460878286595, guid: 36a302acea5161c4a92a8f6a1bef5fce, type: 3}
+      Value: {fileID: -1080538377996561952, guid: 03ba86a025fa5564e8931f0e72c4e20a, type: 3}
   mouth:
     pairs:
     - Key:
         item: 0
-      Value: {fileID: -9074800460878286595, guid: 36a302acea5161c4a92a8f6a1bef5fce, type: 3}
+      Value: {fileID: -8471602651667395253, guid: 6ae39ae7468068445b47229f17eb0c2d, type: 3}
     - Key:
         item: 1
-      Value: {fileID: -9074800460878286595, guid: 36a302acea5161c4a92a8f6a1bef5fce, type: 3}
+      Value: {fileID: 2774955089747558067, guid: 81fcf221fbb45de469ea02453b5524cd, type: 3}
     - Key:
-        item: 2
-      Value: {fileID: -9074800460878286595, guid: 36a302acea5161c4a92a8f6a1bef5fce, type: 3}
+        item: 5
+      Value: {fileID: 2774955089747558067, guid: 81fcf221fbb45de469ea02453b5524cd, type: 3}
     - Key:
         item: 3
-      Value: {fileID: -9074800460878286595, guid: 36a302acea5161c4a92a8f6a1bef5fce, type: 3}
+      Value: {fileID: -8471602651667395253, guid: 6ae39ae7468068445b47229f17eb0c2d, type: 3}
+    - Key:
+        item: 2
+      Value: {fileID: 8744122961221840389, guid: 8e10853bd9ab0f248916b5c9b89474e6, type: 3}
   size: {x: 250, y: 600}
