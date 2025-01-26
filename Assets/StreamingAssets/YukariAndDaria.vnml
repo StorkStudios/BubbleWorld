@@ -60,7 +60,7 @@
         </Options>
         <Switch>
             <Case option_id="1">
-                <Variable name="Daria" add="1" />
+                <VariableAdd name="Daria" value="1" />
                 <MinigameStart>
                     <TeaBase>Mint</TeaBase>
                     <TeaSyroup>PassionFruit</TeaSyroup>
@@ -158,7 +158,7 @@
                 </Speech>
             </Case>
             <Case option_id="2">
-                <Variable name="Yukari" add="1" />
+                <VariableAdd name="Yukari" value="1" />
                 <Speech character_id="Gracz" character="Ja">
                     Yukari ma racje.
                 </Speech>

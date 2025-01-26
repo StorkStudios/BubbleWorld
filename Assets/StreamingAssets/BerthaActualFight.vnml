@@ -45,8 +45,7 @@
                 </Speech>
             </Case>
             <Case option_id="1">
-                <Variable name="fightResult"
-                          add="1" />
+                <VariableAdd name="fightResult" value="1" />
                 <Speech>                    
                     Uniknąłeś ciosu!
                 </Speech>
@@ -81,8 +80,7 @@
                             </Speech>
                         </Case>
                         <Case option_id="2">
-                            <Variable name="fightResult"
-                                      add="1" />
+                            <VariableAdd name="fightResult"value="1" />
                         </Case>
                     </Switch>
                 </Choice>
