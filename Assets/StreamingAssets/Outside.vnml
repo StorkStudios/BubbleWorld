@@ -1,4 +1,5 @@
 <Chapter>
+    
     <Music name="Mystery" />
     <Choice>
         <Variable name="chosenOne" />
@@ -51,9 +52,11 @@
                 <Speech>
                     Szefowa byłaby na mnie zła.
                 </Speech>
+                <Link path="WorkerEnding.vnml" />
             </Case>
         </Switch>
     </Choice>
+    <Background name="ShopNight"/>
     <Speech>
         <i>Wstałem i ruszyłem w stronę drzwi wyjściowych.</i>
     </Speech>
@@ -90,6 +93,7 @@
     <Speech>
         Usłyszałem lekkie skrzypnięcie i drzwi się otworzyły.
     </Speech>
+    <Background name="Street"/>
     <Speech>
         Stanąłem na ulicy i przez chwilę nie wiedziałem co robić.
     </Speech>

@@ -105,3 +105,6 @@ MonoBehaviour:
     - Key:
         item: BehindBack
       Value: {fileID: -6870101006472520956, guid: b648e244533ad964e870698934de1837, type: 3}
+    - Key:
+        item: Win
+      Value: {fileID: 3302273018506617863, guid: 28ee5c580c2e9fb41831bbc509d6fbf7, type: 3}
