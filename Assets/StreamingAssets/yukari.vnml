@@ -1,7 +1,8 @@
 <Chapter>
     <Speech>
-        <i>Myślałem że już dzisiaj nikt nie przyjdzie kupić bubble tea, ale pojawiła się jeszcze jedna dziewczyna. </i>
+        <i>Myślałem że już dzisiaj nikt nie przyjdzie kupić bubble tea, ale pojawiła się jeszcze jedna dziewczyna.</i>
     </Speech>
+    <Enter character_id="Farbowana" position="0.5" eyes="Forward" mouth="Neutral"/>
     <Speech>
         <i>Cała na czarno, skórzana kurtka i fioletowe włosy. Zapowiadało się ciekawie.</i>
     </Speech>
@@ -23,7 +24,14 @@
     <Speech character_id="Farbowana" character_name="???">
         Zajebiście. Poproszę największą jaką macie.
     </Speech>
-    <MinigameStart />
+    <MinigameStart>
+        <TeaBase>Mint</TeaBase>
+        <TeaSyroup>PassionFruit</TeaSyroup>
+        <TeaJellies>
+            <Jelly>Banana</Jelly>
+        </TeaJellies>
+        <TeaMixage>Medium</TeaMixage>
+    </MinigameStart>
     <Speech character_id="Farbowana" character_name="???">
         Niedawno się tutaj przeniosłam i już myślałam, że nigdzie jej tu nie sprzedają.
     </Speech>
@@ -40,7 +48,7 @@
         <i>Przez chwilę nastała niezręczna cisza. Wydawało się, ocenia mnie wzrokiem.</i>
     </Speech>
     <Speech character_id="Gracz" character_name="Ja">
-        Dobrze że mamy tak dużo różnych rodzai herbaty. - rzuciłem sięgając po marakuję.
+        Dobrze że mamy tak dużo różnych rodzajów herbaty. - rzuciłem sięgając po marakuję.
     </Speech>
     <Speech character_id="Farbowana" character_name="Yukari">
         No proste że tak. - odprężyła się nieco.
@@ -64,7 +72,7 @@
         Coś się stało?
     </Speech>
     <Speech character_id="Farbowana" character_name="Yukari">
-        Pokłóciłam się z chłopakiem. Teraz to już byłym. ALe nie chce do tego wracać.
+        Pokłóciłam się z chłopakiem. Teraz to już byłym. Ale nie chce do tego wracać.
     </Speech>
     <Speech character_id="Farbowana" character_name="Yukari">
         Teraz to najchętniej znalazłabym kogoś innego żeby jak najszybciej o nim zapomnieć.
@@ -236,6 +244,7 @@
     <Speech character_id="Farbowana" character_name="Yukari">
         Ten piątek. Pamiętaj.
     </Speech>
+    <Exit character_id="Farbowana"/>
     <Speech>
         <i>I poszła</i>
     </Speech>
