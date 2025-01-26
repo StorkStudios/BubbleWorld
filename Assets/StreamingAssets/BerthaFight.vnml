@@ -1,0 +1,100 @@
+<Chapter>
+    <Speech>
+        <i>Następnego dnia idę od razu porozmawiać z Berthą.</i>
+    </Speech>
+    <Speech character_id="Gracz" character_name="Ja">
+        Hej mam pytanie.
+    </Speech>
+    <Speech character_id="Gracz" character_name="Ja">
+        Wiesz może dlaczego na zewnątrz jest wielka bańka?
+    </Speech>
+    <Speech character_id="Gracz" character_name="Ja">
+        Wydaje się że zatrzymuje wszystko co próbuje przez nią przejść.
+    </Speech>
+    <Speech character_id="Ruda" character_name="Bertha">
+        ...
+    </Speech>
+    <Speech character_id="Gracz" character_name="Ja">
+        ...
+    </Speech>
+    <Speech character_id="Gracz" character_name="Ja">
+        Ty coś wiesz.
+    </Speech>
+    <Speech>
+        <i>Chwytam ją za ramię.</i>
+    </Speech>
+    <Speech character_id="Gracz" character_name="Ja">
+        Powiedz mi wszystko.
+    </Speech>
+    <Speech character_id="Ruda" character_name="Bertha">
+        Puść mnie!
+    </Speech>
+    <Speech character_id="Gracz" character_name="Ja">
+        Spokojnie, chce się tylko dowiedzieć czym jest ta wielka bańka.
+    </Speech>
+    <Speech character_id="Ruda" character_name="Bertha">
+        Nic Ci nie powiem!
+    </Speech>
+    <Speech character_id="Ruda" character_name="Bertha">
+        A teraz mnie puść!
+    </Speech>
+    <Speech>
+        Po tych słowach zamachnęła się na mnie czymś co trzymała w ręku.
+    </Speech>
+    <Speech>
+        Na szczęście odruchowo ją puściłem i lekko się odsunąłem.
+    </Speech>
+    <Speech>
+        To co trzymała w ręku okazało się nożem.
+    </Speech>
+    <Speech>
+        <i>Gdyby nie mój refleks to już nie miałbym ręki!</i>
+    </Speech>
+    <Choice>
+        <Options>
+            <Option id="1">Chwyć za nóż.</Option>
+            <Option id="2">Pokaż że nie chcesz walczyć.</Option>
+        </Options>
+        <Switch>
+            <Case option_id="1">
+                <Link path="BerthaActualFight.vnml"/>
+            </Case>
+            <Case option_id="2">
+                <Speech character_id="Gracz" character_name="Ja">
+                    Spokojnie nie chce walczyć!
+                </Speech>
+                <Speech character_id="Gracz" character_name="Ja">
+                    Zrobię wszystko co tylko będziesz chciała!
+                </Speech>
+                <Speech character_id="Ruda" character_name="Bertha">
+                    Tak?
+                </Speech>
+                <Speech character_id="Ruda" character_name="Bertha">
+                    W takim razie nie zadawaj zbędnych pytań.
+                </Speech>
+                <Speech character_id="Ruda" character_name="Bertha">
+                    I zostań pracuj tutaj tak jak do tej pory.
+                </Speech>
+                <Choice>
+                    <Options>
+                        <Option id="1">Chwyć za nóż.</Option>
+                        <Option id="2">Zgódź się</Option>
+                    </Options>
+                    <Switch>
+                        <Case option_id="1">
+                            <Link path="BerthaActualFight.vnml"/>
+                        </Case>
+                        <Case option_id="2">
+                            <Speech character_id="Gracz" character_name="Ja">
+                                Jeżeli to jest dla ciebie takie ważne to niech będzie.
+                            </Speech>
+                            <Speech character_id="Gracz" character_name="Ja">
+                                Zrobię to co zechcesz.
+                            </Speech>
+                        </Case>
+                    </Switch>
+                </Choice>
+            </Case>
+        </Switch>
+    </Choice>
+</Chapter>
