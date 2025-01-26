@@ -1,0 +1,170 @@
+<Chapter>
+    <Speech>
+        Kolejny wieczór w pracy, siedzę i rozmyślam nad tym co się wydarzyło w ostatnich dniach.
+    </Speech>
+    <Speech>
+        Ostatnie trzy dni były bardzo... oryginalne.
+    </Speech>
+    <Speech>
+        Jakimś cudem mimo tak niewielkiej ilości klientek zawsze udawało im się przyjść o niemalże dokładnie tej samej porze.
+    </Speech>
+    <Speech>
+        Choć akurat w przypadku wtorku nie było to dziwne.
+    </Speech>
+    <Speech>
+        Daria i Shiori przyszły razem bo są przyjaciółkami.
+    </Speech>
+    <Speech>
+        <i>Przynajmniej mam nadzieję że ciągle są.</i>
+    </Speech>
+    <Speech>
+        Mam nadzieję że Shiori pogodziła się z Darią, widziałem że jej na tym zależy.
+    </Speech>
+    <Speech>
+        Niemniej, nie mam wątpliwości że dobrze zrobiłem wstawiając się za Shiori w ich dyskusji.
+    </Speech>
+    <Speech>
+        Daria nie rozumiała że Shiori nie zawsze jest w stanie rozmawiać o tak trucnych tematach i gdyby mnie nie było obok, strach pomyśleć co by się stało.
+    </Speech>
+    <Speech>
+        Podobnie zresztą jak dzisiaj.
+    </Speech>
+    <Speech>
+        Yukari może sobie myśleć że jest zawsze przed wszystkimi, ale w tym lokalu nie może się tak po prostu wepchnąć na przód kolejki.
+    </Speech>
+    <Speech>
+        Szczególnie gdy przed nią chce zamawiać Shiori.
+    </Speech>
+    <Speech>
+        Dzyń dzyń
+    </Speech>
+    <Speech>
+        Dzwonek u drzwi wyrywa mnie z rozmyślań. Podnoszę wzrok i dostrzegam Shiori podchodzącą do lady.
+    </Speech>
+    <Speech character="Shiori">
+        Hej, Tenteki.
+    </Speech>
+    <Speech>
+        <i>Gdzie się podziało zwyczajowe dzień dobry?</i>
+    </Speech>
+    <Speech character="Ja">
+        Hej, Shiori. Co dla ciebie?
+    </Speech>
+    <Speech character="Shiori">
+        Na razie nic, dziękuję...
+    </Speech>
+    <Speech character="Ja">
+        Nic?
+    </Speech>
+    <Speech>
+        Patrzę na nią z ciekawością. W widoczny sposób jest skrępowana, ale o dziwo nie wpatruje się swoim zwyczajem w posadzkę.
+    </Speech>
+    <Speech>
+        Jej oczy skupione są na mnie.
+    </Speech>
+    <Speech character="Shiori">
+        Słuchaj, Tenteki...
+    </Speech>
+    <Speech character="Shiori">
+        Ogólnie to chciałam ci podziękować.
+    </Speech>
+    <Speech character="Shiori">
+        Za to że wstawiłeś się za mną wczoraj podczas tej sytuacji z tą fioletowowłosą dziewczyną.
+    </Speech>
+    <Speech character="Shiori">
+        I wcześniej, gdy rozmawiałam z Darią.
+    </Speech>
+    <Speech character="Shiori">
+        Wątpię czy poradziłabym sobie wtedy bez twojego wsparcia...
+    </Speech>
+    <Speech>
+        Uśmiecham się do niej, a ona odwzajemnia uśmiech.
+    </Speech>
+    <Speech character="Ja">
+        Drobiazg, Shiori. Wiesz że zawsze możesz na mnie liczyć.
+    </Speech>
+    <Speech>
+        Shiori rumieni się delikatnie na te słowa.
+    </Speech>
+    <Speech character="Shiori">
+        M-miło to słyszeć.
+    </Speech>
+    <Speech>
+        Shiori milknie na chwilę, ale widzę że chce coś jeszcze powiedzieć, więc zamieram w oczekiwaniu.
+    </Speech>
+    <Speech character="Shiori">
+        Słuchaj, Tenteki...
+    </Speech>
+    <Speech character="Shiori">
+        Tak sobie myślałam...
+    </Speech>
+    <Speech character="Shiori">
+        Chciałbyś może... pójść gdzieś ze mną jutro?
+    </Speech>
+    <Speech character="Shiori">
+        Znam takie jedno fajne miejsce...
+    </Speech>
+    <Speech character="Shiori">
+        Moglibyśmy wiesz, pogadać, porobić coś razem...
+    </Speech>
+    <Speech>
+        Z każdym słowem Shiori robi się coraz bardziej czerwona.
+    </Speech>
+    <Choice>
+        <Options>
+            <Option id="1">Jasne, Shiori, z tobą zawsze.</Option>
+            <Option id="2">Wybacz, ale nie mam ochoty.</Option>
+        </Options>
+        <Switch>
+            <Case option_id="1">
+                <Speech character="Shiori">
+                    Och, to super!
+                </Speech>
+                <Speech>
+                    Widzę że Shiori znacznie się rozluźniła, gdy poparłem ten pomysł.
+                </Speech>
+                <Speech character="Shiori">
+                    T-to co, to wpadnę do ciebie jutro z rana i jeszcze ustalimy szczegóły, dobra?
+                </Speech>
+                <Speech character="Ja">
+                    Świetnie, to wpadnij zaraz po otwarciu, o dziesiątej, dobra?
+                </Speech>
+                <Speech>
+                    Widok rozpromienionej Shiori działa zaraźliwie i sprawia że momentalnie zapominam o wszelkich troskach.
+                </Speech>
+                <Speech>
+                    Shiori podskakuje radośnie i entuzjastycznie przytakuje.
+                </Speech>
+                <Speech character="Shiori">
+                    Pewnie! To do jutra!
+                </Speech>
+                <Speech>
+                    Shiori w podskokach udaje się do drzwi. Wychodząc, kiwa mi jeszcze na pożegnanie i ucieka.
+                </Speech>
+                <Speech>
+                    Dopiero po paru dobrych minutach odrywam wzrok od miejsca w którym zniknęła mi z pola widzenia.
+                </Speech>
+            </Case>
+            <Case option_id="2">
+                <Speech character="Shiori">
+                    Och.
+                </Speech>
+                <Speech>
+                    Shiori milknie i spuszcza wzrok. Widzę jak zaczynają jej drżeć ręce, więc chwyta jedną w drugą by to uspokoić.
+                </Speech>
+                <Speech character="Shiori">
+                    T-to ja... będę lecieć...
+                </Speech>
+                <Speech>
+                    Dziewczyna odwraca się i w żółwim tempie dociera do drzwi, popycha je i wychdzi.
+                </Speech>
+                <Speech>
+                    Patrzę za nią i jest mi trochę przykro, a jednocześnie wiem że to co proponowała zwyczajnie by nie zadziałało.
+                </Speech>
+                <Speech>
+                    Szkoda że musiało się to skończyć w taki sposób...
+                </Speech>
+            </Case>
+        </Switch>
+    </Choice>
+</Chapter>
