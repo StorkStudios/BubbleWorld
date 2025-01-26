@@ -105,15 +105,20 @@ public class Minigame : MonoBehaviour
 
     private void EndMinigame()
     {
+        GameManager.Instance.CanSkip = false;
+
         AnimateOutRectTransform(ingredientsSection.transform as RectTransform);
         AnimateOutRectTransform(drinkSection.transform as RectTransform);
-        AnimateOutRectTransform(controlsSection.transform as RectTransform);
+        AnimateOutRectTransform(controlsSection.transform as RectTransform).OnComplete(() => 
+        {
+            Director.Instance.DirectorStepEvent?.Invoke(GetRating().ToString());
+            GameManager.Instance.CanSkip = true;
+        });
 
         ingredientsSection.SetClickableBase(false);
         ingredientsSection.SetClickableSyroup(false);
         ingredientsSection.SetClickableJellies(false);
 
-        Director.Instance.DirectorStepEvent?.Invoke(GetRating().ToString());
     }
 
     private int GetRating()
@@ -121,7 +126,7 @@ public class Minigame : MonoBehaviour
         return 0;
     }
 
-    private void AnimateOutRectTransform(RectTransform rectTransform)
+    private Tween AnimateOutRectTransform(RectTransform rectTransform)
     {
         Vector2 target = rectTransform.sizeDelta;
         if (target.x < 0)
@@ -136,10 +141,10 @@ public class Minigame : MonoBehaviour
         {
             target.y *= -1;
         }
-        rectTransform.DOAnchorPos(target, animationDuration);
+        return rectTransform.DOAnchorPos(target, animationDuration);
     }
 
-    private void AnimateInRectTransform(RectTransform rectTransform)
+    private Tween AnimateInRectTransform(RectTransform rectTransform)
     {
         Vector2 target = rectTransform.sizeDelta;
         if (target.x < 0)
@@ -158,6 +163,6 @@ public class Minigame : MonoBehaviour
         {
             target.y = 0;
         }
-        rectTransform.DOAnchorPos(target, animationDuration);
+        return rectTransform.DOAnchorPos(target, animationDuration);
     }
 }

@@ -100,13 +100,13 @@ public class ChoicePopup : MonoBehaviour
 
     private void OnMinigameStart()
     {
-        rectTransform.DOSizeDelta(new Vector2(-450, rectTransform.sizeDelta.y - 100), fadeDuration);
-        rectTransform.DOAnchorPos(new Vector2(-450 / 2, rectTransform.anchoredPosition.y + 100 / 2), fadeDuration);
+        rectTransform.DOSizeDelta(new Vector2(-450, rectTransform.sizeDelta.y - 12), fadeDuration);
+        rectTransform.DOAnchorPos(new Vector2(-450 / 2, rectTransform.anchoredPosition.y + 12 / 2), fadeDuration);
     }
 
     private void OnMinigameEnd()
     {
-        rectTransform.DOSizeDelta(new Vector2(0, rectTransform.sizeDelta.y + 100), fadeDuration);
-        rectTransform.DOAnchorPos(new Vector2(-450 / 2, rectTransform.anchoredPosition.y - 100 / 2), fadeDuration);
+        rectTransform.DOSizeDelta(new Vector2(0, rectTransform.sizeDelta.y + 12), fadeDuration);
+        rectTransform.DOAnchorPos(new Vector2(-450 / 2, rectTransform.anchoredPosition.y - 12 / 2), fadeDuration);
     }
 }
