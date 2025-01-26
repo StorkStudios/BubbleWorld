@@ -1,6 +1,6 @@
 <Chapter>
     <Music name="Main" />
-    <Enter character_id="Farbowana" position="0.5" eyes="Neutral" mouth="Neutral" />
+    <Enter character_id="Farbowana" position="0.5" eyes="Forward" mouth="Neutral" />
     <Speech>
         <i>Już powoli zbierałem się żeby pójść się położyć w moim pokoju na zapleczu, ale zobaczyłem, że w kierunku sklepu idzie Yukari.</i>
     </Speech>

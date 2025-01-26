@@ -3,7 +3,7 @@
     <Speech>
         <i>Moją nudę przy ladzie rozwiała postać, którą dostrzegłem za szybą w drzwiach do kawiarni.</i>
     </Speech>
-    <Enter character_id="Blondynka" position="0.5" eyes="Neutral" mouth="Neutral" />
+    <Enter character_id="Blondynka" position="0.5" eyes="Forward" mouth="Neutral" />
     <Speech>
         <i>Okazało się że to jest Daria.</i>
     </Speech>

@@ -446,7 +446,7 @@
         </Switch>
     </Choice>
     <Music name="Mystery" />
-    <Update character_id="Stary" mouth="Neutral" eyes="Neutral" />
+    <Update character_id="Stary" mouth="Neutral" eyes="Forward" />
     <Speech character="Ja">
         Pańska córka w podczas naszej... kłótni... wyjawiła mi kim jestem.
     </Speech>

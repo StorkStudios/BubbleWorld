@@ -12,7 +12,7 @@
     <Speech>
         Dzyń dzyń!
     </Speech>
-    <Enter character_id="Blondynka" position="0.5" eyes="Neutral" mouth="Neutral" />
+    <Enter character_id="Blondynka" position="0.5" eyes="Forward" mouth="Neutral" />
     <Speech>
         Widzę, że do sklepu wchodzi Daria.
     </Speech>
@@ -43,8 +43,8 @@
     <Speech>
         Ale nie byłem jedynym, który miał taką reakcję.
     </Speech>
-    <Enter character_id="Farbowana" position="0.65" eyes="Neutral" mouth="Neutral" />
-    <Update character_id="Blondynka" position="0.35" />
+    <Enter character_id="Farbowana" position="0.8" eyes="Forward" mouth="Neutral" />
+    <Update character_id="Blondynka" position="0.2" />
     <Speech character_id="Farbowana" character="Yukari">
         Co?!
     </Speech>

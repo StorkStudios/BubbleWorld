@@ -39,7 +39,7 @@
     <Speech>
         Dzyń dzyń
     </Speech>
-    <Enter character_id="Brunetka" position="0.5" eyes="Neutral" mouth="Neutral" />
+    <Enter character_id="Brunetka" position="0.5" eyes="Forward" mouth="Neutral" />
     <Speech>
         Dzwonek u drzwi wyrywa mnie z rozmyślań. Podnoszę wzrok i dostrzegam Shiori podchodzącą do lady.
     </Speech>

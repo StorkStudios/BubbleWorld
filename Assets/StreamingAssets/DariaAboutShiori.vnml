@@ -15,7 +15,7 @@
     <Speech>
         Dzyń dzyń
     </Speech>
-    <Enter character_id="Blondynka" position="0.5" eyes="Neutral" mouth="Neutral" />
+    <Enter character_id="Blondynka" position="0.5" eyes="Forward" mouth="Neutral" />
     <Speech>
         Podnoszę wzrok. To Daria.
     </Speech>

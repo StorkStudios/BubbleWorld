@@ -13,7 +13,7 @@
     <Speech>
         Dzyń dzyń
     </Speech>
-    <Enter character_id="Brunetka" position="0.5" eyes="Neutral" mouth="Neutral" />
+    <Enter character_id="Brunetka" position="0.5" eyes="Forward" mouth="Neutral" />
     <Speech>
         O wilczycy mowa. To Shiori.
     </Speech>
@@ -29,8 +29,8 @@
     <Speech>
         DZY-DZYŃ!
     </Speech>
-    <Update character_id="Brunetka" position="0.35" />
-    <Enter character_id="Farbowana" position="0.65" eyes="Neutral" mouth="Neutral" />
+    <Update character_id="Brunetka" position="0.2" />
+    <Enter character_id="Farbowana" position="0.8" eyes="Forward" mouth="Neutral" />
     <Speech>
         W wejściu stoi Yukari. Żwawym krokiem podchodzi do lady.
     </Speech>
