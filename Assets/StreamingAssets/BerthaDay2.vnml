@@ -67,7 +67,7 @@
         I jak tam minął Ci dzień?
     </Speech>
     <Choice>
-        <Options>
+        <Options duration="5" default_id="Yukari">
             <Option id="Daria">Opowiedz o Darii.</Option>
             <Option id="Shiori">Opowiedz o Shiori.</Option>
             <Option id="Yukari">Opowiedz o Yukari.</Option>
@@ -130,7 +130,7 @@
         Podobała Ci się?
     </Speech>
     <Choice>
-        <Options>
+        <Options duration="5" default_id="2">
             <Option id="1">Tak</Option>
             <Option id="2">Sam nie wiem.</Option>
             <Option id="3">Czas pokaże, czas pokaże.</Option>

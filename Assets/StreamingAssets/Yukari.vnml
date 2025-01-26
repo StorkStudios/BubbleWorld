@@ -85,7 +85,7 @@
         A Ty masz kogoś? Jesteś całkiem całkiem.
     </Speech>
     <Choice>
-        <Options>
+        <Options duration="5" default_id="3">
             <Option id="1">Staram się jak mogę.</Option>
             <Option id="2">Że ja? Oczywiście że nie.</Option>
             <Option id="3">Jestem zbyt zajęty pracą żeby mieć czas na szukanie dziewczyny.</Option>
@@ -159,7 +159,7 @@
         Może wyskoczysz ze mną do jakiegoś klubu albo na koncert?
     </Speech>
     <Choice>
-        <Options>
+        <Options duration="5" default_id="3">
             <Option id="1">W ten piątek powinienem mieć trochę czasu po pracy.</Option>
             <Option id="2">Naprawdę bym chciał ale nie mogę.</Option>
             <Option id="3">Może innym razem</Option>
@@ -210,7 +210,7 @@
         Słuchasz rocka co nie?
     </Speech>
     <Choice>
-        <Options>
+        <Options duration="5" default_id="2">
             <Option id="1">Cały czas!</Option>
             <Option id="2">Słucham go od czasu do czasu.</Option>
             <Option id="3">Jest dla mnie trochę za głośny.</Option>
