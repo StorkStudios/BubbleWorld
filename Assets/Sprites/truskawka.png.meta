@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      truskawka_0: 2278732778223432122
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

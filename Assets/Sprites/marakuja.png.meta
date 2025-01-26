@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      marakuja_0: -3898882760355811704
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
