@@ -1,0 +1,231 @@
+<Chapter>
+    <Speech>
+        Nic się dzisiaj nie dzieje
+    </Speech>
+    <Speech>
+        Nie ma żadnych klientów.
+    </Speech>
+    <Speech>
+        Fajnie by było jakby ktoś przyszedł.
+    </Speech>
+    <Speech>
+        Dzyń dzyń!
+    </Speech>
+    <Speech>
+        Widzę, że do sklepu wchodzi Daria.
+    </Speech>
+    <Speech character_id="Blondynka" character="Daria">
+        Cześć Tenteki.
+    </Speech>
+    <Speech character_id="Blondynka" character="Daria">
+        Dzisiaj mam ochotę na coś szalonego.
+    </Speech>
+    <Speech character_id="Blondynka" character="Daria">
+        Przygotuj mi cherbatę miętową.
+    </Speech>
+    <Speech character_id="Blondynka" character="Daria">
+        Do tego dodaj syrop z marakuji i truskawek
+    </Speech>
+    <Speech character_id="Blondynka" character="Daria">
+        I jeszcze na koniec wszystkich żelków po trochę.
+    </Speech>
+    <Speech character_id="Blondynka" character="Daria">
+        I nie zapomnij o dobrym wymieszaniu.
+    </Speech>
+    <Speech>
+        Zatkało mnie.
+    </Speech>
+    <Speech>
+        Co to za szalona mieszanka?
+    </Speech>
+    <Speech>
+        Ale nie byłem jedynym, który miał taką reakcję.
+    </Speech>
+    <Speech character_id="Farbowana" character="Yukari">
+        Co?!
+    </Speech>
+    <Speech character_id="Farbowana" character="Yukari">
+        Co to za chora mieszanka?!
+    </Speech>
+    <Speech>
+        Wygląda na to, że w międzyczasie do sklepu weszła Yukari.
+    </Speech>
+    <Speech character_id="Farbowana" character="Yukari">
+        Tenteki nawet nie próbuj tego przygotować!
+    </Speech>
+    <Choice>
+        <Options>
+            <Option id="1">Przygotuj bubble tea dla Darii</Option>
+            <Option id="2">Nie przygotuj go</Option>
+        </Options>
+        <Switch>
+            <Case option_id="1">
+                <Variable name="Daria" add="1" />
+                <MinigameStart>
+                    <TeaBase>Mint</TeaBase>
+                    <TeaSyroup>PassionFruit</TeaSyroup>
+                    <SecondSyroup>Strawberry</SecondSyroup>
+                    <TeaJellies>
+                        <Jelly>Chocolate</Jelly>
+                        <Jelly>Almond</Jelly>
+                        <Jelly>Banana</Jelly>
+                    </TeaJellies>
+                    <TeaMixage>Hard</TeaMixage>
+                </MinigameStart>
+                <Speech character_id="Gracz" character_name="Ja">
+                    Jak chce wypić taką mieszankę to jej sprawa.
+                </Speech>
+                <Speech character_id="Gracz" character_name="Ja">
+                    Może libi egzotyczne smaki.
+                </Speech>
+                <Speech character_id="Farbowana" character="Yukari">
+                    Nie mogę na to patrzeć.
+                </Speech>
+                <Speech character_id="Farbowana" character="Yukari">
+                    Wychodzę.
+                </Speech>
+                <Speech>
+                    Jak powiedziała tak zrobiła
+                </Speech>
+                <Speech>
+                    Zobaczyłem tylko trzeaskające za nią drzwi.
+                </Speech>
+                <Speech character_id="Blondynka" character="Daria">
+                    Dzięki Tenteki.
+                </Speech>
+                <Speech character_id="Blondynka" character="Daria">
+                    Uwierz mi, wiem co robię.
+                </Speech>
+                <Speech character_id="Blondynka" character="Daria">
+                    U mnie w kraju to jest normalne.
+                </Speech>
+                <MinigameEnd>
+                <Choice>
+                    <Variable name="MinigameResult" />
+                    <Switch>
+                        <Case value="0">
+                            <Speech character_id="Blondynka" character="Daria">
+                                Widać że się starałeś.
+                            </Speech>
+                            <Speech>
+                                Powiedziała patrząc na otrzymaną herbatę
+                            </Speech>
+                        </Case>
+                        <Case value="1">
+                            <Speech character_id="Blondynka" character="Daria">
+                                Wow. To było pyszne.
+                            </Speech>
+                            <Speech character_id="Blondynka" character="Daria">
+                                Nawet lepsze niż zapamiętałam!
+                            </Speech>
+                        </Case>
+                        <Case value="2">
+                            <Speech character_id="Blondynka" character="Daria">
+                                Mmmm.
+                            </Speech>
+                            <Speech character_id="Blondynka" character="Daria">
+                                Jest ok.
+                            </Speech>
+                        </Case>
+                    </Switch>
+                </Choice>
+                <Speech character_id="Gracz" character_name="Ja">
+                    Jak Ci smakuje to najważniejsze.
+                </Speech>
+                <Speech character_id="Gracz" character_name="Ja">
+                    Nie przejmuj się tym co mówi Yukari.
+                </Speech>
+                <Speech character_id="Blondynka" character="Daria">
+                    Nie zamierzałam.
+                </Speech>
+                <Speech character_id="Blondynka" character="Daria">
+                    Ale, dzięki.
+                </Speech>
+                <Speech>
+                    Ruszyła w stronę wyjścia
+                </Speech>
+                <Speech>
+                    Zatrzymała się jeszcze przy drzwiach i jakby chciała coś powiedzieć
+                </Speech>
+                <Speech>
+                    Ale w końcu rzuciła tylko
+                </Speech>
+                <Speech character_id="Blondynka" character="Daria">
+                    Do zobaczenia.
+                </Speech>
+                <Speech>
+                    I wyszła.
+                </Speech>
+            </Case>
+            <Case option_id="2">
+                <Variable name="Yukari" add="1" />
+                <Speech character_id="Gracz" character_name="Ja">
+                    Yukari ma racje.
+                </Speech>
+                <Speech character_id="Gracz" character_name="Ja">
+                    Takie połączenie jest zbyt szalone.
+                </Speech>
+                <Speech character_id="Gracz" character_name="Ja">
+                    Nie mogę przyjąć takiego zamówienia.
+                </Speech>
+                <Speech character_id="Blondynka" character="Daria">
+                    ...
+                </Speech>
+                <Speech character_id="Blondynka" character="Daria">
+                    Dobrze.
+                </Speech>
+                <Speech character_id="Blondynka" character="Daria">
+                    W takim razie do widzenia.
+                </Speech>
+                <Speech>
+                    Wyszła ze sklepu nawet nie oglądając się za siebie.
+                </Speech>
+                <Speech character_id="Farbowana" character="Yukari">
+                    Nie bierz tego do siebie.
+                </Speech>
+                <Speech character_id="Farbowana" character="Yukari">
+                    Nikt by tego nie wypił.
+                </Speech>
+                <Speech character_id="Farbowana" character="Yukari">
+                    Jest jeszcze marakuja?
+                </Speech>
+                <Speech character_id="Gracz" character_name="Ja">
+                    Masz szczęście. To ostatnia porcja.
+                </Speech>
+                <Speech>
+                    To poproszę na Earl Grey średnio wymieszane.
+                </Speech>
+                <MinigameStart>
+                    <TeaBase>EarlGray</TeaBase>
+                    <TeaSyroup>PassionFruit</TeaSyroup>
+                    <TeaJellies>
+                    </TeaJellies>
+                    <TeaMixage>Medium</TeaMixage>
+                </MinigameStart>
+                <Speech character_id="Gracz" character_name="Ja">
+                    Robi się.
+                </Speech>
+                <Speech character_id="Farbowana" character="Yukari">
+                    Dzięki.
+                </Speech>
+                <Speech character_id="Farbowana" character="Yukari">
+                    Co do biletów...
+                </Speech>
+                <Speech character_id="Farbowana" character="Yukari">
+                    Wpadnę jeszcze jutro żeby powiedzieć jako poszło.
+                </Speech>
+                <MinigameEnd>
+                <Speech>
+                    Podałem jej herbatę.
+                </Speech>
+                <Speech character_id="Farbowana" character="Yukari">
+                    Do zobaczenia.
+                </Speech>
+                <Speech character_id="Gracz" character_name="Ja">
+                    Do zobaczenia Yukari.
+                </Speech>
+            </Case>
+        </Switch>
+    </Choice>
+    <Link path="ShioriAndYukari.vnml"/>
+</Chapter
