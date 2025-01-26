@@ -656,6 +656,27 @@ MonoBehaviour:
     - Key:
         item: Cafe
       Value: {fileID: 8300000, guid: 0e87f9bfc8e74b89f8cc0f154ef7dec3, type: 3}
+    - Key:
+        item: Battle
+      Value: {fileID: 8300000, guid: 1e855bc35e10ec707a52980dd027cc78, type: 3}
+    - Key:
+        item: Mystery
+      Value: {fileID: 8300000, guid: 54048211caaae96658f13aff6264b1b1, type: 3}
+    - Key:
+        item: Fight
+      Value: {fileID: 8300000, guid: 8670268420f0a3bd79e708c37552b6df, type: 3}
+    - Key:
+        item: Cafe2
+      Value: {fileID: 8300000, guid: 595ebbe0b6c440a7ca35dc3c0ee07d8d, type: 3}
+    - Key:
+        item: Creepy
+      Value: {fileID: 8300000, guid: 5d42a65a56d632ea0bac86197140d853, type: 3}
+    - Key:
+        item: Anticipation
+      Value: {fileID: 8300000, guid: 22fc1990f6dbea15584d758f12567989, type: 3}
+    - Key:
+        item: Ending
+      Value: {fileID: 8300000, guid: ec148ff1b92c99b3198ce2d783413be5, type: 3}
 --- !u!82 &1447599959
 AudioSource:
   m_ObjectHideFlags: 0

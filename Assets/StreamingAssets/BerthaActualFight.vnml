@@ -29,6 +29,7 @@
     <Speech>        
         Bertha jednak nie żartuje i macha w noją stronę nożem.
     </Speech>
+    <Music name="Battle" />
     <Variable name="fightResult"
               value="0" />
     <Choice>
@@ -131,7 +132,7 @@
             <Case value="0" />
         </Switch>
     </Choice>
-    <Music name="None" />
+    <Music name="Mystery" />
     <Speech>                                
         <i>Co to był za dźwięk</i>, zastanawiam się, gdy kolejny cios odrzuca mnie do tyłu.
     </Speech>

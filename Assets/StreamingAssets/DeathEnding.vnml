@@ -1,3 +1,4 @@
 <Chapter>
+    <Music name="Ending" />
     <GameOver text="Śmierć (Złe zakończenie)" background="ShopNight" />
 </Chapter>

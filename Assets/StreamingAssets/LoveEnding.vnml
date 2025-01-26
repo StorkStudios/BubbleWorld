@@ -1,3 +1,4 @@
 <Chapter>
+    <Music name="Ending" />
     <GameOver text="Wolność razem (Sekretne zakończenie)" background="GameOver" />
 </Chapter>

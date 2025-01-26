@@ -1,5 +1,6 @@
 <Chapter>
     <Background name="Shop"/>
+    <Music name="Cafe" />
     <Speech>
         <i>Ach jaki piękny poranek.</i>
     </Speech>

@@ -1,4 +1,5 @@
 <Chapter>
+    <Music name="Mystery" />
     <Choice>
         <Variable name="chosenOne" />
         <Switch>

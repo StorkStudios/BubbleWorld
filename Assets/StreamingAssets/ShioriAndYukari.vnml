@@ -1,5 +1,6 @@
 <Chapter>
     <Variable name="decisionShioriYukari" value="0">
+    <Music name="Cafe" />
     <Speech>
         Robi się trochę późno, a ciągle nie przyszedł żaden klient.
     </Speech>

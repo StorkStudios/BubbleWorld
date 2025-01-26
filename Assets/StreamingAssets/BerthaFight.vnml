@@ -1,4 +1,5 @@
 <Chapter>
+    <Music name="Creepy" />
     <Speech>
         <i>Następnego dnia idę od razu porozmawiać z Berthą.</i>
     </Speech>
@@ -59,7 +60,6 @@
     <Speech>
         Widzę że Bertha klika ukryty pod blatem przycisk wzywania ochrony.
     </Speech>
-    <Music name="Fight" />
     <Choice>
         <Options>
             <Option id="1">Chwytam za nóż</Option>

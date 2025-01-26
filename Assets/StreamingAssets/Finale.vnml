@@ -1,5 +1,6 @@
 <Chapter>
     <Variable name="przekonywanieOjca" value="0" />
+    <Music name="Anticipation" />
     <Speech>
         Bertha siedzi w rogu pokoju.
     </Speech>
@@ -162,6 +163,7 @@
                                 </Options>
                                 <Switch>
                                     <Case option_id="1">
+                                        <Music name="Fight" />
                                         <Speech>
                                             Jedną ręką gwałtownie odpycham lufę broni i staję w drzwiach.
                                         </Speech>
@@ -438,6 +440,7 @@
             </Case>
         </Switch>
     </Choice>
+    <Music name="Mystery" />
     <Speech character="Ja">
         Pańska córka w podczas naszej... kłótni... wyjawiła mi kim jestem.
     </Speech>
@@ -699,7 +702,8 @@
             <Case value="2"></Case>
             <Case value="3"></Case>
         </Switch>
-    </Choice
+    </Choice>
+    <Music name="Cafe2" />
     <Speech character_id="Stary" character="Ojciec Berthy">
         Nie masz pojęcia ile rzeczy zrobiłem w życiu których nie chciałem zrobić. Wszystko to aby zagwarantować lepszą przyszłość mojej rodziny.
     </Speech>
