@@ -11,6 +11,7 @@ public class ChoicePopup : MonoBehaviour
     [SerializeField]
     private float fadeDuration;
 
+    private RectTransform rectTransform;
     private CanvasGroup canvasGroup;
 
     private Coroutine currentTimer;
@@ -18,6 +19,7 @@ public class ChoicePopup : MonoBehaviour
 
     private void Awake()
     {
+        rectTransform = transform as RectTransform;
         canvasGroup = GetComponent<CanvasGroup>();
         canvasGroup.alpha = 0;
     }
@@ -29,18 +31,27 @@ public class ChoicePopup : MonoBehaviour
 
     private void OnElementRead(string element, ChapterElement values)
     {
-        if (element != "Options")
+        switch (element)
         {
-            return;
+            case "Options":
+                StartOption(values as Options);
+                break;
+            case "MinigameStart":
+                OnMinigameStart();
+                break;
+            case "MinigameEnd":
+                OnMinigameEnd();
+                break;
         }
+    }
 
+    private void StartOption(Options values)
+    {
         GameManager.Instance.CanSkip = false;
 
         canvasGroup.DOFade(1, fadeDuration);
 
-        Options options = values as Options;
-
-        foreach(Option option in options.options)
+        foreach (Option option in values.options)
         {
             ChoiceButton choiceButton = Instantiate(choiceButtonPrefab.gameObject, transform).GetComponent<ChoiceButton>();
             choiceButton.Label = option.optionText;
@@ -48,9 +59,9 @@ public class ChoicePopup : MonoBehaviour
             currentChoices.Add(choiceButton);
         }
 
-        if (options.duration.HasValue)
+        if (values.duration.HasValue)
         {
-            StartTimer(options.duration.Value, options.defaultId);
+            StartTimer(values.duration.Value, values.defaultId);
         }
     }
 
@@ -85,5 +96,17 @@ public class ChoicePopup : MonoBehaviour
 
         Director.Instance.DirectorStepEvent?.Invoke(id);
         GameManager.Instance.CanSkip = true;
+    }
+
+    private void OnMinigameStart()
+    {
+        rectTransform.DOSizeDelta(new Vector2(-450, rectTransform.sizeDelta.y - 100), fadeDuration);
+        rectTransform.DOAnchorPos(new Vector2(-450 / 2, rectTransform.anchoredPosition.y + 100 / 2), fadeDuration);
+    }
+
+    private void OnMinigameEnd()
+    {
+        rectTransform.DOSizeDelta(new Vector2(0, rectTransform.sizeDelta.y + 100), fadeDuration);
+        rectTransform.DOAnchorPos(new Vector2(-450 / 2, rectTransform.anchoredPosition.y - 100 / 2), fadeDuration);
     }
 }
