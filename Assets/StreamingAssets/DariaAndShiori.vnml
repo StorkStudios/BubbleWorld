@@ -1,4 +1,5 @@
 <Chapter>
+    <Background name="Shop"/>
     <Variable name="Daria" value="0" />
     <Variable name="Shiori" value="0" />
     <Variable name="Yukari" value="0" />
