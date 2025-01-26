@@ -8,7 +8,11 @@ public class CharacterData : ScriptableObject
         Forward,
         Down,
         Closed,
-        Angry
+        Angry,
+        Kidnapped,
+        Crazy,
+        Happy,
+        Sad
     }
 
     public enum MouthPose
@@ -16,7 +20,9 @@ public class CharacterData : ScriptableObject
         Neutral,
         Smile,
         Sad,
-        Angry
+        Angry,
+        Crazy,
+        Happy
     }
 
     [SerializeField]
