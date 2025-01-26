@@ -118,9 +118,11 @@ public class CharacterPortraitsSection : MonoBehaviour
             return;
         }
 
+        string charId = values.characterId ?? "Gracz";
+
         foreach (KeyValuePair<NullableObject<string>, SpeechBubble> pair in speechBubbles)
         {
-            if (pair.Key.Item == values.characterId)
+            if (pair.Key.Item == charId)
             {
                 var bubble = pair.Value;
                 
