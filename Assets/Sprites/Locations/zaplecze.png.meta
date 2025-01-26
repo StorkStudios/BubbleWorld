@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d04ebcbb9f8df038382eb952b0c8290a
+guid: b648e244533ad964e870698934de1837
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2347633499205131774
-    second: ShopDay_0
+      213: -6870101006472520956
+    second: zaplecze_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ShopDay_0
+      name: zaplecze_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: efdddeeaa38749020800000000000000
-      internalID: 2347633499205131774
+      spriteID: 40bd622b88f78a0a0800000000000000
+      internalID: -6870101006472520956
       vertices: []
       indices: 
       edges: []
