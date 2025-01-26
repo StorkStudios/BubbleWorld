@@ -3,6 +3,7 @@
     <Speech>
         <i>Następnego dnia idę od razu porozmawiać z Berthą.</i>
     </Speech>
+    <Enter character_id="Ruda" position="0.5" eyes="Forward" mouth="Neutral"/>
     <Speech character_id="Gracz" character="Ja">
         Hej, to zabrzmi dziwnie, ale mam pytanie.
     </Speech>
@@ -51,6 +52,8 @@
     <Speech>
         Na szczęście odruchowo ją puściłem i lekko się odsunąłem.
     </Speech>
+    <Exit character_id="Ruda" duration="0" />
+    <Enter character_id="RudaNoz" position="0.5" eyes="Crazy" mouth="Crazy" duration="0" />
     <Speech>
         To co trzymała w ręku okazało się nożem.
     </Speech>
@@ -67,6 +70,7 @@
         </Options>
         <Switch>
             <Case option_id="1">
+                <Exit character_id="RudaNoz"/>
                 <Link path="BerthaActualFight.vnml"/>
             </Case>
             <Case option_id="2">
@@ -95,6 +99,7 @@
                     </Options>
                     <Switch>
                         <Case option_id="1">
+                            <Exit character_id="RudaNoz"/>
                             <Link path="BerthaActualFight.vnml"/>
                         </Case>
                         <Case option_id="2">
@@ -105,6 +110,7 @@
                                 Zrobię to co zechcesz.
                             </Speech>
                             <Music name="None" />
+                            <Exit character_id="RudaNoz"/>
                             <Link path="WorkerEnding.vnml" />
                         </Case>
                     </Switch>
@@ -112,5 +118,6 @@
             </Case>
         </Switch>
     </Choice>
+    <Exit character_id="RudaNoz"/>
     <Link path="WorkerEnding.vnml" />
 </Chapter>

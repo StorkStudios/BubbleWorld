@@ -5,6 +5,7 @@
     <Speech>
         <i>Porzegnałem wychodzącą dziewczynę, po czym cężko westchnąłem.</i>
     </Speech>
+    <Enter character_id="Ruda" position="0.5" eyes="Happy" mouth="Happy"/>
     <Speech character_id="Ruda" character="Bertha">
         Coś się stało?
     </Speech>
@@ -29,5 +30,6 @@
     <Speech character_id="Gracz" character="Ja">
         Robi się...
     </Speech>
+    <Exit character_id="Ruda"/>
     <Link path="WorkerEnding.ynml" />
 </Chapter>

@@ -1,4 +1,5 @@
 <Chapter>
+    <Enter character_id="RudaNoz" position="0.5" eyes="Crazy" mouth="Crazy"/>
     <Speech>        
         Chwytasz za nóż i wyciągasz go w stronę Berthy.
     </Speech>
@@ -122,6 +123,7 @@
                             <Speech>                                
                                 Gdy kucam na podłodze obok niej, już nie oddycha.
                             </Speech>
+                            <Exit character_id="RudaNoz"/>
                             <Link path="FinaleAlternate.vnml" />
                         </Case>
                         <Case value="1" />
@@ -255,5 +257,6 @@
         Zostaw mnie, zostaw! Zaraz przyjedzie tutaj mój tata i Cię załatwi jak mnie nie zostawisz!
     </Speech>
     <Music name="None" />
+    <Exit character_id="RudaNoz"/>
     <Link path="Finale.vnml" />
 </Chapter>

@@ -12,6 +12,7 @@
     <Speech character_id="Gracz" character="Ja">
         Dobrze się składa, chcia-
     </Speech>
+    <Enter character_id="Ruda" position="0.5" eyes="Crazy" mouth="Sad"/>
     <Speech character_id="Ruda" character="Bertha">
         Jak mogłeś?!
     </Speech>
@@ -36,6 +37,7 @@
     <Speech character_id="Ruda" character="Bertha">
         A żebyś wiedział że zrobiłeś!
     </Speech>
+    <Update character_id="Ruda" mouth="Happy"/>
     <Speech character_id="Ruda" character="Bertha">
         Ale jeszcze mogę to naprawić.
     </Speech>
@@ -57,6 +59,7 @@
     <Speech>
         Tej nocy miałem problemy z zaśnięciem, ale w końcu usnąłem.
     </Speech>
+    <Exit character_id="Ruda"/>
     <Choice>
         <Variable name="chosenOne" />
         <Switch>
