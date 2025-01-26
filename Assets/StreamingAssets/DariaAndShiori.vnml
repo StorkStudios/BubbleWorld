@@ -8,6 +8,8 @@
     <Speech>
         Podnoszę wzrok i z zaciekawieniem zauważam że tym razem znajomy dźwięk dzwonka towarzyszy niecodziennej scenie.
     </Speech>
+    <Enter character_id="Blondynka" position="0.4" eyes="Forward" mouth="Neutral"/>
+    <Enter character_id="Brunetka" position="0.6" eyes="Forward" mouth="Neutral"/>
     <Speech>
         W drzwiach dostrzegłem dwie sylwetki jednocześnie, co nie pamiętam kiedy ostatnio mi się przydarzyło.
     </Speech>
