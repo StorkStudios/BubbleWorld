@@ -95,10 +95,28 @@
     <Speech character="Ojciec Berthy">
         Zdychaj w piekle, dzieciobójco.
     </Speech>
-    <Speech>
-        Przed oczyma staje mi twarz <dziewczyna>, patrząca na mnie smutno.
-    </Speech>
+    <Choice>
+        <Variable name="chosenOne" />
+        <Switch>
+            <Case value="1">
+                <Speech character="Ja">
+                    Przed oczyma staje mi twarz Darii, patrząca na mnie smutno.
+                </Speech>
+            </Case>
+            <Case value="2">
+                <Speech character="Ja">
+                    Przed oczyma staje mi twarz Shiori, patrząca na mnie smutno.
+                </Speech>
+            </Case>
+            <Case value="3">
+                <Speech character="Ja">
+                    Przed oczyma staje mi twarz Yukari, patrząca na mnie smutno.
+                </Speech>
+            </Case>
+        </Switch>
+    </Choice>
     <Speech>
         Potężny huk roznosi się echem po wszystkich zakamarkach lokalu, by w końcu zamilknąć na zawsze.
     </Speech>
+    <Link path="DeathEnding.vnml" />
 </Chapter>

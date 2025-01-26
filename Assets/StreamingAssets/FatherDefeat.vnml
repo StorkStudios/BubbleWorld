@@ -46,4 +46,5 @@
             </Case>
         </Switch>
     </Choice>
+    <Link path="DeathEnding.vnml" />
 </Chapter>

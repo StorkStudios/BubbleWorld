@@ -208,7 +208,7 @@
                                             Potężny huk roznosi się echem po wszystkich zakamarkach lokalu, by w końcu zamilknąć na zawsze.
                                         </Speech>
                                         <Speech>
-                                            ///////////////////////////////////////////////// ZAKOŃCZENIE ŚMIERĆ
+                                            <Link path="DeathEnding.vnml" />
                                         </Speech>
                                     </Case>
                                     <Case option_id="2">
@@ -738,6 +738,7 @@
                 <Speech>
                     Chyba po raz pierwszy od kiedy odkryłem kim na prawdę jestem, na mojej twarzy znów gości uśmiech.
                 </Speech>
+                <Link path="ReleasedEnding.vnml" />
             </Case>
             <Case option_id="2">
                 <Speech character="Ja">
@@ -773,6 +774,7 @@
                 <Speech>
                     Chyba po raz pierwszy od kiedy odkryłem kim na prawdę jestem, na mojej twarzy znów gości uśmiech.
                 </Speech>
+                <Link path="FreeWorkerEnding.vnml" />
             </Case>
             <Case option_id="3">
                 <Speech character="Ja">
@@ -896,6 +898,7 @@
                                             <Speech>
                                                 Chyba po raz pierwszy od kiedy odkryłem kim na prawdę jestem, na mojej twarzy znów gości uśmiech.
                                             </Speech>
+                                            <Link path="LoveEnding.vnml" />
                                         </Case>
                                         <Case value="1">
                                             <Speech character="Ojciec Berthy">
@@ -928,6 +931,7 @@
                                             <Speech>
                                                 Chyba po raz pierwszy od kiedy odkryłem kim na prawdę jestem, na mojej twarzy znów gości uśmiech.
                                             </Speech>
+                                            <Link path="ReleasedEnding.vnml" />
                                         </Case>
                                     </Switch>
                             </Choice>
@@ -986,6 +990,7 @@
                             <Speech>
                                 Chyba po raz pierwszy od kiedy odkryłem kim na prawdę jestem, na mojej twarzy znów gości uśmiech.
                             </Speech>
+                            <Link path="LoveEnding.vnml" />
                         </Case>
                         <Case value="3">
                             <Speech character="Ojciec Berthy">
@@ -1035,6 +1040,7 @@
                             <Speech>
                                 Chyba po raz pierwszy od kiedy odkryłem kim na prawdę jestem, na mojej twarzy znów gości uśmiech.
                             </Speech>
+                            <Link path="LoveEnding.vnml" />
                         </Case>
                         <Case value="2">
                             <Speech character="Ojciec Berthy">
@@ -1079,6 +1085,7 @@
                             <Speech>
                                 Chyba po raz pierwszy od kiedy odkryłem kim na prawdę jestem, na mojej twarzy znów gości uśmiech.
                             </Speech>
+                            <Link path="ReleasedEnding.vnml" />
                         </Case>
                     </Switch>
                 </Choice>

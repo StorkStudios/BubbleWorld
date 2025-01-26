@@ -29,4 +29,5 @@
     <Speech character_id="Gracz" character="Ja">
         Robi się...
     </Speech>
+    <Link path="WorkerEnding.ynml" />
 </Chapter>
