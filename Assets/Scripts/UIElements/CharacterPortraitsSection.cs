@@ -112,6 +112,12 @@ public class CharacterPortraitsSection : MonoBehaviour
             return;
         }
 
+        if (PlayerInputAdapter.Instance.SkipHeld)
+        {
+            Director.Instance.DirectorStepEvent?.Invoke("bulech");
+            return;
+        }
+
         foreach (KeyValuePair<NullableObject<string>, SpeechBubble> pair in speechBubbles)
         {
             if (pair.Key.Item == values.characterId)
