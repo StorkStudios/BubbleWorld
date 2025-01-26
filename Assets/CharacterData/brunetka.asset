@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5ff230c37c3b02a45bb7cd855aedf6b0, type: 3}
-  m_Name: girl4
+  m_Name: brunetka
   m_EditorClassIdentifier: 
   baseSprite: {fileID: -9074800460878286595, guid: 36a302acea5161c4a92a8f6a1bef5fce, type: 3}
   eyes:

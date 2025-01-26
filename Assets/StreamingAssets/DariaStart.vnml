@@ -1,6 +1,6 @@
 <Chapter>
     <Speech>
-        Dzyń dzyń!
+        <i>Dzyń dzyń!</i>
     </Speech>
     <Speech>
         Zaskoczony, odrywam zaspany wzrok od lady i patrzę przed siebie.
@@ -8,6 +8,7 @@
     <Speech>
         Mrużąc oczy przed bijącym z zewnątrz światłem, dostrzegam przed sobą wysoką kobiecą sylwetkę.
     </Speech>
+    <Enter character_id="Blondynka" position="0.5" eyes="Forward" mouth="Neutral"/>
     <Speech>
         Stoi przede mną młoda dziewczyna o niebieskich oczach. Ma na sobie czerwoną, obcisłą kurtkę i białą bluzkę, a na plecy spływają jej długie blond włosy.
     </Speech>
@@ -106,9 +107,11 @@
                 <Speech character="Ja">
                     Ach, Białoruś, chabry, ziemniaki, coś słyszałem.
                 </Speech>
+                <Update character_id="Blondynka" mouth="Angry"/>
                 <Speech>
                     Po tym jak wypowiedziałem to zdanie, na jej twarzy pojawił się wyraz oburzenia, ale zaraz zniknął i zamienił się w lekki uśmiech.
                 </Speech>
+                <Update character_id="Blondynka" mouth="Smile"/>
                 <Speech>
                     <i>Zdaje się że powiedziałem coś głupiego.</i>
                 </Speech>
@@ -129,11 +132,12 @@
     </Speech>
     <Choice>
         <Options>
-            <Option id="1">"Cóż... nie ukrywam że wiem cokolwiek"</Option>
-            <Option id="2">"Powiedz mi coś po Białorusku"</Option>
+            <Option id="1">"Cóż... nie ukrywam że wiem cokolwiek."</Option>
+            <Option id="2">"Powiedz mi coś po Białorusku."</Option>
         </Options>
         <Switch>
             <Case option_id="1">
+                <Update character_id="Blondynka" mouth="Neutral"/>
                 <Speech character="???">
                     Nie przejmuj się, przywykłam.
                 </Speech>
@@ -149,13 +153,15 @@
                 <Speech>
                     Dziewczyna odwzajemnia uśmiech.
                 </Speech>
+                <Update character_id="Blondynka" mouth="Smile"/>
                 <Speech character="???">
                     Powiedzmy.
                 </Speech>
             </Case>
             <Case option_id="2">
+                <Update character_id="Blondynka" mouth="Smile"/>
                 <Speech character="Ja">
-                    Jak się nazywa ten drink który dla ciebie robię po białorusku?
+                    Jak się nazywa ten napój który dla ciebie robię po Białorusku?
                 </Speech>
                 <Speech character="???">
                     Гарбата з суніцамі.
@@ -217,6 +223,7 @@
                 <Speech>
                     Odbierając kubek, dziewczyna patrzy na podpis na nim i uśmiech na jej twarzy natychmiast ustępuje miejsca frustracji. Odzywa się z irytacją.
                 </Speech>
+                <Update character_id="Blondynka" mouth="Angry"/>
                 <Speech character="???">
                    Oh, dzięki...
                 </Speech>
@@ -232,10 +239,12 @@
     <Speech>
         Klientka bierze ode mnie kubek i wychodzi z kawiarni.
     </Speech>
+    <Exit character_id="Blondynka"/>
     <Speech>
         Trochę głupia sprawa z tym podpisywaniem kubków.
     </Speech>
     <Speech>
         Chyba uznam że w przypadku pustego lokalu sobie to po prostu odpuszczę.
     </Speech>
-<Chapter>
+    <Link path="ShioriStart.vnml"/>
+</Chapter>

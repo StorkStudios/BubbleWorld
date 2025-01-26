@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5ff230c37c3b02a45bb7cd855aedf6b0, type: 3}
-  m_Name: girl3
+  m_Name: blondynka
   m_EditorClassIdentifier: 
   baseSprite: {fileID: -7928931306396499924, guid: 580712a50ac5792479125218e6a7d98d, type: 3}
   eyes:
@@ -41,4 +41,4 @@ MonoBehaviour:
     - Key:
         item: 3
       Value: {fileID: -7928931306396499924, guid: 580712a50ac5792479125218e6a7d98d, type: 3}
-  size: {x: 250, y: 400}
+  size: {x: 250, y: 600}
