@@ -47,4 +47,4 @@ MonoBehaviour:
     - Key:
         item: 3
       Value: {fileID: 4123212423804736562, guid: f121d7500025591439c099cd728b4bd4, type: 3}
-  size: {x: 400, y: 500}
+  size: {x: 500, y: 500}
