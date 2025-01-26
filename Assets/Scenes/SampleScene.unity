@@ -1057,38 +1057,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3393095768203949797, guid: 3896cfa438d060d6099784a0b48d286e, type: 3}
-      propertyPath: m_fontSize
-      value: 36
-      objectReference: {fileID: 0}
-    - target: {fileID: 3393095768203949797, guid: 3896cfa438d060d6099784a0b48d286e, type: 3}
-      propertyPath: m_fontAsset
-      value: 
-      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-    - target: {fileID: 3393095768203949797, guid: 3896cfa438d060d6099784a0b48d286e, type: 3}
-      propertyPath: m_fontSizeMax
-      value: 72
-      objectReference: {fileID: 0}
-    - target: {fileID: 3393095768203949797, guid: 3896cfa438d060d6099784a0b48d286e, type: 3}
-      propertyPath: m_fontSizeMin
-      value: 18
-      objectReference: {fileID: 0}
-    - target: {fileID: 3393095768203949797, guid: 3896cfa438d060d6099784a0b48d286e, type: 3}
-      propertyPath: m_isOrthographic
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3393095768203949797, guid: 3896cfa438d060d6099784a0b48d286e, type: 3}
-      propertyPath: m_sharedMaterial
-      value: 
-      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-    - target: {fileID: 3393095768203949797, guid: 3896cfa438d060d6099784a0b48d286e, type: 3}
-      propertyPath: m_TextWrappingMode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3393095768203949797, guid: 3896cfa438d060d6099784a0b48d286e, type: 3}
-      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
-      value: 1801810542
-      objectReference: {fileID: 0}
     - target: {fileID: 8763592425743992138, guid: 3896cfa438d060d6099784a0b48d286e, type: 3}
       propertyPath: m_Name
       value: GameOverScreen

@@ -444,3 +444,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 2330839154856858205}
+  mainMenuScene: MainMenu
