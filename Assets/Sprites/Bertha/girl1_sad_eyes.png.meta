@@ -114,6 +114,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -121,10 +134,10 @@ TextureImporter:
       name: girl1_sad_eyes_0
       rect:
         serializedVersion: 2
-        x: 1770
-        y: 1293
-        width: 134
-        height: 72
+        x: 1100
+        y: 0
+        width: 1638
+        height: 1644
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -135,138 +148,6 @@ TextureImporter:
       bones: []
       spriteID: 5b596ec646bdb5520800000000000000
       internalID: 2691986426654266805
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: girl1_sad_eyes_1
-      rect:
-        serializedVersion: 2
-        x: 1771
-        y: 1361
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4b57e81ca555c0530800000000000000
-      internalID: 3822524032013465012
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: girl1_sad_eyes_2
-      rect:
-        serializedVersion: 2
-        x: 1778
-        y: 1246
-        width: 118
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1e7e5f65c17f3fee0800000000000000
-      internalID: -1228366572251912223
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: girl1_sad_eyes_3
-      rect:
-        serializedVersion: 2
-        x: 1922
-        y: 1307
-        width: 25
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5b382e14e9b588fe0800000000000000
-      internalID: -1186597766543801419
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: girl1_sad_eyes_4
-      rect:
-        serializedVersion: 2
-        x: 1946
-        y: 1288
-        width: 125
-        height: 58
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0f088b252aeffb5b0800000000000000
-      internalID: -5350277859166879504
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: girl1_sad_eyes_5
-      rect:
-        serializedVersion: 2
-        x: 1946
-        y: 1239
-        width: 133
-        height: 88
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1f46fcb52e4914470800000000000000
-      internalID: 8377140481809671409
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: girl1_sad_eyes_6
-      rect:
-        serializedVersion: 2
-        x: 1809
-        y: 1255
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8ddb7762247fb2220800000000000000
-      internalID: 2462333484773391832
       vertices: []
       indices: 
       edges: []

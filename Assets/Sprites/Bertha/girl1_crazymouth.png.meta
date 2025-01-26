@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: 429ae691618c57d48b10635c8b0c1b0a
+guid: 13dace4d3ef45df4baf35c2fad975bb0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8699498574617678690
-    second: girl1_crazyeyes_0
-  - first:
-      213: -2276471185321893993
-    second: girl1_crazyeyes_1
-  - first:
-      213: -2640767451821942409
-    second: girl1_crazyeyes_2
-  - first:
-      213: 6398474327360538584
-    second: girl1_crazyeyes_3
+      213: -4630566483857062169
+    second: girl1_crazymouth_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -105,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: girl1_crazyeyes_0
+      name: girl1_crazymouth_0
       rect:
         serializedVersion: 2
-        x: 1742
-        y: 1242
-        width: 120
-        height: 111
+        x: 1100
+        y: 0
+        width: 1638
+        height: 1644
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,74 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e9c65e7632c254780800000000000000
-      internalID: -8699498574617678690
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: girl1_crazyeyes_1
-      rect:
-        serializedVersion: 2
-        x: 1854
-        y: 1330
-        width: 33
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 79fd979a4895860e0800000000000000
-      internalID: -2276471185321893993
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: girl1_crazyeyes_2
-      rect:
-        serializedVersion: 2
-        x: 1941
-        y: 1324
-        width: 68
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7795db37efb1a5bd0800000000000000
-      internalID: -2640767451821942409
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: girl1_crazyeyes_3
-      rect:
-        serializedVersion: 2
-        x: 1946
-        y: 1215
-        width: 135
-        height: 89
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8d708ca0082fbc850800000000000000
-      internalID: 6398474327360538584
+      spriteID: 7e6ced4115cecbfb0800000000000000
+      internalID: -4630566483857062169
       vertices: []
       indices: 
       edges: []
@@ -209,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      girl1_crazymouth_0: -4630566483857062169
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

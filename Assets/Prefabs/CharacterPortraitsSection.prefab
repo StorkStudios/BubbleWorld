@@ -314,6 +314,12 @@ MonoBehaviour:
     - Key:
         item: Stary
       Value: {fileID: 11400000, guid: 384bc4a54935b6ca096f5a995596ef65, type: 2}
+    - Key:
+        item: RudaZwiazana
+      Value: {fileID: 11400000, guid: ab1cb319dd6f5c13c80fcb872c1ae631, type: 2}
+    - Key:
+        item: RudaNoz
+      Value: {fileID: 11400000, guid: 6d0212691a3eb57899db8ecc35da9d86, type: 2}
   speechBubbles:
     pairs:
     - Key:

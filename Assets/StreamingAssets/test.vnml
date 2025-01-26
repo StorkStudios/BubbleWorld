@@ -1,0 +1,11 @@
+<Chapter>
+    <Enter character_id="RudaZwiazana" position="0.5" eyes="Forward" mouth="None"/>
+    <Speech>a</Speech>
+    <Exit character_id="RudaZwiazana"/>
+    <Enter character_id="RudaNoz" position="0.5" eyes="Crazy" mouth="Crazy"/>
+    <Speech>a</Speech>
+    <Exit character_id="RudaNoz"/>
+    <Speech>
+        End test
+    </Speech>
+</Chapter>

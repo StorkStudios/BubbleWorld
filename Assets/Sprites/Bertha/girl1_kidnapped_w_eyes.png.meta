@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a49d48b4ad29f3a45b54a79efbdc34d8
+guid: 122802b8f716535449cb1344b3e46404
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7117477215320621749
-    second: girl1_neutral_mouth_0
+      213: 2162096475480495599
+    second: girl1_kidnapped_w_eyes_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: girl1_neutral_mouth_0
+      name: girl1_kidnapped_w_eyes_0
       rect:
         serializedVersion: 2
-        x: 1830
-        y: 1135
-        width: 141
-        height: 45
+        x: 1100
+        y: 0
+        width: 1638
+        height: 1644
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5b24f1c31db56c260800000000000000
-      internalID: 7117477215320621749
+      spriteID: fe593270a4f410e10800000000000000
+      internalID: 2162096475480495599
       vertices: []
       indices: 
       edges: []
@@ -135,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      girl1_neutral_mouth_0: 7117477215320621749
+      girl1_kidnapped_w_eyes_0: 2162096475480495599
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

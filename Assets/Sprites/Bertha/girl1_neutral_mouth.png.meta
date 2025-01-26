@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4956ea8fb621a955484b42970ede3a2b
+guid: a49d48b4ad29f3a45b54a79efbdc34d8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3884189873923437009
-    second: girl1_eyes_forward_0
+      213: 7117477215320621749
+    second: girl1_neutral_mouth_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: girl1_eyes_forward_0
+      name: girl1_neutral_mouth_0
       rect:
         serializedVersion: 2
         x: 1100
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f2ecf9493e5981ac0800000000000000
-      internalID: -3884189873923437009
+      spriteID: 5b24f1c31db56c260800000000000000
+      internalID: 7117477215320621749
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      girl1_eyes_forward_0: -3884189873923437009
+      girl1_neutral_mouth_0: 7117477215320621749
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

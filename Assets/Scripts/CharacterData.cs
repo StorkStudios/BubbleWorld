@@ -22,7 +22,8 @@ public class CharacterData : ScriptableObject
         Sad,
         Angry,
         Crazy,
-        Happy
+        Happy,
+        None
     }
 
     [SerializeField]

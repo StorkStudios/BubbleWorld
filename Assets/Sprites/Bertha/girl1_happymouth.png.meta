@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: fabb43d3f6ffe024fa6428dc222f98fc
+guid: c05402f758ed68e4bb2df89c5f779194
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1216205262621185079
-    second: girl1_happyeyes_0
-  - first:
-      213: -6587613717013763123
-    second: girl1_happyeyes_1
-  - first:
-      213: 6100292179859913548
-    second: girl1_happyeyes_2
-  - first:
-      213: -7455915103964845740
-    second: girl1_happyeyes_3
+      213: 1584319601455619852
+    second: girl1_happymouth_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -105,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: girl1_happyeyes_0
+      name: girl1_happymouth_0
       rect:
         serializedVersion: 2
-        x: 1741
-        y: 1294
-        width: 123
-        height: 67
+        x: 1100
+        y: 0
+        width: 1638
+        height: 1644
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,74 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7341f7c1e34d0e010800000000000000
-      internalID: 1216205262621185079
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: girl1_happyeyes_1
-      rect:
-        serializedVersion: 2
-        x: 1797
-        y: 1316
-        width: 88
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dcb67ef1a381494a0800000000000000
-      internalID: -6587613717013763123
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: girl1_happyeyes_2
-      rect:
-        serializedVersion: 2
-        x: 1937
-        y: 1306
-        width: 116
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c4bb4a6ba6798a450800000000000000
-      internalID: 6100292179859913548
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: girl1_happyeyes_3
-      rect:
-        serializedVersion: 2
-        x: 1943
-        y: 1252
-        width: 132
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 459a4b057b4478890800000000000000
-      internalID: -7455915103964845740
+      spriteID: c0f537f8842acf510800000000000000
+      internalID: 1584319601455619852
       vertices: []
       indices: 
       edges: []
@@ -209,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      girl1_happymouth_0: 1584319601455619852
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

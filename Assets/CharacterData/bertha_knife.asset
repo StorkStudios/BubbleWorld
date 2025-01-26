@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5ff230c37c3b02a45bb7cd855aedf6b0, type: 3}
-  m_Name: bertha
+  m_Name: bertha_knife
   m_EditorClassIdentifier: 
-  baseSprite: {fileID: 2710856835717798624, guid: d53e19a171da9d642a8c1e6d627eb80b, type: 3}
+  baseSprite: {fileID: -1582032154237416731, guid: 9ff3724f210f2a54c8174f34b60de3af, type: 3}
   eyes:
     pairs:
     - Key:
@@ -37,7 +37,7 @@ MonoBehaviour:
       Value: {fileID: 1584319601455619852, guid: c05402f758ed68e4bb2df89c5f779194, type: 3}
     - Key:
         item: 0
-      Value: {fileID: 7117477215320621749, guid: a49d48b4ad29f3a45b54a79efbdc34d8, type: 3}
+      Value: {fileID: 1584319601455619852, guid: c05402f758ed68e4bb2df89c5f779194, type: 3}
     - Key:
         item: 2
       Value: {fileID: -795883432421017316, guid: c0945b862e083e746baddac3397ab007, type: 3}

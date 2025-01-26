@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 5ecbaa931f8f62cb5a9f8f0e734c99d4
+guid: f1ee38d224dd51741a1993cbdbd8ebff
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8156198714088450033
-    second: girl1_face_angry_0
+      213: -1303040615130703928
+    second: girl1_neutral_eyes_0
+  - first:
+      213: -7871503087090920914
+    second: girl1_neutral_eyes_1
+  - first:
+      213: 837841437859934659
+    second: girl1_neutral_eyes_2
+  - first:
+      213: -1340935078669998613
+    second: girl1_neutral_eyes_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +122,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: girl1_face_angry_0
+      name: girl1_neutral_eyes_0
       rect:
         serializedVersion: 2
         x: 1100
@@ -128,8 +137,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1f76dbe5483a03170800000000000000
-      internalID: 8156198714088450033
+      spriteID: 8c75a3fd67baaede0800000000000000
+      internalID: -1303040615130703928
       vertices: []
       indices: 
       edges: []
@@ -148,7 +157,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      girl1_face_angry_0: 8156198714088450033
+      girl1_neutral_eyes_0: -1303040615130703928
+      girl1_neutral_eyes_1: -7871503087090920914
+      girl1_neutral_eyes_2: 837841437859934659
+      girl1_neutral_eyes_3: -1340935078669998613
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

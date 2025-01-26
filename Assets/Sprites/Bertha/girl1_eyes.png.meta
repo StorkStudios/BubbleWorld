@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 122802b8f716535449cb1344b3e46404
+guid: 2ac62578f0df5904e891271f35ca6f34
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2162096475480495599
-    second: girl1_kidnapped_w_eyes_0
+      213: 8553507754375002886
+    second: girl1_sadeyes_0
+  - first:
+      213: -289620935224360119
+    second: girl1_sadeyes_1
+  - first:
+      213: -2510710377693689333
+    second: girl1_sadeyes_2
+  - first:
+      213: -3034967608603838776
+    second: girl1_sadeyes_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +105,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: girl1_kidnapped_w_eyes_0
+      name: girl1_sadeyes_0
       rect:
         serializedVersion: 2
-        x: 1484
+        x: 1100
         y: 0
-        width: 841
-        height: 1556
+        width: 1638
+        height: 1644
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +137,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fe593270a4f410e10800000000000000
-      internalID: 2162096475480495599
+      spriteID: 60b3213fbf924b670800000000000000
+      internalID: 8553507754375002886
       vertices: []
       indices: 
       edges: []
@@ -135,7 +157,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      girl1_kidnapped_w_eyes_0: 2162096475480495599
+      girl1_sadeyes_0: 8553507754375002886
+      girl1_sadeyes_1: -289620935224360119
+      girl1_sadeyes_2: -2510710377693689333
+      girl1_sadeyes_3: -3034967608603838776
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

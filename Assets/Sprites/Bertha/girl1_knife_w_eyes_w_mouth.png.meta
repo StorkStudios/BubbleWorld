@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: f1ee38d224dd51741a1993cbdbd8ebff
+guid: 9ff3724f210f2a54c8174f34b60de3af
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1303040615130703928
-    second: girl1_neutral_eyes_0
-  - first:
-      213: -7871503087090920914
-    second: girl1_neutral_eyes_1
-  - first:
-      213: 837841437859934659
-    second: girl1_neutral_eyes_2
-  - first:
-      213: -1340935078669998613
-    second: girl1_neutral_eyes_3
+      213: -1582032154237416731
+    second: girl1_knife_w_eyes_w_mouth_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -105,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: girl1_neutral_eyes_0
+      name: girl1_knife_w_eyes_w_mouth_0
       rect:
         serializedVersion: 2
-        x: 1741
-        y: 1240
-        width: 123
-        height: 121
+        x: 1100
+        y: 0
+        width: 1638
+        height: 1644
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,74 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8c75a3fd67baaede0800000000000000
-      internalID: -1303040615130703928
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: girl1_neutral_eyes_1
-      rect:
-        serializedVersion: 2
-        x: 1797
-        y: 1316
-        width: 88
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e221e85b5adc2c290800000000000000
-      internalID: -7871503087090920914
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: girl1_neutral_eyes_2
-      rect:
-        serializedVersion: 2
-        x: 1937
-        y: 1306
-        width: 116
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3c17eb1495c90ab00800000000000000
-      internalID: 837841437859934659
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: girl1_neutral_eyes_3
-      rect:
-        serializedVersion: 2
-        x: 1943
-        y: 1220
-        width: 132
-        height: 85
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: be5a30986aa046de0800000000000000
-      internalID: -1340935078669998613
+      spriteID: 5eace6f332e7b0ae0800000000000000
+      internalID: -1582032154237416731
       vertices: []
       indices: 
       edges: []
@@ -210,10 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      girl1_neutral_eyes_0: -1303040615130703928
-      girl1_neutral_eyes_1: -7871503087090920914
-      girl1_neutral_eyes_2: 837841437859934659
-      girl1_neutral_eyes_3: -1340935078669998613
+      girl1_knife_w_eyes_w_mouth_0: -1582032154237416731
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

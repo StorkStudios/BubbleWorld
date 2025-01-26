@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 13dace4d3ef45df4baf35c2fad975bb0
+guid: d53e19a171da9d642a8c1e6d627eb80b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4630566483857062169
-    second: girl1_crazymouth_0
+      213: 2710856835717798624
+    second: girl1_w_eyes_w_mouth_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: girl1_crazymouth_0
+      name: girl1_w_eyes_w_mouth_0
       rect:
         serializedVersion: 2
-        x: 1808
-        y: 1128
-        width: 190
-        height: 75
+        x: 1100
+        y: 0
+        width: 1638
+        height: 1644
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7e6ced4115cecbfb0800000000000000
-      internalID: -4630566483857062169
+      spriteID: 0ea16e9ede5ee9520800000000000000
+      internalID: 2710856835717798624
       vertices: []
       indices: 
       edges: []
@@ -134,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      girl1_w_eyes_w_mouth_0: 2710856835717798624
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
