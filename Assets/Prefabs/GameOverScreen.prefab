@@ -444,7 +444,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f17f970f7df3f54da60971b19467632, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: {fileID: 2330839154856858205}
+  text: {fileID: 8579359111983765220}
   mainMenuScene: Baking
 --- !u!1001 &8522179913496248672
 PrefabInstance:

@@ -148,7 +148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03b24f2db4018b931b6feacbbe5a4ad9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  firstChapterPath: test.vnml
+  firstChapterPath: BerthaTutorial.vnml
   CanSkip: 0
 --- !u!4 &183770193
 Transform:
@@ -1490,10 +1490,6 @@ PrefabInstance:
     - target: {fileID: 2198097171872453903, guid: 3896cfa438d060d6099784a0b48d286e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6515519581333824667, guid: 3896cfa438d060d6099784a0b48d286e, type: 3}
-      propertyPath: text
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8763592425743992138, guid: 3896cfa438d060d6099784a0b48d286e, type: 3}
       propertyPath: m_Name
