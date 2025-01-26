@@ -454,4 +454,5 @@
         W takim razie do zobaczenia, Tenteki!
     </Speech>
     <Exit character_id="Brunetka"/>
+    <Link path="Yukari.vnml"/>
 </Chapter>
