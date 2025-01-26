@@ -131,4 +131,5 @@
     <Speech>
         <i>Co się tutaj dzieje?</i>
     </Speech>
+    <Link path="Outside.vnml"/>
 </Chapter>

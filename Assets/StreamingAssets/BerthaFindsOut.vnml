@@ -56,4 +56,21 @@
     <Speech>
         Tej nocy miałem problemy z zaśnięciem, ale w końcu usnąłem.
     </Speech>
+    <Choice>
+        <Variable name="chosenOne" />
+        <Switch>
+            <Case value="0">
+                <Link path="BerthaWorkerEnding.vnml"/>
+            </Case>
+            <Case value="1">
+                <Link path="YukariAskAboutDaria.vnml"/>
+            </Case>
+            <Case value="2">
+                <Link path="DariaAboutShiori.vnml"/>
+            </Case>
+            <Case value="3">
+                <Link path="ShioriAskaboutYukari.vnml"/>
+            </Case>
+        </Switch>
+    </Choice>
 </Chapter>

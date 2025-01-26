@@ -74,4 +74,5 @@
     <Speech character_id="Gracz" character="Ja">
         Konsekwencjami będę się martwił później.
     </Speech>
+    <Link path="BerthaFindsOut.vnml"/>
 </Chapter>

@@ -1,4 +1,7 @@
 <Chapter>
+    <Variable name="Daria" value="0" />
+    <Variable name="Shiori" value="0" />
+    <Variable name="Yukari" value="0" />
     <Speech>
         Jest ranek tuż po otwarciu, nadal jestem jeszcze trochę zaspany. Tej nocy męczyła mnie bezsenność i w efekcie prawie w ogóle nie wypocząłem.
     </Speech>
@@ -125,6 +128,7 @@
         </Options>
         <Switch>
             <Case option_id="1">
+                <VariableAdd name="Daria" value="1" />
                 <Speech character="Shiori">
                     Przestańcie!
                 </Speech>
@@ -199,6 +203,7 @@
                 </Speech>
             </Case>
             <Case option_id="2">
+                <VariableAdd name="Shiori" value="1" />
                 <Speech character="Daria">
                     Tenteki...!
                 </Speech>
@@ -274,5 +279,6 @@
             </Case>
         </Switch>
     </Choice>
+    <Link path="YukariAndDaria.vnml" />
 </Chapter>
 	 

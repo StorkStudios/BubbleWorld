@@ -1,6 +1,4 @@
 <Chapter>
-    <Variable name="decisionShioriYukari"
-              value="0" />
     <Speech>
         Robi się trochę późno, a ciągle nie przyszedł żaden klient.
     </Speech>
@@ -50,7 +48,7 @@
         </Options>
         <Switch>
             <Case option_id="1">
-                <VariableAdd name="decisionShioriYukari" value="2" />
+                <VariableAdd name="Yukari" value="1" />
             </Case>
             <Case option_id="2">
                 <Speech character="Yukari">
@@ -104,7 +102,7 @@
         </Switch>
     </Choice>
     <Choice>
-        <Variable name="decisionShioriYukari" />
+        <VariableAdd name="Shiori" value="1" />
         <Switch>
             <Case value="1">
                 <Speech character="Yukari">
@@ -301,6 +299,54 @@
                 <Speech>
                     <i>Może jednak powinienem był dać jej zamówić jako pierwszej?</i>
                 </Speech>
+            </Case>
+        </Switch>
+    </Choice>
+    <Variable name="chosenOne" value="0">
+    <Choice>
+        <Variable name="Daria" />
+        <Switch>
+            <Case value="0"></Case>
+            <Case value="1"></Case>
+            <Case value="2">
+                <Variable name="chosenOne" value="1">
+            </Case>
+        </Switch>
+    </Choice>
+    <Choice>
+        <Variable name="Shiori" />
+        <Switch>
+            <Case value="0"></Case>
+            <Case value="1"></Case>
+            <Case value="2">
+                <Variable name="chosenOne" value="2">
+            </Case>
+        </Switch>
+    </Choice>
+    <Choice>
+        <Variable name="Yukari" />
+        <Switch>
+            <Case value="0"></Case>
+            <Case value="1"></Case>
+            <Case value="2">
+                <Variable name="chosenOne" value="3">
+            </Case>
+        </Switch>
+    </Choice>
+    <Choice>
+        <Variable name="chosenOne" />
+        <Switch>
+            <Case value="0">
+                <Link path="BerthaWorkerEnding.vnml"/>
+            </Case>
+            <Case value="1">
+                <Link path="DariaChoice.vnml"/>
+            </Case>
+            <Case value="2">
+                <Link path="ShioriChoice.vnml"/>
+            </Case>
+            <Case value="3">
+                <Link path="YukariChoice.vnml"/>
             </Case>
         </Switch>
     </Choice>

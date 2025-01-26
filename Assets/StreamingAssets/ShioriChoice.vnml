@@ -167,4 +167,5 @@
             </Case>
         </Switch>
     </Choice>
+    <Link path="BerthaFindsOut.vnml"/>
 </Chapter>

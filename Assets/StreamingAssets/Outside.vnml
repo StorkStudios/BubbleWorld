@@ -140,4 +140,5 @@
     <Speech>
         Może Berta będzie coś o tym wiedziała.
     </Speech>
+    <Link path="BerthaFight.vnml"/>
 </Chapter>
