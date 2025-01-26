@@ -15,6 +15,8 @@ public class CharacterPortraitsSection : MonoBehaviour
     private SerializedDictionary<string, CharacterData> characters;
     [SerializeField]
     private SerializedDictionary<string, SpeechBubble> speechBubbles;
+    [SerializeField]
+    private RectTransform portraitParent;
 
     private readonly Dictionary<string, CharacterPortrait> characterPortraits = new Dictionary<string, CharacterPortrait>();
 
@@ -61,7 +63,7 @@ public class CharacterPortraitsSection : MonoBehaviour
     {
         CharacterData characterData = characters[values.characterId];
 
-        CharacterPortrait portrait = Instantiate(characterPortraitPrefab.gameObject, transform).GetComponent<CharacterPortrait>();
+        CharacterPortrait portrait = Instantiate(characterPortraitPrefab.gameObject, portraitParent).GetComponent<CharacterPortrait>();
         portrait.position = values.position;
         portrait.Base = characterData.BaseSprite;
         portrait.Eyes = characterData.Eyes[values.eyes];
@@ -69,7 +71,7 @@ public class CharacterPortraitsSection : MonoBehaviour
         portrait.rectTransform.sizeDelta = characterData.Size;
 
         portrait.CanvasGroup.alpha = 0;
-        portrait.CanvasGroup.DOFade(1, fadeDuration);
+        portrait.CanvasGroup.DOFade(1, values.duration ?? fadeDuration);
 
         characterPortraits[values.characterId] = portrait;
         speechBubbles[values.characterId] = portrait.GetComponentInChildren<SpeechBubble>();
@@ -78,7 +80,7 @@ public class CharacterPortraitsSection : MonoBehaviour
     private void DespawnCharacter(Exit values)
     {
         GameObject characterToDestroy = characterPortraits[values.characterId].gameObject;
-        characterPortraits[values.characterId].CanvasGroup.DOFade(0, fadeDuration).OnComplete(() => Destroy(characterToDestroy));
+        characterPortraits[values.characterId].CanvasGroup.DOFade(0, values.duration ?? fadeDuration).OnComplete(() => Destroy(characterToDestroy));
         characterPortraits.Remove(values.characterId);
         speechBubbles.Remove(values.characterId);
     }
