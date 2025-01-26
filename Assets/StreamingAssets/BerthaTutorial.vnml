@@ -8,11 +8,13 @@
     <Speech>
         <i>Niestety przeszkadza mi w tym troche moja szefowa.</i>
     </Speech>
+    <Enter character_id="Ruda" position="0.5" eyes="Forward" mouth="Angry"/>
     <Speech character_id="Ruda" character_name="???">
         Wstawaj, wstawaj, wstawaj! Klientka chce zamówić bubble tea!
     </Speech>
+    <Enter character_id="Ruda" position="0.5" eyes="Angry" mouth="Sad"/>
     <Speech>
-        <i>To właśnie ona: Bertha</i>
+        <i>To właśnie ona: Bertha.</i>
     </Speech>
     <Speech character_id="Gracz" character_name="Ja">
         Przecież jest dopiero 9 rano. Jeszcze nie ma klientów w sklepie.
@@ -20,9 +22,11 @@
     <Speech character_id="Ruda" character_name="Bertha">
         Ja jestem klientką.
     </Speech>
+    <Update character_id="Ruda" mouth="Smile"/>
     <Speech>
-        <i>Jest czasami troche dziecinna</i>
+        <i>Jest czasami troche dziecinna.</i>
     </Speech>
+    <Update character_id="Ruda" mouth="Neutral"/>
     <Speech character_id="Ruda" character_name="Bertha">
         Zrób mi truskawkowe bubble tea z mlekiem.
     </Speech>
@@ -35,6 +39,7 @@
     <Speech character_id="Gracz" character_name="Ja">
         Tak jest szefowo.
     </Speech>
+    <Update character_id="Ruda" mouth="Smile"/>
     <Speech character_id="Ruda" character_name="Bertha">
         hehehe
     </Speech>
@@ -49,6 +54,7 @@
         </TeaJellies>
         <TeaMixage>Light</TeaMixage>
     </MinigameStart>
+    <Update character_id="Ruda" mouth="Neutral"/>
     <Speech>
         <i>Czuję na sobie wzrok Berthy.</i>
     </Speech>
@@ -73,6 +79,7 @@
             <Case option_id="3"></Case>
         </Switch>
     </Choice>
+    <Update character_id="Ruda" eyes="Closed"/>
     <Speech character_id="Ruda" character_name="Bertha">
         No. widzę że czegoś się już nauczyłeś.
     </Speech>
@@ -82,6 +89,7 @@
     <Speech character_id="Gracz" character_name="Ja">
         Muszę wiedzieć jak się przygotowuje herbatę prawda?
     </Speech>
+    <Update character_id="Ruda" eyes="Neutral"/>
     <Speech character_id="Ruda" character_name="Bertha">
         Racja. Zapomniałam.
     </Speech>
@@ -103,6 +111,7 @@
     <Speech character_id="Ruda" character_name="Bertha">
         To rób ją szybciej! Chce moją herbatę TERAZ!
     </Speech>
+    <Update character_id="Ruda" mouth="Angry"/>
     <Speech>
         <i>Zawsze była taka niecierpliwa?</i>
     </Speech>
@@ -121,13 +130,14 @@
     <Speech character_id="Ruda" character_name="Bertha">
         Hhhhhhhhhhhhhhhhhhhhhhhh.
     </Speech>
-    <MinigameEnd>
+    <MinigameEnd/>
     <Speech character_id="Gracz" character_name="Ja">
         Twoja herbata. - <i> Mówie wyciągając w jej stronę rękę z napojem.</i>
     </Speech>
     <Speech>
         Berta gwałtownie rzuca się w moją stronę i praktyczne wyrywa mi go z ręki.
     </Speech>
+    <Update character_id="Ruda" mouth="Neutral"/>
     <Speech>
         Próbuje jededn łyk po czym się krzywi i mówi:
     </Speech>
@@ -135,6 +145,7 @@
         <Variable name="MinigameResult" />
         <Switch>
             <Case value="0">
+                <Update character_id="Ruda" mouth="Angry"/>
                 <Speech character_id="Ruda" character_name="Bertha">
                     Błeeee! Ohyda!
                 </Speech>
@@ -160,11 +171,13 @@
                 <Speech character_id="Ruda" character_name="Bertha">
                     Jak będziesz robił takie wszystkim klientom to będziemy bogaci!
                 </Speech>
+                <Update character_id="Ruda" mouth="Smile"/>
                 <Speech character_id="Ruda" character_name="Bertha">
                     Znaczy ja będę hehe.
                 </Speech>
             </Case>
         </Switch>
     </Choice>
+    <Exit character_id="Ruda"/>
     <Link path="DariaStart.vnml"/>
 </Chapter>
