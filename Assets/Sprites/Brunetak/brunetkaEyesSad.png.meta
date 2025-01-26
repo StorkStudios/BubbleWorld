@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 254f17ec44936b4428ec4795b7c8fef2
+guid: 9468719b0d5ab01468c899c85344be0c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7307501701722050460
-    second: oldman_mouth_angry_0
+      213: 9066306737201441656
+    second: brunetkaEyesSad_0
+  - first:
+      213: -3861861288066785809
+    second: brunetkaEyesSad_1
+  - first:
+      213: 6997953188215040043
+    second: brunetkaEyesSad_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +106,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: oldman_mouth_angry_0
+      name: brunetkaEyesSad_0
       rect:
         serializedVersion: 2
-        x: 1871
-        y: 1575
-        width: 158
-        height: 85
+        x: 526
+        y: 1149
+        width: 85
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +121,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c9f84b6b416796560800000000000000
-      internalID: 7307501701722050460
+      spriteID: 87b6f9f21fdf1dd70800000000000000
+      internalID: 9066306737201441656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunetkaEyesSad_1
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 1150
+        width: 83
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fed52f89e99e76ac0800000000000000
+      internalID: -3861861288066785809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunetkaEyesSad_2
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1122
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b28ae521959bd1160800000000000000
+      internalID: 6997953188215040043
       vertices: []
       indices: 
       edges: []
@@ -134,8 +184,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      oldman_mouth_angry_0: 7307501701722050460
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

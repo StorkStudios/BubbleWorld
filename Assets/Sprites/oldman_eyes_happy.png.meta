@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      oldman_eyes_happy_0: -4509806587679347792
+      oldman_eyes_happy_1: 5462789418029394486
+      oldman_eyes_happy_2: -2272857934322312486
+      oldman_eyes_happy_3: 7727159137809719685
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

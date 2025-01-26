@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      oldman_mouth_crazy_0: 3375023521509130502
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

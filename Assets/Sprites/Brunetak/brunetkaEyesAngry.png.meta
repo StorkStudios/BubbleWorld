@@ -1,28 +1,31 @@
 fileFormatVersion: 2
-guid: 3597f8018b6188040a9acebbb00838e2
+guid: 03ba86a025fa5564e8931f0e72c4e20a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8385359143143735478
-    second: oldman_eyes_angry_0
+      213: -1080538377996561952
+    second: brunetkaEyesAngry_0
   - first:
-      213: -6099864453023574440
-    second: oldman_eyes_angry_1
+      213: 3935724720135594651
+    second: brunetkaEyesAngry_1
   - first:
-      213: 7705434401230147919
-    second: oldman_eyes_angry_2
+      213: -6881229278917723466
+    second: brunetkaEyesAngry_2
   - first:
-      213: -2065677356839364023
-    second: oldman_eyes_angry_3
+      213: 2201638780205131671
+    second: brunetkaEyesAngry_3
   - first:
-      213: 6957989547268932459
-    second: oldman_eyes_angry_4
+      213: 7200010578083266283
+    second: brunetkaEyesAngry_4
   - first:
-      213: -964808792069048699
-    second: oldman_eyes_angry_5
+      213: -1294562188733487254
+    second: brunetkaEyesAngry_5
   - first:
-      213: -4827434730092570027
-    second: oldman_eyes_angry_6
+      213: 3407071456032388209
+    second: brunetkaEyesAngry_6
+  - first:
+      213: 8075368373079075230
+    second: brunetkaEyesAngry_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -118,144 +121,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: oldman_eyes_angry_0
+      name: brunetkaEyesAngry_0
       rect:
         serializedVersion: 2
-        x: 2015
-        y: 1901
-        width: 46
-        height: 114
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6b0082196b7ce5470800000000000000
-      internalID: 8385359143143735478
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oldman_eyes_angry_1
-      rect:
-        serializedVersion: 2
-        x: 2054
-        y: 1982
-        width: 99
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8565f73399de85ba0800000000000000
-      internalID: -6099864453023574440
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oldman_eyes_angry_2
-      rect:
-        serializedVersion: 2
-        x: 2121
-        y: 1895
-        width: 46
-        height: 114
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f41d56543c33fea60800000000000000
-      internalID: 7705434401230147919
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oldman_eyes_angry_3
-      rect:
-        serializedVersion: 2
-        x: 1751
-        y: 1824
-        width: 164
-        height: 65
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 94a950d636d3553e0800000000000000
-      internalID: -2065677356839364023
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oldman_eyes_angry_4
-      rect:
-        serializedVersion: 2
-        x: 1959
-        y: 1820
-        width: 169
-        height: 109
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b6388d3d0aebf8060800000000000000
-      internalID: 6957989547268932459
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oldman_eyes_angry_5
-      rect:
-        serializedVersion: 2
-        x: 1965
-        y: 1773
-        width: 144
-        height: 69
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 586fc80f38f4c92f0800000000000000
-      internalID: -964808792069048699
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oldman_eyes_angry_6
-      rect:
-        serializedVersion: 2
-        x: 1762
-        y: 1765
-        width: 149
+        x: 523
+        y: 1149
+        width: 79
         height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -265,8 +136,162 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 55ad27890b1810db0800000000000000
-      internalID: -4827434730092570027
+      spriteID: 0e19655f1182101f0800000000000000
+      internalID: -1080538377996561952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunetkaEyesAngry_1
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 1189
+        width: 78
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b92e765d7c08e9630800000000000000
+      internalID: 3935724720135594651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunetkaEyesAngry_2
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1179
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba771cdd66f080a0800000000000000
+      internalID: -6881229278917723466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunetkaEyesAngry_3
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1197
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 797e9d94ecacd8e10800000000000000
+      internalID: 2201638780205131671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunetkaEyesAngry_4
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1189
+        width: 86
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bee35b539739be360800000000000000
+      internalID: 7200010578083266283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunetkaEyesAngry_5
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 1150
+        width: 78
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6763e85c8ac80ee0800000000000000
+      internalID: -1294562188733487254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunetkaEyesAngry_6
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1172
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 174fe251079584f20800000000000000
+      internalID: 3407071456032388209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunetkaEyesAngry_7
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1122
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e996dcb00c8711070800000000000000
+      internalID: 8075368373079075230
       vertices: []
       indices: 
       edges: []
@@ -284,14 +309,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      oldman_eyes_angry_0: 8385359143143735478
-      oldman_eyes_angry_1: -6099864453023574440
-      oldman_eyes_angry_2: 7705434401230147919
-      oldman_eyes_angry_3: -2065677356839364023
-      oldman_eyes_angry_4: 6957989547268932459
-      oldman_eyes_angry_5: -964808792069048699
-      oldman_eyes_angry_6: -4827434730092570027
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

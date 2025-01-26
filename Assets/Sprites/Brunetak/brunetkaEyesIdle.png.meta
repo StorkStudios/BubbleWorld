@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: 254f17ec44936b4428ec4795b7c8fef2
+guid: 318f35dd3fe570648a56d755867aee5f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7307501701722050460
-    second: oldman_mouth_angry_0
+      213: -9140179170669476349
+    second: brunetkaEyesIdle_0
+  - first:
+      213: -2597908255259996773
+    second: brunetkaEyesIdle_1
+  - first:
+      213: 3231064232578424022
+    second: brunetkaEyesIdle_2
+  - first:
+      213: -8225842749283542164
+    second: brunetkaEyesIdle_3
+  - first:
+      213: -7152817783501660368
+    second: brunetkaEyesIdle_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +112,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: oldman_mouth_angry_0
+      name: brunetkaEyesIdle_0
       rect:
         serializedVersion: 2
-        x: 1871
-        y: 1575
-        width: 158
-        height: 85
+        x: 526
+        y: 1149
+        width: 81
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +127,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c9f84b6b416796560800000000000000
-      internalID: 7307501701722050460
+      spriteID: 30642d4987f872180800000000000000
+      internalID: -9140179170669476349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunetkaEyesIdle_1
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 1196
+        width: 85
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9d4c26c43062fbd0800000000000000
+      internalID: -2597908255259996773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunetkaEyesIdle_2
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 1190
+        width: 74
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dc9e45fccb07dc20800000000000000
+      internalID: 3231064232578424022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunetkaEyesIdle_3
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 1150
+        width: 78
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6b5bb61a9fe7dd80800000000000000
+      internalID: -8225842749283542164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brunetkaEyesIdle_4
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1122
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03f59478f161cbc90800000000000000
+      internalID: -7152817783501660368
       vertices: []
       indices: 
       edges: []
@@ -134,8 +234,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      oldman_mouth_angry_0: 7307501701722050460
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

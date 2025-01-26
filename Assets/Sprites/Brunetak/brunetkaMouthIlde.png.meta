@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 254f17ec44936b4428ec4795b7c8fef2
+guid: 6ae39ae7468068445b47229f17eb0c2d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7307501701722050460
-    second: oldman_mouth_angry_0
+      213: -8471602651667395253
+    second: brunetkaMouthIlde_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: oldman_mouth_angry_0
+      name: brunetkaMouthIlde_0
       rect:
         serializedVersion: 2
-        x: 1871
-        y: 1575
-        width: 158
-        height: 85
+        x: 0
+        y: 0
+        width: 3840
+        height: 2160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c9f84b6b416796560800000000000000
-      internalID: 7307501701722050460
+      spriteID: b4d8b15d542de6a80800000000000000
+      internalID: -8471602651667395253
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      oldman_mouth_angry_0: 7307501701722050460
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

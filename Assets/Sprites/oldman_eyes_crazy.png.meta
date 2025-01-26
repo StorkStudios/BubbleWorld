@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      oldman_eyes_crazy_0: -418713323772354031
+      oldman_eyes_crazy_1: 3707438753905461412
+      oldman_eyes_crazy_2: 8037299670602336295
+      oldman_eyes_crazy_3: 763017866206603534
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
