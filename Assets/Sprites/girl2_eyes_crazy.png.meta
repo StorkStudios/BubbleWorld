@@ -115,10 +115,10 @@ TextureImporter:
       name: girl2_eyes_crazy_0
       rect:
         serializedVersion: 2
-        x: 1838
-        y: 1714
-        width: 23
-        height: 18
+        x: 1513
+        y: 0
+        width: 800
+        height: 1972
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -133,73 +133,6 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: girl2_eyes_crazy_1
-      rect:
-        serializedVersion: 2
-        x: 1859
-        y: 1689
-        width: 28
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a23174d199ac06920800000000000000
-      internalID: 2981605712289272618
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: girl2_eyes_crazy_2
-      rect:
-        serializedVersion: 2
-        x: 1910
-        y: 1691
-        width: 103
-        height: 60
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5f2093215116618b0800000000000000
-      internalID: -5181847578115243275
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: girl2_eyes_crazy_3
-      rect:
-        serializedVersion: 2
-        x: 1753
-        y: 1604
-        width: 130
-        height: 93
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4b813d2cb0834b8e0800000000000000
-      internalID: -1678655137937942348
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: girl2_eyes_crazy_4
       rect:
         serializedVersion: 2

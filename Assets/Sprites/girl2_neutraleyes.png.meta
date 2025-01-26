@@ -128,10 +128,10 @@ TextureImporter:
       name: girl2_neutraleyes_0
       rect:
         serializedVersion: 2
-        x: 1756
-        y: 1698
-        width: 24
-        height: 17
+        x: 1513
+        y: 0
+        width: 800
+        height: 1972
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,73 +146,6 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: girl2_neutraleyes_1
-      rect:
-        serializedVersion: 2
-        x: 1810
-        y: 1683
-        width: 73
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4e0e337b27cf2c150800000000000000
-      internalID: 5891548832184131812
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: girl2_neutraleyes_2
-      rect:
-        serializedVersion: 2
-        x: 1915
-        y: 1684
-        width: 124
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 53053235537c31e50800000000000000
-      internalID: 6778980895964745781
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: girl2_neutraleyes_3
-      rect:
-        serializedVersion: 2
-        x: 1753
-        y: 1605
-        width: 126
-        height: 91
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 246cd75da9a323a20800000000000000
-      internalID: 3040557135109670466
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: girl2_neutraleyes_4
       rect:
         serializedVersion: 2

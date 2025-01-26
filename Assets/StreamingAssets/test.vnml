@@ -1,10 +1,20 @@
 <Chapter>
-    <Enter character_id="RudaZwiazana" position="0.5" eyes="Forward" mouth="None"/>
+    <Enter character_id="Farbowana" position="0.5" eyes="Forward" mouth="Neutral"/>
     <Speech>a</Speech>
-    <Exit character_id="RudaZwiazana"/>
-    <Enter character_id="RudaNoz" position="0.5" eyes="Crazy" mouth="Crazy"/>
+    <Update character_id="Farbowana" eyes="Happy"/>
     <Speech>a</Speech>
-    <Exit character_id="RudaNoz"/>
+    <Update character_id="Farbowana" eyes="Crazy"/>
+    <Speech>a</Speech>
+    <Update character_id="Farbowana" eyes="Angry"/>
+    <Speech>a</Speech>
+    <Update character_id="Farbowana" mouth="Sad"/>
+    <Speech>a</Speech>
+    <Update character_id="Farbowana" mouth="Crazy"/>
+        <Speech>a</Speech>
+    <Update character_id="Farbowana" mouth="Angry"/>
+    <Speech>a</Speech>
+    <Update character_id="Farbowana" mouth="Happy"/>
+    <Speech>a</Speech>
     <Speech>
         End test
     </Speech>

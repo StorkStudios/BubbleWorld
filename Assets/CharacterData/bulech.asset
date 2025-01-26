@@ -12,33 +12,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ff230c37c3b02a45bb7cd855aedf6b0, type: 3}
   m_Name: bulech
   m_EditorClassIdentifier: 
-  baseSprite: {fileID: 1032039262693989627, guid: 0ee165999948b174fb80f5cfc3a17c45, type: 3}
+  baseSprite: {fileID: 2286338269292492051, guid: 06b7f6ec5b2854c4faf1f67f566913ea, type: 3}
   eyes:
     pairs:
     - Key:
-        item: 0
-      Value: {fileID: 1032039262693989627, guid: 0ee165999948b174fb80f5cfc3a17c45, type: 3}
-    - Key:
-        item: 1
-      Value: {fileID: 1032039262693989627, guid: 0ee165999948b174fb80f5cfc3a17c45, type: 3}
-    - Key:
-        item: 2
-      Value: {fileID: 1032039262693989627, guid: 0ee165999948b174fb80f5cfc3a17c45, type: 3}
-    - Key:
         item: 3
-      Value: {fileID: 1032039262693989627, guid: 0ee165999948b174fb80f5cfc3a17c45, type: 3}
+      Value: {fileID: -3388355572793084384, guid: ddeefe617f4b558448d11257a0c41c36, type: 3}
+    - Key:
+        item: 5
+      Value: {fileID: -9113319963866578375, guid: b57f44ef6fd7da043887f091b481c350, type: 3}
+    - Key:
+        item: 6
+      Value: {fileID: -4119187036107370523, guid: b731b4fcde825fa45a10e7dba35a9061, type: 3}
+    - Key:
+        item: 7
+      Value: {fileID: 6491652880306915306, guid: b0bafa06b22feca42aa348c20aac449d, type: 3}
+    - Key:
+        item: 0
+      Value: {fileID: -8887578586332055474, guid: bc5caa7a394fef3479efa93c3bcd27b0, type: 3}
   mouth:
     pairs:
     - Key:
-        item: 0
-      Value: {fileID: 1032039262693989627, guid: 0ee165999948b174fb80f5cfc3a17c45, type: 3}
+        item: 3
+      Value: {fileID: 2534317946832643691, guid: 8aceda9dc6bfce14b82577bf5781af5e, type: 3}
     - Key:
-        item: 1
-      Value: {fileID: 1032039262693989627, guid: 0ee165999948b174fb80f5cfc3a17c45, type: 3}
+        item: 4
+      Value: {fileID: 4119929677373409880, guid: 193b1ac5871e3994b93b67f15b4eeac8, type: 3}
+    - Key:
+        item: 5
+      Value: {fileID: 553616354849688045, guid: 735298069513c6249b7a46ceeaaeff49, type: 3}
     - Key:
         item: 2
-      Value: {fileID: 1032039262693989627, guid: 0ee165999948b174fb80f5cfc3a17c45, type: 3}
+      Value: {fileID: -4566383975889653070, guid: 0f26afc9417453248be320fd95ec3b5f, type: 3}
     - Key:
-        item: 3
-      Value: {fileID: 1032039262693989627, guid: 0ee165999948b174fb80f5cfc3a17c45, type: 3}
+        item: 0
+      Value: {fileID: -272385667654934928, guid: 01dc9bae8d2bb7b418b88b74e840c49d, type: 3}
   size: {x: 275, y: 650}

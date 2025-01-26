@@ -103,10 +103,10 @@ TextureImporter:
       name: girl2_mouth_crazy_0
       rect:
         serializedVersion: 2
-        x: 1825
-        y: 1479
-        width: 170
-        height: 75
+        x: 1513
+        y: 0
+        width: 800
+        height: 1972
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -115,10 +115,10 @@ TextureImporter:
       name: girl2_eyes_sad_0
       rect:
         serializedVersion: 2
-        x: 1756
-        y: 1698
-        width: 24
-        height: 17
+        x: 1513
+        y: 0
+        width: 800
+        height: 1972
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -133,73 +133,6 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: girl2_eyes_sad_1
-      rect:
-        serializedVersion: 2
-        x: 1810
-        y: 1683
-        width: 73
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 51755d61753baf990800000000000000
-      internalID: -7351366255102306539
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: girl2_eyes_sad_2
-      rect:
-        serializedVersion: 2
-        x: 1915
-        y: 1684
-        width: 124
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ad97f4fc96477ea20800000000000000
-      internalID: 3091567667011615194
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: girl2_eyes_sad_3
-      rect:
-        serializedVersion: 2
-        x: 1753
-        y: 1605
-        width: 126
-        height: 91
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 850a584551545dc80800000000000000
-      internalID: -8298650780445597608
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: girl2_eyes_sad_4
       rect:
         serializedVersion: 2
