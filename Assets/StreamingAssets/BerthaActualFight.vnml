@@ -82,7 +82,7 @@
                             </Speech>
                         </Case>
                         <Case option_id="2">
-                            <VariableAdd name="fightResult"value="1" />
+                            <VariableAdd name="fightResult" value="1" />
                         </Case>
                     </Switch>
                 </Choice>
@@ -232,10 +232,32 @@
     <Speech>                                
         Potrzebowałem chwili by zrozumieć o co chodzi.
     </Speech>
-    <Speech character_id="Gracz"
-            character="Ja">        
-        Zaraz... To przez ciebie <dziewczyna gracza> zniknęła!?
-    </Speech>
+    <Choice>
+        <Variable name="chosenOne" />
+        <Switch>
+            <Case value="0">
+                <Link path="BerthaWorkerEnding.vnml"/>
+            </Case>
+            <Case value="1">
+                <Speech character_id="Gracz"
+                        character="Ja">        
+                    Zaraz... To przez ciebie Daria zniknęła!?
+                </Speech>
+            </Case>
+            <Case value="2">
+                <Speech character_id="Gracz"
+                        character="Ja">        
+                    Zaraz... To przez ciebie Shiori zniknęła!?
+                </Speech>
+            </Case>
+            <Case value="3">
+                <Speech character_id="Gracz"
+                        character="Ja">        
+                    Zaraz... To przez ciebie Yukari zniknęła!?
+                </Speech>
+            </Case>
+        </Switch>
+    </Choice>
     <Speech>
         Bertha orientuje się co powiedziała i na jej twarzy maluje się przerażenie.
     </Speech>
