@@ -94,8 +94,14 @@ MonoBehaviour:
         item: Shop
       Value: {fileID: 2347633499205131774, guid: d04ebcbb9f8df038382eb952b0c8290a, type: 3}
     - Key:
-        item: Shop2
-      Value: {fileID: 2347633499205131774, guid: 87ab92613c7354071b7bff3f56a5e916, type: 3}
+        item: ShopNight
+      Value: {fileID: 3065831527876320238, guid: f3d977f0eb10c704f9b73e8aeb88e7a2, type: 3}
     - Key:
         item: GameOver
       Value: {fileID: 5400790608277296647, guid: bf98ca974e6e27c459889f7b0e9fbc34, type: 3}
+    - Key:
+        item: Street
+      Value: {fileID: -4202431171734217618, guid: ae447b264fc79d44faa0cebe8d24718a, type: 3}
+    - Key:
+        item: BehindBack
+      Value: {fileID: -6870101006472520956, guid: b648e244533ad964e870698934de1837, type: 3}
