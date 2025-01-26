@@ -16,6 +16,8 @@ public class Minigame : MonoBehaviour
     private DrinkData currentDrink;
     private DrinkData targetDrink;
 
+    private bool doneClicked = false;
+
     private void Start()
     {
         Director.Instance.ElementReadEvent += OnElementRead;
@@ -25,6 +27,36 @@ public class Minigame : MonoBehaviour
         ingredientsSection.BaseSelected += OnBaseSelected;
         ingredientsSection.SyroupSelected += OnSyroupSelected;
         ingredientsSection.JellySelected += OnJellySelected;
+        controlsSection.Done += OnDone;
+        controlsSection.Reset += OnReset;
+    }
+
+    private void OnDone()
+    {
+        ingredientsSection.SetClickableBase(false);
+        ingredientsSection.SetClickableSyroup(false);
+        ingredientsSection.SetClickableJellies(false);
+
+        controlsSection.SetClickable(false);
+
+        doneClicked = true;
+    }
+
+    private void OnReset()
+    {
+        currentDrink = new DrinkData();
+
+        ingredientsSection.SetClickableBase(true);
+        ingredientsSection.SetClickableSyroup(true);
+        ingredientsSection.SetClickableJellies(true);
+
+        controlsSection.SetClickable(true);
+        controlsSection.currentMixage = null;
+        controlsSection.OnButtonDownUpdate(0);
+
+        drinkSection.ShowDrink(currentDrink);
+
+        doneClicked = false;
     }
 
     private void OnBaseSelected(Button _, TeaBase teaBase)
@@ -100,7 +132,13 @@ public class Minigame : MonoBehaviour
         ingredientsSection.SetClickableSyroup(true);
         ingredientsSection.SetClickableJellies(true);
 
+        controlsSection.SetClickable(true);
+        controlsSection.currentMixage = null;
+        controlsSection.OnButtonDownUpdate(0);
+
         drinkSection.ShowDrink(currentDrink);
+
+        doneClicked = false;
     }
 
     private void EndMinigame()
@@ -119,6 +157,8 @@ public class Minigame : MonoBehaviour
         ingredientsSection.SetClickableSyroup(false);
         ingredientsSection.SetClickableJellies(false);
 
+        controlsSection.SetClickable(false);
+        controlsSection.OnButtonDownUpdate(0);
     }
 
     private int GetRating()
