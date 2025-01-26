@@ -58,20 +58,20 @@
                     Dziewczyna wbija wzrok w ziemię. Widać że nie bardzo wie co powiedzieć. Staram się ratować sytuację.
                 </Speech>
                 <Speech character="Ja">                    
-                    Mamy za to Bubble Tea o smaku kawy. Może skusisz się na jedną? Są naprawdę dobre.
+                    Mamy za to Bubble Tea. Może skusisz się na jedną? Są naprawdę dobre.
                 </Speech>
                 <Speech character="???">                    
                     Och?
                 </Speech>
                 <Speech character="Ja">                    
-                    Tak, dokładniej o smaku mocha. Z podobnych, nieowocowych smaków mamy też
-                    migdałową oraz czekoladową.
+                    Tak, kawowej nie mamy, ale są inne smaki. Z podobnych, nieowocowych smaków mamy też
+                    migdałową albo czekoladową.
                 </Speech>
                 <Speech>                    
                     Widzę że dziewczyna szybkim spojrzeniem na tablicę rewiduje moje słowa.
                 </Speech>
                 <Speech character="???">                    
-                    M-musiałam ich nie zauważyć...
+                    Brzmi... ciekawie.
                 </Speech>
             </Case>
             <Case option_id="2">
@@ -216,41 +216,53 @@
         <Switch>
             <Case option_id="1">
                 <Speech character="Ja">
-                    To proponuję mocha. Połączenie goryczy kawy i słodyczy czekolady zaprawione smakiem cynamonu to bardzo bogata miesznka, która na pewno przypadnie Ci do gustu. 
-                </Speech>
-                <Speech character="???">
-                    To skorzystam z pańskiej propozycji. Niech będzie mocha.
+                    To proponuję Earl Grey. To bardzo bogata miesznka, która na pewno przypadnie Ci do gustu. 
                 </Speech>
             </Case>
             <Case option_id="2">
                 <Speech character="Ja">
                     To proponuję migdałową. Jest dosyć prosta, ale jej słodkawy orzechowy smak jest bardzo orzeźwiający.
                 </Speech>
-                <Speech character="???">
-                    To skorzystam z pańskiej propozycji. Niech będzie migdałowa.
-                </Speech>
             </Case>
             <Case option_id="3">
                 <Speech character="Ja">
                     To na start proponuję czekoladową. Klasyczny smak słodkiego kakao jest znajomy, co może pomóc w sprawniejszym oswojeniu się z Bubble Tea.
                 </Speech>
-                <Speech character="???">
-                    To skorzystam z pańskiej propozycji. Niech będzie czekoladowa.
-                </Speech>
             </Case>
         </Switch>
     </Choice>
+    <Speech character="???">
+        To skorzystam z pańskiej propozycji. Niech będzie Earl Gray z żelkami migdałowymi i czekoladowymi.
+    </Speech>
+    <Speech character="Ja">
+        A syrop?
+    </Speech>
+    <Speech character="???">
+        Eee.. Poproszę mleczny.
+    </Speech>
+    <Speech character="???">
+        I... lekko pomieszany.
+    </Speech>
+    <MinigameStart>
+        <TeaBase>EarlGray</TeaBase>
+        <TeaSyroup>Milk</TeaSyroup>
+        <TeaJellies>
+            <Jelly>Chocolate</Jelly>
+            <Jelly>Almond</Jelly>
+        </TeaJellies>
+        <TeaMixage>Light</TeaMixage>
+    </MinigameStart>
     <Update character_id="Brunetka" mouth="Smile"/>
     <Speech>
         Widzę że jest dużo bardziej rozluźniona niż w momencie gdy weszła do lokalu. Rozgląda się, oglądając wnętrze.
     </Speech>
-    <Speech character="???">
+    <Speech character="???" character_id="Brunetka">
         Ładny lokal. Z początku wydawał mi się zbyt krzykliwy, ale teraz zmieniłam zdanie.
     </Speech>
-    <Speech character="???">
+    <Speech character="???" character_id="Brunetka">
         Kolory komponują się ze sobą. A cała stylistyka dobrze współgra z oferowanymi tu napojami.
     </Speech>
-    <Speech character="???">
+    <Speech character="???" character_id="Brunetka">
         Pan również wygląda tu ładnie.
     </Speech>
     <Speech>
@@ -274,7 +286,7 @@
                 </Speech>
             </Case>
             <Case option_id="1">
-                <Speech character="???">
+                <Speech character="???" character_id="Brunetka">
                     P-pewnie, nie ma za co...
                 </Speech>
                 <Speech>
@@ -288,7 +300,7 @@
                 <Speech>
                     Uśmiecham się do niej miło, mówiąc te słowa.
                 </Speech>
-                <Speech character="???">
+                <Speech character="???" character_id="Brunetka">
                     Ja... Och.
                 </Speech>
                 <Speech>
@@ -296,7 +308,7 @@
                 </Speech>
             </Case>
             <Case option_id="3">
-                <Speech character="???">
+                <Speech character="???" character_id="Brunetka">
                     Brunetka: Tak! Uniform. Pasuje. Znaczy się, jak chodzi Ci się w nim źle to możesz go zdją...
                 </Speech>
                 <Speech>
@@ -309,7 +321,7 @@
         Po jakimś czasie wreszcie zbiera się na odwagę i odzywa się.
     </Speech>
     <Update character_id="Brunetka" eyes="Forward"/>
-    <Speech character="???">
+    <Speech character="???" character_id="Brunetka">
         ...w każdym razie, widać że dobrze Ci się tu pracuje.
     </Speech>
     <Speech character="Ja">        
@@ -318,10 +330,10 @@
     <Speech character="Ja">        
         Mam tutaj sporo udogodnień, mogę spać na zapleczu i dostaję regularne posiłki pracownicze.
     </Speech>
-    <Speech character="Ja">        
+    <Speech character="Ja" character_id="Brunetka">        
         Więc może nie jest to praca marzeń, ale nie narzekam.
     </Speech>
-    <Speech character="???">
+    <Speech character="???" character_id="Brunetka">
         A co byłoby twoją pracą marzeń?
     </Speech>
     <Choice>
@@ -335,7 +347,7 @@
             <Case option_id="0">
             </Case>
             <Case option_id="1">
-                <Speech character="???">
+                <Speech character="???" character_id="Brunetka">
                     Astronautą?
                 </Speech>
                 <Speech character="Ja">
@@ -344,12 +356,12 @@
                 <Speech character="Ja">
                     Wyobraź sobie co to by było postawić stopę na innej planecie albo księżycu!
                 </Speech>
-                <Speech character="???">
+                <Speech character="???" character_id="Brunetka">
                     Brzmi faktycznie ekscytująco... ale i niebezpiecznie. Nie wiem czy odważyłabym się na taką podróż.
                 </Speech>
             </Case>
             <Case option_id="2">
-                <Speech character="???">
+                <Speech character="???" character_id="Brunetka">
                     Piłkarzem?
                 </Speech>
                 <Speech>
@@ -361,12 +373,12 @@
                 <Speech character="Ja">
                     Myślę że super by było być prawdziwie profesjonalnym sportowcem, grającym dla tysięcy kibicy w świetle reflektorów.
                 </Speech>
-                <Speech character="???">
+                <Speech character="???" character_id="Brunetka">
                     Wydaje mi się że wiązałoby się z bardzo dużą presją.
                 </Speech>
             </Case>
             <Case option_id="3">
-                <Speech character="???">
+                <Speech character="???" character_id="Brunetka">
                     Prezydentem?
                 </Speech>
                 <Speech character="Ja">
@@ -375,13 +387,13 @@
                 <Speech character="Ja">
                     Stanie na czele całego narodu wydaje się naprawdę ekscytującym zajęciem.
                 </Speech>
-                <Speech character="???">
+                <Speech character="???" character_id="Brunetka">
                     No nie wiem... To potężna odpowiedzialność i wielkie brzemię. Brzmi jak trochę zbyt wiele dla mnie.
                 </Speech>
             </Case>
         </Switch>
     </Choice>
-    <Speech character="???">
+    <Speech character="???" character_id="Brunetka">
         Ja chciałabym być pisarką.
     </Speech>
     <Speech character="Ja">
@@ -391,16 +403,16 @@
         Jej twarz rozjaśnia się, widzę że tylko czekała na to pytanie.
     </Speech>
     <Update character_id="Brunetka" mouth="Smile"/>
-    <Speech character="???">
+    <Speech character="???" character_id="Brunetka">
         Uwielbiam!
     </Speech>
-    <Speech character="???">
+    <Speech character="???" character_id="Brunetka">
         Czytam książki od kiedy byłam mała. Zawsze mnie fascynowało jak autor może wpłynąć na twoje emocje używając jedynie słów.
     </Speech>
-    <Speech character="???">
+    <Speech character="???" character_id="Brunetka">
         Moja ulubiona książka to "Mediator". Ma bardzo spokojny klimat, jednocześnie poruszając ważne tematy, a zakończenie jest na prawdę zaskakujące.
     </Speech>
-    <Speech character="???">
+    <Speech character="???" character_id="Brunetka">
         Kojarzysz?
     </Speech>
     <Choice>
@@ -414,23 +426,24 @@
                 <Speech>
                     Dziewczyna pokiwała głową ze zrozumieniem.
                 </Speech>
-                <Speech character="???">
+                <Speech character="???" character_id="Brunetka">
                     Domyślałam się, to dosyć niszowa książka. Ale bardzo dobra, polecam Ci z całego serca.
                 </Speech>
             </Case>
             <Case option_id="1">
-                <Speech character="???">
+                <Speech character="???" character_id="Brunetka">
                     Naprawdę!? Zaskoczyłeś mnie, to w gruncie rzeczy bardzo niszowa książka.
                 </Speech>
-                <Speech character="???">
+                <Speech character="???" character_id="Brunetka">
                     Moją ulubioną bohaterką jest Generał Lora.
                 </Speech>
-                <Speech character="???">
+                <Speech character="???" character_id="Brunetka">
                     Bardzo ją lubię za jej wewnętrzną siłę i to jak zawsze podejmuje walkę, nawet jeśli wszystko zmawia się przeciwko niej.
                 </Speech>
             </Case>
         </Switch>
     </Choice>
+    <MinigameEnd />
     <Speech character="Ja">
         W każdym razie, twoja Bubble Tea jest gotowa.
     </Speech>

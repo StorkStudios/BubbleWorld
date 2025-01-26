@@ -25,11 +25,18 @@
     <Speech character_id="Farbowana" character="???">
         Zajebiście. Poproszę największą jaką macie.
     </Speech>
+    <Speech character_id="Gracz" character="Ja">
+        A herbata, żelki i mieszanie?
+    </Speech>
+    <Speech character_id="Farbowana" character="???">
+        Matcha, podwójne czekoladowe żelki i średnio wymieszane.
+    </Speech>
     <MinigameStart>
-        <TeaBase>Mint</TeaBase>
+        <TeaBase>Matcha</TeaBase>
         <TeaSyroup>PassionFruit</TeaSyroup>
         <TeaJellies>
-            <Jelly>Banana</Jelly>
+            <Jelly>Chocolate</Jelly>
+            <Jelly>Chocolate</Jelly>
         </TeaJellies>
         <TeaMixage>Medium</TeaMixage>
     </MinigameStart>

@@ -19,7 +19,10 @@
         Witamy w BubbleWorld... w czym mogę pomóc?
     </Speech>
     <Speech character="???">
-        Chciałabym tylko truskawkową herbatę z bąbelkami.
+        Chciałabym tylko truskawkową herbatę earl gray z bąbelkami.
+    </Speech>
+    <Speech character="???">
+        Widzę, że maję czekoladowe żelki. Poproszę dodać i trochę wymieszać.
     </Speech>
     <Speech character="Ja">
         Tak, jasne...
@@ -27,6 +30,14 @@
     <Speech>
         Schowałem się pod ladę, szukając kubka.
     </Speech>
+    <MinigameStart>
+        <TeaBase>EarlGray</TeaBase>
+        <TeaSyroup>Strawberry</TeaSyroup>
+        <TeaJellies>
+            <Jelly>Chocolate</Jelly>
+        </TeaJellies>
+        <TeaMixage>Medium</TeaMixage>
+    </MinigameStart>
     <Speech character="???">
         Jak długo pracuję te cafe?
     </Speech>
@@ -51,7 +62,7 @@
                 <Speech>
                     Chciałbym najpierw się trochę obudzić zanim włączę się w konwersację.
                 </Speech>
-                <Speech character="???">
+                <Speech character="???" character_id="Blondynka">
                     Nie kojarzę Ciebie, jesteś stąd?
                 </Speech>
                 <Speech>
@@ -65,7 +76,7 @@
                 <Speech character="Ja">
                     Jesteśmy tu dopiero miesiąc, ale nie widziałem Cię tu wcześniej, przeprowadziłaś się?
                 </Speech>
-                <Speech character="???">
+                <Speech character="???" character_id="Blondynka">
                     Tak, jestem studentką z wymiany, studiuję japońską kulturę do mojej pracy magisterskiej.
                 </Speech>
                 <Speech character="Ja">
@@ -74,7 +85,7 @@
             </Case>
         </Switch>
     </Choice>
-    <Speech character="???">
+    <Speech character="???" character_id="Blondynka">
         Jestem z Białorusi, to w Europie Wschodniej.
     </Speech>
     <Speech>
@@ -96,7 +107,7 @@
                 <Speech>
                     Dziewczyna uśmiecha się, patrząc na mnie.
                 </Speech>
-                <Speech character="???">
+                <Speech character="???" character_id="Blondynka">
                     Białoruś nie mówi Ci zbyt wiele, co?
                 </Speech>
                 <Speech>
@@ -118,7 +129,7 @@
                 <Speech character="Ja">
                     Przepraszam, nie chciałem Cię urazić tym stereotypem...
                 </Speech>
-                <Speech character="???">
+                <Speech character="???" character_id="Blondynka">
                     W porządku, niewielu ludzi tutaj wie cokolwiek innego o moim kraju, to trochę zabawne.
                 </Speech>
             </Case>
@@ -138,10 +149,10 @@
         <Switch>
             <Case option_id="1">
                 <Update character_id="Blondynka" mouth="Neutral" eyes="Forward"/>
-                <Speech character="???">
+                <Speech character="???" character_id="Blondynka">
                     Nie przejmuj się, przywykłam.
                 </Speech>
-                <Speech character="???">
+                <Speech character="???" character_id="Blondynka">
                     Spędziłam już pewną część czasu w Japonii, nie jesteś pierwszą osobą która reaguje w ten sposób. 
                 </Speech>
                 <Speech>
@@ -154,7 +165,7 @@
                     Dziewczyna odwzajemnia uśmiech.
                 </Speech>
                 <Update character_id="Blondynka" mouth="Smile" eyes="Forward"/>
-                <Speech character="???">
+                <Speech character="???" character_id="Blondynka">
                     Powiedzmy.
                 </Speech>
             </Case>
@@ -163,7 +174,7 @@
                 <Speech character="Ja">
                     Jak się nazywa ten napój który dla Ciebie robię po Białorusku?
                 </Speech>
-                <Speech character="???">
+                <Speech character="???" character_id="Blondynka">
                     Гарбата з суніцамі.
                 </Speech>
                 <Speech character="Ja">
@@ -172,13 +183,13 @@
                 <Speech>
                     Na jej twarzy pojawił się lekko złowieszczy uśmieszek.
                 </Speech>
-                <Speech character="???">
+                <Speech character="???" character_id="Blondynka">
                     забі зяпу.
                 </Speech>
                 <Speech character="Ja">
                     Co to znaczy?
                 </Speech>
-                <Speech character="???">
+                <Speech character="???" character_id="Blondynka">
                     Nie powiem.
                 </Speech>
                 <Speech>
@@ -187,6 +198,7 @@
             </Case>
         </Switch>
     </Choice>
+    <MinigameEnd />
     <Speech>
         Herbata jest gotowa. Przychodzi mi do głowy że mógłbym podpisać kubek, ale nie zapytałem o imię, kiedy przyjmowałem zamówienie.
     </Speech>
