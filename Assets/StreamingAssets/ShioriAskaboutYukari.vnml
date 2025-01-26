@@ -15,6 +15,7 @@
     <Speech>
         Dzyń dzyń
     </Speech>
+    <Enter character_id="Brunetka" position="0.5" eyes="Neutral" mouth="Neutral" />
     <Speech>
         Podnoszę wzrok. To Shiori.
     </Speech>
@@ -49,7 +50,7 @@
         Shiori ewidentnie czuje się niekomfortowo w tej sytuacji, patrzy się w ścianę, od czasu do czasu zerkając na mnie podejrzliwie.
     </Speech>
     <Speech character="Shiori">
-        Przecież miałam spróbować tej <nazwa Bubble Tea>, co jej jeszcze nie piłam.
+        Przecież miałam spróbować tej <i>Bubble Tea</i>, co jej jeszcze nie piłam.
     </Speech>
     <Speech character="Shiori">
         Polecałeś mi ją.
@@ -90,6 +91,7 @@
     <Speech character="Shiori">
         ...d-dobrze się czujesz?
     </Speech>
+    <Update character_id="Brunetka" position="0.65" />
     <Speech>
         Shiori dyskretnie robi krok do tyłu.
     </Speech>
@@ -99,6 +101,7 @@
     <Speech character="Ja">
         Co...?
     </Speech>
+    <Update character_id="Brunetka" position="0.8" />
     <Speech>
         Shiori robi kolejny krok w tył.
     </Speech>
@@ -108,6 +111,7 @@
     <Speech character="Shiori">
         Więc... no...
     </Speech>
+    <Exit character_id="Brunetka" />
     <Speech>
         Próbuję jeszcze coś powiedzieć ale Shiori odwraca się i wybiega z lokalu.
     </Speech>

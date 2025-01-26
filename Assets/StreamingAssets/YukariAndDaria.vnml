@@ -12,6 +12,7 @@
     <Speech>
         Dzyń dzyń!
     </Speech>
+    <Enter character_id="Blondynka" position="0.5" eyes="Neutral" mouth="Neutral" />
     <Speech>
         Widzę, że do sklepu wchodzi Daria.
     </Speech>
@@ -42,6 +43,8 @@
     <Speech>
         Ale nie byłem jedynym, który miał taką reakcję.
     </Speech>
+    <Enter character_id="Farbowana" position="0.65" eyes="Neutral" mouth="Neutral" />
+    <Update character_id="Blondynka" position="0.35" />
     <Speech character_id="Farbowana" character="Yukari">
         Co?!
     </Speech>
@@ -85,6 +88,8 @@
                 <Speech character_id="Farbowana" character="Yukari">
                     Wychodzę.
                 </Speech>
+                <Exit character_id="Farbowana" />
+                <Update character_id="Blondynka" position="0.5" />
                 <Speech>
                     Jak powiedziała tak zrobiła
                 </Speech>
@@ -106,13 +111,13 @@
                     <Switch>
                         <Case value="0">
                             <Speech character_id="Blondynka" character="Daria">
-                                Widać że się starałeś.
+                                Chociaż się starałeś.
                             </Speech>
                             <Speech>
                                 Powiedziała patrząc na otrzymaną herbatę
                             </Speech>
                         </Case>
-                        <Case value="1">
+                        <Case value="2">
                             <Speech character_id="Blondynka" character="Daria">
                                 Wow. To było pyszne.
                             </Speech>
@@ -120,7 +125,7 @@
                                 Nawet lepsze niż zapamiętałam!
                             </Speech>
                         </Case>
-                        <Case value="2">
+                        <Case value="1">
                             <Speech character_id="Blondynka" character="Daria">
                                 Mmmm.
                             </Speech>
@@ -154,6 +159,7 @@
                 <Speech character_id="Blondynka" character="Daria">
                     Do zobaczenia.
                 </Speech>
+                <Exit character_id="Blondynka" />
                 <Speech>
                     I wyszła.
                 </Speech>
@@ -178,6 +184,8 @@
                 <Speech character_id="Blondynka" character="Daria">
                     W takim razie do widzenia.
                 </Speech>
+                <Exit character_id="Blondynka" />
+                <Update character_id="Farbowana" position="0.5" />
                 <Speech>
                     Wyszła ze sklepu nawet nie oglądając się za siebie.
                 </Speech>
@@ -225,6 +233,7 @@
                 <Speech character_id="Gracz" character="Ja">
                     Do zobaczenia Yukari.
                 </Speech>
+                <Exit character_id="Farbowana" />
             </Case>
         </Switch>
     </Choice>

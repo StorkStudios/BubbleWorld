@@ -39,6 +39,7 @@
     <Speech>
         Dzyń dzyń
     </Speech>
+    <Enter character_id="Brunetka" position="0.5" eyes="Neutral" mouth="Neutral" />
     <Speech>
         Dzwonek u drzwi wyrywa mnie z rozmyślań. Podnoszę wzrok i dostrzegam Shiori podchodzącą do lady.
     </Speech>
@@ -139,6 +140,7 @@
                 <Speech character="Shiori">
                     Pewnie! To do jutra!
                 </Speech>
+                <Exit character_id="Brunetka" />
                 <Speech>
                     Shiori w podskokach udaje się do drzwi. Wychodząc, kiwa mi jeszcze na pożegnanie i ucieka.
                 </Speech>
@@ -156,6 +158,7 @@
                 <Speech character="Shiori">
                     T-to ja... będę lecieć...
                 </Speech>
+                <Exit character_id="Brunetka" />
                 <Speech>
                     Dziewczyna odwraca się i w żółwim tempie dociera do drzwi, popycha je i wychdzi.
                 </Speech>

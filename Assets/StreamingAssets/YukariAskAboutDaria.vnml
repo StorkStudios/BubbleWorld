@@ -15,6 +15,7 @@
     <Speech>
         Dzyń dzyń
     </Speech>
+    <Enter character_id="Farbowana" position="0.5" eyes="Neutral" mouth="Neutral" />
     <Speech>
         Podnoszę wzrok. To Yukari.
     </Speech>
@@ -84,6 +85,7 @@
     <Speech character_id="Farbowana" character="Yukari">
         Naprawdę tego potrzebujesz.
     </Speech>
+    <Exit character_id="Farbowana" />
     <Speech>
         Yukari odwraca się i wychodzi z kawiarni.
     </Speech>

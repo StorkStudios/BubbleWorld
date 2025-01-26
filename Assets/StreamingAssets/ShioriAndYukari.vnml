@@ -13,6 +13,7 @@
     <Speech>
         Dzyń dzyń
     </Speech>
+    <Enter character_id="Brunetka" position="0.5" eyes="Neutral" mouth="Neutral" />
     <Speech>
         O wilczycy mowa. To Shiori.
     </Speech>
@@ -28,6 +29,8 @@
     <Speech>
         DZY-DZYŃ!
     </Speech>
+    <Update character_id="Brunetka" position="0.35" />
+    <Enter character_id="Farbowana" position="0.65" eyes="Neutral" mouth="Neutral" />
     <Speech>
         W wejściu stoi Yukari. Żwawym krokiem podchodzi do lady.
     </Speech>
@@ -50,6 +53,11 @@
         </Options>
         <Switch>
             <Case option_id="1">
+                <Speech character="DEV">
+                    UNIMPLEMENTED
+                </Speech>
+                <Exit character_id="Brunetka" />
+                <Exit character_id="Farbowana" />
             </Case>
             <Case option_id="2">
                 <Speech character="Yukari">
@@ -114,6 +122,7 @@
                             <Speech character="Yukari" character_id="Farbowana">
                                 Znaczy jeszcze ich nie mam. Ale już niedługo. Dlatego tak bardzo się spieszę.
                             </Speech>
+                            <Exit character_id="Brunetka" />
                             <Speech character="Yukari" character_id="Farbowana">
                                 Jakiś frajer sprzedaje dobre miejsca za pół darmo. Już mam je zarezerwowane.
                             </Speech>
@@ -148,6 +157,7 @@
                             <Speech>
                                 Po tych słowach rusza w stronę drzwi. Wychodząc rzuca mi jeszcze jedno przelotne spojrzenie i uśmiech.
                             </Speech>
+                            <Exit character_id="Farbowana />
                             <Speech>
                                 Patrzę na nią jeszcze przez chwilę gdy idzie ulicą, zanim znikna za krawędzią okna.
                             </Speech>
@@ -169,6 +179,8 @@
                             <Speech character="Yukari" character_id="Farbowana">
                                 Jak mówiłam, śpieszy mi się. Do widzenia.
                             </Speech>
+                            <Exit character_id="Farbowana" />
+                            <Update character_id="Brunetka" position="0.5" />
                             <Speech>
                                 Yukari odwraca się gwałtownie i wypada z lokalu.
                             </Speech>
@@ -305,6 +317,7 @@
                             <Speech>
                                 Dziewczyna podchodzi do drzwi i wychodzi na zewnątrz. Idąc wzdłuż szyb kawiarni, macha mi jeszcze ręką na pożegnanie.
                             </Speech>
+                            <Exit character_id="Brunetka" />
                             <Speech>
                                 Odmachuję jej.
                             </Speech>
