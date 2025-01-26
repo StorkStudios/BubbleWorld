@@ -8,7 +8,7 @@
     <Speech>
         <i>Niestety przeszkadza mi w tym troche moja szefowa.</i>
     </Speech>
-    <Enter character_id="Ruda" position="0.5" eyes="Forward" mouth="Angry"/>
+    <Enter character_id="Ruda" position="0.5" eyes="Forward" mouth="Neutral"/>
     <Speech character_id="Ruda" character="???">
         Wstawaj, wstawaj, wstawaj! Klientka chce zamówić bubble tea!
     </Speech>
@@ -21,7 +21,7 @@
     <Speech character_id="Ruda" character="Bertha">
         Ja jestem klientką.
     </Speech>
-    <Update character_id="Ruda" mouth="Smile"/>
+    <Update character_id="Ruda" mouth="Happy" eyes="Happy"/>
     <Speech>
         <i>Jest czasami troche dziecinna.</i>
     </Speech>
@@ -30,7 +30,7 @@
         Zrób mi truskawkowe bubble tea z mlekiem.
     </Speech>
     <Speech character_id="Ruda" character="Bertha">
-        Na miętowej herbacie oczywięcie.
+        Na miętowej herbacie oczywiście.
     </Speech>
     <Speech character_id="Ruda" character="Bertha">
         I nie mieszaj za dużo! To psuje smak.
@@ -38,10 +38,11 @@
     <Speech character_id="Gracz" character="Ja">
         Tak jest szefowo.
     </Speech>
-    <Update character_id="Ruda" mouth="Smile"/>
+    <Update character_id="Ruda" mouth="Happy" eyes="Happy"/>
     <Speech character_id="Ruda" character="Bertha">
         hehehe
     </Speech>
+    <Update character_id="Ruda" mouth="Neutral" eyes="Forward"/>
     <MinigameStart>
         <TeaBase>Mint</TeaBase>
         <TeaSyroup>Strawberry</TeaSyroup>
@@ -53,11 +54,10 @@
         </TeaJellies>
         <TeaMixage>Light</TeaMixage>
     </MinigameStart>
-    <Update character_id="Ruda" mouth="Neutral"/>
-    <Speech>
+    <Speech character_id="Gracz">
         <i>Czuję na sobie wzrok Berthy.</i>
     </Speech>
-    <Speech>
+    <Speech character_id="Gracz">
         <i>Musze się skupić żeby dobrze przygotować jej zamówienie.</i>
     </Speech>
     <Speech character_id="Ruda" character="Bertha">
@@ -78,7 +78,6 @@
             <Case option_id="3"></Case>
         </Switch>
     </Choice>
-    <Update character_id="Ruda" eyes="Closed"/>
     <Speech character_id="Ruda" character="Bertha">
         No. widzę że czegoś się już nauczyłeś.
     </Speech>
@@ -88,11 +87,10 @@
     <Speech character_id="Gracz" character="Ja">
         Muszę wiedzieć jak się przygotowuje herbatę prawda?
     </Speech>
-    <Update character_id="Ruda" eyes="Neutral"/>
     <Speech character_id="Ruda" character="Bertha">
         Racja. Zapomniałam.
     </Speech>
-    <Speech>
+    <Speech character_id="Gracz">
         <i>Zapomniała że tu pracuje? Jak? Widzimy się tutaj codziennie.</i>
     </Speech>
     <Speech character_id="Gracz" character="Ja">
@@ -101,7 +99,7 @@
     <Speech character_id="Ruda" character="Bertha">
         To gdzie jest ta moja herbata?
     </Speech>
-    <Speech>
+    <Speech character_id="Gracz">
         <i>Wygląda na to że się nie dowiem.</i>
     </Speech>
     <Speech character_id="Gracz" character="Ja">
@@ -110,8 +108,8 @@
     <Speech character_id="Ruda" character="Bertha">
         To rób ją szybciej! Chce moją herbatę TERAZ!
     </Speech>
-    <Update character_id="Ruda" mouth="Angry"/>
-    <Speech>
+    <Update character_id="Ruda" eyes="Crazy"/>
+    <Speech character_id="Gracz">
         <i>Zawsze była taka niecierpliwa?</i>
     </Speech>
     <Choice>
@@ -133,18 +131,18 @@
     <Speech character_id="Gracz" character="Ja">
         Twoja herbata. - <i> Mówie wyciągając w jej stronę rękę z napojem.</i>
     </Speech>
-    <Speech>
+    <Speech character_id="Gracz">
         Berta gwałtownie rzuca się w moją stronę i praktyczne wyrywa mi go z ręki.
     </Speech>
-    <Update character_id="Ruda" mouth="Neutral"/>
-    <Speech>
+    <Update character_id="Ruda" eyes="Forward"/>
+    <Speech character_id="Gracz">
         Próbuje jededn łyk po czym się krzywi i mówi:
     </Speech>
     <Choice>
         <Variable name="MinigameResult" />
         <Switch>
             <Case value="0">
-                <Update character_id="Ruda" mouth="Angry"/>
+                <Update character_id="Ruda" eyes="Crazy"/>
                 <Speech character_id="Ruda" character="Bertha">
                     Błeeee! Ohyda!
                 </Speech>
@@ -170,7 +168,7 @@
                 <Speech character_id="Ruda" character="Bertha">
                     Jak będziesz robił takie wszystkim klientom to będziemy bogaci!
                 </Speech>
-                <Update character_id="Ruda" mouth="Smile"/>
+                <Update character_id="Ruda" mouth="Happy" eyes="Happy"/>
                 <Speech character_id="Ruda" character="Bertha">
                     Znaczy ja będę hehe.
                 </Speech>
