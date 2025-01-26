@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      brunetkaMouthSad_0: 8744122961221840389
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

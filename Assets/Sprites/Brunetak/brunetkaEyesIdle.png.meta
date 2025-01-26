@@ -234,7 +234,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      brunetkaEyesIdle_0: -9140179170669476349
+      brunetkaEyesIdle_1: -2597908255259996773
+      brunetkaEyesIdle_2: 3231064232578424022
+      brunetkaEyesIdle_3: -8225842749283542164
+      brunetkaEyesIdle_4: -7152817783501660368
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

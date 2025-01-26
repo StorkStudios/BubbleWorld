@@ -677,6 +677,9 @@ MonoBehaviour:
     - Key:
         item: Ending
       Value: {fileID: 8300000, guid: ec148ff1b92c99b3198ce2d783413be5, type: 3}
+    - Key:
+        item: Main
+      Value: {fileID: 8300000, guid: ab22fca7a43315df7a857b3017cc26d0, type: 3}
 --- !u!82 &1447599959
 AudioSource:
   m_ObjectHideFlags: 0
