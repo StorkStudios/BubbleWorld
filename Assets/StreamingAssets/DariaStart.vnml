@@ -190,20 +190,20 @@
     <Choice>
         <Options>
             <Option id="1">Pytam o imię</Option>
-            <Option id="2">Nie pytam o imię</Option>
+            <Option id="2">Podpisuję kubek "Blondynka"</Option>
         </Options>
         <Switch>
             <Case option_id="1">
                 <Speech character="Ja">
                     Och, zapomniałem, jak masz na imię? Muszę podpisać kubek.
                 </Speech>
-                <Speech character="???">
+                <Speech character="Daria">
                     Daria.
                 </Speech>
                 <Speech>
                     Chwilę się zastanawiam jak to się pisze, po czym nanoszę obco brzmiące imię na kubek i daję go klientce.
                 </Speech>
-                <Speech character="???">
+                <Speech character="Daria">
                     Wow, to pierwszy raz, kiedy ktoś poprawnie przeliterował moje imię, jestem zaszczycona, dziękuję!
                 </Speech>
                 <Speech>
@@ -214,8 +214,17 @@
                 <Speech character="Ja">
                     Proszę, twój truskawkowy Bubble Tea.
                 </Speech>
+                <Speech>
+                    Odbierając kubek, dziewczyna patrzy na podpis na nim i uśmiech na jej twarzy natychmiast ustępuje miejsca frustracji. Odzywa się z irytacją.
+                </Speech>
                 <Speech character="???">
-                    Dziękuję.
+                   Oh, dzięki...
+                </Speech>
+                <Speech character="Daria">
+                    Jak już musisz coś pisać, to następnym razem napisz po prostu "Daria"
+                </Speech>
+                <Speech>
+                    Najwyraźniej takie zaniedbanie z mojej strony ją uraziło.
                 </Speech>
             </Case>
         </Switch>

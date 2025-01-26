@@ -42,6 +42,8 @@ public class Minigame : MonoBehaviour
         AnimateOutRectTransform(ingredientsSection.transform as RectTransform);
         AnimateOutRectTransform(drinkSection.transform as RectTransform);
         AnimateOutRectTransform(controlsSection.transform as RectTransform);
+
+        Director.Instance.DirectorStepEvent?.Invoke("sample value");
     }
 
     private void AnimateOutRectTransform(RectTransform rectTransform)

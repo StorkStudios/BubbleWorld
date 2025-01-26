@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ff230c37c3b02a45bb7cd855aedf6b0, type: 3}
+  m_Name: girl2
+  m_EditorClassIdentifier: 
+  baseSprite: {fileID: 1032039262693989627, guid: 0ee165999948b174fb80f5cfc3a17c45, type: 3}
+  eyes:
+    pairs:
+    - Key:
+        item: 0
+      Value: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+    - Key:
+        item: 1
+      Value: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+    - Key:
+        item: 2
+      Value: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+    - Key:
+        item: 3
+      Value: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  mouth:
+    pairs:
+    - Key:
+        item: 0
+      Value: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+    - Key:
+        item: 1
+      Value: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+    - Key:
+        item: 2
+      Value: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+    - Key:
+        item: 3
+      Value: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}

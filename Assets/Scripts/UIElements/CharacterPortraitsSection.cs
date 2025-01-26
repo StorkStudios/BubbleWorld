@@ -12,8 +12,19 @@ public class CharacterPortraitsSection : MonoBehaviour
     private float moveSpeed;
     [SerializeField]
     private SerializedDictionary<string, CharacterData> characters;
+    [SerializeField]
+    private SerializedDictionary<string, SpeechBubble> speechBubbles;
 
     private readonly Dictionary<string, CharacterPortrait> characterPortraits = new Dictionary<string, CharacterPortrait>();
+
+    private RectTransform rectTransform;
+
+    private bool isMinigame = false;
+
+    private void Awake()
+    {
+        rectTransform = transform as RectTransform;
+    }
 
     private void Start()
     {
@@ -33,7 +44,15 @@ public class CharacterPortraitsSection : MonoBehaviour
             case "Update":
                 UpdateCharacter(values as Update);
                 break;
-
+            case "Speech":
+                OnSpeech(values as Speech);
+                break;
+            case "MinigameStart":
+                OnMinigameStart();
+                break;
+            case "MinigameEnd":
+                OnMinigameEnd();
+                break;
         }
     }
 
@@ -51,6 +70,7 @@ public class CharacterPortraitsSection : MonoBehaviour
         portrait.CanvasGroup.DOFade(1, fadeDuration);
 
         characterPortraits[values.characterId] = portrait;
+        speechBubbles[values.characterId] = portrait.GetComponentInChildren<SpeechBubble>();
     }
 
     private void DespawnCharacter(Exit values)
@@ -58,6 +78,7 @@ public class CharacterPortraitsSection : MonoBehaviour
         GameObject characterToDestroy = characterPortraits[values.characterId].gameObject;
         characterPortraits[values.characterId].CanvasGroup.DOFade(0, fadeDuration).OnComplete(() => Destroy(characterToDestroy));
         characterPortraits.Remove(values.characterId);
+        speechBubbles.Remove(values.characterId);
     }
 
     private void UpdateCharacter(Update values)
@@ -77,6 +98,56 @@ public class CharacterPortraitsSection : MonoBehaviour
         if (values.mouth.HasValue)
         {
             portrait.Mouth = characterData.Mouth[values.mouth.Value];
+        }
+    }
+
+    private void OnSpeech(Speech values)
+    {
+        if (!isMinigame)
+        {
+            return;
+        }
+
+        foreach (KeyValuePair<NullableObject<string>, SpeechBubble> pair in speechBubbles)
+        {
+            if (pair.Key.Item == values.characterId)
+            {
+                var bubble = pair.Value;
+                
+                void OnSpeechBubbleFinished()
+                {
+                    Director.Instance.DirectorStepEvent?.Invoke("bulech");
+                    bubble.Finished -= OnSpeechBubbleFinished;
+                }
+
+                bubble.Finished += OnSpeechBubbleFinished;
+                bubble.Show(values.voiceline, values.duration ?? 1);
+            }
+            else
+            {
+                pair.Value.Hide();
+            }
+        }
+    }
+
+    private void OnMinigameStart()
+    {
+        isMinigame = true;
+
+        rectTransform.DOSizeDelta(new Vector2(-450, rectTransform.sizeDelta.y - 100), fadeDuration);
+        rectTransform.DOAnchorPos(new Vector2(-450 / 2, rectTransform.anchoredPosition.y + 100 / 2), fadeDuration);
+    }
+
+    private void OnMinigameEnd()
+    {
+        isMinigame = false;
+
+        rectTransform.DOSizeDelta(new Vector2(0, rectTransform.sizeDelta.y + 100), fadeDuration);
+        rectTransform.DOAnchorPos(new Vector2(-450 / 2, rectTransform.anchoredPosition.y - 100 / 2), fadeDuration);
+
+        foreach (SpeechBubble speechBubble in speechBubbles.Values)
+        {
+            speechBubble.Hide();
         }
     }
 }

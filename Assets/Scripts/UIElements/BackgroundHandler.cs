@@ -16,18 +16,21 @@ public class BackgroundHandler : MonoBehaviour
         Director.Instance.ElementReadEvent += OnElementRead;
     }
 
-        private void OnElementRead(string element, ChapterElement values)
+    private void OnElementRead(string element, ChapterElement values)
     {
         switch (element)
         {
             case "Background":
-                ChangeBackground(values as Background);
+                ChangeBackground((values as Background).Name);
+                break;
+            case "GameOver":
+                ChangeBackground((values as GameOver).background);
                 break;
         }
     }
 
-    private void ChangeBackground(Background background)
+    private void ChangeBackground(string background)
     {
-        image.sprite = backgrounds[background.Name];
+        image.sprite = backgrounds[background];
     }
 }

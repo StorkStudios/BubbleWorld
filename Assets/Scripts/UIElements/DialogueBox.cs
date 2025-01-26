@@ -38,6 +38,12 @@ public class DialogueBox : MonoBehaviour
             float target = value ? 0 : 1;
             canvasGroup.DOFade(target, FadeSpeed).SetSpeedBased();
 
+            if (!value)
+            {
+                speechText.text = "";
+                characterName.text = "";
+            }
+
             hidden = value;
         }
     }
@@ -61,11 +67,6 @@ public class DialogueBox : MonoBehaviour
         Director.Instance.ElementReadEvent += OnElementRead;
     }
 
-    private void Update()
-    {
-        speechText.UpdateVertexData(TMP_VertexDataUpdateFlags.Colors32);
-    }
-
     public void ShowDialogue(Speech values)
     {
         if (Hidden)
@@ -86,7 +87,7 @@ public class DialogueBox : MonoBehaviour
 
         for (int i = 0; i < speechText.textInfo.characterCount; i++)
         {
-            SetCharacterAlpha(speechText.textInfo, i, 0);
+            speechText.textInfo.SetCharacterAlpha(i, 0);
         }
         characterName.alpha = 0;
 
@@ -103,8 +104,8 @@ public class DialogueBox : MonoBehaviour
             int j = i;
 
             Tween tween = DOTween.To(
-                () => GetCharacterAlpha(textInfo, j),
-                x => SetCharacterAlpha(textInfo, j, x),
+                () => textInfo.GetCharacterAlpha(j),
+                x => textInfo.SetCharacterAlpha(j, x),
                 1,
                 textFadeSpeed)
                 .SetDelay(k / textSequenceSpeed)
@@ -149,37 +150,6 @@ public class DialogueBox : MonoBehaviour
         }
         sequenceTweens.Clear();
         characterName.DOKill();
-    }
-
-    private void SetCharacterAlpha(TMP_TextInfo textInfo, int charIndex, float alpha)
-    {
-        if (!textInfo.characterInfo[charIndex].isVisible)
-        {
-            return;
-        }
-
-        int materialIndex = textInfo.characterInfo[charIndex].materialReferenceIndex;
-        Color32[] vertexColors = textInfo.meshInfo[materialIndex].colors32;
-        int vertexIndex = textInfo.characterInfo[charIndex].vertexIndex;
-
-        byte a = (byte)Mathf.Clamp((int)(alpha * 255), 0, 255);
-
-        vertexColors[vertexIndex + 0].a = a;
-        vertexColors[vertexIndex + 1].a = a;
-        vertexColors[vertexIndex + 2].a = a;
-        vertexColors[vertexIndex + 3].a = a;
-    }
-
-    private float GetCharacterAlpha(TMP_TextInfo textInfo, int charIndex)
-    {
-        if (!textInfo.characterInfo[charIndex].isVisible)
-        {
-            return 0;
-        }
-        int materialIndex = textInfo.characterInfo[charIndex].materialReferenceIndex;
-        Color32[] vertexColors = textInfo.meshInfo[materialIndex].colors32;
-        int vertexIndex = textInfo.characterInfo[charIndex].vertexIndex;
-        return vertexColors[vertexIndex].a;
     }
 
     public void Skip()
