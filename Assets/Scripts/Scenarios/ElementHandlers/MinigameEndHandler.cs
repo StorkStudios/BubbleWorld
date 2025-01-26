@@ -24,8 +24,9 @@ public class MinigameEndHandler : ChapterElementHandler
         Director.Instance.DirectorStepEvent -= OnDirectorStep;
     }
 
-    private void OnDirectorStep(string _)
+    private void OnDirectorStep(string minigameResult)
     {
         finished = true;
+        StoryVariablesManager.Instance.Variables["MinigameResult"] = int.Parse(minigameResult);
     }
 }
