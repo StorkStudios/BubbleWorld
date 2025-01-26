@@ -17,28 +17,28 @@ MonoBehaviour:
     pairs:
     - Key:
         item: 0
-      Value: {fileID: 6453561030650598409, guid: 4a7d6d7d25934b94b853e73f10b58593, type: 3}
+      Value: {fileID: -634990302892545865, guid: 994e685dbbd798043a97df76fb5cee2e, type: 3}
     - Key:
-        item: 1
-      Value: {fileID: 6453561030650598409, guid: 4a7d6d7d25934b94b853e73f10b58593, type: 3}
+        item: 5
+      Value: {fileID: -418713323772354031, guid: e32eea670b35fa14da9f79eacbc95491, type: 3}
     - Key:
-        item: 2
-      Value: {fileID: 6453561030650598409, guid: 4a7d6d7d25934b94b853e73f10b58593, type: 3}
+        item: 7
+      Value: {fileID: 3695306182411918367, guid: e58e2685b9deefb42a15768fbb919d3b, type: 3}
     - Key:
         item: 3
-      Value: {fileID: 6453561030650598409, guid: 4a7d6d7d25934b94b853e73f10b58593, type: 3}
+      Value: {fileID: 8385359143143735478, guid: 3597f8018b6188040a9acebbb00838e2, type: 3}
   mouth:
     pairs:
     - Key:
         item: 0
-      Value: {fileID: 6453561030650598409, guid: 4a7d6d7d25934b94b853e73f10b58593, type: 3}
+      Value: {fileID: 3224599614311770193, guid: 1fa6cd22697c33a4690c11769767269c, type: 3}
     - Key:
-        item: 1
-      Value: {fileID: 6453561030650598409, guid: 4a7d6d7d25934b94b853e73f10b58593, type: 3}
+        item: 4
+      Value: {fileID: 3375023521509130502, guid: 161a203b0e48a7f4782f1e0ff4b5fa54, type: 3}
     - Key:
         item: 2
-      Value: {fileID: 6453561030650598409, guid: 4a7d6d7d25934b94b853e73f10b58593, type: 3}
+      Value: {fileID: 4729741784687439239, guid: a8c4d4ee09a4c6b4cbe24e6e06202ca5, type: 3}
     - Key:
         item: 3
-      Value: {fileID: 6453561030650598409, guid: 4a7d6d7d25934b94b853e73f10b58593, type: 3}
+      Value: {fileID: 7307501701722050460, guid: 254f17ec44936b4428ec4795b7c8fef2, type: 3}
   size: {x: 900, y: 800}

@@ -1,5 +1,6 @@
 <Chapter>
     <Music name="Battle" />
+    <Enter character_id="Stary" position="0.5" eyes="Angry" mouth="Angry"/>
     <Speech character_id="Stary" character="Ojciec Berthy">
         Ale nie masz też pojęcia ile rzeczy zrobiłem w życiu których nie chciałem zrobić.
     </Speech>
@@ -47,5 +48,6 @@
             </Case>
         </Switch>
     </Choice>
+    <Exit character_id="Stary"/>
     <Link path="DeathEnding.vnml" />
 </Chapter>

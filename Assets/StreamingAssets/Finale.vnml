@@ -1,6 +1,8 @@
 <Chapter>
     <Variable name="przekonywanieOjca" value="0" />
     <Music name="Anticipation" />
+    <Background name="BehindBack" />
+    <Enter character_id="RudaZwiazana" position="0.8" eyes="Angry" mouth="None"/>
     <Speech>
         Bertha siedzi w rogu pokoju.
     </Speech>
@@ -64,6 +66,7 @@
                             <Speech>
                                 Widzę jak klamka powoli opada. A może tylko mi się wydaje że jest to powoli?
                             </Speech>
+                            <Enter character_id="Stary" position="0.2" eyes="Angry" mouth="Angry"/>
                             <Speech>
                                 Pierwsze co wsuwa się do pokoju to lufa dwururki.
                             </Speech>
@@ -150,6 +153,7 @@
                             <Speech>
                                 Widzę jak klamka powoli opada. A może tylko mi się wydaje że jest to powoli?
                             </Speech>
+                            <Enter character_id="Stary" position="0.2" eyes="Angry" mouth="Angry"/>
                             <Speech>
                                 Pierwsze co wsuwa się do pokoju to lufa dwururki.
                             </Speech>
@@ -355,6 +359,7 @@
                 <Speech>
                     Drzwi, popchnięte, otwierają się. W framudze stoi wielki mężczyzna. Pierwsze co rzuca się w oczy to dwururka w jego dłoniach.
                 </Speech>
+                <Enter character_id="Stary" position="0.2" eyes="Angry" mouth="Angry"/>
                 <Speech character="Ojciec Berthy">
                     Tenteki?
                 </Speech>
@@ -441,6 +446,7 @@
         </Switch>
     </Choice>
     <Music name="Mystery" />
+    <Update character_id="Stary" mouth="Neutral" eyes="Neutral" />
     <Speech character="Ja">
         Pańska córka w podczas naszej... kłótni... wyjawiła mi kim jestem.
     </Speech>
@@ -685,18 +691,28 @@
         <Variable name="PrzekonywanieOjca">
         <Switch>
             <Case value="0">
+                <Exit character_id="Stary" />
+                <Exit character_id="BerthaZwiazana" />
                 <Link path="FatherDefeat.vnml"/>
             </Case>
             <Case value="1">
+                <Exit character_id="Stary" />
+                <Exit character_id="BerthaZwiazana" />
                 <Link path="FatherDefeat.vnml"/>
             </Case>
             <Case value="-1">
+                <Exit character_id="Stary" />
+                <Exit character_id="BerthaZwiazana" />
                 <Link path="FatherDefeat.vnml"/>
             </Case>
             <Case value="-2">
+                <Exit character_id="Stary" />
+                <Exit character_id="BerthaZwiazana" />
                 <Link path="FatherDefeat.vnml"/>
             </Case>
             <Case value="-3">
+                <Exit character_id="Stary" />
+                <Exit character_id="BerthaZwiazana" />
                 <Link path="FatherDefeat.vnml"/>
             </Case>
             <Case value="2"></Case>
@@ -742,6 +758,8 @@
                 <Speech>
                     Chyba po raz pierwszy od kiedy odkryłem kim na prawdę jestem, na mojej twarzy znów gości uśmiech.
                 </Speech>
+                <Exit character_id="Stary" />
+                <Exit character_id="BerthaZwiazana" />
                 <Link path="ReleasedEnding.vnml" />
             </Case>
             <Case option_id="2">
@@ -778,6 +796,8 @@
                 <Speech>
                     Chyba po raz pierwszy od kiedy odkryłem kim na prawdę jestem, na mojej twarzy znów gości uśmiech.
                 </Speech>
+                <Exit character_id="Stary" />
+                <Exit character_id="BerthaZwiazana" />
                 <Link path="FreeWorkerEnding.vnml" />
             </Case>
             <Case option_id="3">
@@ -902,6 +922,8 @@
                                             <Speech>
                                                 Chyba po raz pierwszy od kiedy odkryłem kim na prawdę jestem, na mojej twarzy znów gości uśmiech.
                                             </Speech>
+                                            <Exit character_id="Stary" />
+                                            <Exit character_id="BerthaZwiazana" />
                                             <Link path="LoveEnding.vnml" />
                                         </Case>
                                         <Case value="1">
@@ -935,6 +957,8 @@
                                             <Speech>
                                                 Chyba po raz pierwszy od kiedy odkryłem kim na prawdę jestem, na mojej twarzy znów gości uśmiech.
                                             </Speech>
+                                            <Exit character_id="Stary" />
+                                            <Exit character_id="BerthaZwiazana" />
                                             <Link path="ReleasedEnding.vnml" />
                                         </Case>
                                     </Switch>
@@ -994,6 +1018,8 @@
                             <Speech>
                                 Chyba po raz pierwszy od kiedy odkryłem kim na prawdę jestem, na mojej twarzy znów gości uśmiech.
                             </Speech>
+                            <Exit character_id="Stary" />
+                            <Exit character_id="BerthaZwiazana" />
                             <Link path="LoveEnding.vnml" />
                         </Case>
                         <Case value="3">
@@ -1044,6 +1070,8 @@
                             <Speech>
                                 Chyba po raz pierwszy od kiedy odkryłem kim na prawdę jestem, na mojej twarzy znów gości uśmiech.
                             </Speech>
+                            <Exit character_id="Stary" />
+                            <Exit character_id="BerthaZwiazana" />
                             <Link path="LoveEnding.vnml" />
                         </Case>
                         <Case value="2">
@@ -1089,6 +1117,8 @@
                             <Speech>
                                 Chyba po raz pierwszy od kiedy odkryłem kim na prawdę jestem, na mojej twarzy znów gości uśmiech.
                             </Speech>
+                            <Exit character_id="Stary" />
+                            <Exit character_id="BerthaZwiazana" />
                             <Link path="ReleasedEnding.vnml" />
                         </Case>
                     </Switch>
