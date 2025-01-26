@@ -155,6 +155,8 @@
                 <Speech character="Shiori">
                     I nawet nie lubię truskawkowej!
                 </Speech>
+                <Exit character_id="Brunetka" />
+                <Update character_id="Blondynka" position="0.5" />
                 <Speech>
                     Odstawiwszy kubek z impetem na blat, Shiori odwraca się i wybiega z lokalu.
                 </Speech>
@@ -209,6 +211,7 @@
                 <Speech character="Ja">
                     Na razie, Daria.
                 </Speech>
+                <Exit character_id="Blondynka" />
                 <Speech>
                     Dziewczyna wstaje i wychodzi, częstując mnie na pożegnanie jeszcze jednym ze swoich uśmiechów. Długo potem jeszcze wpatruję się w krawędź okna za którą zniknęła.
                 </Speech>
@@ -227,6 +230,8 @@
                 <Speech character="Daria">
                     Dobra, widzę że jestem w mniejszej części nas. To jak nikt nie ma ochoty na moje towarzystwo, to ja pójdę się przejść.
                 </Speech>
+                <Exit character_id="Blondynka" />
+                <Update character_id="Brunetka" position="0.5" />
                 <Speech>
                     To powiedziawszy, Daria wstaje ze stołka i wychodzi z lokalu. Shiori odprowadza ją wzrokiem, w pewnym momencie mam wrażenie że chce coś powiedzieć, ale rezygnuje.
                 </Speech>
@@ -287,6 +292,7 @@
                 <Speech>
                     To powiedziawszy wstaje ze stołka i rusza w stronę wyjścia. W drzwiach jeszcze macha mi na pożegnanie i rusza w stronę w którą poszła Daria.
                 </Speech>
+                <Exit character_id="Brunetka" />
             </Case>
         </Switch>
     </Choice>

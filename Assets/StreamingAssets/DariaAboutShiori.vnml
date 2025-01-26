@@ -15,6 +15,7 @@
     <Speech>
         Dzyń dzyń
     </Speech>
+    <Enter character_id="Blondynka" position="0.5" eyes="Neutral" mouth="Neutral" />
     <Speech>
         Podnoszę wzrok. To Daria.
     </Speech>
@@ -96,6 +97,7 @@
     <Speech character="Daria">
         Trzymaj się.
     </Speech>
+    <Exit character_id="Blondynka" />
     <Speech>
         Daria wstaje i rusza w stronę drzwi, wychodząc rzuca mi jeszcze jedno zmartwione spojrzenie i odchodzi.
     </Speech>
