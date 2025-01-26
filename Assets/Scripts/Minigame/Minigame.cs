@@ -43,7 +43,7 @@ public class Minigame : MonoBehaviour
         else
         {
             currentDrink.secondSyroup = teaSyroup;
-            ingredientsSection.SetClickableJellies(false);
+            ingredientsSection.SetClickableSyroup(false);
         }
         drinkSection.ShowDrink(currentDrink);
     }
@@ -99,6 +99,8 @@ public class Minigame : MonoBehaviour
         ingredientsSection.SetClickableBase(true);
         ingredientsSection.SetClickableSyroup(true);
         ingredientsSection.SetClickableJellies(true);
+
+        drinkSection.ShowDrink(currentDrink);
     }
 
     private void EndMinigame()

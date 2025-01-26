@@ -16,32 +16,32 @@ MonoBehaviour:
     pairs:
     - Key:
         item: 0
-      Value: {fileID: 0}
+      Value: {fileID: 183576000170354520, guid: a6ef46aa29ac25640a6c22bb88315ac7, type: 3}
     - Key:
         item: 1
-      Value: {fileID: 0}
+      Value: {fileID: -6215988789526166859, guid: a6ef46aa29ac25640a6c22bb88315ac7, type: 3}
     - Key:
         item: 2
-      Value: {fileID: 0}
+      Value: {fileID: 5621154503014345005, guid: a6ef46aa29ac25640a6c22bb88315ac7, type: 3}
   teaSyroups:
     pairs:
     - Key:
         item: 0
-      Value: {fileID: 0}
+      Value: {fileID: 4151117635803220491, guid: a6ef46aa29ac25640a6c22bb88315ac7, type: 3}
     - Key:
         item: 1
-      Value: {fileID: 0}
+      Value: {fileID: 2890632699364048565, guid: a6ef46aa29ac25640a6c22bb88315ac7, type: 3}
     - Key:
         item: 2
-      Value: {fileID: 0}
+      Value: {fileID: 1308025186802812275, guid: a6ef46aa29ac25640a6c22bb88315ac7, type: 3}
   teaJellies:
     pairs:
     - Key:
         item: 0
-      Value: {fileID: 0}
+      Value: {fileID: -381613897872061734, guid: a6ef46aa29ac25640a6c22bb88315ac7, type: 3}
     - Key:
         item: 1
-      Value: {fileID: 0}
+      Value: {fileID: -7033237346087674764, guid: a6ef46aa29ac25640a6c22bb88315ac7, type: 3}
     - Key:
         item: 2
-      Value: {fileID: 0}
+      Value: {fileID: 1786039485341499245, guid: a6ef46aa29ac25640a6c22bb88315ac7, type: 3}
