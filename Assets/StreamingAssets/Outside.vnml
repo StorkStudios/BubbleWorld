@@ -1,0 +1,143 @@
+<Chapter>
+    <Choice>
+        <Variable name="chosenOne" />
+        <Switch>
+            <Case value="1">
+                <Speech character_id="Gracz" character_name="Ja">
+                    Przez ostatnie kilka dni nie widziałem żeby Daria się pojawiła w sklepie.
+                </Speech>
+            </Case>
+            <Case value="2">
+                <Speech character_id="Gracz" character_name="Ja">
+                    Przez ostatnie kilka dni nie widziałem żeby Shiori się pojawiła w sklepie.
+                </Speech>
+            </Case>
+            <Case value="3">
+                <Speech character_id="Gracz" character_name="Ja">
+                    Przez ostatnie kilka dni nie widziałem żeby Yukari się pojawiła w sklepie.
+                </Speech>
+            </Case>
+        </Switch>
+    </Choice>
+    <Speech character_id="Gracz" character_name="Ja">
+        Ciekawe co się stało?
+    </Speech>
+    <Speech character_id="Gracz" character_name="Ja">
+        Bo coś się musiało stać prawda?
+    </Speech>
+    <Speech character_id="Gracz" character_name="Ja">
+        Wcześniej pojawiała się prawie codziennie.
+    </Speech>
+    <Speech character_id="Gracz" character_name="Ja">
+        ...
+    </Speech>
+    <Speech character_id="Gracz" character_name="Ja">
+        Nie mogę spać.
+    </Speech>
+    <Speech character_id="Gracz" character_name="Ja">
+        Może przejde się po okolicy jej poszukać?
+    </Speech>
+    <Choice>
+        <Options>
+            <Option id="1">Nie powinienem wychodzić</Option>
+            <Option id="2">Wyjdę tylko na chwilę. Nie zaszkodzi prawda?</Option>
+        </Options>
+        <Switch>
+            <Case option_id="1">
+                <Speech character_id="Gracz" character_name="Ja">
+                    Na pewno niedługo wróci. Jak teraz pójdę jej jszukać to nie wstane rano do pracy. 
+                </Speech>
+                <Speech>
+                    Szefowa byłaby na mnie zła.
+                </Speech>
+            </Case>
+        </Switch>
+    </Choice>
+    <Speech>
+        <i>Wstałem i ruszyłem w stronę drzwi wyjściowych.</i>
+    </Speech>
+    <Speech>
+        Nieoświetlony sklep wygląda zupełnie inaczej niż normalnie.
+    </Speech>
+    <Speech>
+        Jakby coś czaiło się pod każdym stolikiem i krzesłem.
+    </Speech>
+    <Speech character_id="Gracz" character_name="Ja">
+        ...
+    </Speech>
+    <Speech>
+        <i>Nie ma tutaj szefowej prawda?</i>
+    </Speech>
+    <Speech>
+        <i>Lepiej się upewnie</i>
+    </Speech>
+    <Speech character_id="Gracz" character_name="Ja">
+        Jesteś tutaj Berto?
+    </Speech>
+    <Speech>
+        Po chwili ciszy odetchnąłem z ulgą.
+    </Speech>
+    <Speech>
+        <i>Chyba mi się tylko wydawało.</i>
+    </Speech>
+    <Speech character_id="Gracz" character_name="Ja">
+        To pewnie przez tą ciemność.
+    </Speech>
+    <Speech>
+        Chwytam za klamkę drzwi prowadzących mnie na zewnątrz.
+    </Speech>
+    <Speech>
+        Usłyszałem lekkie skrzypnięcie i drzwi się otworzyły.
+    </Speech>
+    <Speech>
+        Stanąłem na ulicy i przez chwilę nie wiedziałem co robić.
+    </Speech>
+    <Speech>
+        Rozejrzałem się na wszystkie strony.
+    </Speech>
+    <Speech>
+        Pare budynków po prawej i pare po lewej.
+    </Speech>
+    <Speech>
+        <i>A co dalej?</i>
+    </Speech>
+    <Speech character_id="Gracz" character_name="Ja">
+        Huh? Bąbel?
+    </Speech>
+    <Speech character_id="Gracz" character_name="Ja">
+        Co tu się dzieje?
+    </Speech>
+    <Speech>
+        Podchodzę do wielkiego bąbla, w środku którego się znajduje.
+    </Speech>
+    <Speech>
+        Próbuję go dotknąć i czuję że jest to dokładnie to na co wygląda.
+    </Speech>
+    <Speech>
+        Wielka bańka.
+    </Speech>
+    <Speech>
+        Jedyny problem jest taki że nie mogę przejść na drugą stronę.
+    </Speech>
+    <Speech character_id="Gracz" character_name="Ja">
+        Co to jest?
+    </Speech>
+    <Speech character_id="Gracz" character_name="Ja">
+        Czy to zawsze tutaj było?
+    </Speech>
+    <Speech character_id="Gracz" character_name="Ja">
+        Dlaczego tego nie pamiętam?
+    </Speech>
+    <Speech>
+        Uderzam bańkę.
+    </Speech>
+    <Speech>
+        Od miejsca uderzenia poszła fala w każdym kierunku, ale zdecydowanie jej nie przebiło.
+    </Speech>
+    <Speech>
+        Na razie chyba będę musiał wrócić do sklepu.
+    </Speech>
+    <Speech>
+        Może Berta będzie coś o tym wiedziała.
+    </Speech>
+</Chapter>
