@@ -323,7 +323,10 @@
                                             Ona... zestresowała mnie.
                                         </Speech>
                                         <Speech character="Ja">
-                                            Zauważyłem. Potrafi być strasznie napastliwa. Ale musisz nauczyć się bronić przed takim zachowaniem, inaczej ludzie zawsze będą Cię spychać do tyłu.
+                                            Zauważyłem. Potrafi być strasznie napastliwa.
+                                        </Speech>
+                                        <Speech character="Ja">
+                                            Ale musisz nauczyć się bronić przed takim zachowaniem, inaczej ludzie zawsze będą Cię spychać do tyłu.
                                         </Speech>
                                         <Speech character="Shiori" character_id="Brunetka">
                                             Wiem, po prostu mam straszny problem z tym...
@@ -335,7 +338,10 @@
                                             Doceniam to. Naprawdę.
                                         </Speech>
                                         <Speech>
-                                            Shiori uśmiecha się do mnie miło, choć widzę, że ciągle jest trochę spięta po tej sytuacji. Odwzajemniam uśmiech, by podnieść ją na duchu.
+                                            Shiori uśmiecha się do mnie miło, choć widzę, że ciągle jest trochę spięta po tej sytuacji.
+                                        </Speech>
+                                        <Speech>
+                                            Odwzajemniam uśmiech, by podnieść ją na duchu.
                                         </Speech>
                                     </Case>
                                 </Switch>

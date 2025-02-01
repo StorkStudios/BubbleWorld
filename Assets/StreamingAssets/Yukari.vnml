@@ -126,7 +126,10 @@
     </Speech>
     <Update character_id="Farbowana" mouth="Angry"/>
     <Speech character_id="Farbowana" character="Yukari">
-        Nie masz dni wolnych? Co to za warunki pracy? Dlaczego wogóle tutaj pracujesz? Nie możesz się zwolnić? Ja już bym to dawno zrobiła na twoim miejscu.
+        Nie masz dni wolnych? Co to za warunki pracy? Dlaczego wogóle tutaj pracujesz?
+    </Speech>
+    <Speech character_id="Farbowana" character="Yukari">
+        Nie możesz się zwolnić? Ja już bym to dawno zrobiła na twoim miejscu.
     </Speech>
     <Speech>
         <i>Nigdy bym się nie spodziewał, że osoba którą dopiero co poznałem może się tak przejmować moją sytuacją.</i>
@@ -197,7 +200,10 @@
             </Case>
             <Case option_id="3">
                 <Speech character_id="Farbowana" character="Yukari">
-                    No mam nadzieje. Musisz się stąd wyrwać. W ten piątek będzie niezła imprezka w klubie ulicę dalej. Jakbyś jednak znalazł czas to mogę Cie tam wkręcić.
+                    No mam nadzieje. Musisz się stąd wyrwać. W ten piątek będzie niezła imprezka w klubie ulicę dalej.
+                </Speech>
+                <Speech character_id="Farbowana" character="Yukari">
+                    Jakbyś jednak znalazł czas to mogę Cie tam wkręcić.
                 </Speech>
                 <Speech character_id="Gracz" character="Ja">
                     No nie wiem...
