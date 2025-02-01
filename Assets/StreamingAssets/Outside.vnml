@@ -54,6 +54,8 @@
                 </Speech>
                 <Link path="WorkerEnding.vnml" />
             </Case>
+            <Case option_id="2">
+            </Case>
         </Switch>
     </Choice>
     <Background name="ShopNight"/>
