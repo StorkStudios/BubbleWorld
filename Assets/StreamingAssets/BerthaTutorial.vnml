@@ -8,7 +8,7 @@
         <i>Byłby jednak dużo piękniejszy jakbym mógł pospać trochę dłużej.</i>
     </Speech>
     <Speech>
-        <i>Niestety przeszkadza mi w tym troche moja szefowa.</i>
+        <i>Niestety przeszkadza mi w tym trochę moja szefowa.</i>
     </Speech>
     <Enter character_id="Ruda" position="0.5" eyes="Forward" mouth="Neutral"/>
     <Speech character_id="Ruda" character="???">
@@ -18,7 +18,7 @@
         <i>To właśnie ona: Bertha.</i>
     </Speech>
     <Speech character_id="Gracz" character="Ja">
-        Przecież jest dopiero 9 rano. Jeszcze nie ma klientów w sklepie.
+        Przecież jest dopiero 9 rano. Jeszcze nie ma klientów w lokalu.
     </Speech>
     <Speech character_id="Ruda" character="Bertha">
         Ja jestem klientką.
@@ -61,17 +61,17 @@
         <i>Czuję na sobie wzrok Berthy.</i>
     </Speech>
     <Speech character_id="Gracz">
-        <i>Musze się skupić żeby dobrze przygotować jej zamówienie.</i>
+        <i>Muszę się skupić żeby dobrze przygotować jej zamówienie.</i>
     </Speech>
     <Speech character_id="Ruda" character="Bertha">
-        A i daj mi dużo żelków bananowych.
+        A, i daj mi dużo żelków bananowych.
     </Speech>
     <Speech character_id="Ruda" character="Bertha">
-        D U Ż O
+        <b>D U Ż O</b>
     </Speech>
     <Choice>
         <Options duration="8" default_id="1">
-            <Option id="1">Ok</Option>
+            <Option id="1">Ok.</Option>
             <Option id="2">Tak jest prze pani.</Option>
             <Option id="3">Oczywiście. Dużo bananowych.</Option>
         </Options>
@@ -82,7 +82,7 @@
         </Switch>
     </Choice>
     <Speech character_id="Ruda" character="Bertha">
-        No. widzę że czegoś się już nauczyłeś.
+        No. Widzę, że czegoś się już nauczyłeś.
     </Speech>
     <Speech character_id="Gracz" character="Ja">
         Przecież pracjuę tutaj już od dłuższego czasu.
@@ -132,7 +132,7 @@
     </Speech>
     <MinigameEnd/>
     <Speech character_id="Gracz" character="Ja">
-        Twoja herbata. - <i> Mówie wyciągając w jej stronę rękę z napojem.</i>
+        Twoja herbata - <i> Mówie wyciągając w jej stronę rękę z napojem.</i>
     </Speech>
     <Speech character_id="Gracz">
         Berta gwałtownie rzuca się w moją stronę i praktyczne wyrywa mi go z ręki.
@@ -150,7 +150,7 @@
                     Błeeee! Ohyda!
                 </Speech>
                 <Speech character_id="Ruda" character="Bertha">
-                    Gdyby nie to że zaraz otwieramy to byś musiał robić wszystko od początku!
+                    Gdyby nie to, że zaraz otwieramy to byś musiał robić wszystko od początku!
                 </Speech>
                 <Speech character_id="Ruda" character="Bertha">
                     A teraz do roboty!

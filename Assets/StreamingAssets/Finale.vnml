@@ -11,7 +11,7 @@
         Nie chcąc by przeszkadzała mi gdy przybędzie jej ojciec, przywiązałem ją do rury ciepłowniczej i zakneblowałem.
     </Speech>
     <Speech>
-        <i>Nie tak sobie wyobrażałem finał rozmowy z nią</i>
+        <i>Nie tak sobie wyobrażałem finał rozmowy z nią.</i>
     </Speech>
     <Speech>
         Próbuję zebrać myśli i opracować jakiś plan jak zabrać się do przekonania ojca Berthy, aby usunął mi z głowy ogranicznik.
@@ -20,7 +20,7 @@
         Łapię się na tym, że nerwowo drapię krawędzie rozcięcia na przedramieniu, spod którego wyglądają kable i druty.
     </Speech>
     <Speech>
-        Nagle słyszę zbliżający się warkot silnika samochodowego. Ktoś zatrzymuje się przed lokalem.
+        Nagle słyszę zbliżający się warkot silnika samochodu. Ktoś zatrzymuje się przed lokalem.
     </Speech>
     <Speech>
         Dzyń dzyń
@@ -30,8 +30,8 @@
     </Speech>
     <Choice>
         <Options>
-            <Option id="1"><i>Podnoszę z ziemi nóż</i></Option>
-            <Option id="2"><i>Wkopuję nóż pod łóżko</i></Option>
+            <Option id="1"><i>Podnoszę z ziemi nóż.</i></Option>
+            <Option id="2"><i>Wkopuję nóż pod łóżko.</i></Option>
         </Options>
         <Switch>
             <Case option_id="1">
@@ -43,8 +43,8 @@
                 </Speech>
                 <Choice>
                     <Options>
-                        <Option id="1"><i>Staję z nożem przy Berthcie</i></Option>
-                        <Option id="2"><i>Staję z nożem obok drzwi</i></Option>
+                        <Option id="1"><i>Staję z nożem przy Berthcie.</i></Option>
+                        <Option id="2"><i>Staję z nożem obok drzwi.</i></Option>
                     </Options>
                     <Switch>
                         <Case option_id="1">
@@ -72,7 +72,7 @@
                                 Pierwsze co wsuwa się do pokoju to lufa dwururki.
                             </Speech>
                             <Speech>
-                                <i>Cholera</i>
+                                <i>Cholera.</i>
                             </Speech>
                             <Speech>
                                 Unoszę nóż do szyi Berthy.
@@ -87,7 +87,7 @@
                                 Do pokoju wchodzi potężny mężczyzna w koszuli z zakasanymi rękawami. W rękach dzierży podwójną strzelbę, aktualnie wycelowaną we mnie oraz Berthę.
                             </Speech>
                             <Speech character="Ojciec Berthy">
-                                Ojciec: Co to ma-
+                                Co to ma...
                             </Speech>
                             <Speech character="Ja">
                                 Opuść broń! Teraz!!!
@@ -111,7 +111,7 @@
                                 Zataczam się, musząc się podeprzeć ręką by nie upaść. Na chwilę mnie zamracza.
                             </Speech>
                             <Speech>
-                                Rozlega się huk i czuję jak potężna siła miota mną o ścianę. Uderzam w nią z impetem i Ciężko padam na podłogę.
+                                Rozlega się huk i czuję jak potężna siła miota mną o ścianę. Uderzam w nią z impetem i ciężko padam na podłogę.
                             </Speech>
                             <Speech>
                                 Naprzeciwko mnie stoi ojciec Berthy z dymiącą dwururką przy biodrze.
@@ -136,7 +136,7 @@
                                 Przechodzi kilka kroków i siada na krawędzi łóżka, tak by mieć w zasięgu ręki broń.
                             </Speech>
                             <Speech character="Ojciec Berthy">
-                                Co. Ty. sobie. kurwa. myślałeś.
+                                Co. ty. sobie. kurwa. myślałeś.
                             </Speech>
                             <Speech>
                                 Wszystkie te słowa cedzi przez zaciśnięte zęby.
@@ -163,11 +163,11 @@
                                 Pierwsze co wsuwa się do pokoju to lufa dwururki.
                             </Speech>
                             <Speech>
-                                <i>Cholera</i>
+                                <i>Cholera.</i>
                             </Speech>
                             <Choice>
                                 <Options>
-                                    <Option id="1"><i>Atakuję napastnika</i></Option>
+                                    <Option id="1"><i>Atakuję napastnika.</i></Option>
                                     <Option id="2">Nie wchodzić! Jestem uzbrojony!</Option>
                                 </Options>
                                 <Switch>
@@ -184,10 +184,10 @@
                                             Mimo bycia wytrąconym z równowagi, mężczyzna daje radę odtrącić atak ramieniem, okupując to długim ale płytkim rozcięciem, z którego zaczyna lecieć krew.
                                         </Speech>
                                         <Speech>
-                                            Atakuję po raz drugi, ale tym razem z mniejszym impetem i nie mając po swojej stronie elementu zaskoczenia, byle tylko nie pozwolić my unieść strzelby.
+                                            Atakuję po raz drugi, ale tym razem z mniejszym impetem i nie mając po swojej stronie elementu zaskoczenia, byle tylko nie pozwolić mu unieść strzelby.
                                         </Speech>
                                         <Speech>
-                                            Przeciwnik puszcza jedną ręką broń i przygważdża moje przedramię do ściany mocnym uchwytem. Nie mogąc się uwolnić, drugą dłoń ściskam w pięść i uderzam go w twarz.
+                                            Przeciwnik puszcza jedną ręką broń i przygważdża moje przedramię do ściany mocnym chwytem. Nie mogąc się uwolnić, drugą dłoń ściskam w pięść i uderzam go w twarz.
                                         </Speech>
                                         <Speech>
                                             Mężczyzna puszcza moją rękę i zatacza się do tyłu, uderzając plecami o ladę, z jego nosa bucha krew. Nadal jednak trzyma w jednej dłoni broń.
@@ -243,7 +243,7 @@
                                             Lufa dwururki cofa się kawałek.
                                         </Speech>
                                         <Speech character="Ojciec Berthy">
-                                            Tentaki? Co to ma znaczyć?
+                                            Tenteki? Co to ma znaczyć?
                                         </Speech>
                                         <Speech character="Ja">
                                             Opuść broń!
@@ -263,19 +263,19 @@
                                                         Berthę? Co z nią zrobiłeś?!
                                                     </Speech>
                                                     <Speech character="Ja">
-                                                        Jest tu w kącie, bezpieczna, dopóki nie-
+                                                        Jest tu w kącie, bezpieczna, dopóki nie...
                                                     </Speech>
                                                     <Speech>
                                                         Rozlega się huk i potężna siła rzuca mną na środek pomieszczenia.
                                                     </Speech>
                                                     <Speech>
-                                                        Oszołomiony, próbuję się podnieść, ale nie mam czucia w prawej ręce.
+                                                        Oszołomiony, próbuję się podnieść ale nie mam czucia w prawej ręce.
                                                     </Speech>
                                                     <Speech>
                                                         Ojciec Berthy wbiega do pomieszczenia. Dopiero wtedy zauważam że ściana przy której stałem jest w opłakanym stanie, dziurawa jak rzeszoto.
                                                     </Speech>
                                                     <Speech>
-                                                        Orientuję się że Ojciec Berthy musiał do mnie strzelić przez ścianę w momencie kiedy dałem mu informację potwierdzającą że Berthy nie ma na linii strzału.
+                                                        Orientuję się że ojciec Berthy musiał do mnie strzelić przez ścianę w momencie kiedy dałem mu informację potwierdzającą że Berthy nie ma na linii strzału.
                                                     </Speech>
                                                     <Speech>
                                                         Upewniwszy się że strzał mnie obezwładnił, mężczyzna odkłada broń na stół i podbiega do córki, by ją uwolnić.
@@ -448,7 +448,7 @@
                                 Wiem że pan tego nie zrobi. Nie, kiedy bezpośrednio za mną jest pańska córka.
                             </Speech>
                             <Speech>
-                                Widzę że dobrze odczytałem jego intencje. Dyszy Ciężko w złości, ale w końcu opuszcza broń.
+                                Widzę że dobrze odczytałem jego intencje. Dyszy ciężko w złości, ale w końcu opuszcza broń.
                             </Speech>
                             <Speech character="Ojciec Berthy">
                                 Co jej zrobiłeś? Gadaj!
@@ -489,12 +489,12 @@
         Chcę jedynie by usunął pan ten ogranicznik. 
     </Speech>
     <Speech character="Ojciec Berthy">
-        I co każe Ci myśleć, że możesz się o to ubiegać? Po tym jak groziłeś mojej córce? Po tym jak związałeś ją i zakneblowałeś?
+        I co każe ci myśleć, że możesz się o to ubiegać? Po tym jak groziłeś mojej córce? Po tym jak związałeś ją i zakneblowałeś?
     </Speech>
     <Choice>
         <Options>
-            <Option id="1">Każdy zasługuje na to by mieć wolny wybór</Option>
-            <Option id="2">Każdy zasługuje na to by znać prawdę</Option>
+            <Option id="1">Każdy zasługuje na to by mieć wolny wybór.</Option>
+            <Option id="2">Każdy zasługuje na to by znać prawdę.</Option>
         </Options>
         <Switch>
             <Case option_id="1">
@@ -529,7 +529,7 @@
                     Mężczyzna parska słysząc te słowa.
                 </Speech>
                 <Speech character="Ojciec Berthy">
-                    Prawdę? Żyjesz w wykreowanym świecie, więc nie wiesz jak to jest w tym prawdziwym. Zapewniam Cię, że prawda jest bardzo cennym zasobem.
+                    Prawdę? Żyjesz w wykreowanym świecie, więc nie wiesz jak to jest w tym prawdziwym. Zapewniam cię, że prawda jest bardzo cennym zasobem.
                 </Speech>
                 <Speech character="Ojciec Berthy">
                     Zwykle karmieni jesteśmy co najwyżej półprawdami, niedopowiedzeniami czy konkretnymi punktami widzenia.
@@ -541,7 +541,7 @@
                     Nieprawda. Wprost mnie okłamaliście. Nie powiedzieliście mi, że jestem robotem.
                 </Speech>
                 <Speech character="Ojciec Berthy">
-                    Nikt Cię nie okłamał. Po prostu nigdy nie spytałeś.
+                    Nikt cię nie okłamał. Po prostu nigdy nie spytałeś.
                 </Speech>
                 <Speech character="Ja">
                     Wystarczy że żyłem w kłamstwie.
@@ -553,7 +553,7 @@
                     Jestem tu uwięziony.
                 </Speech>
                 <Speech character="Ojciec Berthy">
-                    Nigdy nawet nie poprosiłeś o zdjęcie tej bariery. Nie mieliśmy o czym rozmawiać, bo dobrze Ci się żyło tu, wewnątrz lokalu.
+                    Nigdy nawet nie poprosiłeś o zdjęcie tej bariery. Nie mieliśmy o czym rozmawiać, bo dobrze ci się żyło tu, wewnątrz lokalu.
                 </Speech>
                 <Speech character="Ojciec Berthy">
                     Ale cóż...
@@ -571,12 +571,12 @@
         Tak. Pozwól mi odejść. Nie masz prawa mnie tu więzić.
     </Speech>
     <Speech character="Ojciec Berthy">
-        A co z lokalem? Co z Berthą? Potrzebuje Cię. Sama nie da sobie rady. Wiesz, że zależy jej na tym lokalu.
+        A co z lokalem? Co z Berthą? Potrzebuje cię. Sama nie da sobie rady. Wiesz, że zależy jej na tym lokalu.
     </Speech>
     <Choice>
         <Options>
-            <Option id="1">Dla Berthy ten lokal to tylko miejsce do rządzenia ludźmi</Option>
-            <Option id="2">Dla Berthy ten lokal to tylko zabawa w firmę</Option>
+            <Option id="1">Dla Berthy ten lokal to tylko miejsce do rządzenia ludźmi.</Option>
+            <Option id="2">Dla Berthy ten lokal to tylko zabawa w firmę.</Option>
         </Options>
         <Switch>
             <Case option_id="1">
@@ -587,7 +587,7 @@
                     Jesteś ślepy. Nie dostrzegłeś, jakie szczęście dawałeś Berthcie?
                 </Speech>
                 <Speech character="Ojciec Berthy">
-                    Wydawała Ci polecenia nie dlatego że chciała pokazać swoją wyższość, ale dlatego że wiedziała czym jesteś. Mianowicie maszyną.
+                    Wydawała ci polecenia nie dlatego że chciała pokazać swoją wyższość, ale dlatego że wiedziała czym jesteś. Mianowicie maszyną.
                 </Speech>
                 <Speech character="Ojciec Berthy">
                     To jakby czajnik oskarżał użytkownika o wciskanie przycisku gotowania wody bez pytania go o zdanie.
@@ -635,10 +635,10 @@
         </Switch>
     </Choice>
     <Speech character="Ojciec Berthy">
-        To właśnie w tym celu Cię kupiłem. Ale Ty teraz mi mówisz że chciałbyś odejść. Że nie chcesz już wykonywać swojej funkcji.
+        To właśnie w tym celu cię kupiłem. Ale Ty teraz mi mówisz że chciałbyś odejść. Że nie chcesz już wykonywać swojej funkcji.
     </Speech>
     <Speech character="Ojciec Berthy">
-        Wiesz ile funduszy zainwestowałem, żeby stworzyć to miejsce? By stworzyć Ciebie?
+        Wiesz ile funduszy zainwestowałem, żeby stworzyć to miejsce? By stworzyć ciebie?
     </Speech>
     <Speech character="Ojciec Berthy">
         I co, to wszystko ma się nagle rozejść bo tak chcesz? A kto mi zwróci te wszystkie pieniądze?
@@ -654,7 +654,7 @@
         <Switch>
             <Case option_id="1">
                 <Speech character="Ojciec Berthy">
-                    Tajemnica biznesowa, ale setki razy więcej niż w Ciebie. A wiesz czemu? Bo te pieniądze mi się zwracają.
+                    Tajemnica biznesowa, ale setki razy więcej niż w ciebie. A wiesz czemu? Bo te pieniądze mi się zwracają.
                 </Speech>
                 <Speech character="Ojciec Berthy">
                     Są inwestycją, która ma przynieść więcej pieniędzy. Nie zwykłem wyrzucać pieniędzy w błoto i nie zamierzam tego robić w twoim przypadku.
@@ -675,7 +675,7 @@
                     A co to ma do rzeczy?
                 </Speech>
                 <Speech character="Ja">
-                    Czy Bertha jest inwestycją, która ma się zwrócić? Czy jeśli przyjdzie do Ciebie i powie że postanawia żyć włąsne życie to zatrzymasz ją, bo wydałeś na nią wiele pieniędzy?
+                    Czy Bertha jest inwestycją, która ma się zwrócić? Czy jeśli przyjdzie do ciebie i powie że postanawia żyć włąsne życie to zatrzymasz ją, bo wydałeś na nią wiele pieniędzy?
                 </Speech>
                 <Speech character="Ja">
                     Nie zrobisz tego. A wiesz czemu? Bo ona nie jest inwestycją. Jest świadomą osobą, a pieniądze które włożyłeś w jej rozwój miały zapewnić jej dobry start.
@@ -684,7 +684,7 @@
                     Jeśli się dobrze zastanowisz, dostrzeżesz, że mój przypadek nie jest tu wcale tak odmienny.
                 </Speech>
                 <Speech character="Ojciec Berthy">
-                    Nie... Nie masz racji.
+                    Nie... nie masz racji.
                 </Speech>
                 <Speech character="Ojciec Berthy">
                     Moja córka jest wyjątkowa. Wszystkie te fundusze na jej wychowanie wydałem dlatego że ją kocham!
@@ -693,13 +693,13 @@
                     To znaczy, że niechcianego syna uczyniłbyś swoim niewolnikiem? Tylko dlatego że poszły na jego wychowanie już jakieś pieniądze?
                 </Speech>
                 <Speech character="Ojciec Berthy">
-                    Ty... Nie jesteś moim synem...
+                    Ty... nie jesteś moim synem...
                 </Speech>
                 <Speech character="Ja">
-                    Biologicznie? Na pewno nie. Ale Ty sprawiłeś że istnieję, Ty zainwestowałeś w mój rozwój i Ty dałeś pierwsze cele w życiu. Z mojego punktu widzenia jesteś jak mój ojciec.
+                    Biologicznie? Na pewno nie. Ale ty sprawiłeś że istnieję, ty zainwestowałeś w mój rozwój i ty dałeś pierwsze cele w życiu. Z mojego punktu widzenia jesteś jak mój ojciec.
                 </Speech>
                 <Speech character="Ojciec Berthy">
-                    To... Przestań! Widzę co próbujesz zrobić, ale dość tego!
+                    To... przestań! Widzę co próbujesz zrobić, ale dość tego!
                 </Speech>
                 <Speech character="Ojciec Berthy">
                     Koniec tej rozmowy. Teraz czas na ruch z mojej strony.
@@ -804,10 +804,10 @@
         Ojciec Berthy opuszcza broń. Wydaje się w tym momencie strasznie zmęczony.
     </Speech>
     <Speech character_id="Stary" character="Ojciec Berthy">
-        Masz rację. Nie mogę tak po prostu Cię wyłączyć. Robiąc to, zachowałbym się jak zwierzę.
+        Masz rację. Nie mogę tak po prostu cię wyłączyć. Robiąc to, zachowałbym się jak zwierzę.
     </Speech>
     <Speech character_id="Stary" character="Ojciec Berthy">
-        Zdejmę zabezpieczenie które tworzy tę nieprzekraczalną barierę i będziesz mógł pójść gdzie zechcesz. Nie będę Cię zatrzymywał.
+        Zdejmę zabezpieczenie które tworzy tę nieprzekraczalną barierę i będziesz mógł pójść gdzie zechcesz. Nie będę cię zatrzymywał.
     </Speech>
     <Choice>
         <Options>
@@ -821,7 +821,7 @@
                     Dziękuję. To dla mnie wiele znaczy.
                 </Speech>
                 <Speech>
-                    Ojciec Berthy odkłada broń na stół i zbliża się do mnie Ciężkim krokiem, wyjmując z kieszeni klucze.
+                    Ojciec Berthy odkłada broń na stół i zbliża się do mnie ciężkim krokiem, wyjmując z kieszeni klucze.
                 </Speech>
                 <Speech character="Ojciec Berthy">
                     Przekrzyw głowę lekko w lewo, proszę.
@@ -862,13 +862,13 @@
                     W końcu, mimo tych wszystkich przejść, wiem że ona ciągle widzi w tobie przyjaciela.
                 </Speech>
                 <Speech character="Ojciec Berthy">
-                    A po tym wszystkim co tu od Ciebie dziś usłyszałem czuję że mogę Ci zaufać że zadbasz by nie stała się jej krzywda.
+                    A po tym wszystkim co tu od ciebie dziś usłyszałem czuję że mogę ci zaufać że zadbasz by nie stała się jej krzywda.
                 </Speech>
                 <Speech character="Ja">
                     To dla mnie wiele znaczy. Dziękuję.
                 </Speech>
                 <Speech>
-                    Ojciec Berthy odkłada broń na stół i zbliża się do mnie Ciężkim krokiem, wyjmując z kieszeni klucze.
+                    Ojciec Berthy odkłada broń na stół i zbliża się do mnie ciężkim krokiem, wyjmując z kieszeni klucze.
                 </Speech>
                 <Speech character="Ojciec Berthy">
                     Przekrzyw głowę lekko w lewo, proszę.
@@ -984,7 +984,7 @@
                                                 <Switch>
                                                     <Case value="1">
                                                         <Speech character="Ojciec Berthy">
-                                                            Natomiast Darie znajdziesz w jej domu naprzeciw sklepu.
+                                                            Natomiast Darię znajdziesz w jej domu naprzeciw sklepu.
                                                         </Speech>
                                                     </Case>
                                                     <Case value="2">
@@ -1003,7 +1003,7 @@
                                                 Z całego serca dziękuję. Naprawdę.
                                             </Speech>
                                             <Speech>
-                                                Ojciec Berthy odkłada broń na stół i zbliża się do mnie Ciężkim krokiem, wyjmując z kieszeni klucze.
+                                                Ojciec Berthy odkłada broń na stół i zbliża się do mnie ciężkim krokiem, wyjmując z kieszeni klucze.
                                             </Speech>
                                             <Speech character="Ojciec Berthy">
                                                 Przekrzyw głowę lekko w lewo, proszę.
@@ -1108,7 +1108,7 @@
                                                 Wybacz, ale obawiam się że emocje wzięłyby u ciebie górę.
                                             </Speech>
                                             <Speech character="Ojciec Berthy">
-                                                Pozwolę Ci odejść, ale będziesz musiał odbyć tę podróż sam.
+                                                Pozwolę ci odejść, ale będziesz musiał odbyć tę podróż sam.
                                             </Speech>
                                             <Speech character="Ja">
                                                 Ale...
@@ -1120,13 +1120,13 @@
                                                 Ja... rozumiem.
                                             </Speech>
                                             <Speech character="Ojciec Berthy">
-                                                Dobrze. To pozwól, że usunę Ci teraz ten ogranicznik.
+                                                Dobrze. To pozwól, że usunę ci teraz ten ogranicznik.
                                             </Speech>
                                             <Speech character="Ja">
                                                 Dziękuję.
                                             </Speech>
                                             <Speech>
-                                                Ojciec Berthy odkłada broń na stół i zbliża się do mnie Ciężkim krokiem, wyjmując z kieszeni klucze.
+                                                Ojciec Berthy odkłada broń na stół i zbliża się do mnie ciężkim krokiem, wyjmując z kieszeni klucze.
                                             </Speech>
                                             <Speech character="Ojciec Berthy">
                                                 Przekrzyw głowę lekko w lewo, proszę.
@@ -1234,14 +1234,14 @@
                                 To... dojrzałe. I szlachetne.
                             </Speech>
                             <Speech character="Ojciec Berthy">
-                                Widzę, że nie pomyliłem się co do Ciebie.
+                                Widzę, że nie pomyliłem się co do ciebie.
                             </Speech>
                             <Choice>
                                 <Variable name="chosenOne" />
                                 <Switch>
                                     <Case value="1">
                                         <Speech character="Ojciec Berthy">
-                                            Znajdziesz Darie w jej domu naprzeciw sklepu.
+                                            Znajdziesz Darię w jej domu naprzeciw sklepu.
                                         </Speech>
                                     </Case>
                                     <Case value="2">
@@ -1260,7 +1260,7 @@
                                 Z całego serca dziękuję. Naprawdę.
                             </Speech>
                             <Speech>
-                                Ojciec Berthy odkłada broń na stół i zbliża się do mnie Ciężkim krokiem, wyjmując z kieszeni klucze.
+                                Ojciec Berthy odkłada broń na stół i zbliża się do mnie ciężkim krokiem, wyjmując z kieszeni klucze.
                             </Speech>
                             <Speech character="Ojciec Berthy">
                                 Przekrzyw głowę lekko w lewo, proszę.
@@ -1295,14 +1295,14 @@
                                 To... dojrzałe. I szlachetne.
                             </Speech>
                             <Speech character="Ojciec Berthy">
-                                Widzę, że nie pomyliłem się co do Ciebie.
+                                Widzę, że nie pomyliłem się co do ciebie.
                             </Speech>
                             <Choice>
                                 <Variable name="chosenOne" />
                                 <Switch>
                                     <Case value="1">
                                         <Speech character="Ojciec Berthy">
-                                            Znajdziesz Darie w jej domu naprzeciw sklepu.
+                                            Znajdziesz Darię w jej domu naprzeciw sklepu.
                                         </Speech>
                                     </Case>
                                     <Case value="2">
@@ -1353,16 +1353,16 @@
                                 Uwolnienie kogoś tylko po to by go na powrót związać z czymś innym, według nas uważanym za słuszne, zaczyna brzmieć niebezpiecznie egoistycznie.
                             </Speech>
                             <Speech character="Ojciec Berthy">
-                                Co jeśli po dowiedzeniu się całej prawdy o sobie zdecyduje się obrać inną ścieżkę niż Ty?
+                                Co jeśli po dowiedzeniu się całej prawdy o sobie zdecyduje się obrać inną ścieżkę niż ty?
                             </Speech>
                             <Speech character="Ojciec Berthy">
-                                Czy będziesz chciał jej tego odmówić? Jeśli tak, to popełniłbyś dokładnie ten błąd którego ja przed chwilą się wystrzegłem względem Ciebie.
+                                Czy będziesz chciał jej tego odmówić? Jeśli tak, to popełniłbyś dokładnie ten błąd którego ja przed chwilą się wystrzegłem względem ciebie.
                             </Speech>
                             <Speech character="Ojciec Berthy">
-                                Wybacz, ale obawiam się że emocje wzięłyby u Ciebie górę.
+                                Wybacz, ale obawiam się że emocje wzięłyby u ciebie górę.
                             </Speech>
                             <Speech character="Ojciec Berthy">
-                                Pozwolę Ci odejść, ale będziesz musiał odbyć tę podróż sam.
+                                Pozwolę ci odejść, ale będziesz musiał odbyć tę podróż sam.
                             </Speech>
                             <Speech character="Ja">
                                 Ale...
@@ -1374,10 +1374,10 @@
                                 Ja... rozumiem.
                             </Speech>
                             <Speech character="Ojciec Berthy">
-                                Dobrze. To pozwól, że usunę Ci teraz ten ogranicznik.
+                                Dobrze. To pozwól, że usunę ci teraz ten ogranicznik.
                             </Speech>
                             <Speech>
-                                Ojciec Berthy odkłada broń na stół i zbliża się do mnie Ciężkim krokiem, wyjmując z kieszeni klucze.
+                                Ojciec Berthy odkłada broń na stół i zbliża się do mnie ciężkim krokiem, wyjmując z kieszeni klucze.
                             </Speech>
                             <Speech character="Ojciec Berthy">
                                 Przekrzyw głowę lekko w lewo, proszę.

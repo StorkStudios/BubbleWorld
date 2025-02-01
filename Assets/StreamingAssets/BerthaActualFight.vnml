@@ -8,7 +8,7 @@
         Nie zbliżaj się!
     </Speech>
     <Speech>        
-        Nagle dostrzegam że Bertha musiała mnie jednak trafić przy pierwszym ataku.
+        Nagle dostrzegam, że Bertha musiała mnie jednak trafić przy pierwszym ataku.
     </Speech>
     <Speech>        
         Mam podłużną ranę na przedramieniu, ale z jakiegoś powodu ani trochę nie krwawi.
@@ -136,7 +136,7 @@
     </Choice>
     <Music name="Mystery" />
     <Speech>                                
-        <i>Co to był za dźwięk</i>, zastanawiam się, gdy kolejny cios odrzuca mnie do tyłu.
+        <i>Co to był za dźwięk?</i> Zastanawiam się, gdy kolejny cios odrzuca mnie do tyłu.
     </Speech>
     <Speech>                                
         Zasapana Bertha przystaje, ja też odczekuję chwilę by złapać oddech.
@@ -145,7 +145,7 @@
         Mój wzrok pada na ranę na przedramieniu, którą zadała mi Bertha.
     </Speech>
     <Speech>                                
-        To, co dostrzegam, sprawia że po plecach spływa mi zimny pot.
+        To co dostrzegam sprawia, że po plecach spływa mi zimny pot.
     </Speech>
     <Speech character_id="Gracz"
             character="Ja">        
@@ -276,7 +276,7 @@
     </Speech>
     <Speech character_id="Ruda"
             character="Bertha">        
-        Zostaw mnie, zostaw! Zaraz przyjedzie tutaj mój tata i Cię załatwi jak mnie nie zostawisz!
+        Zostaw mnie, zostaw! Zaraz przyjedzie tutaj mój tata i cię załatwi jak mnie nie zostawisz!
     </Speech>
     <Music name="None" />
     <Exit character_id="RudaNoz"/>

@@ -45,10 +45,10 @@
         <i>Uśmiechnąłem na te słowa.</i>
     </Speech>
     <Speech character_id="Gracz" character="Ja">
-        Nie mogę Ci pozwolić żebyś robiła wszystko za mnie.
+        Nie mogę ci pozwolić żebyś robiła wszystko za mnie.
     </Speech>
     <Speech character_id="Gracz" character="Ja">
-        Ale ciesze się, że Ci zależy.
+        Ale cieszę się, że ci zależy.
     </Speech>
     <Speech>
         <i>Pochyliła się w moją stronę.</i>

@@ -6,7 +6,7 @@
     </Speech>
     <Enter character_id="Ruda" position="0.5" eyes="Crazy" mouth="Sad" />
     <Speech>
-        <i>Już miałem iśc spać, ale zobaczyłem, że za mną stoi Bertha.</i>
+        <i>Już miałem iśc spać ale zobaczyłem, że za mną stoi Bertha.</i>
     </Speech>
     <Speech character_id="Gracz" character="Ja">
         O, jeszcze jesteś w pracy?
@@ -36,7 +36,7 @@
         Zrobiłem coś nie tak?
     </Speech>
     <Speech character_id="Ruda" character="Bertha">
-        A żebyś wiedział że zrobiłeś!
+        A żebyś wiedział, że zrobiłeś!
     </Speech>
     <Update character_id="Ruda" mouth="Happy"/>
     <Speech character_id="Ruda" character="Bertha">

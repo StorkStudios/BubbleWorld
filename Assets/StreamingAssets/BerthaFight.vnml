@@ -9,10 +9,10 @@
         Hej, to zabrzmi dziwnie, ale mam pytanie.
     </Speech>
     <Speech character_id="Gracz" character="Ja">
-        Widziałaś może tę wielka bańka na zewnątrz?
+        Widziałaś może tę wielka bańkę na zewnątrz?
     </Speech>
     <Speech character_id="Gracz" character="Ja">
-        Wydaje się że to jakaś bariera co zatrzymuje wszystko co próbuje przez nią przejść.
+        Wydaje się że to jakaś bariera zatrzymująca wszystko co próbuje przez nią przejść.
     </Speech>
     <Speech character_id="Ruda" character="Bertha">
         ...
@@ -66,8 +66,8 @@
     </Speech>
     <Choice>
         <Options>
-            <Option id="1">Chwytam za nóż</Option>
-            <Option id="2">Pokazuję że nie chcę walczyć</Option>
+            <Option id="1">Chwytam za nóż.</Option>
+            <Option id="2">Pokazuję że nie chcę walczyć.</Option>
         </Options>
         <Switch>
             <Case option_id="1">
@@ -91,12 +91,12 @@
                     Po prostu udaj że nic nie widziałeś i pracuj tutaj tak jak do tej pory!
                 </Speech>
                 <Speech>
-                    Zbliża się do mnie, mam ostatnią szansę żeby wziąć broń albo odepchnie mnie poza jej zasięg
+                    Zbliża się do mnie, mam ostatnią szansę żeby wziąć broń albo odepchnie mnie poza jej zasięg.
                 </Speech>
                 <Choice>
                     <Options>
-                        <Option id="1">Chwytam za nóż</Option>
-                        <Option id="2">Zgadzam się na propozycję Berthy</Option>
+                        <Option id="1">Chwytam za nóż.</Option>
+                        <Option id="2">Zgadzam się na propozycję Berthy.</Option>
                     </Options>
                     <Switch>
                         <Case option_id="1">

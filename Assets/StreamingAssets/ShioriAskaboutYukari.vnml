@@ -24,7 +24,7 @@
         Dzień dobry, Tenteki.
     </Speech>
     <Speech character="Ja">
-        Cześć, Shiori... Nie spodziewałem się tu Ciebie dzisiaj.
+        Cześć, Shiori... Nie spodziewałem się tu ciebie dzisiaj.
     </Speech>
     <Speech>
         Shiori patrzy na mnie ze zdziwieniem.
@@ -51,7 +51,7 @@
         Shiori ewidentnie czuje się niekomfortowo w tej sytuacji, patrzy się w ścianę, od czasu do czasu zerkając na mnie podejrzliwie.
     </Speech>
     <Speech character="Shiori">
-        Przecież miałam spróbować tej <i>Bubble Tea</i>, co jej jeszcze nie piłam.
+        Przecież miałam spróbować tej Bubble Tea, co jej jeszcze nie piłam.
     </Speech>
     <Speech character="Shiori">
         Polecałeś mi ją.
@@ -63,7 +63,7 @@
         Z kim?
     </Speech>
     <Speech>
-        <i>Co.</i>
+        <i>Co?</i>
     </Speech>
     <Speech>
         <i>A chwila. Przecież ona nie zna imienia Yukari.</i>
@@ -78,7 +78,7 @@
         Orientuję się że Shiori patrzy na mnie przerażona.
     </Speech>
     <Speech character="Shiori">
-        Tenteki... Nikogo tu wczoraj nie było gdy zamawiałam...
+        Tenteki... nikogo tu wczoraj nie było gdy zamawiałam...
     </Speech>
     <Speech>
         <i>???</i>
@@ -87,7 +87,7 @@
         Masz... masz na myśli że weszłaś, zamówiłaś i wyszłaś?
     </Speech>
     <Speech character="Ja">
-        Nikt Ci nie przeszkadzał? Nikt nie wszedł do lokalu?
+        Nikt ci nie przeszkadzał? Nikt nie wszedł do lokalu?
     </Speech>
     <Speech character="Shiori">
         ...d-dobrze się czujesz?
@@ -107,7 +107,7 @@
         Shiori robi kolejny krok w tył.
     </Speech>
     <Speech character="Shiori">
-        Wiesz, bo... Przypomniało mi się, że zostawiłam coś w domu... i nie zakluczyłam zamka w drzwiach...
+        Wiesz, bo... przypomniało mi się, że zostawiłam coś w domu... i nie zakluczyłam zamka w drzwiach...
     </Speech>
     <Speech character="Shiori">
         Więc... no...

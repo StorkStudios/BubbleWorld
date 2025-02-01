@@ -24,7 +24,7 @@
         Dzisiaj mam ochotę na coś szalonego.
     </Speech>
     <Speech character_id="Blondynka" character="Daria">
-        Przygotuj mi cherbatę miętową.
+        Przygotuj mi herbatę miętową.
     </Speech>
     <Speech character_id="Blondynka" character="Daria">
         Do tego dodaj syrop z marakuji i truskawek
@@ -60,8 +60,8 @@
     </Speech>
     <Choice>
         <Options>
-            <Option id="1">Przygotuj bubble tea dla Darii</Option>
-            <Option id="2">Nie przygotuj go</Option>
+            <Option id="1">Przygotuj bubble tea dla Darii.</Option>
+            <Option id="2">Nie przygotuj.</Option>
         </Options>
         <Switch>
             <Case option_id="1">
@@ -115,7 +115,7 @@
                                 Chociaż się starałeś.
                             </Speech>
                             <Speech>
-                                Powiedziała patrząc na otrzymaną herbatę
+                                Powiedziała patrząc na otrzymaną herbatę.
                             </Speech>
                         </Case>
                         <Case value="2">
@@ -137,7 +137,7 @@
                     </Switch>
                 </Choice>
                 <Speech character_id="Gracz" character="Ja">
-                    Jak Ci smakuje to najważniejsze.
+                    Jak ci smakuje to najważniejsze.
                 </Speech>
                 <Speech character_id="Gracz" character="Ja">
                     Nie przejmuj się tym co mówi Yukari.
@@ -149,13 +149,13 @@
                     Ale, dzięki.
                 </Speech>
                 <Speech>
-                    Ruszyła w stronę wyjścia
+                    Ruszyła w stronę wyjścia.
                 </Speech>
                 <Speech>
-                    Zatrzymała się jeszcze przy drzwiach i jakby chciała coś powiedzieć
+                    Zatrzymała się jeszcze przy drzwiach i jakby chciała coś powiedzieć.
                 </Speech>
                 <Speech>
-                    Ale w końcu rzuciła tylko
+                    Ale w końcu rzuciła tylko:
                 </Speech>
                 <Speech character_id="Blondynka" character="Daria">
                     Do zobaczenia.

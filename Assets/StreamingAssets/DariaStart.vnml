@@ -14,16 +14,16 @@
         Stoi przede mną młoda dziewczyna o niebieskich oczach. Ma na sobie czerwoną, obcisłą kurtkę i białą bluzkę, a na plecy spływają jej długie blond włosy.
     </Speech>
     <Speech>
-        Świadomość że to klientka nie przyszła od razu i nie miałem pomysłu co powiedzieć.
+        Świadomość, że to klientka nie przyszła od razu i nie miałem pomysłu co powiedzieć.
     </Speech>
     <Speech character="Ja">
-        Witamy w BubbleWorld... w czym mogę pomóc?
+        Witamy w Bubble World... w czym mogę pomóc?
     </Speech>
     <Speech character="???">
         Chciałabym tylko truskawkową herbatę earl gray z bąbelkami.
     </Speech>
     <Speech character="???">
-        Widzę, że maję czekoladowe żelki. Poproszę dodać i trochę wymieszać.
+        Widzę, że mają czekoladowe żelki. Poproszę dodać i trochę wymieszać.
     </Speech>
     <Speech character="Ja">
         Tak, jasne...
@@ -70,12 +70,12 @@
                     <i>Chyba jednak nie dam rady jej ignorować.</i>
                 </Speech>
                 <Speech character="Ja">
-                    <i>Tak, po prostu... rzadko stąd wychodzę. A Ty?</i>
+                    <i>Tak, po prostu... rzadko stąd wychodzę. A ty?</i>
                 </Speech>
             </Case>
             <Case option_id="2">
                 <Speech character="Ja">
-                    Jesteśmy tu dopiero miesiąc, ale nie widziałem Cię tu wcześniej, przeprowadziłaś się?
+                    Jesteśmy tu dopiero miesiąc, ale nie widziałem cię tu wcześniej, przeprowadziłaś się?
                 </Speech>
                 <Speech character="???" character_id="Blondynka">
                     Tak, jestem studentką z wymiany, studiuję japońską kulturę do mojej pracy magisterskiej.
@@ -109,7 +109,7 @@
                     Dziewczyna uśmiecha się, patrząc na mnie.
                 </Speech>
                 <Speech character="???" character_id="Blondynka">
-                    Białoruś nie mówi Ci zbyt wiele, co?
+                    Białoruś nie mówi ci zbyt wiele, co?
                 </Speech>
                 <Speech>
                     Przytakuję jej skinięciem głowy.
@@ -128,7 +128,7 @@
                     <i>Zdaje się że powiedziałem coś głupiego.</i>
                 </Speech>
                 <Speech character="Ja">
-                    Przepraszam, nie chciałem Cię urazić tym stereotypem...
+                    Przepraszam, nie chciałem cię urazić tym stereotypem...
                 </Speech>
                 <Speech character="???" character_id="Blondynka">
                     W porządku, niewielu ludzi tutaj wie cokolwiek innego o moim kraju, to trochę zabawne.
@@ -144,8 +144,8 @@
     </Speech>
     <Choice>
         <Options duration="8" default_id="3">
-            <Option id="1">"Cóż... nie ukrywam że wiem cokolwiek."</Option>
-            <Option id="2">"Powiedz mi coś po Białorusku."</Option>
+            <Option id="1">Cóż... nie twierdzę że wiem cokolwiek.</Option>
+            <Option id="2">Powiedz mi coś po Białorusku.</Option>
         </Options>
         <Switch>
             <Case option_id="1">
@@ -173,7 +173,7 @@
             <Case option_id="2">
                 <Update character_id="Blondynka" mouth="Happy" eyes="Forward"/>
                 <Speech character="Ja">
-                    Jak się nazywa ten napój który dla Ciebie robię po Białorusku?
+                    Jak się nazywa ten napój który dla ciebie robię po Białorusku?
                 </Speech>
                 <Speech character="???" character_id="Blondynka">
                     Гарбата з суніцамі.
@@ -208,8 +208,8 @@
     </Speech>
     <Choice>
         <Options>
-            <Option id="1">Pytam o imię</Option>
-            <Option id="2">Podpisuję kubek "Blondynka"</Option>
+            <Option id="1">Pytam o imię.</Option>
+            <Option id="2">Podpisuję kubek "Blondynka".</Option>
         </Options>
         <Switch>
             <Case option_id="1">
@@ -241,7 +241,7 @@
                    Oh, dzięki...
                 </Speech>
                 <Speech character="Daria">
-                    Jak już musisz coś pisać, to następnym razem napisz po prostu "Daria"
+                    Jak już musisz coś pisać, to następnym razem napisz po prostu "Daria".
                 </Speech>
                 <Speech>
                     Najwyraźniej takie zaniedbanie z mojej strony ją uraziło.

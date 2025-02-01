@@ -11,7 +11,7 @@
         Dzyń dzyń
     </Speech>
     <Speech>
-        Podnoszę wzrok i z zaciekawieniem zauważam że tym razem znajomy dźwięk dzwonka towarzyszy niecodziennej scenie.
+        Podnoszę wzrok i z zaciekawieniem zauważam, że tym razem znajomy dźwięk dzwonka towarzyszy niecodziennej scenie.
     </Speech>
     <Enter character_id="Blondynka" position="0.4" eyes="Forward" mouth="Neutral"/>
     <Enter character_id="Brunetka" position="0.6" eyes="Forward" mouth="Neutral"/>
@@ -28,22 +28,22 @@
         Słysząc to, Daria zerknęła na Shiori.
     </Speech>
     <Speech character="Daria">
-        Och, wiesz Shiori, nie wiedziałam, że też tu byłaś.
+        Och, wiesz Shiori, nie wiedziałam że też tu byłaś.
     </Speech>
     <Speech>
         Shriori odwróciła wzrok, wydając się nieco skrępowana tym stwierdzeniem.
     </Speech>
     <Speech character="Shiori">
-        Och... No, przyszłam tu wczoraj, tak jak mi poleciłaś...
+        Och... no, przyszłam tu wczoraj, tak jak mi poleciłaś...
     </Speech>
     <Speech character="Ja">
-        W każdym razie, dziewczyny, co chciałybyście zamówić?
+        W każdym razie dziewczyny, co chciałybyście zamówić?
     </Speech>
     <Speech character="Daria">
         Miętową bubble tea z truskawkami i żelkami bananowymi. Mocno wymieszaną.
     </Speech>
     <Speech>
-        Przenoszę wzrok na Shiori, żeby zobaczyć, co chce, ale ona po prostu stoi w milczeniu, częściowo schowana za plecami Darii.
+        Przenoszę wzrok na Shiori, żeby zobaczyć co chce, ale ona po prostu stoi w milczeniu, częściowo schowana za plecami Darii.
     </Speech>
     <Speech character="Ja">
         Shiori, a co dla cie-
@@ -66,7 +66,7 @@
         Oczywiście, już robię.
     </Speech>
     <Speech>
-        To mówiąc, kucam i wyjmuję kubek spod lady, razem z dwiema słomkami.
+        To mówiąc kucam i wyjmuję kubek spod lady, razem z dwiema słomkami.
     </Speech>
     <Speech character="Ja">
         A więc, wy się znacie?
@@ -96,7 +96,7 @@
         To mówiąc, Daria klepie przyjaciółkę po ramieniu. Shiori czerwieni się i zawstydzona spuszcza wzrok.
     </Speech>
     <Speech character="Ja">
-        Fakt że się przyjaźnicie chyba potwierdza że powiedzenie o przeciwieństwach przyciągających się nawzajem jest prawdziwe.
+        Fakt że się przyjaźnicie chyba potwierdza, że powiedzenie o przeciwieństwach przyciągających się nawzajem jest prawdziwe.
     </Speech>
     <Speech character="Ja">
         Gdybym na was spojrzał na ulicy nie domyśliłbym się że macie wspólne tematy, tak bardzo się od siebie różnicie.
@@ -117,16 +117,16 @@
         Może i wygodniej, ale w ten sposób zamykasz się na ludzi.
     </Speech>
     <Speech character="Daria" character_id="Blondynka">
-        Jeśli nie dbasz o siebie, zaprzepaszczasz wszelkie szanse że ktokolwiek się do Ciebie odezwie.
+        Jeśli nie dbasz o siebie, zaprzepaszczasz wszelkie szanse że ktokolwiek się do ciebie odezwie.
     </Speech>
     <Speech character="Shiori" character_id="Brunetka">
         Nie... nie potrzebuję zbyt dużo uwagi. Mam już kilku przyjaciół.
     </Speech>
     <Speech character="Daria" character_id="Blondynka">
-        Tak Ci się wydaje, bo zamykasz się w czterech ścianach z nosem w książkach.
+        Tak ci się wydaje, bo zamykasz się w czterech ścianach z nosem w książkach.
     </Speech>
     <Speech character="Daria" character_id="Blondynka">
-        Nie masz wrażenia że całe życie przelatuje Ci przed oczami, a Ty tego nie zauważasz?
+        Nie masz wrażenia, że całe życie przelatuje ci przed oczami, a ty tego nie zauważasz?
     </Speech>
     <Speech character="Shiori" character_id="Brunetka">
         N-nie. To moja decyzja co robię. I na pewno nie jest to marnowanie życia.
@@ -212,10 +212,10 @@
                     Daria obraca się do mnie, patrząc mi poważnie w oczy.
                 </Speech>
                 <Speech character="Daria">
-                    Dziękuję że mnie poparłeś. Że zaufałeś że to co zrobiłam było by pomóc Shiori. To nie zdarza się mnie często i wiele dla mnie znaczy.
+                    Dziękuję że mnie poparłeś. Że zaufałeś, że to co zrobiłam było by pomóc Shiori. To nie zdarza się mnie często i wiele dla mnie znaczy.
                 </Speech>
                 <Speech character="Ja">
-                    Ja... Pewnie. Zawsze możesz na mnie liczyć w tej sprawie.
+                    Ja... pewnie. Zawsze możesz na mnie liczyć w tej sprawie.
                 </Speech>
                 <Speech>
                     Daria uśmiecha się pięknie na tę odpowiedź i unosi do ust kubek, dopijając resztę swojej Bubble Tea.
@@ -240,7 +240,7 @@
                     Tenteki...!
                 </Speech>
                 <Speech character="Ja">
-                    Nie, Daria, wystarczy! Shiori nie chce teraz o tym rozmawiać. Jak możesz tego nie widzieć? 
+                    Nie. Daria, wystarczy! Shiori nie chce teraz o tym rozmawiać. Jak możesz tego nie widzieć? 
                 </Speech>
                 <Speech>
                     Daria wydaje z siebie nieartykułowane pufnięcie i macha z rezygnacją ręką.
@@ -269,19 +269,19 @@
                     Shiori gwałtownie kręci głową.
                 </Speech>
                 <Speech character="Shiori">
-                    N-nie, co Ty! Sama bym chyba nie dała rady. Gdy Daria robi się taka to strasznie Ciężko mi się z nią rozmawia...
+                    N-nie, co Ty! Sama bym chyba nie dała rady. Gdy Daria robi się taka to strasznie ciężko mi się z nią rozmawia...
                 </Speech>
                 <Speech character="Ja">
                     To się zdarzyło wcześniej? Nie wpłynęło to negatywnie na waszą przyjaźń?
                 </Speech>
                 <Speech character="Shiori">
-                    Ja wiem że ona ma dobre intencje... Po prostu czasami, jak dziś... nie jestem zdolna do takich rozmów.
+                    Ja wiem że ona ma dobre intencje... po prostu czasami, jak dziś... nie jestem zdolna do takich rozmów.
                 </Speech>
                 <Speech character="Shiori">
                     Daria nie zawsze jest w stanie to wyczuć i czasami sytuacja robi się... napięta.
                 </Speech>
                 <Speech character="Shiori">
-                    Dlatego dziękuję że mi pomogłeś.
+                    Dlatego dziękuję, że mi pomogłeś.
                 </Speech>
                 <Speech character="Ja">
                     Drobiazg.

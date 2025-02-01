@@ -9,7 +9,7 @@
         <i>Czy raczej klientka.</i>
     </Speech>
     <Speech>
-        Ciężko udawać że w ostatnim czasie pojawia się tu ktokolwiek poza tymi trzema dziewczynami.
+        Ciężko udawać, że w ostatnim czasie pojawia się tu ktokolwiek poza tymi trzema dziewczynami.
     </Speech>
     <Speech>
         Dzyń dzyń
@@ -25,7 +25,7 @@
         Cześć, Shiori. Co dziś dla Ciebie?
     </Speech>
     <Speech character="Shriori">
-        Myślę że-
+        Myślę że...
     </Speech>
     <Speech>
         DZY-DZYŃ!
@@ -71,7 +71,7 @@
                     Yukari znów traci zainteresowanie Shiori.
                 </Speech>
                 <Speech character="Yukari" character_id="Farbowana">
-                    W ogóle to nie uwierzysz co się stało! Udało mi się zdobyć świetne miejscówki na ten koncert, o którym Ci mówiłam.
+                    W ogóle to nie uwierzysz co się stało! Udało mi się zdobyć świetne miejscówki na ten koncert, o którym ci mówiłam.
                 </Speech>
                 <Speech character="Yukari" character_id="Farbowana">
                     Znaczy jeszcze ich nie mam. Ale już niedługo. Dlatego tak bardzo się spieszę.
@@ -87,7 +87,7 @@
                     Nie chcę hamować twojego zapału, ale nie udało mi się jeszcze przekonać szefowej żeby dała mi wolne.
                 </Speech>
                 <Speech character="Yukari" character_id="Farbowana">
-                    Wiem, że Ci się uda.
+                    Wiem, że ci się uda.
                 </Speech>
                 <Speech>
                     To mówiąc, uśmiechnęła się do mnie promiennie.
@@ -106,7 +106,7 @@
                     Wygląda jakby się wachała, ale po chwili dodaje jeszcze.
                 </Speech>
                 <Speech character="Yukari" character_id="Farbowana">
-                    Jakby Ci się jednak nie udało przekonać szefowej to daj mi z nią chwile porozmawiać. Jestem pewna, że zaraz zmieni zdanie.
+                    Jakby ci się jednak nie udało przekonać szefowej to daj mi z nią chwile porozmawiać. Jestem pewna, że zaraz zmieni zdanie.
                 </Speech>
                 <Speech>
                     Po tych słowach rusza w stronę drzwi. Wychodząc rzuca mi jeszcze jedno przelotne spojrzenie i uśmiech.
@@ -145,19 +145,19 @@
                     Shiori stoi z wzrokiem wlepionym we własne buty.
                 </Speech>
                 <Speech character="Shiori">
-                    No bo... Jakby... Byłam tu pierwsza...
+                    No bo... jakby... byłam tu pierwsza...
                 </Speech>
                 <Speech character="Shiori">
-                    I... Jakbyś mogła chwilę poczekać... Na pewno zaraz będzie twoja kolej...
+                    I... jakbyś mogła chwilę poczekać... na pewno zaraz będzie twoja kolej...
                 </Speech>
                 <Speech character="Yukari">
-                    Sorry, ale śpieszy mi się.
+                    Sorry, ale spieszy mi się.
                 </Speech>
                 <Speech character="Yukari">
                     Poczytaj sobie coś i nawet nie zauważysz jak stąd wyjdę. Okej?
                 </Speech>
                 <Speech character="Shiori">
-                    Ja... znaczy... skoro się śpieszysz, to w porządku...
+                    Ja... znaczy... skoro się spieszysz, to w porządku...
                 </Speech>
                 <Choice>
                     <Options>
@@ -183,7 +183,7 @@
                                 Yukari znów traci zainteresowanie Shiori.
                             </Speech>
                             <Speech character="Yukari" character_id="Farbowana">
-                                W ogóle to nie uwierzysz co się stało! Udało mi się zdobyć świetne miejscówki na ten koncert, o którym Ci mówiłam.
+                                W ogóle to nie uwierzysz co się stało! Udało mi się zdobyć świetne miejscówki na ten koncert, o którym ci mówiłam.
                             </Speech>
                             <Speech character="Yukari" character_id="Farbowana">
                                 Znaczy jeszcze ich nie mam. Ale już niedługo. Dlatego tak bardzo się spieszę.
@@ -199,7 +199,7 @@
                                 Nie chcę hamować twojego zapału, ale nie udało mi się jeszcze przekonać szefowej żeby dała mi wolne.
                             </Speech>
                             <Speech character="Yukari" character_id="Farbowana">
-                                Wiem, że Ci się uda.
+                                Wiem, że ci się uda.
                             </Speech>
                             <Speech>
                                 To mówiąc, uśmiechnęła się do mnie promiennie.
@@ -218,7 +218,7 @@
                                 Wygląda jakby się wachała, ale po chwili dodaje jeszcze.
                             </Speech>
                             <Speech character="Yukari" character_id="Farbowana">
-                                Jakby Ci się jednak nie udało przekonać szefowej to daj mi z nią chwile porozmawiać. Jestem pewna, że zaraz zmieni zdanie.
+                                Jakby ci się jednak nie udało przekonać szefowej to daj mi z nią chwile porozmawiać. Jestem pewna, że zaraz zmieni zdanie.
                             </Speech>
                             <Speech>
                                 Po tych słowach rusza w stronę drzwi. Wychodząc rzuca mi jeszcze jedno przelotne spojrzenie i uśmiech.
@@ -254,7 +254,7 @@
                                 W lokalu zapada cisza, mącona tylko podrygującym wciąż nad drzwiami dzwonkiem.
                             </Speech>
                             <Speech character="Ja" character_id="Gracz">
-                                Tooo... co dla Ciebie?
+                                Tooo... co dla ciebie?
                             </Speech>
                             <Speech character="Shiori" character_id="Brunetka">
                                 To co ostatnio, proszę.
@@ -272,7 +272,7 @@
                                 <TeaMixage>Light</TeaMixage>
                             </MinigameStart>
                             <Speech character="Shiori" character_id="Brunetka">
-                                Może nie musiałeś jej złościć... Może naprawdę się śpieszyła.
+                                Może nie musiałeś jej złościć... może naprawdę się spieszyła.
                             </Speech>
                             <Choice>
                                 <Options duration="8" default_id="0">
@@ -295,10 +295,7 @@
                                             Przestań się zamartwiać.
                                         </Speech>
                                         <Speech character="Ja">
-                                            Shiori, ona właśnie wyszła. Nigdzie się nie spóźni.
-                                        </Speech>
-                                        <Speech character="Ja">
-                                            Chciała Cię po prostu zastraszyć i tyle.
+                                            Chciała cię po prostu zastraszyć i tyle.
                                         </Speech>
                                         <Speech character="Shiori" character_id="Brunetka">
                                             Pewnie... pewnie masz rację.
@@ -317,7 +314,7 @@
                                     </Case>
                                     <Case option_id="2">
                                         <Speech character="Ja">
-                                            Chciałaś się od razu poddać w tej dyskusji, mimo że wiedziałaś że to Ty masz rację.
+                                            Chciałaś się od razu poddać w tej dyskusji, mimo że wiedziałaś że to ty masz rację.
                                         </Speech>
                                         <Speech character="Shiori" character_id="Brunetka">
                                             Ona... zestresowała mnie.
@@ -326,7 +323,7 @@
                                             Zauważyłem. Potrafi być strasznie napastliwa.
                                         </Speech>
                                         <Speech character="Ja">
-                                            Ale musisz nauczyć się bronić przed takim zachowaniem, inaczej ludzie zawsze będą Cię spychać do tyłu.
+                                            Ale musisz nauczyć się bronić przed takim zachowaniem, inaczej ludzie zawsze będą cię spychać do tyłu.
                                         </Speech>
                                         <Speech character="Shiori" character_id="Brunetka">
                                             Wiem, po prostu mam straszny problem z tym...
@@ -359,7 +356,7 @@
                                 Daria to co innego, tam gdzie ona mieszka miała sporo relacji z rówieśnikami.
                             </Speech>
                             <Speech character="Shiori" character_id="Brunetka">
-                                Ale ja, cóż... Powiedzmy że mam na tym polu pewne zaległości.
+                                Ale ja, cóż... powiedzmy że mam na tym polu pewne zaległości.
                             </Speech>
                             <Speech>
                                 Zerkam na nią, ciągle mieszając jej napój.

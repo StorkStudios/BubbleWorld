@@ -14,7 +14,7 @@
         A może coś się jej stało? Gdybym tylko miał jakiś sposób żeby się z nią skontaktować...
     </Speech>
     <Speech>
-        Dzyń dzyń
+        <i>Dzyń dzyń</i>
     </Speech>
     <Enter character_id="Blondynka" position="0.5" eyes="Forward" mouth="Neutral" />
     <Speech>
@@ -24,7 +24,7 @@
         Cześć.
     </Speech>
     <Speech character="Ja">
-        Cześć, Daria. Sorry że pytam... wiesz może co się dzieje ze Shiori? Mówiła że tu dzisiaj wpadnie i nie przyszła.
+        Cześć, Daria. Sorry że pytam... wiesz może co się dzieje ze Shiori? Mówiła, że tu dzisiaj wpadnie i nie przyszła.
     </Speech>
     <Speech character="Daria">
         Z kim?
@@ -39,7 +39,7 @@
         Daria uśmiecha się pod nosem.
     </Speech>
     <Speech character="Daria">
-        Musiało Ci się coś pomylić, nie mam żadnej przyjaciółki o takim imieniu.
+        Musiało ci się coś pomylić, nie mam żadnej przyjaciółki o takim imieniu.
     </Speech>
     <Speech character="Ja">
         Co...? Nie przyjaźnicie się już? Coś poszło nie tak po waszej ostatniej kłótni?
@@ -51,13 +51,13 @@
         Co masz na myśli? Jakiej kłótni?
     </Speech>
     <Speech character="Ja">
-        No przedwczoraj. Byłyście tutaj, Ty i Shiori, i pokłóciłyście się. Była na Ciebie zła że ciągle jej narzucasz co ma robić.
+        No przedwczoraj. Byłyście tutaj, ty i Shiori, i pokłóciłyście się. Była na ciebie zła że ciągle jej narzucasz co ma robić.
     </Speech>
     <Speech>
         Daria opiera się o blat i przygląda się tobie ze skupieniem.
     </Speech>
     <Speech character="Daria">
-        Tentaki, czy Ty mnie wkręcasz?
+        Tenteki, czy ty mnie wkręcasz?
     </Speech>
     <Speech>
         <i>Co się tu dzieje?</i>
@@ -69,16 +69,16 @@
         Daria patrzy na mnie z obawą.
     </Speech>
     <Speech character="Daria">
-        Tenteki, jesteś w porządku? Może masz gorączkę?
+        Tenteki, wszystko w porządku? Może masz gorączkę?
     </Speech>
     <Speech>
         Wyciąga rękę i przytyka ją do mojego czoła.
     </Speech>
     <Speech character="Ja">
-        Ja... Nie bardzo rozumiem co się dzieje.
+        Ja... nie bardzo rozumiem co się dzieje.
     </Speech>
     <Speech>
-        Daria zabiera rękę z mojego czoła
+        Daria zabiera rękę z mojego czoła.
     </Speech>
     <Speech character="Daria">
         Chyba zbyt się przemęczasz w tej pracy. Musisz wziąć wolny dzień w któryś dzień.
@@ -87,13 +87,13 @@
         Wiesz, bo zostawiłam torbę w sali wykładowej, muszę iść po nią.
     </Speech>
     <Speech character="Daria">
-        Więc jeśli Ty będziesz potrzebować wsparcia to daj znać, dobrze?
+        Więc jeśli ty będziesz potrzebować wsparcia to daj znać, dobrze?
     </Speech>
     <Speech>
         Zmęczony tą sytuacją, opadam na stołek za ladą.
     </Speech>
     <Speech character="Ja">
-        Okej... Spróbuję...
+        Okej... spróbuję...
     </Speech>
     <Speech character="Daria">
         Trzymaj się.
@@ -103,16 +103,16 @@
         Daria wstaje i rusza w stronę drzwi, wychodząc rzuca mi jeszcze jedno zmartwione spojrzenie i odchodzi.
     </Speech>
     <Speech>
-        <i>Co tu się właśnie wydarzyło</i>
+        <i>Co tu się właśnie wydarzyło?</i>
     </Speech>
     <Speech>
-        Przypomina mi się że mamy ogólnodostępny rejestr sprzedaży w systemie kasowym. Odpalam go i sprawdzam co wydarzyło się poprzedniego dnia.
+        Przypomina mi się, że mamy ogólnodostępny rejestr sprzedaży w systemie kasowym. Odpalam go i sprawdzam co wydarzyło się poprzedniego dnia.
     </Speech>
     <Speech>
         Sprzedana jedna Bubble Tea o smaku marakui.
     </Speech>
     <Speech>
-        Sprawdzam po kilka razy, ale nie ma wątpiwości: nie sprzedałem wczoraj żadnej Bubble Tea o smaku czekoladowo ani migdałowym.
+        Sprawdzam po kilka razy, ale nie ma wątpiwości: nie sprzedałem wczoraj żadnej Bubble Tea o smaku czekoladowym ani migdałowym.
     </Speech>
     <Speech>
         Nagle zauważam coś innego i po plecach spływa mi zimny pot.

@@ -4,7 +4,7 @@
         Zapraszamy ponownie!
     </Speech>
     <Speech>
-        <i>Porzegnałem wychodzącą dziewczynę, po czym cężko westchnąłem.</i>
+        <i>Pożegnałem wychodzącą dziewczynę, po czym ciężko westchnąłem.</i>
     </Speech>
     <Enter character_id="Ruda" position="0.5" eyes="Happy" mouth="Happy"/>
     <Speech character_id="Ruda" character="Bertha">

@@ -15,37 +15,37 @@
         <i>Zawołała do mnie już od drzwi.</i>
     </Speech>
     <Speech character_id="Blondynka" character="Daria">
-       Przepraszam za ten wypadek z Shiori, nie chciała robić awantury w kawiarni 
+       Przepraszam za ten wypadek z Shiori, nie chciała robić awantury w kawiarni.
     </Speech>
     <Speech character_id="Gracz" character="Ja">
-         Spoko, myślę że miałaś rację
+         Spoko, myślę że miałaś rację.
     </Speech>
     <Speech character_id="Blondynka" character="Daria">
-        Dziękuję, wszyscy patrzą na mnie i myślą że jestem zwykłą głupią blondynką, która interesuje się modą i innymi bzdurami
+        Dziękuję, wszyscy patrzą na mnie i myślą że jestem zwykłą głupią blondynką, która interesuje się modą i innymi bzdurami.
     </Speech>
     <Speech character_id="Blondynka" character="Daria">
         Ale to nie prawda! 
     </Speech>
     <Speech>
-        <i>Zdjęła torbę z ramienia i wyciągnęła z niej duży notatnik</i>
+        <i>Zdjęła torbę z ramienia i wyciągnęła z niej duży notatnik.</i>
     </Speech>
     <Speech>
-        <i>Notatnik był całkowicie zabazgrany różnymi wzorami matematycznymi i wykresami</i>
+        <i>Notatnik był całkowicie zabazgrany różnymi wzorami matematycznymi i wykresami.</i>
     </Speech>
     <Speech character_id="Blondynka" character="Daria">
-         To moja pasja! Teoria Sterowania i Przetwarzanie sygnałów!
+         To moja pasja! Teoria Sterowania i Przetwarzanie Sygnałów!
     </Speech>
     <Speech>
          <i>Gdybym pił cokolwiek w tym momencie, prawdopodobnie bym się tym udławił.</i>
     </Speech>
     <Speech character_id="Blondynka" character="Daria">
-        Mój ojciec jest automatykiem i od dziecka mam dotyczynienie z regulatorami i serwomechanizmami
+        Mój ojciec jest automatykiem i od dziecka mam dotyczynienie z regulatorami i serwomechanizmami.
     </Speech>
     <Speech>
-        <i>Niekończący się strumień myśli zaczął wylewać się z jej ust</i>
+        <i>Niekończący się strumień myśli zaczął wylewać się z jej ust.</i>
     </Speech>
     <Speech>
-        <i>Mówiła o różnych transformatach i kryteriach stabilności </i>
+        <i>Mówiła o różnych transformatach i kryteriach stabilności.</i>
     </Speech>
     <Speech character_id="Blondynka" character="Daria">
         I to właśnie dzięki tej szybkiej transformacie Fouriera udało się zapobiec wojnie nuklearnej.
@@ -57,31 +57,31 @@
         <i>To pytanie mnie zaskoczyło</i>
     </Speech>
     <Speech character_id="Gracz" character="Ja">
-         Eee...tak, to moja ulubiona tranformata
+         Eee... tak, to moja ulubiona transformata.
     </Speech>
     <Speech>
-        <i>Ignorując moją idiotyczną odpowiedź, otworzyła pewną stronę notatnika i spojrzała na mnie</i>
+        <i>Ignorując moją idiotyczną odpowiedź, otworzyła pewną stronę notatnika i spojrzała na mnie.</i>
     </Speech>
     <Speech character_id="Blondynka" character="Daria">
         Pomożesz mi z takim jednym zagadnieniem? Możesz mi dokładniej wytłumaczyć relację pomiędzy wektorem x(t) a rozmaitością stanu? 
     </Speech>
     <Speech character_id="Blondynka" character="Daria">
-         Rozumiem że równania stanu rzutują wektor x(t) na hiperpłaszczyznę styczną do trajektorii stanu tak? 
+         Rozumiem, że równania stanu rzutują wektor x(t) na hiperpłaszczyznę styczną do trajektorii stanu, tak? 
     </Speech>
     <Speech character_id="Blondynka" character="Daria">
           Oczywiście mówię o przypadku niezdegradowanym gdzie trajektoria stanu jest parametryczną krzywą n-wymiarową w przestrzeni X.  
     </Speech>
     <Speech character_id="Blondynka" character="Daria">
-         Ojej zagadałam się może pójdziesz ze mną na wykład? Przydałby mi się ktoś kto by mi tłumaczył te wszystkie mądre słowa pana wykładowcy.  
+         Ojej zagadałam się. Może pójdziesz ze mną na wykład? Przydałby mi się ktoś kto by mi tłumaczył te wszystkie mądre słowa pana wykładowcy.  
     </Speech>
     <Speech>
         <i>Po takim zestawie słów mój mózg był tak przegrzany, że nie mogłem już normalnie postrzegać tego, co się dzieje</i>
     </Speech>
     <Speech character_id="Gracz" character="Ja">
-        Tak, oczywiście
+        Tak, oczywiście.
     </Speech>
     <Speech character_id="Blondynka" character="Daria">
-          Fajnie! Zobaczymy się jutro ranem! 
+        Fajnie! Zobaczymy się jutro ranem! 
     </Speech>
     <Exit character_id="Blondynka" />
     <Speech>

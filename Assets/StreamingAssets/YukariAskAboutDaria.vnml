@@ -24,7 +24,7 @@
         Jak zwykle praktycznie wbiegła do kawiarni.
     </Speech>
     <Speech character_id="Farbowana" character="Yukari">
-        Cześć, Tentaki!
+        Cześć, Tenteki!
     </Speech>
     <Speech character_id="Gracz" character="Ja">
         Cześć, Yukari. Niestety nadal nie mamy marakui.
@@ -33,7 +33,7 @@
         Serio? A miałam dzisiaj na nią ochotę.
     </Speech>
     <Speech character_id="Gracz" character="Ja">
-        Wogóle to mam taką sprawę.
+        W ogóle to mam taką sprawę.
     </Speech>
     <Speech character_id="Gracz" character="Ja">
         Nie widziałaś ostatnio Darii?
@@ -45,19 +45,19 @@
         Na pewno wiesz o kim mówię.
     </Speech>
     <Speech character_id="Gracz" character="Ja">
-        Wysoka blądynka, co pryjechała ostatnio z Białorusi.
+        Wysoka blondynka, co przyjechała ostatnio z Białorusi.
     </Speech>
     <Speech character_id="Gracz" character="Ja">
-        Naśmiewałaś się z niej, że zamówiła tą okropną kombinację bubble tea.
+        Naśmiewałaś się z niej, że zamówiła tę okropną kombinację bubble tea.
     </Speech>
     <Speech character_id="Farbowana" character="Yukari">
         Nie, nie przypominam sobie.
     </Speech>
     <Speech character_id="Gracz" character="Ja">
-        Nie żartuj! Wiem że się dobrze znacie!
+        Nie żartuj!
     </Speech>
     <Speech character_id="Farbowana" character="Yukari">
-        O czym Ty wogóle mówisz?
+        O czym ty wogóle mówisz?
     </Speech>
     <Speech character_id="Farbowana" character="Yukari">
         Nigdy nie znałam żadnej Darii, a tym bardziej z Białorusi.

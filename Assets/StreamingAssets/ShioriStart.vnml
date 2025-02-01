@@ -15,7 +15,7 @@
     </Speech>
     <Enter character_id="Brunetka" position="0.2" eyes="Forward" mouth="Neutral"/>
     <Speech>        
-        Podnoszę wzrok. Przed ladą stoi młoda dziewczyna w okularach. Zdaje się być trochę przytłoczona atmosferą tego miejsca.
+        Podnoszę wzrok. Przed ladą stoi młoda dziewczyna. Zdaje się być trochę przytłoczona atmosferą tego miejsca.
     </Speech>
     <Speech character="???">        
         Dzień dobry...
@@ -24,11 +24,11 @@
         Dzień dobry! Witamy w Bubble World!
     </Speech>
     <Speech character="Ja">        
-        Co dla Ciebie?
+        Co dla ciebie?
     </Speech>
     <Update character_id="Brunetka" eyes="Forward"/>
     <Speech>        
-        Jej wzrok kieruje się ku obszernej liście za moimi plecami. Mruży oczy za szkłami okularów i zaczyna się jej przyglądać.
+        Jej wzrok kieruje się ku obszernej liście za moimi plecami. Mruży oczy i zaczyna się jej przyglądać.
     </Speech>
     <Speech>        
         Mija chwila. Dziewczyna nadal w ciszy studiuje menu.
@@ -36,7 +36,7 @@
     <Choice>
         <Options>
             <Option id="1">
-                <i>Pozstaję cicho</i>
+                <i>Pozstaję cicho.</i>
             </Option>
             <Option id="2">Może jakoś pomóc?</Option>
             <Option id="3">Na co masz ochotę?</Option>
@@ -66,8 +66,7 @@
                     Och?
                 </Speech>
                 <Speech character="Ja">                    
-                    Tak, kawowej nie mamy, ale są inne smaki. Z podobnych, nieowocowych smaków mamy też
-                    migdałową albo czekoladową.
+                    Tak, kawowej nie mamy, ale są inne smaki. Z podobnych, nieowocowych mamy migdałową albo czekoladową.
                 </Speech>
                 <Speech>                    
                     Widzę że dziewczyna szybkim spojrzeniem na tablicę rewiduje moje słowa.

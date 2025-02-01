@@ -37,7 +37,7 @@
         Nie mogę spać.
     </Speech>
     <Speech character_id="Gracz" character="Ja">
-        Może przejde się po okolicy jej poszukać?
+        Może przejdę się po okolicy jej poszukać?
     </Speech>
     <Choice>
         <Options>
@@ -47,7 +47,7 @@
         <Switch>
             <Case option_id="1">
                 <Speech character_id="Gracz" character="Ja">
-                    Na pewno niedługo wróci. Jak teraz pójdę jej szukać to nie wstane rano do pracy. 
+                    Na pewno niedługo wróci. Jak teraz pójdę jej szukać to nie wstanę rano do pracy. 
                 </Speech>
                 <Speech>
                     Szefowa byłaby na mnie zła.
@@ -78,7 +78,7 @@
         <i>Lepiej się upewnie</i>
     </Speech>
     <Speech character_id="Gracz" character="Ja">
-        Jesteś tutaj Berto?
+        Jesteś tutaj Bertho?
     </Speech>
     <Speech>
         Po chwili ciszy odetchnąłem z ulgą.
@@ -87,7 +87,7 @@
         <i>Chyba mi się tylko wydawało.</i>
     </Speech>
     <Speech character_id="Gracz" character="Ja">
-        To pewnie przez tą ciemność.
+        To pewnie przez tę ciemność.
     </Speech>
     <Speech>
         Chwytam za klamkę drzwi prowadzących mnie na zewnątrz.
@@ -145,7 +145,7 @@
         Na razie chyba będę musiał wrócić do sklepu.
     </Speech>
     <Speech>
-        Może Berta będzie coś o tym wiedziała.
+        Może Bertha będzie coś o tym wiedziała.
     </Speech>
     <Link path="BerthaFight.vnml"/>
 </Chapter>
