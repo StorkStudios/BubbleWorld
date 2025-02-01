@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ff230c37c3b02a45bb7cd855aedf6b0, type: 3}
   m_Name: stary
   m_EditorClassIdentifier: 
-  baseSprite: {fileID: 6453561030650598409, guid: 4a7d6d7d25934b94b853e73f10b58593, type: 3}
+  baseSprite: {fileID: -3174458943093493571, guid: fb030726e99259947a5bb3706789c794, type: 3}
   eyes:
     pairs:
     - Key:
