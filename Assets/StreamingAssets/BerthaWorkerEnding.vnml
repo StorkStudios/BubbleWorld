@@ -31,5 +31,5 @@
         Robi się...
     </Speech>
     <Exit character_id="Ruda"/>
-    <Link path="WorkerEnding.ynml" />
+    <Link path="WorkerEnding.vnml" />
 </Chapter>

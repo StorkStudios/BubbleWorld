@@ -82,7 +82,7 @@
     <Speech character_id="Blondynka" character="Daria">
           Fajnie! Zobaczymy się jutro ranem! 
     </Speech>
-    <Exit character_id="Daria" />
+    <Exit character_id="Blondynka" />
     <Speech>
         <i>Daria opuszcza kawiarnię, wysyłając buziaka na pożegnanie.</i>
     </Speech>

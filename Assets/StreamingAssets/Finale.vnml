@@ -207,9 +207,26 @@
                                         <Speech>
                                             I wtedy napotykam lufę dwururki wycelowaną prosto między moje oczy.
                                         </Speech>
-                                        <Speech>
-                                            Przed oczyma staje mi twarz <dziewczyna>, patrząca na mnie smutno.
-                                        </Speech>
+                                        <Choice>
+                                            <Variable name="chosenOne" />
+                                            <Switch>
+                                                <Case value="1">
+                                                    <Speech>
+                                                        Twarz Darii wyślizguje mi się i znika z mojego umysłu, a wtedy moje ja ostatecznie gaśnie.
+                                                    </Speech>
+                                                </Case>
+                                                <Case value="2">
+                                                    <Speech>
+                                                        Twarz Shiori wyślizguje mi się i znika z mojego umysłu, a wtedy moje ja ostatecznie gaśnie.
+                                                    </Speech>
+                                                </Case>
+                                                <Case value="3">
+                                                    <Speech>
+                                                        Twarz Yukari wyślizguje mi się i znika z mojego umysłu, a wtedy moje ja ostatecznie gaśnie.
+                                                    </Speech>
+                                                </Case>
+                                            </Switch>
+                                        </Choice>
                                         <Speech>
                                             Potężny huk roznosi się echem po wszystkich zakamarkach lokalu, by w końcu zamilknąć na zawsze.
                                         </Speech>
@@ -328,7 +345,7 @@
                                                         Powoli podnoszę rękę, pokazując mu rozciętą skórę i odsłonięte mechanizmy.
                                                     </Speech>
                                                 </Case>
-                                            </Switch
+                                            </Switch>
                                         </Choice>
                                     </Case>
                                 </Switch>
@@ -688,31 +705,31 @@
         Masz rację.
     </Speech>
     <Choice>
-        <Variable name="PrzekonywanieOjca">
+        <Variable name="przekonywanieOjca" />
         <Switch>
             <Case value="0">
                 <Exit character_id="Stary" />
-                <Exit character_id="BerthaZwiazana" />
+                <Exit character_id="RudaZwiazana" />
                 <Link path="FatherDefeat.vnml"/>
             </Case>
             <Case value="1">
                 <Exit character_id="Stary" />
-                <Exit character_id="BerthaZwiazana" />
+                <Exit character_id="RudaZwiazana" />
                 <Link path="FatherDefeat.vnml"/>
             </Case>
             <Case value="-1">
                 <Exit character_id="Stary" />
-                <Exit character_id="BerthaZwiazana" />
+                <Exit character_id="RudaZwiazana" />
                 <Link path="FatherDefeat.vnml"/>
             </Case>
             <Case value="-2">
                 <Exit character_id="Stary" />
-                <Exit character_id="BerthaZwiazana" />
+                <Exit character_id="RudaZwiazana" />
                 <Link path="FatherDefeat.vnml"/>
             </Case>
             <Case value="-3">
                 <Exit character_id="Stary" />
-                <Exit character_id="BerthaZwiazana" />
+                <Exit character_id="RudaZwiazana" />
                 <Link path="FatherDefeat.vnml"/>
             </Case>
             <Case value="2"></Case>
@@ -759,7 +776,7 @@
                     Chyba po raz pierwszy od kiedy odkryłem kim na prawdę jestem, na mojej twarzy znów gości uśmiech.
                 </Speech>
                 <Exit character_id="Stary" />
-                <Exit character_id="BerthaZwiazana" />
+                <Exit character_id="RudaZwiazana" />
                 <Link path="ReleasedEnding.vnml" />
             </Case>
             <Case option_id="2">
@@ -797,7 +814,7 @@
                     Chyba po raz pierwszy od kiedy odkryłem kim na prawdę jestem, na mojej twarzy znów gości uśmiech.
                 </Speech>
                 <Exit character_id="Stary" />
-                <Exit character_id="BerthaZwiazana" />
+                <Exit character_id="RudaZwiazana" />
                 <Link path="FreeWorkerEnding.vnml" />
             </Case>
             <Case option_id="3">
@@ -923,7 +940,7 @@
                                                 Chyba po raz pierwszy od kiedy odkryłem kim na prawdę jestem, na mojej twarzy znów gości uśmiech.
                                             </Speech>
                                             <Exit character_id="Stary" />
-                                            <Exit character_id="BerthaZwiazana" />
+                                            <Exit character_id="RudaZwiazana" />
                                             <Link path="LoveEnding.vnml" />
                                         </Case>
                                         <Case value="1">
@@ -958,7 +975,7 @@
                                                 Chyba po raz pierwszy od kiedy odkryłem kim na prawdę jestem, na mojej twarzy znów gości uśmiech.
                                             </Speech>
                                             <Exit character_id="Stary" />
-                                            <Exit character_id="BerthaZwiazana" />
+                                            <Exit character_id="RudaZwiazana" />
                                             <Link path="ReleasedEnding.vnml" />
                                         </Case>
                                     </Switch>
@@ -1019,7 +1036,7 @@
                                 Chyba po raz pierwszy od kiedy odkryłem kim na prawdę jestem, na mojej twarzy znów gości uśmiech.
                             </Speech>
                             <Exit character_id="Stary" />
-                            <Exit character_id="BerthaZwiazana" />
+                            <Exit character_id="RudaZwiazana" />
                             <Link path="LoveEnding.vnml" />
                         </Case>
                         <Case value="3">
@@ -1071,7 +1088,7 @@
                                 Chyba po raz pierwszy od kiedy odkryłem kim na prawdę jestem, na mojej twarzy znów gości uśmiech.
                             </Speech>
                             <Exit character_id="Stary" />
-                            <Exit character_id="BerthaZwiazana" />
+                            <Exit character_id="RudaZwiazana" />
                             <Link path="LoveEnding.vnml" />
                         </Case>
                         <Case value="2">
@@ -1118,7 +1135,7 @@
                                 Chyba po raz pierwszy od kiedy odkryłem kim na prawdę jestem, na mojej twarzy znów gości uśmiech.
                             </Speech>
                             <Exit character_id="Stary" />
-                            <Exit character_id="BerthaZwiazana" />
+                            <Exit character_id="RudaZwiazana" />
                             <Link path="ReleasedEnding.vnml" />
                         </Case>
                     </Switch>

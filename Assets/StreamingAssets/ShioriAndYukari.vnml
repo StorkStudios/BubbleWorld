@@ -1,5 +1,5 @@
 <Chapter>
-    <Variable name="decisionShioriYukari" value="0">
+    <Variable name="decisionShioriYukari" value="0"/>
     <Music name="Cafe" />
     <Speech>
         Robi się trochę późno, a ciągle nie przyszedł żaden klient.
@@ -392,14 +392,14 @@
             </Case>
         </Switch>
     </Choice>
-    <Variable name="chosenOne" value="0">
+    <Variable name="chosenOne" value="0"/>
     <Choice>
         <Variable name="Daria" />
         <Switch>
             <Case value="0"></Case>
             <Case value="1"></Case>
             <Case value="2">
-                <Variable name="chosenOne" value="1">
+                <VariableAdd name="chosenOne" value="1"/>
             </Case>
         </Switch>
     </Choice>
@@ -409,7 +409,7 @@
             <Case value="0"></Case>
             <Case value="1"></Case>
             <Case value="2">
-                <Variable name="chosenOne" value="2">
+                <VariableAdd name="chosenOne" value="2"/>
             </Case>
         </Switch>
     </Choice>
@@ -419,7 +419,7 @@
             <Case value="0"></Case>
             <Case value="1"></Case>
             <Case value="2">
-                <Variable name="chosenOne" value="3">
+                <VariableAdd name="chosenOne" value="3"/>
             </Case>
         </Switch>
     </Choice>
