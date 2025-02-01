@@ -1,3 +1,4 @@
+using DG.Tweening;
 using TMPro;
 using UnityEngine;
 
@@ -34,5 +35,30 @@ public static class Utils
         Color32[] vertexColors = textInfo.meshInfo[materialIndex].colors32;
         int vertexIndex = textInfo.characterInfo[charIndex].vertexIndex;
         return vertexColors[vertexIndex].a;
+    }
+
+    public static Sequence AnimateTextWordByWord(this TMP_TextInfo textInfo, float fadeDuration, float wordDelay)
+    {
+        Sequence sequence = DOTween.Sequence();
+        bool firstCharacter = true;
+        for (int i = 0; i < textInfo.characterInfo.Length; i++)
+        {
+            if (char.IsWhiteSpace(textInfo.characterInfo[i].character))
+            {
+                firstCharacter = true;
+                continue;
+            }
+
+            int j = i;
+
+            sequence.Join(DOTween.To(
+                () => textInfo.GetCharacterAlpha(j),
+                x => textInfo.SetCharacterAlpha(j, x),
+                1,
+                fadeDuration)
+                .SetDelay(firstCharacter ? wordDelay : 0));
+            firstCharacter = false;
+        }
+        return sequence;
     }
 }

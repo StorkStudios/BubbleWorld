@@ -59,29 +59,7 @@ public class SpeechBubble : MonoBehaviour
         content.text = "";
 
         TMP_TextInfo textInfo = content.GetTextInfo(text);
-
-        int k = 0;
-        for (int i = 0; i < textInfo.characterCount; i++)
-        {
-            if (char.IsWhiteSpace(text[i]))
-            {
-                k++;
-            }
-
-            int j = i;
-
-            Tween tween = DOTween.To(
-                () => textInfo.GetCharacterAlpha(j),
-                x => textInfo.SetCharacterAlpha(j, x),
-                1,
-                textFadeSpeed)
-                .SetDelay(k / textSequenceSpeed)
-                .SetSpeedBased();
-
-            if (i == textInfo.characterCount - 1)
-            {
-                tween = tween.OnComplete(() => this.CallDelayed(duration, () => Finished?.Invoke()));
-            }
-        }
+        Sequence sequence = textInfo.AnimateTextWordByWord(1 / textFadeSpeed, 1 / textSequenceSpeed);
+        sequence.OnComplete(() => this.CallDelayed(duration, () => Finished?.Invoke()));
     }
 }

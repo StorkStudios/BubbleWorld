@@ -95,7 +95,7 @@
     <Speech character_id="Gracz">
         <i>Zapomniała że tu pracuje? Jak? Widzimy się tutaj codziennie.</i>
     </Speech>
-    <Speech character_id="Gracz" character="Ja">
+    <Speech character_id="Gracz" character="Ja" duration="0">
         Zapo-
     </Speech>
     <Speech character_id="Ruda" character="Bertha">

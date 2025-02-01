@@ -53,7 +53,7 @@ public class DialogueBox : MonoBehaviour
 
     private CanvasGroup canvasGroup;
 
-    private readonly HashSet<Tween> sequenceTweens = new HashSet<Tween>();
+    private Sequence animationSequence = null;
     private Coroutine durationCoroutine = null;
 
     private void Awake()
@@ -93,44 +93,21 @@ public class DialogueBox : MonoBehaviour
 
         
         TMP_TextInfo textInfo = speechText.GetTextInfo(values.voiceline);
-        int k = values.characterName.Length > 0 ? 1 : 0;
-        for (int i = 0; i < textInfo.characterCount; i++)
+        Sequence sequence = textInfo.AnimateTextWordByWord(1 / textFadeSpeed, 1 / textSequenceSpeed);
+        sequence = sequence.OnComplete(() => animationCompleted = true);
+        if (values.duration.HasValue)
         {
-            if (char.IsWhiteSpace(speechText.text[i]))
+            sequence = sequence.OnComplete(() =>
             {
-                k++;
-            }
-
-            int j = i;
-
-            Tween tween = DOTween.To(
-                () => textInfo.GetCharacterAlpha(j),
-                x => textInfo.SetCharacterAlpha(j, x),
-                1,
-                textFadeSpeed)
-                .SetDelay(k / textSequenceSpeed)
-                .SetSpeedBased();
-            
-            if (i == textInfo.characterCount - 1)
-            {
-                tween = tween.OnComplete(() => animationCompleted = true);
-                if (values.duration.HasValue)
+                durationCoroutine = this.CallDelayed(values.duration.Value, () =>
                 {
-                    tween = tween.OnComplete(() =>
-                    {
-                        durationCoroutine = this.CallDelayed(values.duration.Value, () =>
-                        {
-                            durationCoroutine = null;
-                            Skip();
-                        });
-                    });
-                }
-            }
-
-            sequenceTweens.Add(tween);
+                    durationCoroutine = null;
+                    Skip();
+                });
+            });
         }
+        animationSequence = sequence;
         characterName.DOFade(1, textFadeSpeed).SetSpeedBased();
-
     }
 
     public void HideCurrentDialogue()
@@ -144,11 +121,7 @@ public class DialogueBox : MonoBehaviour
 
     private void KillTweens()
     {
-        foreach (Tween tween in sequenceTweens)
-        {
-            tween.Kill();
-        }
-        sequenceTweens.Clear();
+        animationSequence.Kill();
         characterName.DOKill();
     }
 
@@ -173,11 +146,7 @@ public class DialogueBox : MonoBehaviour
         }
 
         characterName.DOComplete();
-        foreach (Tween tween in sequenceTweens)
-        {
-            tween.Complete();
-        }
-        sequenceTweens.Clear();
+        animationSequence.Complete();
     }
 
     private void OnElementRead(string element, ChapterElement values)
