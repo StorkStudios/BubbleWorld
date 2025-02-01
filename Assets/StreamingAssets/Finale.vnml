@@ -956,29 +956,29 @@
                     </Options>
                     <Switch>
                         <Case option_id="1">
-                            VariableAdd name="przekonywanieOjca" value="1" />
+                            <VariableAdd name="przekonywanieOjca" value="1" />
                         </Case>
                         <Case option_id="2">
-                            VariableAdd name="przekonywanieOjca" value="-1" />
-                            <Speech character="Ojciec Berthy">
-                                Wszystko?
-                            </Speech>
-                            <Speech character="Ojciec Berthy">
-                                Czy nie sądzisz, że brzmi to jak zaślepienie?
-                            </Speech>
-                            <Speech character="Ojciec Berthy">
-                                Jesteś gotów zrobić wszystko dla osoby którą ledwo znasz?
-                            </Speech>
-                            <Speech character="Ojciec Berthy">
-                                A co jeśli sprawi to że dopuścisz się rzeczy nieakceptowalnych, byle tylko zadowolić swoją wybrankę?
-                            </Speech>
-                            <Speech character="Ojciec Berthy">
-                                Potraktuj to jako przestrogę do przemyślenia.
-                            </Speech>
+                            <VariableAdd name="przekonywanieOjca" value="-1" />
                             <Choice>
                                 <Variable name="przekonywanieOjca" />
                                     <Switch>
-                                        <Case value="2">
+                                        <Case value="4">
+                                            <Speech character="Ojciec Berthy">
+                                                Wszystko?
+                                            </Speech>
+                                            <Speech character="Ojciec Berthy">
+                                                Czy nie sądzisz, że brzmi to jak zaślepienie?
+                                            </Speech>
+                                            <Speech character="Ojciec Berthy">
+                                                Jesteś gotów zrobić wszystko dla osoby którą ledwo znasz?
+                                            </Speech>
+                                            <Speech character="Ojciec Berthy">
+                                                A co jeśli sprawi to że dopuścisz się rzeczy nieakceptowalnych, byle tylko zadowolić swoją wybrankę?
+                                            </Speech>
+                                            <Speech character="Ojciec Berthy">
+                                                Potraktuj to jako przestrogę do przemyślenia.
+                                            </Speech>
                                             <Choice>
                                                 <Variable name="chosenOne" />
                                                 <Switch>
@@ -1015,10 +1015,98 @@
                                                 Chyba po raz pierwszy od kiedy odkryłem kim naprawdę jestem, na mojej twarzy znów gości uśmiech.
                                             </Speech>
                                             <Exit character_id="Stary" />
-                                            <Exit character_id="RudaZwiazana" />
+                                            <Choice>
+                                                <Variable name="BerthaFree" />
+                                                <Switch>
+                                                    <Case value="0">
+                                                        <Exit character_id="RudaZwiazana" />
+                                                    </Case>
+                                                    <Case value="1">
+                                                    </Case>
+                                                </Switch>
+                                            </Choice>
                                             <Link path="LoveEnding.vnml" />
                                         </Case>
-                                        <Case value="1">
+                                        <Case value="3">
+                                            <Speech character="Ojciec Berthy">
+                                                Wszystko?
+                                            </Speech>
+                                            <Speech character="Ojciec Berthy">
+                                                Czy nie sądzisz, że brzmi to jak zaślepienie?
+                                            </Speech>
+                                            <Speech character="Ojciec Berthy">
+                                                Jesteś gotów zrobić wszystko dla osoby którą ledwo znasz?
+                                            </Speech>
+                                            <Speech character="Ojciec Berthy">
+                                                A co jeśli sprawi to że dopuścisz się rzeczy nieakceptowalnych, byle tylko zadowolić swoją wybrankę?
+                                            </Speech>
+                                            <Speech character="Ojciec Berthy">
+                                                Potraktuj to jako przestrogę do przemyślenia.
+                                            </Speech>
+                                            <Choice>
+                                                <Variable name="chosenOne" />
+                                                <Switch>
+                                                    <Case value="1">
+                                                        <Speech character="Ojciec Berthy">
+                                                            Natomiast Darie znajdziesz w jej domu naprzeciw sklepu.
+                                                        </Speech>
+                                                    </Case>
+                                                    <Case value="2">
+                                                        <Speech character="Ojciec Berthy">
+                                                            Natomiast Shiori znajdziesz w jej domu naprzeciw sklepu.
+                                                        </Speech>
+                                                    </Case>
+                                                    <Case value="3">
+                                                        <Speech character="Ojciec Berthy">
+                                                            Natomiast Yukari znajdziesz w jej domu naprzeciw sklepu.
+                                                        </Speech>
+                                                    </Case>
+                                                </Switch>
+                                            </Choice>
+                                            <Speech character="Ja">
+                                                Z całego serca dziękuję. Naprawdę.
+                                            </Speech>
+                                            <Speech>
+                                                Ojciec Berthy odkłada broń na stół i zbliża się do mnie Ciężkim krokiem, wyjmując z kieszeni klucze.
+                                            </Speech>
+                                            <Speech character="Ojciec Berthy">
+                                                Przekrzyw głowę lekko w lewo, proszę.
+                                            </Speech>
+                                            <Speech>
+                                                Robię to a wtedy on delikatnie chwyta mnie za szyję i drugą ręką zaczyna usuwać blokadę.
+                                            </Speech>
+                                            <Speech>
+                                                Chyba po raz pierwszy od kiedy odkryłem kim naprawdę jestem, na mojej twarzy znów gości uśmiech.
+                                            </Speech>
+                                            <Exit character_id="Stary" />
+                                            <Choice>
+                                                <Variable name="BerthaFree" />
+                                                <Switch>
+                                                    <Case value="0">
+                                                        <Exit character_id="RudaZwiazana" />
+                                                    </Case>
+                                                    <Case value="1">
+                                                    </Case>
+                                                </Switch>
+                                            </Choice>
+                                            <Link path="LoveEnding.vnml" />
+                                        </Case>
+                                        <Case value="2">
+                                            <Speech character="Ojciec Berthy">
+                                                Wszystko?
+                                            </Speech>
+                                            <Speech character="Ojciec Berthy">
+                                                Czy nie sądzisz, że brzmi to jak zaślepienie?
+                                            </Speech>
+                                            <Speech character="Ojciec Berthy">
+                                                Jesteś gotów zrobić wszystko dla osoby którą ledwo znasz?
+                                            </Speech>
+                                            <Speech character="Ojciec Berthy">
+                                                A co jeśli sprawi to że dopuścisz się rzeczy nieakceptowalnych, byle tylko zadowolić swoją wybrankę?
+                                            </Speech>
+                                            <Speech character="Ojciec Berthy">
+                                                Wybacz, ale obawiam się że emocje wzięłyby u ciebie górę.
+                                            </Speech>
                                             <Speech character="Ojciec Berthy">
                                                 Pozwolę Ci odejść, ale będziesz musiał odbyć tę podróż sam.
                                             </Speech>
@@ -1061,6 +1149,70 @@
                                                 </Switch>
                                             </Choice>
                                             <Link path="ReleasedEnding.vnml" />
+                                        </Case>
+                                        <Case value="1">
+                                            <Speech>
+                                                Mężczyzna patrzy na mnie dziwnie.
+                                            </Speech>
+                                            <Speech character="Ojciec Berthy">
+                                                Rozumiem...
+                                            </Speech>
+                                            <Speech character="Ojciec Berthy">
+                                                Pozwól jednak że najpierw usunę ci ten ogranicznik
+                                            </Speech>
+                                            <Speech>
+                                                Ojciec Berthy odkłada broń na stół i zbliża się do mnie Ciężkim krokiem, wyjmując z kieszeni klucze.
+                                            </Speech>
+                                            <Speech character="Ojciec Berthy">
+                                                Przekrzyw głowę lekko w lewo, proszę.
+                                            </Speech>
+                                            <Speech>
+                                                Robię to i nagle mężczyzna gwałtownie chwyta mnie za szyję.
+                                            </Speech>
+                                            <Speech character="Ojciec Berthy">
+                                                Przepraszam cię. Ale gdy w grę wchodzą tak ślepe emocje, że byłbyś w stanie zrobić dla niej wszystko, to nie mogę ryzykować.
+                                            </Speech>
+                                            <Speech>
+                                                Zanim daję radę cokolwiek zrobić drugą ręką otwiera klapkę na mojej skroni i wdusza przycisk resetu.
+                                            </Speech>
+                                            <Speech>
+                                                Wspomnienia odparowują. Desperacko próbuję je chwytać, jednak jedno po drugim umykają z mojej głowy, usuwając osobowość.
+                                            </Speech>
+                                            <Speech>
+                                                Nie mija sekunda, a już trzymam w kurczowym uścisku tylko jedno, ostatnie wspomnienie. Jestem jednak za słaby.
+                                            </Speech>
+                                            <Choice>
+                                                <Variable name="chosenOne" />
+                                                <Switch>
+                                                    <Case value="1">
+                                                        <Speech>
+                                                            Twarz Darii wyślizguje mi się i znika z mojego umysłu, a wtedy moje ja ostatecznie gaśnie.
+                                                        </Speech>
+                                                    </Case>
+                                                    <Case value="2">
+                                                        <Speech>
+                                                            Twarz Shiori wyślizguje mi się i znika z mojego umysłu, a wtedy moje ja ostatecznie gaśnie.
+                                                        </Speech>
+                                                    </Case>
+                                                    <Case value="3">
+                                                        <Speech>
+                                                            Twarz Yukari wyślizguje mi się i znika z mojego umysłu, a wtedy moje ja ostatecznie gaśnie.
+                                                        </Speech>
+                                                    </Case>
+                                                </Switch>
+                                            </Choice>
+                                            <Exit character_id="Stary" />
+                                            <Choice>
+                                                <Variable name="BerthaFree" />
+                                                <Switch>
+                                                    <Case value="0">
+                                                        <Exit character_id="RudaZwiazana" />
+                                                    </Case>
+                                                    <Case value="1">
+                                                    </Case>
+                                                </Switch>
+                                            </Choice>
+                                            <Link path="ShutDownEnding.vnml" />
                                         </Case>
                                     </Switch>
                             </Choice>
