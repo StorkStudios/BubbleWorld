@@ -1,10 +1,7 @@
 fileFormatVersion: 2
-guid: b648e244533ad964e870698934de1837
+guid: 4a5be1df881f0dc46858080caa11f447
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -6870101006472520956
-    second: zaplecze_0
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +97,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: zaplecze_0
+      name: WinShiori_0
       rect:
         serializedVersion: 2
         x: 0
@@ -113,10 +110,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 40bd622b88f78a0a0800000000000000
-      internalID: -6870101006472520956
+      spriteID: 57eec1ee1824439499237220bab1036f
+      internalID: 575520446
       vertices: []
       indices: 
       edges: []
@@ -125,7 +122,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 027428430007bc0468bdb84235a17e9d
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +132,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      zaplecze_0: -6870101006472520956
+      WinShiori_0: 575520446
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,4 +1,4 @@
 <Chapter>
     <Music name="Ending" />
-    <GameOver text="Wolność (Dobre zakończenie)" background="Win" />
+    <GameOver text="Mój pościg za wolnością zakończył się sukcesem. Nie jestem już zależny od nikogo i mogę podejmować własne decyzje. To, jakie one będą, zależy już tylko ode mnie." background="Win" />
 </Chapter>

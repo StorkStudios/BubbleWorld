@@ -108,3 +108,12 @@ MonoBehaviour:
     - Key:
         item: Win
       Value: {fileID: 3302273018506617863, guid: 28ee5c580c2e9fb41831bbc509d6fbf7, type: 3}
+    - Key:
+        item: WinDaria
+      Value: {fileID: 4152226372301875665, guid: 3963c1e73fbd05e449e815ddf6d0312d, type: 3}
+    - Key:
+        item: WinShiori
+      Value: {fileID: 575520446, guid: 4a5be1df881f0dc46858080caa11f447, type: 3}
+    - Key:
+        item: WinYukari
+      Value: {fileID: 5388885072742366408, guid: 2de8dcb2b50920d468d2745031aaa4fc, type: 3}

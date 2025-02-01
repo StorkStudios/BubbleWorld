@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b648e244533ad964e870698934de1837
+guid: 3963c1e73fbd05e449e815ddf6d0312d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6870101006472520956
-    second: zaplecze_0
+      213: 4152226372301875665
+    second: WinDaria_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: zaplecze_0
+      name: WinDaria_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 40bd622b88f78a0a0800000000000000
-      internalID: -6870101006472520956
+      spriteID: 1d9ef0cd2ebaf9930800000000000000
+      internalID: 4152226372301875665
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      zaplecze_0: -6870101006472520956
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

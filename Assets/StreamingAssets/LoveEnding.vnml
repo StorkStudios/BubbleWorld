@@ -1,4 +1,17 @@
 <Chapter>
     <Music name="Ending" />
-    <GameOver text="Wolność razem (Sekretne zakończenie)" background="Win" />
+    <Choice>
+        <Variable name="chosenOne" />
+        <Switch>
+            <Case value="1">
+                <GameOver text="Mój pościg za wolnością zakończył się sukcesem. Ja i Daria nie jesteśmy już zależni od nikogo i możemy podejmować własne decyzje. To, jakie one będą, zależy już tylko od nas." background="WinDaria" />
+            </Case>
+            <Case value="2">
+                <GameOver text="Mój pościg za wolnością zakończył się sukcesem. Ja i Shiori nie jesteśmy już zależni od nikogo i możemy podejmować własne decyzje. To, jakie one będą, zależy już tylko od nas." background="WinShiori" />
+            </Case>
+            <Case value="3">
+                <GameOver text="Mój pościg za wolnością zakończył się sukcesem. Ja i Yukari nie jesteśmy już zależni od nikogo i możemy podejmować własne decyzje. To, jakie one będą, zależy już tylko od nas." background="WinYukari" />
+            </Case>
+        </Switch>
+    </Choice>
 </Chapter>
