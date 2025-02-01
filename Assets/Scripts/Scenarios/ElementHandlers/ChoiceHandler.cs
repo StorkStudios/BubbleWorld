@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Xml;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class ChoiceHandler : ChapterElementHandler
@@ -45,7 +44,7 @@ public class ChoiceHandler : ChapterElementHandler
             XmlNode variableNode = node.SelectSingleNode("Variable");
             if (variableNode == null)
             {
-                Debug.LogError("Variable node not found in Choice element");
+                Debug.LogError("No Variable nor Options node not found in Choice element");
                 return;
             }
             variableName = variableNode.Attributes["name"].InnerText;
@@ -80,7 +79,7 @@ public class ChoiceHandler : ChapterElementHandler
             selectedNode = Node.SelectSingleNode($"Switch/Case[@option_id='{stepParameter}']");
             if (selectedNode == null)
             {
-                Debug.LogError($"Selected option not found: {stepParameter}");
+                Debug.LogWarning($"Selected option not found: {stepParameter}. Select is being skipped");
             }
         }
         else
@@ -89,7 +88,7 @@ public class ChoiceHandler : ChapterElementHandler
             selectedNode = Node.SelectSingleNode($"Switch/Case[@value='{value}']");
             if (selectedNode == null)
             {
-                Debug.LogError($"Variable value not found: {variableName}");
+                Debug.LogWarning($"Variable value not found: {variableName}. Select is being skipped");
             }
         }
         choiceReturned = true;
