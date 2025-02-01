@@ -146,12 +146,15 @@
     </Speech>
     <Choice>
         <Options>
-            <Option id="1">Daria ma rację, Shiori. Izolując się od otoczenia i zamykając w sobie marnujesz sobie życie.</Option>
-            <Option id="2">Daria, przestań! Nawet jeśli masz rację, to wybór należy do Shiori, nie możesz jej zmuszać!</Option>
+            <Option id="1">Daria ma rację, Shiori.</Option>
+            <Option id="2">Daria, przestań!</Option>
         </Options>
         <Switch>
             <Case option_id="1">
                 <VariableAdd name="Daria" value="1" />
+                <Speech character="Ja">
+                    Izolując się od otoczenia i zamykając w sobie marnujesz sobie życie.
+                </Speech>
                 <Speech character="Shiori">
                     Przestańcie!
                 </Speech>
@@ -230,6 +233,9 @@
             </Case>
             <Case option_id="2">
                 <VariableAdd name="Shiori" value="1" />
+                <Speech character="Ja">
+                    Nawet jeśli masz rację, to wybór należy do Shiori, nie możesz jej zmuszać!
+                </Speech>
                 <Speech character="Daria">
                     Tenteki...!
                 </Speech>

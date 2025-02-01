@@ -399,7 +399,7 @@
                 </Speech>
                 <Choice>
                     <Options>
-                        <Option id="1"><i>Odsuwam się na bok i pozwalam mu podejść do córki</i> - Spokojnie, tylko bez nerwów.</Option>
+                        <Option id="1"><i>Pozwalam mu podejść do córki</i> - Spokojnie, tylko bez nerwów.</Option>
                         <Option id="2"><i>Nie ruszam się</i> - Przykro mi, ale nie mogę.</Option>
                     </Options>
                     <Switch>
@@ -813,7 +813,7 @@
         <Options>
             <Option id="1">Dziękuję.</Option>
             <Option id="2">Zostanę w Bubble World. Ale zdejmij ogranicznik.</Option>
-            <Option id="3">Doceniam, ale to jeszcze nie wszystko. Została jeszcze jedna sprawa.</Option>
+            <Option id="3">Doceniam, ale została jeszcze jedna sprawa.</Option>
         </Options>
         <Switch>
             <Case option_id="1">

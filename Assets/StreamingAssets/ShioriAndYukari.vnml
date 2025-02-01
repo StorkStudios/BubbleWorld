@@ -162,7 +162,7 @@
                 <Choice>
                     <Options>
                         <Option id="1">Czyli ustalone, marakuja raz.</Option>
-                        <Option id="2">Yukari, nieważne czy się śpieszysz czy nie. Shiori była pierwsza i to ją pierwszą obsłużę. [ZRÓB BUBBLE TEA SHIORI] </Option>
+                        <Option id="2">Shiori była pierwsza i to ją pierwszą obsłużę.</Option>
                     </Options>
                     <Switch>
                         <Case option_id="1">
