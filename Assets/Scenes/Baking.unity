@@ -2285,9 +2285,50 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 563236527}
     m_Modifications:
+    - target: {fileID: 247643633826189006, guid: 2e29fcb51dd38d4849191450820e7ac5, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 247643633826189006, guid: 2e29fcb51dd38d4849191450820e7ac5, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 247643633826189006, guid: 2e29fcb51dd38d4849191450820e7ac5, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 247643633826189006, guid: 2e29fcb51dd38d4849191450820e7ac5, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2251368277875392689, guid: 2e29fcb51dd38d4849191450820e7ac5, type: 3}
       propertyPath: m_Name
       value: CreditsPanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 2251368277875392689, guid: 2e29fcb51dd38d4849191450820e7ac5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2618967768091512709, guid: 2e29fcb51dd38d4849191450820e7ac5, type: 3}
+      propertyPath: m_text
+      value: "Adam Dachtera\nAndrzej Gauza\nSzymon Kaczmarek\nIlya Kolas\nPiotr Oleksy\nDaniel
+        Wiechetek\nStefan Zb\u0105szyniak\nPodzi\u0119kowania dla Mi\u0142osza Chrz\u0119pca"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3738015294962479073, guid: 2e29fcb51dd38d4849191450820e7ac5, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3738015294962479073, guid: 2e29fcb51dd38d4849191450820e7ac5, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3738015294962479073, guid: 2e29fcb51dd38d4849191450820e7ac5, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3738015294962479073, guid: 2e29fcb51dd38d4849191450820e7ac5, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4399878040895940439, guid: 2e29fcb51dd38d4849191450820e7ac5, type: 3}
       propertyPath: m_Pivot.x
@@ -2367,6 +2408,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4399878040895940439, guid: 2e29fcb51dd38d4849191450820e7ac5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8148400015921839082, guid: 2e29fcb51dd38d4849191450820e7ac5, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8148400015921839082, guid: 2e29fcb51dd38d4849191450820e7ac5, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8148400015921839082, guid: 2e29fcb51dd38d4849191450820e7ac5, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8148400015921839082, guid: 2e29fcb51dd38d4849191450820e7ac5, type: 3}
+      propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

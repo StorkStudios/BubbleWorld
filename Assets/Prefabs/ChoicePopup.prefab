@@ -88,5 +88,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf350cd30679e6f4bb2b2952d45bad84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  choiceButtonPrefab: {fileID: 5108471405451902357, guid: 4db99845f6e48f14bbfea17220f8ce6f, type: 3}
+  choiceButtonPrefab: {fileID: 7165377063819393000, guid: 804f56580b766706f81c85172cd5147a, type: 3}
   fadeDuration: 0.2
