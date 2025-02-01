@@ -27,6 +27,9 @@ MonoBehaviour:
     - Key:
         item: 7
       Value: {fileID: 2691986426654266805, guid: 039cc789f765ae0479fd129cb20d6644, type: 3}
+    - Key:
+        item: 3
+      Value: {fileID: -8746166195271327467, guid: c4ea657f143f10f4abaf8b0b83b04cf8, type: 3}
   mouth:
     pairs:
     - Key:

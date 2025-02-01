@@ -230,9 +230,7 @@
                                         <Speech>
                                             Potężny huk roznosi się echem po wszystkich zakamarkach lokalu, by w końcu zamilknąć na zawsze.
                                         </Speech>
-                                        <Speech>
-                                            <Link path="DeathEnding.vnml" />
-                                        </Speech>
+                                        <Link path="DeathEnding.vnml" />
                                     </Case>
                                     <Case option_id="2">
                                         <Speech>
