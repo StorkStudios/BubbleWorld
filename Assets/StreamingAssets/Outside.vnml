@@ -1,5 +1,5 @@
 <Chapter>
-    
+    <Background name="BehindBack"/>
     <Music name="Mystery" />
     <Choice>
         <Variable name="chosenOne" />
@@ -47,7 +47,7 @@
         <Switch>
             <Case option_id="1">
                 <Speech character_id="Gracz" character="Ja">
-                    Na pewno niedługo wróci. Jak teraz pójdę jej jszukać to nie wstane rano do pracy. 
+                    Na pewno niedługo wróci. Jak teraz pójdę jej szukać to nie wstane rano do pracy. 
                 </Speech>
                 <Speech>
                     Szefowa byłaby na mnie zła.
@@ -115,7 +115,7 @@
         Co tu się dzieje?
     </Speech>
     <Speech>
-        Podchodzę do wielkiego bąbla, w środku którego się znajduje.
+        Podchodzę do wielkiego bąbla, w środku którego najwidoczniej znajduje się sklep.
     </Speech>
     <Speech>
         Próbuję go dotknąć i czuję że jest to dokładnie to na co wygląda.

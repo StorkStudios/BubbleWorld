@@ -1,4 +1,5 @@
 <Chapter>
+    <Background name="Shop"/>
     <Variable name="decisionShioriYukari" value="0"/>
     <Music name="Cafe" />
     <Speech>

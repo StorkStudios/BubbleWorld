@@ -1,5 +1,5 @@
 <Chapter>
-    <Background name="Shop"/>
+    <Background name="ShopMorning"/>
     <Music name="Cafe" />
     <Variable name="Daria" value="0" />
     <Variable name="Shiori" value="0" />

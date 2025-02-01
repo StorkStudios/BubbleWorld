@@ -1,5 +1,6 @@
 <Chapter>
     <Music name="Creepy" />
+    <Background name="ShopNight"/>
     <Speech>
         <i>Następnego dnia idę od razu porozmawiać z Berthą.</i>
     </Speech>

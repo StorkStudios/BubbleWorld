@@ -1,4 +1,5 @@
 <Chapter>
+    <Background name="ShopNight"/>
     <Music name="Mystery" />
     <Speech>
         <i>Kończy się kolejny piękny dzień w Bubble World.</i>
@@ -57,6 +58,7 @@
     <Speech>
         I sobie poszła.
     </Speech>
+    <Background name="BehindBack"/>
     <Speech>
         Tej nocy miałem problemy z zaśnięciem, ale w końcu usnąłem.
     </Speech>

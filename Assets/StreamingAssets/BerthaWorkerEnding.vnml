@@ -1,4 +1,5 @@
 <Chapter>
+    <Background name="ShopEvening"/>
     <Speech character_id="Gracz" character="Ja">
         Zapraszamy ponownie!
     </Speech>

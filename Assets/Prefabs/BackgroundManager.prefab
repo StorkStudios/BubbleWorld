@@ -117,3 +117,12 @@ MonoBehaviour:
     - Key:
         item: WinYukari
       Value: {fileID: 5388885072742366408, guid: 2de8dcb2b50920d468d2745031aaa4fc, type: 3}
+    - Key:
+        item: ShopEvening
+      Value: {fileID: 5592985358731996711, guid: 214f71d415f734b4585c138fb983db8c, type: 3}
+    - Key:
+        item: ShopMorning
+      Value: {fileID: -6115935770013889337, guid: f3de1320ea5310543b55bf6b4492d408, type: 3}
+    - Key:
+        item: Black
+      Value: {fileID: 4457835537561387818, guid: 79149d77f4185204594b4d229e8d0146, type: 3}

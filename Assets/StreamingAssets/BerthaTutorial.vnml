@@ -1,5 +1,5 @@
 <Chapter>
-    <Background name="Shop"/>
+    <Background name="BehindBack"/>
     <Music name="Cafe" />
     <Speech>
         <i>Ach jaki piękny poranek.</i>
@@ -28,6 +28,7 @@
         <i>Jest czasami troche dziecinna.</i>
     </Speech>
     <Update character_id="Ruda" mouth="Neutral"/>
+    <Background name="ShopNight"/>
     <Speech character_id="Ruda" character="Bertha">
         Zrób mi truskawkowe bubble tea z mlekiem.
     </Speech>

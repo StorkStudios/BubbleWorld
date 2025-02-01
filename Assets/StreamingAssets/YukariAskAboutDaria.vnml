@@ -1,4 +1,5 @@
 <Chapter>
+    <Background name="ShopMorning"/>
     <Music name="Cafe" />
     <Speech>
         Daria nie przyszła.
@@ -59,7 +60,7 @@
         O czym Ty wogóle mówisz?
     </Speech>
     <Speech character_id="Farbowana" character="Yukari">
-        Nigdy nie znałąm żadnej Darii, a tym bardziej z Białorusi.
+        Nigdy nie znałam żadnej Darii, a tym bardziej z Białorusi.
     </Speech>
     <Speech>
         Z niedowierzaniem patrzę na Yukari.
