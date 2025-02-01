@@ -89,7 +89,9 @@
                 <Choice>
                     <Variable name="fightResult" />
                     <Switch>
-                        <Case value="0">
+                        <Case value="0" />
+                        <Case value="1" />
+                        <Case value="2">
                             <Speech>                                
                                 Unikam jej ataku i wyprowadzam własny cios.
                             </Speech>
@@ -126,8 +128,6 @@
                             <Exit character_id="RudaNoz"/>
                             <Link path="FinaleAlternate.vnml" />
                         </Case>
-                        <Case value="1" />
-                        <Case value="2" />
                     </Switch>
                 </Choice>
             </Case>
