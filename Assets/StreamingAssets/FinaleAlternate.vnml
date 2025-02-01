@@ -118,5 +118,5 @@
     <Speech>
         Potężny huk roznosi się echem po wszystkich zakamarkach lokalu, by w końcu zamilknąć na zawsze.
     </Speech>
-    <Link path="DeathEnding.vnml" />
+    <Link path="DeadBerthaEnding.vnml" />
 </Chapter>

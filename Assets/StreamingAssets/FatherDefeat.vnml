@@ -49,5 +49,5 @@
         </Switch>
     </Choice>
     <Exit character_id="Stary"/>
-    <Link path="DeathEnding.vnml" />
+    <Link path="ShutDownEnding.vnml" />
 </Chapter>

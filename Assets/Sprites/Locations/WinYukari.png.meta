@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      WinYukari_0: 5388885072742366408
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
