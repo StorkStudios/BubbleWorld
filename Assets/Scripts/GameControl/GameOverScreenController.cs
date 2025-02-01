@@ -11,12 +11,15 @@ public class GameOverScreenController : MonoBehaviour
     private GameObject dialogueBox;
 
     [SerializeField]
+    private GameObject screenParent;
+
+    [SerializeField]
     private string mainMenuScene;
 
     private void Start()
     {
         Director.Instance.ElementReadEvent += OnElementRead;
-        gameObject.SetActive(false);
+        screenParent.SetActive(false);
         dialogueBox.SetActive(true);
     }
 
@@ -29,7 +32,7 @@ public class GameOverScreenController : MonoBehaviour
     {
         if (name == "GameOver")
         {
-            gameObject.SetActive(true);
+            screenParent.SetActive(true);
             dialogueBox.SetActive(false);
             GameOver gameOver = element as GameOver;
             text.text = gameOver.text;
