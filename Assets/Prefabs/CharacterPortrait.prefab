@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8080685105770087299}
   - component: {fileID: 7849512005523528599}
   - component: {fileID: 8237632970591321918}
+  - component: {fileID: 3069710201729557715}
   m_Layer: 5
   m_Name: SpeechBubble
   m_TagString: Untagged
@@ -37,8 +38,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 219.2287, y: 108.23}
-  m_SizeDelta: {x: 396.1854, y: 194.64}
+  m_AnchoredPosition: {x: 235.88629, y: 115.5177}
+  m_SizeDelta: {x: 429.5006, y: 300.832}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4048374080811059678
 CanvasRenderer:
@@ -106,6 +107,29 @@ MonoBehaviour:
   textFadeSpeed: 2
   textSequenceSpeed: 4
   fadeDuration: 0.5
+--- !u!223 &3069710201729557715
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 305150901172043323}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 1
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 1
+  m_TargetDisplay: 0
 --- !u!1 &2930325556740928072
 GameObject:
   m_ObjectHideFlags: 0
