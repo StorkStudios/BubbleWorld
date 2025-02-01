@@ -112,10 +112,10 @@ TextureImporter:
       name: oldman_eyes_sad_0
       rect:
         serializedVersion: 2
-        x: 1749
-        y: 1830
-        width: 167
-        height: 42
+        x: 856
+        y: 0
+        width: 2361
+        height: 2160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,51 +130,6 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: oldman_eyes_sad_1
-      rect:
-        serializedVersion: 2
-        x: 1954
-        y: 1825
-        width: 159
-        height: 61
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 11b2e3e57d999bca0800000000000000
-      internalID: -6000595878216324335
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oldman_eyes_sad_2
-      rect:
-        serializedVersion: 2
-        x: 1965
-        y: 1773
-        width: 144
-        height: 69
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0b3258f92763af7c0800000000000000
-      internalID: -4036854250053753936
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oldman_eyes_sad_3
       rect:
         serializedVersion: 2

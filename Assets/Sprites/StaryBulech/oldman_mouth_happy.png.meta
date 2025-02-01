@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: 1fa6cd22697c33a4690c11769767269c
+guid: a0502e7161a7b7f48b2050786376c2db
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3224599614311770193
-    second: oldman_mouth_neutral_0
-  - first:
-      213: -8837993670398629886
-    second: oldman_mouth_neutral_1
-  - first:
-      213: 1739995225168156184
-    second: oldman_mouth_neutral_2
+      213: 7228577113304033523
+    second: oldman_mouth_happy_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -106,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: oldman_mouth_neutral_0
+      name: oldman_mouth_happy_0
       rect:
         serializedVersion: 2
-        x: 1822
-        y: 1560
-        width: 19
-        height: 36
+        x: 856
+        y: 0
+        width: 2361
+        height: 2160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,52 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1582ae9b34410cc20800000000000000
-      internalID: 3224599614311770193
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oldman_mouth_neutral_1
-      rect:
-        serializedVersion: 2
-        x: 1852
-        y: 1567
-        width: 192
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2082dbc1593295580800000000000000
-      internalID: -8837993670398629886
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oldman_mouth_neutral_2
-      rect:
-        serializedVersion: 2
-        x: 2055
-        y: 1587
-        width: 16
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 816160b3074b52810800000000000000
-      internalID: 1739995225168156184
+      spriteID: 3f8610ef590115460800000000000000
+      internalID: 7228577113304033523
       vertices: []
       indices: 
       edges: []
@@ -185,9 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      oldman_mouth_neutral_0: 3224599614311770193
-      oldman_mouth_neutral_1: -8837993670398629886
-      oldman_mouth_neutral_2: 1739995225168156184
+      oldman_mouth_happy_0: 7228577113304033523
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

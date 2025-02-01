@@ -103,10 +103,10 @@ TextureImporter:
       name: oldman_mouth_angry_0
       rect:
         serializedVersion: 2
-        x: 1871
-        y: 1575
-        width: 158
-        height: 85
+        x: 856
+        y: 0
+        width: 2361
+        height: 2160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

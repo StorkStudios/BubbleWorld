@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: 25a9989e8994f7142a88959ac9414ac0
+guid: 994e685dbbd798043a97df76fb5cee2e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4509806587679347792
-    second: oldman_eyes_happy_0
+      213: -634990302892545865
+    second: oldman_eyes_neutral_0
   - first:
-      213: 5462789418029394486
-    second: oldman_eyes_happy_1
+      213: -8013929485830742395
+    second: oldman_eyes_neutral_1
   - first:
-      213: -2272857934322312486
-    second: oldman_eyes_happy_2
+      213: 695032154764296149
+    second: oldman_eyes_neutral_2
   - first:
-      213: 7727159137809719685
-    second: oldman_eyes_happy_3
+      213: -8101407428487239462
+    second: oldman_eyes_neutral_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,13 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: oldman_eyes_happy_0
+      name: oldman_eyes_neutral_0
       rect:
         serializedVersion: 2
-        x: 1749
-        y: 1830
-        width: 167
-        height: 42
+        x: 856
+        y: 0
+        width: 2361
+        height: 2160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,64 +124,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0bbe7af6dc2f961c0800000000000000
-      internalID: -4509806587679347792
+      spriteID: 7b8a5401faf0037f0800000000000000
+      internalID: -634990302892545865
       vertices: []
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: oldman_eyes_happy_1
-      rect:
-        serializedVersion: 2
-        x: 1954
-        y: 1825
-        width: 159
-        height: 61
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 63aa768580abfcb40800000000000000
-      internalID: 5462789418029394486
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oldman_eyes_happy_2
-      rect:
-        serializedVersion: 2
-        x: 1969
-        y: 1787
-        width: 140
-        height: 55
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ada5ac730cf2570e0800000000000000
-      internalID: -2272857934322312486
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oldman_eyes_happy_3
+      name: oldman_eyes_neutral_3
       rect:
         serializedVersion: 2
         x: 1762
-        y: 1768
-        width: 143
-        height: 51
+        y: 1765
+        width: 149
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 581ef0cab426c3b60800000000000000
-      internalID: 7727159137809719685
+      spriteID: ad8ae4cedd4029f80800000000000000
+      internalID: -8101407428487239462
       vertices: []
       indices: 
       edges: []
@@ -210,10 +165,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      oldman_eyes_happy_0: -4509806587679347792
-      oldman_eyes_happy_1: 5462789418029394486
-      oldman_eyes_happy_2: -2272857934322312486
-      oldman_eyes_happy_3: 7727159137809719685
+      oldman_eyes_neutral_0: -634990302892545865
+      oldman_eyes_neutral_1: -8013929485830742395
+      oldman_eyes_neutral_2: 695032154764296149
+      oldman_eyes_neutral_3: -8101407428487239462
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

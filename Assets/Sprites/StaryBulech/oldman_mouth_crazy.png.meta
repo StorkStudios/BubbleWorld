@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: e32eea670b35fa14da9f79eacbc95491
+guid: 161a203b0e48a7f4782f1e0ff4b5fa54
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -418713323772354031
-    second: oldman_eyes_crazy_0
-  - first:
-      213: 3707438753905461412
-    second: oldman_eyes_crazy_1
-  - first:
-      213: 8037299670602336295
-    second: oldman_eyes_crazy_2
-  - first:
-      213: 763017866206603534
-    second: oldman_eyes_crazy_3
+      213: 3375023521509130502
+    second: oldman_mouth_crazy_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: oldman_eyes_crazy_0
+      name: oldman_mouth_crazy_0
       rect:
         serializedVersion: 2
-        x: 1753
-        y: 1764
-        width: 158
-        height: 73
+        x: 856
+        y: 0
+        width: 2361
+        height: 2160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,74 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 11263d1537e603af0800000000000000
-      internalID: -418713323772354031
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oldman_eyes_crazy_1
-      rect:
-        serializedVersion: 2
-        x: 1760
-        y: 1837
-        width: 161
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4a84d0167e7737330800000000000000
-      internalID: 3707438753905461412
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oldman_eyes_crazy_2
-      rect:
-        serializedVersion: 2
-        x: 1953
-        y: 1835
-        width: 143
-        height: 90
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 728cd9b87793a8f60800000000000000
-      internalID: 8037299670602336295
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oldman_eyes_crazy_3
-      rect:
-        serializedVersion: 2
-        x: 1964
-        y: 1772
-        width: 153
-        height: 87
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e096588e4b8c69a00800000000000000
-      internalID: 763017866206603534
+      spriteID: 601c32cd20e76de20800000000000000
+      internalID: 3375023521509130502
       vertices: []
       indices: 
       edges: []
@@ -210,10 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      oldman_eyes_crazy_0: -418713323772354031
-      oldman_eyes_crazy_1: 3707438753905461412
-      oldman_eyes_crazy_2: 8037299670602336295
-      oldman_eyes_crazy_3: 763017866206603534
+      oldman_mouth_crazy_0: 3375023521509130502
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

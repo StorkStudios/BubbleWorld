@@ -1,28 +1,16 @@
 fileFormatVersion: 2
-guid: 3597f8018b6188040a9acebbb00838e2
+guid: 1fa6cd22697c33a4690c11769767269c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8385359143143735478
-    second: oldman_eyes_angry_0
+      213: 3224599614311770193
+    second: oldman_mouth_neutral_0
   - first:
-      213: -6099864453023574440
-    second: oldman_eyes_angry_1
+      213: -8837993670398629886
+    second: oldman_mouth_neutral_1
   - first:
-      213: 7705434401230147919
-    second: oldman_eyes_angry_2
-  - first:
-      213: -2065677356839364023
-    second: oldman_eyes_angry_3
-  - first:
-      213: 6957989547268932459
-    second: oldman_eyes_angry_4
-  - first:
-      213: -964808792069048699
-    second: oldman_eyes_angry_5
-  - first:
-      213: -4827434730092570027
-    second: oldman_eyes_angry_6
+      213: 1739995225168156184
+    second: oldman_mouth_neutral_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -118,13 +106,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: oldman_eyes_angry_0
+      name: oldman_mouth_neutral_0
       rect:
         serializedVersion: 2
-        x: 2015
-        y: 1901
-        width: 46
-        height: 114
+        x: 856
+        y: 0
+        width: 2361
+        height: 2160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -133,20 +121,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6b0082196b7ce5470800000000000000
-      internalID: 8385359143143735478
+      spriteID: 1582ae9b34410cc20800000000000000
+      internalID: 3224599614311770193
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oldman_eyes_angry_1
+      name: oldman_mouth_neutral_1
       rect:
         serializedVersion: 2
-        x: 2054
-        y: 1982
-        width: 99
-        height: 55
+        x: 1852
+        y: 1567
+        width: 192
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8565f73399de85ba0800000000000000
-      internalID: -6099864453023574440
+      spriteID: 2082dbc1593295580800000000000000
+      internalID: -8837993670398629886
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oldman_eyes_angry_2
+      name: oldman_mouth_neutral_2
       rect:
         serializedVersion: 2
-        x: 2121
-        y: 1895
-        width: 46
-        height: 114
+        x: 2055
+        y: 1587
+        width: 16
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -177,96 +165,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f41d56543c33fea60800000000000000
-      internalID: 7705434401230147919
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oldman_eyes_angry_3
-      rect:
-        serializedVersion: 2
-        x: 1751
-        y: 1824
-        width: 164
-        height: 65
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 94a950d636d3553e0800000000000000
-      internalID: -2065677356839364023
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oldman_eyes_angry_4
-      rect:
-        serializedVersion: 2
-        x: 1959
-        y: 1820
-        width: 169
-        height: 109
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b6388d3d0aebf8060800000000000000
-      internalID: 6957989547268932459
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oldman_eyes_angry_5
-      rect:
-        serializedVersion: 2
-        x: 1965
-        y: 1773
-        width: 144
-        height: 69
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 586fc80f38f4c92f0800000000000000
-      internalID: -964808792069048699
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oldman_eyes_angry_6
-      rect:
-        serializedVersion: 2
-        x: 1762
-        y: 1765
-        width: 149
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 55ad27890b1810db0800000000000000
-      internalID: -4827434730092570027
+      spriteID: 816160b3074b52810800000000000000
+      internalID: 1739995225168156184
       vertices: []
       indices: 
       edges: []
@@ -285,13 +185,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      oldman_eyes_angry_0: 8385359143143735478
-      oldman_eyes_angry_1: -6099864453023574440
-      oldman_eyes_angry_2: 7705434401230147919
-      oldman_eyes_angry_3: -2065677356839364023
-      oldman_eyes_angry_4: 6957989547268932459
-      oldman_eyes_angry_5: -964808792069048699
-      oldman_eyes_angry_6: -4827434730092570027
+      oldman_mouth_neutral_0: 3224599614311770193
+      oldman_mouth_neutral_1: -8837993670398629886
+      oldman_mouth_neutral_2: 1739995225168156184
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
