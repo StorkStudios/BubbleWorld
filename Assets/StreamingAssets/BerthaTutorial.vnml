@@ -70,7 +70,7 @@
         D U Ż O
     </Speech>
     <Choice>
-        <Options duration="5" default_id="1">
+        <Options duration="8" default_id="1">
             <Option id="1">Ok</Option>
             <Option id="2">Tak jest prze pani.</Option>
             <Option id="3">Oczywiście. Dużo bananowych.</Option>
@@ -116,7 +116,7 @@
         <i>Zawsze była taka niecierpliwa?</i>
     </Speech>
     <Choice>
-        <Options duration="7" default_id="3">
+        <Options duration="8" default_id="3">
             <Option id="1">Dodaje jeszcze dodatkową porcje bananowych żelków.</Option>
             <Option id="2">Już kończe poczekaj jeszcze chwilę.</Option>
             <Option id="3">Zaraz będzie gotowa.</Option>

@@ -49,7 +49,7 @@
         Wiem że robi to z grzeczności, ale ta jej inicjatywa trochę mi przeszkadza.
     </Speech>
     <Choice>
-        <Options>
+        <Options duration="8" default_id="3">
             <Option id="1">
                 <i>Udaję że jej nie dosłyszałem i dalej przygotowuję jej Bubble Tea.</i>
             </Option>
@@ -93,7 +93,7 @@
         Białoruś. Mam bardzo powierzchowne pojęcie o tym kraju i waham się, czy kontynuować rozmowę na ten temat.
     </Speech>
     <Choice>
-        <Options>
+        <Options duration="8" default_id="3">
             <Option id="1">Spoko.</Option>
             <Option id="2">Białoruś, kojarzę...</Option>
         </Options>
@@ -143,7 +143,7 @@
         Ale może ona mi coś powie o swoim kraju, chociaż nie wiem czy to nie pogorszyłoby sytuacji i uczyniło ją bardziej niezręczną.
     </Speech>
     <Choice>
-        <Options>
+        <Options duration="8" default_id="3">
             <Option id="1">"Cóż... nie ukrywam że wiem cokolwiek."</Option>
             <Option id="2">"Powiedz mi coś po Białorusku."</Option>
         </Options>

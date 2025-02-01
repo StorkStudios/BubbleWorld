@@ -92,7 +92,7 @@
         A Ty masz kogoś? Jesteś całkiem całkiem.
     </Speech>
     <Choice>
-        <Options duration="5" default_id="3">
+        <Options duration="8" default_id="3">
             <Option id="1">Staram się jak mogę.</Option>
             <Option id="2">Że ja? Oczywiście że nie.</Option>
             <Option id="3">Jestem zbyt zajęty pracą żeby mieć czas na szukanie dziewczyny.</Option>
