@@ -1403,6 +1403,34 @@ PrefabInstance:
       propertyPath: m_Name
       value: ChoicePopup
       objectReference: {fileID: 0}
+    - target: {fileID: 4833344829415877080, guid: 6ae1f844bad1c0c4ba7faa78c0d82318, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4833344829415877080, guid: 6ae1f844bad1c0c4ba7faa78c0d82318, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4833344829415877080, guid: 6ae1f844bad1c0c4ba7faa78c0d82318, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4833344829415877080, guid: 6ae1f844bad1c0c4ba7faa78c0d82318, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5471622161155190712, guid: 6ae1f844bad1c0c4ba7faa78c0d82318, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5471622161155190712, guid: 6ae1f844bad1c0c4ba7faa78c0d82318, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6554924771073991791, guid: 6ae1f844bad1c0c4ba7faa78c0d82318, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

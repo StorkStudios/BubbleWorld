@@ -2,6 +2,7 @@ using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 [RequireComponent(typeof(CanvasGroup))]
 public class ChoicePopup : MonoBehaviour
@@ -10,6 +11,8 @@ public class ChoicePopup : MonoBehaviour
     private ChoiceButton choiceButtonPrefab;
     [SerializeField]
     private float fadeDuration;
+    [SerializeField]
+    private Slider slider;
 
     private RectTransform rectTransform;
     private CanvasGroup canvasGroup;
@@ -22,6 +25,7 @@ public class ChoicePopup : MonoBehaviour
         rectTransform = transform as RectTransform;
         canvasGroup = GetComponent<CanvasGroup>();
         canvasGroup.alpha = 0;
+        slider.gameObject.SetActive(false);
     }
 
     private void Start()
@@ -61,16 +65,26 @@ public class ChoicePopup : MonoBehaviour
 
         if (values.duration.HasValue)
         {
+            slider.gameObject.SetActive(true);
             StartTimer(values.duration.Value, values.defaultId);
         }
     }
 
     private void StartTimer(float duration, string id)
     {
-        currentTimer = this.CallDelayed(duration, () => {
-            OnOptionSelected(id);
-            currentTimer = null;
-        });
+        currentTimer = StartCoroutine(TimerCoroutine(duration, id));
+    }
+
+    private IEnumerator TimerCoroutine(float duration, string id)
+    {
+        float time = 0;
+        while ((time += Time.deltaTime) <= duration)
+        {
+            slider.value = time / duration;
+            yield return null;
+        }
+        OnOptionSelected(id);
+        currentTimer = null;
     }
 
     private void OnOptionSelected(string id)
@@ -92,6 +106,7 @@ public class ChoicePopup : MonoBehaviour
         {
             StopCoroutine(currentTimer);
             currentTimer = null;
+            slider.gameObject.SetActive(false);
         }
 
         Director.Instance.DirectorStepEvent?.Invoke(id);
