@@ -100,13 +100,13 @@ public class ChoicePopup : MonoBehaviour
                 Destroy(button.gameObject);
             }
             currentChoices.Clear();
+            slider.gameObject.SetActive(false);
         });
 
         if (currentTimer != null)
         {
             StopCoroutine(currentTimer);
             currentTimer = null;
-            slider.gameObject.SetActive(false);
         }
 
         Director.Instance.DirectorStepEvent?.Invoke(id);
