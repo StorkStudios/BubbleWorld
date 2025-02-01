@@ -119,6 +119,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &53739453 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6196837151696538999, guid: 4e2dc8c4e678c584c88ed1aca4d7f75a, type: 3}
+  m_PrefabInstance: {fileID: 4311521515062273584}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &183770191
 GameObject:
   m_ObjectHideFlags: 0
@@ -605,7 +610,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1476212094102418920, guid: 4e2dc8c4e678c584c88ed1aca4d7f75a, type: 3}
   m_PrefabInstance: {fileID: 4311521515062273584}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 53739453}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 473658d8ddc51934ca17f02790ea414f, type: 3}
@@ -1437,11 +1442,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2198097171872453903, guid: 3896cfa438d060d6099784a0b48d286e, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: -500
       objectReference: {fileID: 0}
     - target: {fileID: 2198097171872453903, guid: 3896cfa438d060d6099784a0b48d286e, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: -450
       objectReference: {fileID: 0}
     - target: {fileID: 2198097171872453903, guid: 3896cfa438d060d6099784a0b48d286e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1477,7 +1482,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2198097171872453903, guid: 3896cfa438d060d6099784a0b48d286e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -75
       objectReference: {fileID: 0}
     - target: {fileID: 2198097171872453903, guid: 3896cfa438d060d6099784a0b48d286e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1491,13 +1496,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6515519581333824667, guid: 3896cfa438d060d6099784a0b48d286e, type: 3}
+      propertyPath: dialogueBox
+      value: 
+      objectReference: {fileID: 53739453}
     - target: {fileID: 8763592425743992138, guid: 3896cfa438d060d6099784a0b48d286e, type: 3}
       propertyPath: m_Name
       value: GameOverScreen
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects:
-    - {fileID: 5276448298826552272, guid: 3896cfa438d060d6099784a0b48d286e, type: 3}
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3896cfa438d060d6099784a0b48d286e, type: 3}
@@ -1642,6 +1650,10 @@ PrefabInstance:
     - target: {fileID: 6196837151696538999, guid: 4e2dc8c4e678c584c88ed1aca4d7f75a, type: 3}
       propertyPath: m_Name
       value: DialogueBox
+      objectReference: {fileID: 0}
+    - target: {fileID: 6196837151696538999, guid: 4e2dc8c4e678c584c88ed1aca4d7f75a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

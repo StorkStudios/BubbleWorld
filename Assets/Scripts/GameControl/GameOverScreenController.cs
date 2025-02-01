@@ -8,12 +8,16 @@ public class GameOverScreenController : MonoBehaviour
     private TMPro.TextMeshProUGUI text;
 
     [SerializeField]
+    private GameObject dialogueBox;
+
+    [SerializeField]
     private string mainMenuScene;
 
     private void Start()
     {
         Director.Instance.ElementReadEvent += OnElementRead;
         gameObject.SetActive(false);
+        dialogueBox.SetActive(true);
     }
 
     public void BackToMenu()
@@ -26,6 +30,7 @@ public class GameOverScreenController : MonoBehaviour
         if (name == "GameOver")
         {
             gameObject.SetActive(true);
+            dialogueBox.SetActive(false);
             GameOver gameOver = element as GameOver;
             text.text = gameOver.text;
         }
