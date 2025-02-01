@@ -24,6 +24,7 @@ public class ControlsSection : MonoBehaviour
 
     public event System.Action Done;
     public event System.Action Reset;
+    public event System.Action<bool> MixButtonStateChanged;
 
     public TeaMixage? currentMixage = null;
 
@@ -33,6 +34,7 @@ public class ControlsSection : MonoBehaviour
         resetButton.onClick.AddListener(OnReset);
         mixButton.buttonDownUpdate.AddListener(OnButtonDownUpdate);
         mixButton.onClick.AddListener(OnMix);
+        mixButton.buttonDown.AddListener(OnMixButtonDown);
 
         foreach (Image image in images)
         {
@@ -53,6 +55,12 @@ public class ControlsSection : MonoBehaviour
     private void OnMix()
     {
         mixButton.interactable = false;
+        MixButtonStateChanged?.Invoke(false);
+    }
+
+    public void OnMixButtonDown()
+    {
+        MixButtonStateChanged?.Invoke(true);
     }
 
     public void OnButtonDownUpdate(float timeElapsed)

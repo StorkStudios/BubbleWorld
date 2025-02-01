@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class HoldButton : Button, IPointerDownHandler, IPointerUpHandler
 {
     public UnityEvent<float> buttonDownUpdate;
+    public UnityEvent buttonDown;
 
     public bool IsHeld { get; private set; } = false;
     private float pressTimestamp;
@@ -16,6 +17,7 @@ public class HoldButton : Button, IPointerDownHandler, IPointerUpHandler
         {
             IsHeld = true;
             pressTimestamp = Time.time;
+            buttonDown.Invoke();
         }
         if (IsHeld)
         {

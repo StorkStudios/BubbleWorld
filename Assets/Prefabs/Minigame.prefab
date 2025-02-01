@@ -1638,6 +1638,7 @@ MonoBehaviour:
   - {fileID: 6669650200236190129}
   - {fileID: 6563595557051177507}
   iconMap: {fileID: 11400000, guid: 1bac6f8e3f8da7243b30fbeace254e6d, type: 2}
+  drinkTransform: {fileID: 3080487998519208103}
 --- !u!222 &2012918347411898721
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2444,6 +2445,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   buttonDownUpdate:
+    m_PersistentCalls:
+      m_Calls: []
+  buttonDown:
     m_PersistentCalls:
       m_Calls: []
 --- !u!1 &8192609602049449386

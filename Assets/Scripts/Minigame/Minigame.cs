@@ -30,6 +30,7 @@ public class Minigame : MonoBehaviour
         ingredientsSection.JellySelected += OnJellySelected;
         controlsSection.Done += OnDone;
         controlsSection.Reset += OnReset;
+        controlsSection.MixButtonStateChanged += drinkSection.SetShakeDrink;
     }
 
     private void OnDone()
