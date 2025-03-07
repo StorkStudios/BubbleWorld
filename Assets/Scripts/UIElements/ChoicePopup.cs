@@ -122,6 +122,6 @@ public class ChoicePopup : MonoBehaviour
     private void OnMinigameEnd()
     {
         rectTransform.DOSizeDelta(new Vector2(0, rectTransform.sizeDelta.y + 12), fadeDuration);
-        rectTransform.DOAnchorPos(new Vector2(-450 / 2, rectTransform.anchoredPosition.y - 12 / 2), fadeDuration);
+        rectTransform.DOAnchorPos(new Vector2(0, rectTransform.anchoredPosition.y - 12 / 2), fadeDuration);
     }
 }

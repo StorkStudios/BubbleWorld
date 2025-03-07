@@ -1,7 +1,9 @@
 using DG.Tweening;
+using System;
 using System.Collections.Generic;
 using System.Reflection;
 using UnityEngine;
+using static UnityEngine.Rendering.DebugUI;
 
 public class CharacterPortraitsSection : MonoBehaviour
 {
@@ -55,6 +57,9 @@ public class CharacterPortraitsSection : MonoBehaviour
                 break;
             case "MinigameEnd":
                 OnMinigameEnd();
+                break;
+            case "Options":
+                OnOptions();
                 break;
         }
     }
@@ -112,12 +117,6 @@ public class CharacterPortraitsSection : MonoBehaviour
             return;
         }
 
-        if (PlayerInputAdapter.Instance.SkipHeld)
-        {
-            Director.Instance.DirectorStepEvent?.Invoke("bulech");
-            return;
-        }
-
         string charId = values.characterId ?? "Gracz";
 
         foreach (KeyValuePair<NullableObject<string>, SpeechBubble> pair in speechBubbles)
@@ -125,20 +124,33 @@ public class CharacterPortraitsSection : MonoBehaviour
             if (pair.Key.Item == charId)
             {
                 var bubble = pair.Value;
-                
-                void OnSpeechBubbleFinished()
-                {
-                    Director.Instance.DirectorStepEvent?.Invoke("bulech");
-                    bubble.Finished -= OnSpeechBubbleFinished;
-                }
 
                 bubble.Finished += OnSpeechBubbleFinished;
                 bubble.Show(values.voiceline, values.duration ?? 1);
             }
             else
             {
+                pair.Value.Finished -= OnSpeechBubbleFinished;
                 pair.Value.Hide();
             }
+        }
+    }
+
+    private void OnSpeechBubbleFinished(SpeechBubble bubble)
+    {
+        if (!PlayerInputAdapter.Instance.SkipHeld)
+        {
+            Director.Instance.DirectorStepEvent?.Invoke("bulech");
+        }
+        bubble.Finished -= OnSpeechBubbleFinished;
+    }
+
+    private void OnOptions()
+    {
+        foreach (KeyValuePair<NullableObject<string>, SpeechBubble> pair in speechBubbles)
+        {
+            pair.Value.Finished -= OnSpeechBubbleFinished;
+            pair.Value.Hide();
         }
     }
 
@@ -155,7 +167,7 @@ public class CharacterPortraitsSection : MonoBehaviour
         isMinigame = false;
 
         rectTransform.DOSizeDelta(new Vector2(0, rectTransform.sizeDelta.y + 12), fadeDuration);
-        rectTransform.DOAnchorPos(new Vector2(-450 / 2, rectTransform.anchoredPosition.y - 12 / 2), fadeDuration);
+        rectTransform.DOAnchorPos(new Vector2(0, rectTransform.anchoredPosition.y - 12 / 2), fadeDuration);
 
         foreach (SpeechBubble speechBubble in speechBubbles.Values)
         {

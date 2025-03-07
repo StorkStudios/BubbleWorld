@@ -127,7 +127,7 @@ public class DialogueBox : MonoBehaviour
 
     public void Skip()
     {
-        if (!GameManager.Instance.CanSkip || Hidden)
+        if (!GameManager.Instance.CanSkip || Hidden || PlayerInputAdapter.Instance.SkipHeld)
         {
             return;
         }
@@ -162,6 +162,18 @@ public class DialogueBox : MonoBehaviour
             case "MinigameEnd":
                 Hidden = false;
                 break;
+            case "Options":
+                OnOptions();
+                break;
+        }
+    }
+
+    private void OnOptions()
+    {
+        if (durationCoroutine != null)
+        {
+            StopCoroutine(durationCoroutine);
+            durationCoroutine = null;
         }
     }
 }

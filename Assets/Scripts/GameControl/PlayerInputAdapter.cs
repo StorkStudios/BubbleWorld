@@ -29,12 +29,4 @@ public class PlayerInputAdapter : Singleton<PlayerInputAdapter>
             skipHeld = false;
         }
     }
-
-    public void Update()
-    {
-        if (skipHeld)
-        {
-            dialogueBox.Skip();
-        }
-    }
 }

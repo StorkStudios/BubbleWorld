@@ -1,3 +1,4 @@
+using DG.Tweening;
 using System.Collections;
 using UnityEngine;
 
@@ -13,6 +14,7 @@ public class GameManager : Singleton<GameManager>
 
     private void Start()
     {
+        DOTween.SetTweensCapacity(1250, 50);
         currentChapter = StartCoroutine(StartChapter(firstChapterPath));
     }
 

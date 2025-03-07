@@ -97,6 +97,10 @@ public class ChoiceHandler : ChapterElementHandler
 
     private void OnDirectorStep(string selectedOptionId)
     {
+        if (selectedOptionId == "bulech")
+        {
+            Debug.Log(selectedOptionId);
+        }
         stepParameter = selectedOptionId;
     }
 }

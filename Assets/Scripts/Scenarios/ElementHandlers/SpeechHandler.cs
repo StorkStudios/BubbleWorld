@@ -23,7 +23,7 @@ public class SpeechHandler : ChapterElementHandler
     {
         Director.Instance.DirectorStepEvent += OnDirectorStep;
         Director.Instance.ElementReadEvent?.Invoke("Speech", speech);
-        yield return new WaitUntil(() => finished);
+        yield return new WaitUntil(() => finished || PlayerInputAdapter.Instance.SkipHeld);
         Director.Instance.DirectorStepEvent -= OnDirectorStep;
     }
 

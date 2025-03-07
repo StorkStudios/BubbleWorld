@@ -179,7 +179,7 @@ public class Minigame : MonoBehaviour
         {
             v -= 1;
         }
-        return v;
+        return Mathf.Max(0, v);
     }
 
     private Tween AnimateOutRectTransform(RectTransform rectTransform)

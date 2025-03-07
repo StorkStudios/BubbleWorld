@@ -51,6 +51,7 @@ public static class Utils
 
             int j = i;
 
+            textInfo.textComponent.ForceMeshUpdate();
             sequence.Join(DOTween.To(
                 () => textInfo.GetCharacterAlpha(j),
                 x => textInfo.SetCharacterAlpha(j, x),

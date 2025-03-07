@@ -14,11 +14,13 @@ public class SpeechBubble : MonoBehaviour
     [SerializeField]
     private float fadeDuration;
 
-    public event System.Action Finished;
+    public event System.Action<SpeechBubble> Finished;
 
     public bool Hidden { get; private set; } = true;
 
     private CanvasGroup canvasGroup;
+
+    private Sequence sequence;
 
     private void Awake()
     {
@@ -49,6 +51,8 @@ public class SpeechBubble : MonoBehaviour
         if (!Hidden)
         {
             Hidden = true;
+            sequence?.Kill();
+            canvasGroup.DOKill();
             canvasGroup.DOFade(0, fadeDuration);
         }
     }
@@ -59,7 +63,8 @@ public class SpeechBubble : MonoBehaviour
         content.text = "";
 
         TMP_TextInfo textInfo = content.GetTextInfo(text);
-        Sequence sequence = textInfo.AnimateTextWordByWord(1 / textFadeSpeed, 1 / textSequenceSpeed);
-        sequence.OnComplete(() => this.CallDelayed(duration, () => Finished?.Invoke()));
+        content.ForceMeshUpdate();
+        sequence = textInfo.AnimateTextWordByWord(1 / textFadeSpeed, 1 / textSequenceSpeed);
+        sequence.OnComplete(() => this.CallDelayed(duration, () => Finished?.Invoke(this)));
     }
 }
